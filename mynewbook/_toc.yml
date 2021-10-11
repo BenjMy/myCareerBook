@@ -4,5 +4,20 @@
 format: jb-book
 root: intro
 chapters:
-- file: markdown
-- file: notebooks
+- file: CV/current_pos
+- file: CV/cv_details
+- file: CV/cv_map
+- file: Articles/article_details
+  sections:
+  - file: Articles/maryetal2020
+  - file: Articles/maryetal2019
+  - file: Articles/maryetal2018
+  - file: Articles/phd
+- file: Projects/project_list
+  sections:
+  - file: Projects/Award_Grants/grant
+- file: Open_Codes/open_codes
+- file: Blog/blog
+- file: references
+
+

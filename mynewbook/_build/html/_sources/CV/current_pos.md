@@ -1,0 +1,32 @@
+# Current position
+
+```{figure} /img/unipd.jpg
+---
+figclass: margin
+width: 200px
+---
+```
+
+```{figure} /img/BerkeleyLablogo.png
+---
+figclass: margin
+width: 200px
+---
+```
+
+I am a post-doctoral researcher at the [Department of Geosciences of the University of Padova](https://www.unipd.it/en/geo), where my research focuses on the application of geophysical methods to energy and environment related topics, including: 
+
+- hydro-and bio-geophysical modelling of subsurface hydrological processes;
+- the development of novel imaging approaches for plant root and root-soil interactions. 
+
+During my stay in the  [Earth & Environmental Sciences Area at Lawrence Berkeley National Laboratory](https://eesa.lbl.gov/) I'll be working on Data Assimilation and processing of long term soil plant interaction monitoring. 
+
+```{seealso}
+:class: dropdown
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">2020 was a year like no other, that changed our lives deeply. From online classes to empty offices, people at <a href="https://twitter.com/hashtag/GeoUnipd?src=hash&amp;ref_src=twsrc%5Etfw">#GeoUnipd</a> quickly faced it and made the best of it<br><br>📺 To sum up 2020, we collected some of our main highlights in a short video. Check it out: <a href="https://t.co/Ueq4nzuVvv">https://t.co/Ueq4nzuVvv</a> <a href="https://t.co/r8eYWoaU9N">pic.twitter.com/r8eYWoaU9N</a></p>&mdash; Dipartimento di Geoscienze - Unipd (@GeoUnipd) <a href="https://twitter.com/GeoUnipd/status/1351944065693188099?ref_src=twsrc%5Etfw">January 20, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+```
+
+
+
+

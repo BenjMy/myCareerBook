@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to your Jupyter Book &#8212; My sample book</title>
+    <title>My career book in a nutshell &#8212; My career book</title>
     
   <link href="_static/css/theme.css" rel="stylesheet" />
   <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -42,6 +42,8 @@
     <script src="_static/copybutton.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.0/dist/embed-amd.js"></script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -51,7 +53,7 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Markdown Files" href="markdown.html" />
+    <link rel="next" title="Current position" href="CV/current_pos.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -77,7 +79,7 @@
       <img src="_static/logo.png" class="logo" alt="logo">
       
       
-      <h1 class="site-logo" id="site-title">My sample book</h1>
+      <h1 class="site-logo" id="site-title">My career book</h1>
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
@@ -88,19 +90,88 @@
         <ul class="nav bd-sidenav">
  <li class="toctree-l1 current">
   <a class="reference internal" href="#">
-   Welcome to your Jupyter Book
+   My career book in a nutshell
   </a>
  </li>
 </ul>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="markdown.html">
-   Markdown Files
+  <a class="reference internal" href="CV/current_pos.html">
+   Current position
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="notebooks.html">
-   Content with notebooks
+  <a class="reference internal" href="CV/cv_details.html">
+   CV
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="CV/cv_map.html">
+   Map CV
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="Articles/article_details.html">
+   Article list/year
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Articles/maryetal2020.html">
+     Mary et al. 2020
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Articles/maryetal2019.html">
+     Time-lapse MALM
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Articles/maryetal2018.html">
+     Article 1
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Articles/phd.html">
+     PhD thesis
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="Projects/project_list.html">
+   Project as PI or co-PI
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Projects/Award_Grants/grant.html">
+     MSCA GROWING
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Open_Codes/open_codes.html">
+   Open codes
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Blog/blog.html">
+   Blog
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="references.html">
+   References
   </a>
  </li>
 </ul>
@@ -185,6 +256,41 @@
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#research-interests">
+   Research interests
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#soil-plant-atmosphere-interaction">
+     Soil-plant-Atmosphere interaction 🌱🌳🌤️💧
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#geohazards">
+     Geohazards ⛰🌊🏜️
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#fair-and-reproducible-research">
+     FAIR and reproducible research 🚀🎉
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#glossary">
+     Glossary
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -193,19 +299,54 @@
         
               <div>
                 
-  <div class="section" id="welcome-to-your-jupyter-book">
-<h1>Welcome to your Jupyter Book<a class="headerlink" href="#welcome-to-your-jupyter-book" title="Permalink to this headline">¶</a></h1>
-<p>This is a small sample book to give you a feel for how book content is
-structured.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Here is a note!</p>
+  <div class="section" id="my-career-book-in-a-nutshell">
+<h1>My career book in a nutshell<a class="headerlink" href="#my-career-book-in-a-nutshell" title="Permalink to this headline">¶</a></h1>
+<p>This book is a compilation of my early career work as a geophysicist in academia. Indeed, I thought my research would be better illustrated using an interactive book especially after considering that an important step in my early career occured when I move towards <strong>Open Science</strong>.
+This change of perspective has been triggered while I was working on my Marie-Curie fellowship remotely from France during the Covid-19 pandemic and I needed access to data. I had the chance that colleagues from the department could maintain the laboratory experiment in order to collect some, but I investigate how we can produce more FAIR data in geophysics and found very inspiring people paving the way.</p>
+<p>The <a class="reference internal" href="CV/cv_details.html"><span class="doc std std-doc">CV</span></a> section give an overview of my contributions in terms of article, teaching and public outreach engagement. The <a class="reference internal" href="Open_Codes/open_codes.html"><span class="doc std std-doc">Open codes</span></a> section show interactive example of the main codes I’m routinely and actively developing. Finally, the <a class="reference internal" href="Blog/blog.html"><span class="doc std std-doc">blog</span></a> section highlights moments of my research covering different topics such as field acquisition, new code development, project milestone etc…</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Except where otherwise noted, this work is licensed under a Creative Commons Attribution 4.0 International License.</p>
 </div>
-<p>And here is a code block:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">e</span> <span class="o">=</span> <span class="n">mc</span><span class="o">^</span><span class="mi">2</span>
-</pre></div>
+<div class="section" id="research-interests">
+<h2>Research interests<a class="headerlink" href="#research-interests" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="soil-plant-atmosphere-interaction">
+<h3>Soil-plant-Atmosphere interaction 🌱🌳🌤️💧<a class="headerlink" href="#soil-plant-atmosphere-interaction" title="Permalink to this headline">¶</a></h3>
+<p>Since the end of my phd in 2015, my research interests mainly focus on improving our understanding of the role of the roots in regulating water in the <a class="reference internal" href="#term-SPAC"><span class="xref std std-term">SPAC</span></a> using experimental non-destructive approaches (see <a class="reference internal" href="#rhizo-neons"><span class="std std-numref">Fig. 1</span></a>)
+.</p>
+<div class="margin figure align-center" id="rhizo-neons">
+<a class="reference internal image-reference" href="_images/51155416189_da46d5911c_o.jpg"><img alt="_images/51155416189_da46d5911c_o.jpg" src="_images/51155416189_da46d5911c_o.jpg" style="width: 412.8px; height: 309.6px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 1 </span><span class="caption-text">Artistic picture of the vine plant growing under neons’lights during a lab experiment
+© B. Mary</span><a class="headerlink" href="#rhizo-neons" title="Permalink to this image">¶</a></p>
 </div>
-<p>Check out the content pages bundled with this sample book to see more.</p>
+</div>
+<div class="section" id="geohazards">
+<h3>Geohazards ⛰🌊🏜️<a class="headerlink" href="#geohazards" title="Permalink to this headline">¶</a></h3>
+<p>I also like to solve other typical geophysical problematic such as geohazard assessment (landslide monitoring, landfill leakage detection).
+Field work is a great opportunity to make some sport and change its point of view (see <a class="reference internal" href="#valfredda"><span class="std std-numref">Fig. 2</span></a>)</p>
+<div class="figure align-center" id="valfredda">
+<a class="reference internal image-reference" href="_images/EM_prospect_valfredda.jpg"><img alt="_images/EM_prospect_valfredda.jpg" src="_images/EM_prospect_valfredda.jpg" style="width: 619.1999999999999px; height: 464.4px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 2 </span><span class="caption-text">Picture at the top of the val fredda catchment in Italy during EM imaging method trial.
+© B. Mary</span><a class="headerlink" href="#valfredda" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="fair-and-reproducible-research">
+<h3>FAIR and reproducible research 🚀🎉<a class="headerlink" href="#fair-and-reproducible-research" title="Permalink to this headline">¶</a></h3>
+<p>Finally, I’m really enthusiastic with all the splendid initiatives and tools towards a more . I’m trying to join the movement building reproducible research (see <a class="reference internal" href="#logocags"><span class="std std-numref">Fig. 3</span></a>).</p>
+<div class="figure align-center" id="logocags">
+<a class="reference internal image-reference" href="_images/logo_big.png"><img alt="_images/logo_big.png" src="_images/logo_big.png" style="width: 482.0px; height: 456.5px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 3 </span><span class="caption-text">Logo of the CAGS (Catalog of Agrogeophysical Studies) promoting FAIR practicies in agrogeophysic
+© B. Mary</span><a class="headerlink" href="#logocags" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="glossary">
+<h3>Glossary<a class="headerlink" href="#glossary" title="Permalink to this headline">¶</a></h3>
+<dl class="glossary simple">
+<dt id="term-SPAC">SPAC<a class="headerlink" href="#term-SPAC" title="Permalink to this term">¶</a></dt><dd><p>The soil-plant-atmosphere continuum (SPAC) is the pathway for water moving from soil through plants to the atmosphere. (source wikipedia)</p>
+</dd>
+</dl>
+</div>
+</div>
 <div class="toctree-wrapper compound">
 </div>
 </div>
@@ -240,10 +381,10 @@ structured.</p>
 <div class='prev-next-bottom'>
     
      <div id="next">
-        <a class="right-next" href="markdown.html" title="next page">
+        <a class="right-next" href="CV/current_pos.html" title="next page">
             <div class="prevnext-info">
                 <p class="prevnext-label">next</p>
-                <p class="prevnext-title">Markdown Files</p>
+                <p class="prevnext-title">Current position</p>
             </div>
             <i class="prevnext-label fas fa-angle-right"></i>
         </a>
@@ -257,7 +398,7 @@ structured.</p>
     <div class="container">
       <p>
         
-          By The Jupyter Book Community<br/>
+          By Benjamin Mary<br/>
         
             &copy; Copyright 2021.<br/>
       </p>
