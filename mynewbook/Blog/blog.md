@@ -1,6 +1,13 @@
 # Blog
 
-## 🗓️ September, 2020: pyCATHY is born 
+## 🗓️ November, 2021: first day at Berkeley Lab
+
+After a long wait, I finally managed to join Berkeley Lab with reduced objectives as my stay will only last 5 months (instead of 2years initially). 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">😅Finally! waiting for my affiliate appointment at <a href="https://twitter.com/BerkeleyLab?ref_src=twsrc%5Etfw">@BerkeleyLab</a> ... Excited to go up the hill, see the famous panoramic view, and meet the team 💯! In meantime, 1st research consists in walking around to find accommodation 🛏️ 🏡🧐! <a href="https://twitter.com/hashtag/Berkeley?src=hash&amp;ref_src=twsrc%5Etfw">#Berkeley</a> <a href="https://twitter.com/hashtag/suntotherescue?src=hash&amp;ref_src=twsrc%5Etfw">#suntotherescue</a> <a href="https://t.co/nWje2lYw8L">pic.twitter.com/nWje2lYw8L</a></p>&mdash; benj (@51benjame) <a href="https://twitter.com/51benjame/status/1461396814716833794?ref_src=twsrc%5Etfw">November 18, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+## 🗓️ September, 2021: pyCATHY is born 
 
 I started to work on pyCATHY in order to learn how to use the CATHY code originally developed in Fortran (first version developed by A. Binley dated from ??). The pyCATHY package consists in a python wrapper easing the numerical modelling of hydrology by developing object oriented class and modules to interact with core CATHY functions.
 
@@ -13,16 +20,11 @@ simu_hydro = CATHY()
 
 The aim is to develop a version-agnostic wrapper allowing to work on the differences branches of CATHY. In particular we'd like to integrate Data Assimilation capabilities and the plant model to the wrapper in order to mimick a soil-plant-interaction experiment run in the laboratory using geoelectrical ERT and MALM methods.
 
-### Code repository
+[![github](https://img.shields.io/badge/view-github-green?logo=github)](https://github.com/BenjMy/pycathy_wrapper) 
 
-https://github.com/BenjMy/pycathy_wrapper
 
 ### Try me
 
-launch_buttons:
-  colab_url: "https://colab.research.google.com/drive/1Zl-VpMbrESu9MbeNpgUvXS6nfluno_dG#scrollTo=be0ef8fe-51bb-4d86-b00a-fa027c286ecf"
-  
-  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Zl-VpMbrESu9MbeNpgUvXS6nfluno_dG#scrollTo=be0ef8fe-51bb-4d86-b00a-fa027c286ecf)
 
 More interactive exemple in prep in the open-code section of the book.
