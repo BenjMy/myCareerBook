@@ -118,6 +118,10 @@ https://orcid.org/0000-0001-7199-2885
     
 Participation every year to international (AGU and EGU) and national (GNGTS) conferences.
 
+🗓️ 2022
+
+- G. Blanchy, P. McLachlan, M. Censini, **B. Mary**, J. Boaga, A. Binley, and G. Cassiani _2022_ EMI characterization in mountain catchments: multi-frequency versus multi-coil inversion using EMagPy
+
 🗓️ 2021
 
 - Cassiani, G., **Mary, B.**, Boaga, J., Barone, I., and Ivan, V. _(2021)_. Geophysical Imaging of the Root Zone: Methods, Implications and Outlook. in NSG2021 27th European Meeting of Environmental and Engineering Geophysics (Hybrid, France: European Association of Geoscientists & Engineers), 1–5. [doi:10.3997/2214-4609.202120198](https://doi.org/10.3997/2214-4609.202120198).<br>
@@ -154,14 +158,14 @@ Participation every year to international (AGU and EGU) and national (GNGTS) con
 
 ### Invited
 
+- **Invited seminar** 
+	- Mary, B., Assessing vulnerability to vegetation growth on earth dikes using geophysical investigations. In UMR METIS conference, Paris UPMC, 25 mars 2015.
+	- Mary, B., Geophysical Imaging of the Root Zone: challenging but still worth a try! In UMR METIS conference, Paris UPMC, November 2021.
 
 - **Keynote** presentation for the GLOBAQUA project conference _(Agadir, Morocco, October 2018)_
 - **Keynote** presentation for the Hydrogeophysics for the critical zone EGU PICO session _(2018)_
 	- The use of hydro-geophysical monitoring for the identification of root-water-uptake patterns: ERT and MALM experiments in a vineyard, In EGU General Assembly Conference Abstracts.
 
-- **Invited seminar** 
-	- Mary, B., Assessing vulnerability to vegetation growth on earth dikes using geophysical investigations. In UMR METIS conference, Paris UPMC, 25 mars 2015.
-	- Mary, B., Geophysical Imaging of the Root Zone: challenging but still worth a try! In UMR METIS conference, Paris UPMC, November 2021.
 
 
 ## Open-source codes
@@ -281,7 +285,8 @@ Find out more in the [cv map](cv_map.md)
 
 **PhD candidate** Ph.D. in Applied Geophysics<br>
 	- [INRIA (former IRSTEA)](https://www.inria.fr/fr) and [CEREGE](https://www.cerege.fr/fr) - Aix en Provence, France _(2012 - 2015)_ <br>
-	- Title: 
+	- Title: Développement de l'imagerie des systèmes racinaires dans les ouvrages hydrauliques en remblai par tomographie électrique et acoustique
+	- [Open-Archive](https://www.theses.fr/2015AIXM4386)
 	
 **M.S in Applied Geophysics** at the UPMC (Paris 6), Paris, with honours<br>
 [Department: Environmental and Resources Geophysics](https://www.metis.upmc.fr/) - Paris, France _(2011 - 2012)_ <br>
@@ -296,7 +301,7 @@ Find out more in the [cv map](cv_map.md)
 ### Seminar organization 
 
 - **Organizing commity**: 2nd seminar _on March 11th 2022_ 
-	- [website](https://agrogeophy.github.io/2nd_agrogeophysics_seminar/)
+	- [website](https://agrogeophy.github.io/2nd_agrogeophysics_seminar/:target="_blank")
 - **Organizing commity** + **Session convener**: EAGE NSG _April 27th 2021_
 	- [website](https://eage.eventsair.com/geophysics-for-landscape-studies-2021/)
 - **Organizing commity**: Seminar ‘Geophysics & Agriculture: the perfect match?’ _on January 31st, 2020_ 
