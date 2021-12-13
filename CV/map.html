@@ -42,8 +42,6 @@
     <script src="../_static/copybutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.0/dist/embed-amd.js"></script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script>
         const thebe_selector = ".thebe"
@@ -281,52 +279,298 @@
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">ipywidgets</span> <span class="kn">import</span> <span class="n">HTML</span>
 
-<span class="kn">from</span> <span class="nn">ipyleaflet</span> <span class="kn">import</span> <span class="n">Map</span><span class="p">,</span> <span class="n">Marker</span><span class="p">,</span> <span class="n">Popup</span>
+<span class="kn">from</span> <span class="nn">ipyleaflet</span> <span class="kn">import</span> <span class="n">Map</span><span class="p">,</span> <span class="n">Marker</span><span class="p">,</span> <span class="n">Popup</span><span class="p">,</span> <span class="n">Icon</span><span class="p">,</span> <span class="n">AwesomeIcon</span>
 
-<span class="n">center</span> <span class="o">=</span> <span class="p">(</span><span class="mf">52.204793</span><span class="p">,</span> <span class="mf">360.121558</span><span class="p">)</span>
+<span class="n">center</span> <span class="o">=</span> <span class="p">(</span><span class="mf">37.500000</span><span class="p">,</span> <span class="mf">15.090278</span><span class="p">)</span>
+<span class="n">m</span> <span class="o">=</span> <span class="n">Map</span><span class="p">(</span><span class="n">center</span><span class="o">=</span><span class="n">center</span><span class="p">,</span> <span class="n">zoom</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">close_popup_on_click</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 
-<span class="n">m</span> <span class="o">=</span> <span class="n">Map</span><span class="p">(</span><span class="n">center</span><span class="o">=</span><span class="n">center</span><span class="p">,</span> <span class="n">zoom</span><span class="o">=</span><span class="mi">9</span><span class="p">,</span> <span class="n">close_popup_on_click</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-
-<span class="n">marker</span> <span class="o">=</span> <span class="n">Marker</span><span class="p">(</span><span class="n">location</span><span class="o">=</span><span class="p">(</span><span class="mf">52.1</span><span class="p">,</span> <span class="mf">359.9</span><span class="p">))</span>
-<span class="n">m</span><span class="o">.</span><span class="n">add_layer</span><span class="p">(</span><span class="n">marker</span><span class="p">)</span>
-
-<span class="n">message1</span> <span class="o">=</span> <span class="n">HTML</span><span class="p">()</span>
-<span class="n">message2</span> <span class="o">=</span> <span class="n">HTML</span><span class="p">()</span>
-<span class="n">message1</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="s2">&quot;Try clicking the marker!&quot;</span>
-<span class="n">message2</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="s2">&quot;Hello &lt;b&gt;World&lt;/b&gt;&quot;</span>
-<span class="n">message2</span><span class="o">.</span><span class="n">placeholder</span> <span class="o">=</span> <span class="s2">&quot;Some HTML&quot;</span>
-<span class="n">message2</span><span class="o">.</span><span class="n">description</span> <span class="o">=</span> <span class="s2">&quot;Some HTML&quot;</span>
-
-<span class="c1"># Popup with a given location on the map:</span>
-<span class="n">popup</span> <span class="o">=</span> <span class="n">Popup</span><span class="p">(</span>
-    <span class="n">location</span><span class="o">=</span><span class="n">center</span><span class="p">,</span>
-    <span class="n">child</span><span class="o">=</span><span class="n">message1</span><span class="p">,</span>
-    <span class="n">close_button</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
-    <span class="n">auto_close</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
-    <span class="n">close_on_escape_key</span><span class="o">=</span><span class="kc">False</span>
+<span class="n">icon1</span> <span class="o">=</span> <span class="n">AwesomeIcon</span><span class="p">(</span>
+    <span class="n">name</span><span class="o">=</span><span class="s1">&#39;fa-user-circle&#39;</span><span class="p">,</span>
+    <span class="n">marker_color</span><span class="o">=</span><span class="s1">&#39;blue&#39;</span><span class="p">,</span>
+    <span class="n">icon_color</span><span class="o">=</span><span class="s1">&#39;white&#39;</span><span class="p">,</span>
+    <span class="n">spin</span><span class="o">=</span><span class="kc">False</span>
 <span class="p">)</span>
-<span class="n">m</span><span class="o">.</span><span class="n">add_layer</span><span class="p">(</span><span class="n">popup</span><span class="p">)</span>
 
-<span class="c1"># Popup associated to a layer</span>
-<span class="n">marker</span><span class="o">.</span><span class="n">popup</span> <span class="o">=</span> <span class="n">message2</span>
 
+<span class="n">field_sites</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">coords</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">field_activity</span><span class="p">[</span><span class="s1">&#39;Lat&#39;</span><span class="p">],</span><span class="n">field_activity</span><span class="p">[</span><span class="s1">&#39;Long&#39;</span><span class="p">])):</span>
+    <span class="n">lt</span><span class="p">,</span> <span class="n">lg</span> <span class="o">=</span> <span class="n">coords</span>
+    <span class="n">field_sites</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">lt</span><span class="p">,</span> <span class="n">lg</span><span class="p">))</span>
+    <span class="n">marker</span> <span class="o">=</span> <span class="n">Marker</span><span class="p">(</span><span class="n">location</span><span class="o">=</span><span class="p">(</span><span class="n">lt</span><span class="p">,</span> <span class="n">lg</span><span class="p">),</span> <span class="n">icon</span><span class="o">=</span><span class="n">icon1</span><span class="p">)</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="n">HTML</span><span class="p">()</span>
+    <span class="n">message</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="n">field_activity</span><span class="p">[</span><span class="s1">&#39;Location_name&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">to_numpy</span><span class="p">()[</span><span class="n">i</span><span class="p">]</span>
+    <span class="n">message</span><span class="o">.</span><span class="n">description</span> <span class="o">=</span> <span class="n">field_activity</span><span class="p">[</span><span class="s1">&#39;Purpose&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">to_numpy</span><span class="p">()[</span><span class="n">i</span><span class="p">]</span>
+    <span class="n">marker</span><span class="o">.</span><span class="n">popup</span> <span class="o">=</span> <span class="n">message</span>
+
+    <span class="n">m</span><span class="o">.</span><span class="n">add_layer</span><span class="p">(</span><span class="n">marker</span><span class="p">)</span>
 <span class="n">m</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "d191bdfce61e4e299c5fa7dd82d311ae", "version_major": 2, "version_minor": 0}
+{"model_id": "74c2ece3405142deb3634d1fa283ea7c", "version_major": 2, "version_minor": 0}
 </script></div>
 </div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># read csv file</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="n">field_activity</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;field.csv&#39;</span><span class="p">)</span>
+<span class="n">field_activity</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Lat&#39;</span><span class="p">,</span> <span class="s1">&#39;Long&#39;</span><span class="p">],</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">field_activity</span>
+</pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
 
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
 
-<script type="application/vnd.jupyter.widget-state+json">
-{"state": {"0a8900dded044d6dac099d3bce037e44": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "0b4536198ddd43d286af6e5e9f4e005b": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "116870f7d43e48bebc6815b957dcc774": {"model_module": "jupyter-leaflet", "model_module_version": "^0.14.0", "model_name": "LeafletMapStyleModel", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.14.0", "_model_name": "LeafletMapStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "cursor": "grab"}}, "135a229b052e4f0fa29b1f5b013a38d9": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "3590e6785b404e1f91c05e6a28661181": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "Some HTML", "description_tooltip": null, "layout": "IPY_MODEL_135a229b052e4f0fa29b1f5b013a38d9", "placeholder": "Some HTML", "style": "IPY_MODEL_0b4536198ddd43d286af6e5e9f4e005b", "value": "Hello <b>World</b>"}}, "49f089e23e1d438cb7ee4b055b821091": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "66085ce00f904d0887d61b70490e5f1e": {"model_module": "jupyter-leaflet", "model_module_version": "^0.14.0", "model_name": "LeafletAttributionControlModel", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.14.0", "_model_name": "LeafletAttributionControlModel", "_view_count": null, "_view_module": "jupyter-leaflet", "_view_module_version": "^0.14.0", "_view_name": "LeafletAttributionControlView", "options": ["position", "prefix"], "position": "bottomright", "prefix": "ipyleaflet"}}, "6b68dca54d0742d8a5a9b939033b1965": {"model_module": "jupyter-leaflet", "model_module_version": "^0.14.0", "model_name": "LeafletTileLayerModel", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.14.0", "_model_name": "LeafletTileLayerModel", "_view_count": null, "_view_module": "jupyter-leaflet", "_view_module_version": "^0.14.0", "_view_name": "LeafletTileLayerView", "attribution": "Map data (c) <a href=\"https://openstreetmap.org\">OpenStreetMap</a> contributors", "base": true, "bottom": true, "detect_retina": false, "loading": false, "max_native_zoom": 18, "max_zoom": 19, "min_native_zoom": 0, "min_zoom": 1, "name": "", "no_wrap": false, "opacity": 1.0, "options": ["attribution", "detect_retina", "max_native_zoom", "max_zoom", "min_native_zoom", "min_zoom", "no_wrap", "tile_size", "tms"], "popup": null, "popup_max_height": null, "popup_max_width": 300, "popup_min_width": 50, "show_loading": false, "tile_size": 256, "tms": false, "url": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", "visible": true}}, "7619a5e01401468f84f9c7e59595760f": {"model_module": "jupyter-leaflet", "model_module_version": "^0.14.0", "model_name": "LeafletPopupModel", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.14.0", "_model_name": "LeafletPopupModel", "_view_count": null, "_view_module": "jupyter-leaflet", "_view_module_version": "^0.14.0", "_view_name": "LeafletPopupView", "auto_close": false, "auto_pan": true, "auto_pan_padding": [5, 5], "auto_pan_padding_bottom_right": null, "auto_pan_padding_top_left": null, "base": false, "bottom": false, "child": "IPY_MODEL_981e4e6e73b246a7a288a0c2c7812224", "close_button": false, "close_on_escape_key": false, "keep_in_view": false, "location": [52.204793, 360.121558], "max_height": null, "max_width": 300, "min_width": 50, "name": "", "options": ["auto_close", "auto_pan", "auto_pan_padding", "auto_pan_padding_bottom_right", "auto_pan_padding_top_left", "close_button", "close_on_escape_key", "keep_in_view", "max_height", "max_width", "min_width"], "popup": null, "popup_max_height": null, "popup_max_width": 300, "popup_min_width": 50}}, "981e4e6e73b246a7a288a0c2c7812224": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_49f089e23e1d438cb7ee4b055b821091", "placeholder": "\u200b", "style": "IPY_MODEL_c362d9b5f6e44fa18ffe62f0be1e3153", "value": "Try clicking the marker!"}}, "a4628aec3e9748a9b037f9c9e01eb396": {"model_module": "jupyter-leaflet", "model_module_version": "^0.14.0", "model_name": "LeafletZoomControlModel", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.14.0", "_model_name": "LeafletZoomControlModel", "_view_count": null, "_view_module": "jupyter-leaflet", "_view_module_version": "^0.14.0", "_view_name": "LeafletZoomControlView", "options": ["position", "zoom_in_text", "zoom_in_title", "zoom_out_text", "zoom_out_title"], "position": "topleft", "zoom_in_text": "+", "zoom_in_title": "Zoom in", "zoom_out_text": "-", "zoom_out_title": "Zoom out"}}, "c362d9b5f6e44fa18ffe62f0be1e3153": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "d191bdfce61e4e299c5fa7dd82d311ae": {"model_module": "jupyter-leaflet", "model_module_version": "^0.14.0", "model_name": "LeafletMapModel", "state": {"_dom_classes": [], "_model_module": "jupyter-leaflet", "_model_module_version": "^0.14.0", "_model_name": "LeafletMapModel", "_view_count": null, "_view_module": "jupyter-leaflet", "_view_module_version": "^0.14.0", "_view_name": "LeafletMapView", "bottom": 0.0, "bounce_at_zoom_limits": true, "box_zoom": true, "center": [52.204793, 360.121558], "close_popup_on_click": false, "controls": ["IPY_MODEL_a4628aec3e9748a9b037f9c9e01eb396", "IPY_MODEL_66085ce00f904d0887d61b70490e5f1e"], "crs": {"custom": false, "name": "EPSG3857"}, "default_style": "IPY_MODEL_e158b49c9e754edbad6a50f0a142ca1d", "double_click_zoom": true, "dragging": true, "dragging_style": "IPY_MODEL_da57068ae4ba43bdb952d3a4fd25ea4f", "east": 0.0, "fullscreen": false, "inertia": true, "inertia_deceleration": 3000, "inertia_max_speed": 1500, "interpolation": "bilinear", "keyboard": true, "keyboard_pan_offset": 80, "keyboard_zoom_offset": 1, "layers": ["IPY_MODEL_6b68dca54d0742d8a5a9b939033b1965", "IPY_MODEL_e4bf78f06367422a97ec1f46f1e5b7e6", "IPY_MODEL_7619a5e01401468f84f9c7e59595760f"], "layout": "IPY_MODEL_0a8900dded044d6dac099d3bce037e44", "left": 9007199254740991.0, "max_zoom": 18.0, "min_zoom": 1.0, "modisdate": "yesterday", "north": 0.0, "options": ["bounce_at_zoom_limits", "box_zoom", "center", "close_popup_on_click", "double_click_zoom", "dragging", "fullscreen", "inertia", "inertia_deceleration", "inertia_max_speed", "interpolation", "keyboard", "keyboard_pan_offset", "keyboard_zoom_offset", "max_zoom", "min_zoom", "scroll_wheel_zoom", "tap", "tap_tolerance", "touch_zoom", "world_copy_jump", "zoom", "zoom_animation_threshold", "zoom_delta", "zoom_snap", "zoom_start"], "right": 0.0, "scroll_wheel_zoom": false, "south": 0.0, "style": "IPY_MODEL_116870f7d43e48bebc6815b957dcc774", "tap": true, "tap_tolerance": 15, "top": 9007199254740991.0, "touch_zoom": true, "west": 0.0, "window_url": "", "world_copy_jump": false, "zoom": 9.0, "zoom_animation_threshold": 4, "zoom_delta": 1.0, "zoom_snap": 1.0, "zoom_start": 12.0}}, "da57068ae4ba43bdb952d3a4fd25ea4f": {"model_module": "jupyter-leaflet", "model_module_version": "^0.14.0", "model_name": "LeafletMapStyleModel", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.14.0", "_model_name": "LeafletMapStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "cursor": "move"}}, "e158b49c9e754edbad6a50f0a142ca1d": {"model_module": "jupyter-leaflet", "model_module_version": "^0.14.0", "model_name": "LeafletMapStyleModel", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.14.0", "_model_name": "LeafletMapStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "cursor": "grab"}}, "e4bf78f06367422a97ec1f46f1e5b7e6": {"model_module": "jupyter-leaflet", "model_module_version": "^0.14.0", "model_name": "LeafletMarkerModel", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.14.0", "_model_name": "LeafletMarkerModel", "_view_count": null, "_view_module": "jupyter-leaflet", "_view_module_version": "^0.14.0", "_view_name": "LeafletMarkerView", "alt": "", "base": false, "bottom": false, "draggable": true, "icon": null, "keyboard": true, "location": [52.1, 359.9], "name": "", "opacity": 1.0, "options": ["alt", "draggable", "keyboard", "rise_offset", "rise_on_hover", "rotation_angle", "rotation_origin", "title", "z_index_offset"], "popup": "IPY_MODEL_3590e6785b404e1f91c05e6a28661181", "popup_max_height": null, "popup_max_width": 300, "popup_min_width": 50, "rise_offset": 250, "rise_on_hover": false, "rotation_angle": 0.0, "rotation_origin": "", "title": "", "visible": true, "z_index_offset": 0}}}, "version_major": 2, "version_minor": 0}
-</script>
-
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Id</th>
+      <th>Date</th>
+      <th>Location_name</th>
+      <th>Lat</th>
+      <th>Long</th>
+      <th>Coordinator</th>
+      <th>Purpose</th>
+      <th>Method</th>
+      <th>Abtract</th>
+      <th>Data</th>
+      <th>Article</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>2019-10</td>
+      <td>Monteriggioni</td>
+      <td>43.347195</td>
+      <td>11.305125</td>
+      <td>R. Deiana</td>
+      <td>Archeology</td>
+      <td>ERT</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>2020-02</td>
+      <td>Lamosano</td>
+      <td>46.172658</td>
+      <td>12.386934</td>
+      <td>G. Cassiani</td>
+      <td>Geohazard</td>
+      <td>ERT</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>2019-02</td>
+      <td>Aviano</td>
+      <td>46.070560</td>
+      <td>12.594720</td>
+      <td>G. Cassiani</td>
+      <td>Geohazard</td>
+      <td>ERT, GPR</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>6</td>
+      <td>2019-03</td>
+      <td>Catania</td>
+      <td>37.500000</td>
+      <td>15.090278</td>
+      <td>G. Cassiani; D. Vanella</td>
+      <td>Interaction soil-plant-atmosphere</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>7</td>
+      <td>2019-05</td>
+      <td>Asiago</td>
+      <td>45.875885</td>
+      <td>11.509620</td>
+      <td>G. Cassiani</td>
+      <td>Geohazard</td>
+      <td>ERT</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>8</td>
+      <td>2019-06</td>
+      <td>Tunis</td>
+      <td>36.806389</td>
+      <td>10.181667</td>
+      <td>G. Cassiani</td>
+      <td>Interaction soil-plant-atmosphere</td>
+      <td>ERT</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>9</td>
+      <td>2019-10</td>
+      <td>Tel-Aviv</td>
+      <td>32.111767</td>
+      <td>34.801361</td>
+      <td>G. Cassiani; Nimrod Schwartz</td>
+      <td>Interaction soil-plant-atmosphere</td>
+      <td>ERT</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>10</td>
+      <td>2019-10</td>
+      <td>Mestre</td>
+      <td>45.471520</td>
+      <td>12.240170</td>
+      <td>G. Cassiani</td>
+      <td>Geohazard</td>
+      <td>ERT; MALM</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>11</td>
+      <td>2010-01</td>
+      <td>Vix</td>
+      <td>46.366700</td>
+      <td>-0.866700</td>
+      <td>METIS UMR</td>
+      <td>Archeology</td>
+      <td>EM, Mag</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>12</td>
+      <td>2010-01</td>
+      <td>Merlimont</td>
+      <td>50.450000</td>
+      <td>1.616700</td>
+      <td>METIS UMR</td>
+      <td>Geohazard</td>
+      <td>Seismic; ERT; EM; TDEM</td>
+      <td>Determination of tectonic structure of a chalk...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>13</td>
+      <td>2012-01</td>
+      <td>Vars</td>
+      <td>44.597700</td>
+      <td>6.691700</td>
+      <td>Sebastien Merckle; Marc Wathelet; Cecile Cornou</td>
+      <td>Geohazard</td>
+      <td>S, Surface Waves and $ H/V $ ratio</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>14</td>
+      <td>2018-05</td>
+      <td>Bordeaux</td>
+      <td>44.833300</td>
+      <td>-0.566700</td>
+      <td>B. Mary;  M. Schmutz</td>
+      <td>Interaction soil-plant-atmosphere</td>
+      <td>NaN</td>
+      <td>experimental benchmarking on IP imaging method...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>15</td>
+      <td>2018-01</td>
+      <td>Naples</td>
+      <td>40.853294</td>
+      <td>14.305573</td>
+      <td>L. Busato</td>
+      <td>Interaction soil-plant-atmosphere</td>
+      <td>NaN</td>
+      <td>ECOREMED life project: bioremediation of a con...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>16</td>
+      <td>2016</td>
+      <td>Chateaux La Louvière</td>
+      <td>44.833300</td>
+      <td>6.691700</td>
+      <td>G. Cassiani; M. Schmutz</td>
+      <td>Interaction soil-plant-atmosphere</td>
+      <td>subsurface (geophysical assessment), surface (...</td>
+      <td>geophysical prospecting on Bordeaux vineyard o...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>17</td>
+      <td>2016 2017</td>
+      <td>Saint Michel l’Observatoire</td>
+      <td>43.916700</td>
+      <td>5.716700</td>
+      <td>I. Reiter</td>
+      <td>Interaction soil-plant-atmosphere</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+</div>
+</div>
 
     <script type="text/x-thebe-config">
     {
