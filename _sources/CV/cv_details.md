@@ -300,12 +300,12 @@ Find out more in the [cv map](cv_map.md)
 
 ### Seminar organization 
 
-- **Organizing commity**: 2nd seminar _on March 11th 2022_ 
-	- [website](https://agrogeophy.github.io/2nd_agrogeophysics_seminar/:target="_blank")
-- **Organizing commity** + **Session convener**: EAGE NSG _April 27th 2021_
-	- [website](https://eage.eventsair.com/geophysics-for-landscape-studies-2021/)
-- **Organizing commity**: Seminar ‘Geophysics & Agriculture: the perfect match?’ _on January 31st, 2020_ 
-	- [website](http://www.soilbelgium.be/?p=3596)
+- **Organizing committee**: 2nd seminar _on March 11th 2022_ 
+	- <a href="https://agrogeophy.github.io/2nd_agrogeophysics_seminar/" target="_blank">Seminar website</a>
+- **Organizing committee** + **Session convener**: EAGE NSG _April 27th 2021_
+	- <a href="https://eage.eventsair.com/geophysics-for-landscape-studies-2021/" target="_blank">Seminar website</a>
+- **Organizing committee**: Seminar ‘Geophysics & Agriculture: the perfect match?’ _on January 31st, 2020_ 
+	- <a href="http://www.soilbelgium.be/?p=3596" target="_blank">Seminar website</a>
 
 
 ### Editorial service
