@@ -41,7 +41,9 @@
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script src="../../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.0/dist/embed-amd.js"></script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script>
         const thebe_selector = ".thebe"
@@ -72,6 +74,11 @@
         <div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="../../index.html">
       
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../../_static/pressure_slow.gif" class="logo" alt="logo">
       
       
       <h1 class="site-logo" id="site-title">B. Mary</h1>
@@ -89,6 +96,11 @@
   </a>
  </li>
 </ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Research
+ </span>
+</p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../../interests.html">
@@ -139,11 +151,25 @@
    Open codes
   </a>
  </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Blog
+ </span>
+</p>
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../../Blog/blog.html">
-   Blog
+  <a class="reference internal" href="../../Blog/blog2021.html">
+   Blog 2021
   </a>
  </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  references
+ </span>
+</p>
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../../references.html">
    References
@@ -195,7 +221,7 @@
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
     </div>
 </div>
 
@@ -229,7 +255,7 @@
         </div>
 
         <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show">
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
             <div class="tocsection onthispage pt-5 pb-3">
                 <i class="fas fa-list"></i> Contents
@@ -264,7 +290,100 @@
         </div>
     </div>
 </div>
-    <div id="main-content" class="row">
+    <!-- Table of contents that is only displayed when printing the page -->
+    <div id="jb-print-docs-body" class="onlyprint">
+        <h1>Article 1</h1>
+        <!-- Table of contents -->
+        <div id="print-main-content" class="row">
+            <div class="col-12 col-md-12 pl-md-5 pr-md-5">
+            <div id="jb-print-toc">
+                
+                <div>
+                    <h2> Contents </h2>
+                </div>
+                <nav aria-label="Page">
+                    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Article 1
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id1">
+     🗓️
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#attachement">
+   Attachement 📎
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#code-availability">
+   Code availability 💻
+  </a>
+ </li>
+</ul>
+
+                </nav>
+            </div>
+            
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="article-1">
+<h1>Article 1<a class="headerlink" href="#article-1" title="Permalink to this headline">¶</a></h1>
+<div class="tabbed-set docutils">
+<input checked="checked" id="a7fce994-d8e2-4b50-ba88-82827eb6821c" name="4d860594-0cb8-42d7-99b9-bc827ca5a11f" type="radio">
+</input><label class="tabbed-label" for="a7fce994-d8e2-4b50-ba88-82827eb6821c">
+bib</label><div class="tabbed-content docutils">
+<p>My first tab</p>
+</div>
+<input id="42ff982a-5e66-4e08-b50d-90f568f45782" name="4d860594-0cb8-42d7-99b9-bc827ca5a11f" type="radio">
+</input><label class="tabbed-label" for="42ff982a-5e66-4e08-b50d-90f568f45782">
+doc</label><div class="tabbed-content docutils">
+<p>My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+</div>
+<p>reprendre le format type leouida</p>
+<div class="section" id="id1">
+<h2>🗓️<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+<div class="tex2jax_ignore mathjax_ignore section" id="attachement">
+<h1>Attachement 📎<a class="headerlink" href="#attachement" title="Permalink to this headline">¶</a></h1>
+</div>
+<div class="tex2jax_ignore mathjax_ignore section" id="code-availability">
+<h1>Code availability 💻<a class="headerlink" href="#code-availability" title="Permalink to this headline">¶</a></h1>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./CV/article_details"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </div>
+        </div>
+    </div>
+    <div id="main-content" class="row noprint">
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
         
               <div>
@@ -272,13 +391,13 @@
   <div class="tex2jax_ignore mathjax_ignore section" id="article-1">
 <h1>Article 1<a class="headerlink" href="#article-1" title="Permalink to this headline">¶</a></h1>
 <div class="tabbed-set docutils">
-<input checked="checked" id="3e530840-3fc7-4163-8335-c49db59278b1" name="d55e985f-1433-4701-8614-36ec106a3e44" type="radio">
-</input><label class="tabbed-label" for="3e530840-3fc7-4163-8335-c49db59278b1">
+<input checked="checked" id="a7fce994-d8e2-4b50-ba88-82827eb6821c" name="4d860594-0cb8-42d7-99b9-bc827ca5a11f" type="radio">
+</input><label class="tabbed-label" for="a7fce994-d8e2-4b50-ba88-82827eb6821c">
 bib</label><div class="tabbed-content docutils">
 <p>My first tab</p>
 </div>
-<input id="0b0e9103-61f5-481b-b7db-163ac410484c" name="d55e985f-1433-4701-8614-36ec106a3e44" type="radio">
-</input><label class="tabbed-label" for="0b0e9103-61f5-481b-b7db-163ac410484c">
+<input id="42ff982a-5e66-4e08-b50d-90f568f45782" name="4d860594-0cb8-42d7-99b9-bc827ca5a11f" type="radio">
+</input><label class="tabbed-label" for="42ff982a-5e66-4e08-b50d-90f568f45782">
 doc</label><div class="tabbed-content docutils">
 <p>My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
 </div>
@@ -325,15 +444,13 @@ doc</label><div class="tabbed-content docutils">
         </div>
     </div>
     <footer class="footer">
-    <div class="container">
-      <p>
-        
-          By Benjamin Mary<br/>
-        
-            &copy; Copyright 2021.<br/>
-      </p>
-    </div>
-  </footer>
+  <p>
+    
+      By Benjamin Mary<br/>
+    
+        &copy; Copyright 2021.<br/>
+  </p>
+</footer>
 </main>
 
 

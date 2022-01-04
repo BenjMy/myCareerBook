@@ -174,7 +174,7 @@ Participation every year to international (AGU and EGU) and national (GNGTS) con
 
 
 
-## Open-source codes
+## 🔓 Open-source codes
 
 
 - **pyDEXP**: open-source python package aiming at processing potential field data using the dEXP theory formulated by Fedi et al., 2012. 
@@ -214,6 +214,26 @@ website creator and maintainor ERT database
 ```{seealso}
 Details and live code getting start for each package in the [open code section](../Open_Codes/open_codes)
 ```
+## 🏫 Teaching Activity
+
+
+- **Lecturer** [UNIPD (IT) 2017 and 2018]
+	- (2x3h): MSc students in Environmental engineering – Introduction to electrical methods of prospection for agricultural purpose. Padova, 17th October 2017
+
+- **Mentoring individual** [UNIPD (IT) 2016 and 2019]
+	- MSc student (Censini M.) with a guidance for the dissertation dealing with the conception and the application of new boreholes electrodes for micro-ERT acquisition.
+	- BSc students (2) with a guidance for the data processing and visualisation using Geo-Software (GIS, 3D visualisation and statistical analysis).
+
+
+- **Public outreach** [IRSTEA (FR), 2013, 2014 and 2015]
+	- "Fête de la science", leading small classes during short events on seismic risk in the Mediterranean region (2013), on embankment dike (2014) and on underground water flow and cycle (2015). In Aix-en-Provence (FRANCE)
+	
+	
+- **Mentoring individual** [IRSTEA (FR) 2013]
+	- Mentoring individual, 3 students (with a guidance for the dissertation of one of them). Internship for an Environmental sciences training program (Level BTS et Licence 1). IRSTEA Aix-en-Provence (FRANCE)
+
+
+
 
 ## 👩🏼‍💻 Technical Experience
 
@@ -247,6 +267,9 @@ Find out more in the [cv map](cv_map.md)
     - Study from EIT method, trench analysis and allometry measurements
     - Project coordinator: I. Reiter (O3HP)<br><br>
 
+<!-- ### 🛢 Surface hydrology and hydrogeology
+Matteo Camporese – project name
+-->
 
 ### 🛢 Geohazard
 
@@ -260,6 +283,9 @@ Find out more in the [cv map](cv_map.md)
 
 
 ### 🏺 Archeology
+
+<!-- - Rita  – project name-->
+
 
 - **Education**: Geophysical characterization of the geomorphology and geodynamics in Vix \& Geophysical exploration for archaeology (Vix, France) _(2012 - 6 days)_
     - Application of electromagnetic and magnetic imaging methods.
@@ -281,8 +307,8 @@ Find out more in the [cv map](cv_map.md)
 ## 💬 Languages
 
 **French**: Native <br>
-**English**: add level here <br>
-**Spanish**: add level here <br>
+**English**: C1 (TOEIC 9 <br>
+**Spanish**: B2 <br>
 **German**: add level here
 <br><br>
 
@@ -342,11 +368,25 @@ Find out more in the [cv map](cv_map.md)
 
 
 
-### Reviewer
+### Review activity
+
+Peer Journal Reviewer for: 
+
+- NSG
+- Water
+- Hydrogeology Journal
+- Plant Methods
+- Plant and Soil journal
+- Irrigation Science
+- CATENA 
+- Vadose Zone Journal
 
 [Publon record](https://publons.com/researcher/1516310/benjamin-mary/)
 
+Peer Project Reviewer for: 
 
+- [BARD Proposal](https://www.bard-isus.com/) US-5528-22
+- [abc-j-research-award](http://www.geoverbund-abcj.de/geoverbund/EN/Home/research/young-academics-award/young-academics-award_node.html)
 
 #### Link to the code to reproduce
 Forked from https://github.com/carolstran/cv

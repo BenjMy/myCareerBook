@@ -41,7 +41,9 @@
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script src="../../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.0/dist/embed-amd.js"></script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script>
         const thebe_selector = ".thebe"
@@ -72,6 +74,11 @@
         <div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="../../index.html">
       
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../../_static/pressure_slow.gif" class="logo" alt="logo">
       
       
       <h1 class="site-logo" id="site-title">B. Mary</h1>
@@ -89,6 +96,11 @@
   </a>
  </li>
 </ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Research
+ </span>
+</p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../../interests.html">
@@ -139,11 +151,25 @@
    Open codes
   </a>
  </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Blog
+ </span>
+</p>
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../../Blog/blog.html">
-   Blog
+  <a class="reference internal" href="../../Blog/blog2021.html">
+   Blog 2021
   </a>
  </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  references
+ </span>
+</p>
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../../references.html">
    References
@@ -195,7 +221,7 @@
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
     </div>
 </div>
 
@@ -229,7 +255,7 @@
         </div>
 
         <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show">
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
             <div class="tocsection onthispage pt-5 pb-3">
                 <i class="fas fa-list"></i> Contents
@@ -276,7 +302,115 @@
         </div>
     </div>
 </div>
-    <div id="main-content" class="row">
+    <!-- Table of contents that is only displayed when printing the page -->
+    <div id="jb-print-docs-body" class="onlyprint">
+        <h1>Time-lapse MALM</h1>
+        <!-- Table of contents -->
+        <div id="print-main-content" class="row">
+            <div class="col-12 col-md-12 pl-md-5 pr-md-5">
+            <div id="jb-print-toc">
+                
+                <div>
+                    <h2> Contents </h2>
+                </div>
+                <nav aria-label="Page">
+                    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Time-lapse MALM
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#mary-b-peruzzo-l-boaga-j-cenni-n-schmutz-m-wu-y-et-al-2019-time-lapse-monitoring-of-root-water-uptake-using-electrical-resistivity-tomography-and-mise-a-la-masse-a-vineyard-infiltration-experiment-soils-and-plants-doi-10-5194-soil-6-95-2020">
+     <strong>
+      Mary, B.
+     </strong>
+     , Peruzzo, L., Boaga, J., Cenni, N., Schmutz, M., Wu, Y., et al.
+     <em>
+      (2019)
+     </em>
+     . Time-lapse monitoring of root water uptake using electrical resistivity tomography and Mise-à-la-Masse: a vineyard infiltration experiment. Soils and plants doi:10.5194/soil-6-95-2020.
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id1">
+     🗓️
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#attachement">
+   Attachement 📎
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#code-availability">
+   Code availability 💻
+  </a>
+ </li>
+</ul>
+
+                </nav>
+            </div>
+            
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="time-lapse-malm">
+<h1>Time-lapse MALM<a class="headerlink" href="#time-lapse-malm" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="mary-b-peruzzo-l-boaga-j-cenni-n-schmutz-m-wu-y-et-al-2019-time-lapse-monitoring-of-root-water-uptake-using-electrical-resistivity-tomography-and-mise-a-la-masse-a-vineyard-infiltration-experiment-soils-and-plants-doi-10-5194-soil-6-95-2020">
+<h2><strong>Mary, B.</strong>, Peruzzo, L., Boaga, J., Cenni, N., Schmutz, M., Wu, Y., et al. <em>(2019)</em>. Time-lapse monitoring of root water uptake using electrical resistivity tomography and Mise-à-la-Masse: a vineyard infiltration experiment. Soils and plants <a class="reference external" href="https://doi.org/10.5194/soil-6-95-2020">doi:10.5194/soil-6-95-2020</a>.<a class="headerlink" href="#mary-b-peruzzo-l-boaga-j-cenni-n-schmutz-m-wu-y-et-al-2019-time-lapse-monitoring-of-root-water-uptake-using-electrical-resistivity-tomography-and-mise-a-la-masse-a-vineyard-infiltration-experiment-soils-and-plants-doi-10-5194-soil-6-95-2020" title="Permalink to this headline">¶</a></h2>
+<div class="tabbed-set docutils">
+<input checked="checked" id="fed930d5-108f-41bc-a27e-536d1714e653" name="a413d288-33ea-409e-9d6d-c03a37f423a6" type="radio">
+</input><label class="tabbed-label" for="fed930d5-108f-41bc-a27e-536d1714e653">
+bib</label><div class="tabbed-content docutils">
+<p>My first tab</p>
+</div>
+<input id="0c3e7299-03dc-4ee3-8576-08041f242c05" name="a413d288-33ea-409e-9d6d-c03a37f423a6" type="radio">
+</input><label class="tabbed-label" for="0c3e7299-03dc-4ee3-8576-08041f242c05">
+doc</label><div class="tabbed-content docutils">
+<p>My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+</div>
+<p>reprendre le format type leouida</p>
+</div>
+<div class="section" id="id1">
+<h2>🗓️<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+<div class="tex2jax_ignore mathjax_ignore section" id="attachement">
+<h1>Attachement 📎<a class="headerlink" href="#attachement" title="Permalink to this headline">¶</a></h1>
+</div>
+<div class="tex2jax_ignore mathjax_ignore section" id="code-availability">
+<h1>Code availability 💻<a class="headerlink" href="#code-availability" title="Permalink to this headline">¶</a></h1>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./CV/article_details"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </div>
+        </div>
+    </div>
+    <div id="main-content" class="row noprint">
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
         
               <div>
@@ -286,13 +420,13 @@
 <div class="section" id="mary-b-peruzzo-l-boaga-j-cenni-n-schmutz-m-wu-y-et-al-2019-time-lapse-monitoring-of-root-water-uptake-using-electrical-resistivity-tomography-and-mise-a-la-masse-a-vineyard-infiltration-experiment-soils-and-plants-doi-10-5194-soil-6-95-2020">
 <h2><strong>Mary, B.</strong>, Peruzzo, L., Boaga, J., Cenni, N., Schmutz, M., Wu, Y., et al. <em>(2019)</em>. Time-lapse monitoring of root water uptake using electrical resistivity tomography and Mise-à-la-Masse: a vineyard infiltration experiment. Soils and plants <a class="reference external" href="https://doi.org/10.5194/soil-6-95-2020">doi:10.5194/soil-6-95-2020</a>.<a class="headerlink" href="#mary-b-peruzzo-l-boaga-j-cenni-n-schmutz-m-wu-y-et-al-2019-time-lapse-monitoring-of-root-water-uptake-using-electrical-resistivity-tomography-and-mise-a-la-masse-a-vineyard-infiltration-experiment-soils-and-plants-doi-10-5194-soil-6-95-2020" title="Permalink to this headline">¶</a></h2>
 <div class="tabbed-set docutils">
-<input checked="checked" id="21b410fc-a6e0-44f0-9855-99d42b5947a0" name="2076ef19-d2cf-44b3-9d48-2aebd377b38d" type="radio">
-</input><label class="tabbed-label" for="21b410fc-a6e0-44f0-9855-99d42b5947a0">
+<input checked="checked" id="fed930d5-108f-41bc-a27e-536d1714e653" name="a413d288-33ea-409e-9d6d-c03a37f423a6" type="radio">
+</input><label class="tabbed-label" for="fed930d5-108f-41bc-a27e-536d1714e653">
 bib</label><div class="tabbed-content docutils">
 <p>My first tab</p>
 </div>
-<input id="473d1844-2f4a-4aa0-9a0c-53eec434805a" name="2076ef19-d2cf-44b3-9d48-2aebd377b38d" type="radio">
-</input><label class="tabbed-label" for="473d1844-2f4a-4aa0-9a0c-53eec434805a">
+<input id="0c3e7299-03dc-4ee3-8576-08041f242c05" name="a413d288-33ea-409e-9d6d-c03a37f423a6" type="radio">
+</input><label class="tabbed-label" for="0c3e7299-03dc-4ee3-8576-08041f242c05">
 doc</label><div class="tabbed-content docutils">
 <p>My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
 </div>
@@ -340,15 +474,13 @@ doc</label><div class="tabbed-content docutils">
         </div>
     </div>
     <footer class="footer">
-    <div class="container">
-      <p>
-        
-          By Benjamin Mary<br/>
-        
-            &copy; Copyright 2021.<br/>
-      </p>
-    </div>
-  </footer>
+  <p>
+    
+      By Benjamin Mary<br/>
+    
+        &copy; Copyright 2021.<br/>
+  </p>
+</footer>
 </main>
 
 
