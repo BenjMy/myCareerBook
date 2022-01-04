@@ -174,7 +174,7 @@ Participation every year to international (AGU and EGU) and national (GNGTS) con
 
 
 
-## Open-source codes
+## 🔓 Open-source codes
 
 
 - **pyDEXP**: open-source python package aiming at processing potential field data using the dEXP theory formulated by Fedi et al., 2012. 

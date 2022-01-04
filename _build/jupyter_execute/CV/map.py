@@ -12,40 +12,41 @@
 
 from ipywidgets import HTML
 
-from ipyleaflet import Map, Marker, Popup
+from ipyleaflet import Map, Marker, Popup, Icon, AwesomeIcon
 
-center = (52.204793, 360.121558)
+# read csv file
+import pandas as pd
+field_activity = pd.read_csv('field.csv')
 
-m = Map(center=center, zoom=9, close_popup_on_click=False)
+center = (37.500000, 15.090278)
+m = Map(center=center, zoom=3, close_popup_on_click=False)
 
-marker = Marker(location=(52.1, 359.9))
-m.add_layer(marker)
-
-message1 = HTML()
-message2 = HTML()
-message1.value = "Try clicking the marker!"
-message2.value = "Hello <b>World</b>"
-message2.placeholder = "Some HTML"
-message2.description = "Some HTML"
-
-# Popup with a given location on the map:
-popup = Popup(
-    location=center,
-    child=message1,
-    close_button=False,
-    auto_close=False,
-    close_on_escape_key=False
+icon1 = AwesomeIcon(
+    name='fa-user-circle',
+    marker_color='blue',
+    icon_color='white',
+    spin=False
 )
-m.add_layer(popup)
 
-# Popup associated to a layer
-marker.popup = message2
 
+field_sites = []
+for i, coords in enumerate(zip(field_activity['Lat'],field_activity['Long'])):
+    lt, lg = coords
+    field_sites.append((lt, lg))
+    marker = Marker(location=(lt, lg), icon=icon1)
+    message = HTML()
+    message.value = field_activity['Location_name'].to_numpy()[i]
+    message.description = field_activity['Purpose'].to_numpy()[i]
+    marker.popup = message
+
+    m.add_layer(marker)
 m
 
 
-# In[ ]:
+# In[2]:
 
 
 
+field_activity.dropna(subset=['Lat', 'Long'],inplace=True)
+field_activity
 

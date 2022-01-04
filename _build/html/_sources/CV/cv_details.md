@@ -45,6 +45,14 @@ https://orcid.org/0000-0001-7199-2885
 
 🗓️ 2021
 
+- **Mary, B.**, Peruzzo, L., Iván, V., Facca, E., Manoli, G., Putti, M., et al. (2021). Combining Models of Root-Zone Hydrology and Geoelectrical Measurements: Recent Advances and Future Prospects. Front. Water 3, 767910. [doi:10.3389/frwa.2021.767910](https://www.frontiersin.org/articles/10.3389/frwa.2021.767910/full).
+
+	```{admonition} Find out more
+	:class: dropdown
+	<div data-badge-type="2" data-doi="10.3389/frwa.2021.767910" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
+	```
+
+
 - Garré, S., Hyndman, D., **Mary, B.**, and Werban, U. _(2021)_. Geophysics conquering new territories: The rise of “agrogeophysics.” Vadose zone j. 20. [doi:10.1002/vzj2.20115](https://doi.org/110.1002/vzj2.20115).<br>
 
 
@@ -52,8 +60,6 @@ https://orcid.org/0000-0001-7199-2885
 	:class: dropdown
 	<div data-badge-type="2" data-doi="10.1002/vzj2.20115" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
 	```
-
-
 
 
 - Peruzzo, L., Liu, X., Chou, C., Blancaflor, E. B., Zhao, H., Ma, X., **et al.** (2021). Three‐channel electrical impedance spectroscopy for field‐scale root phenotyping. Plant phenome j. 4.[doi:10.1002/ppj2.20021](https://doi.org/10.1002/ppj2.20021).<br>
@@ -118,6 +124,10 @@ https://orcid.org/0000-0001-7199-2885
     
 Participation every year to international (AGU and EGU) and national (GNGTS) conferences.
 
+🗓️ 2022
+
+- G. Blanchy, P. McLachlan, M. Censini, **B. Mary**, J. Boaga, A. Binley, and G. Cassiani _2022_ EMI characterization in mountain catchments: multi-frequency versus multi-coil inversion using EMagPy
+
 🗓️ 2021
 
 - Cassiani, G., **Mary, B.**, Boaga, J., Barone, I., and Ivan, V. _(2021)_. Geophysical Imaging of the Root Zone: Methods, Implications and Outlook. in NSG2021 27th European Meeting of Environmental and Engineering Geophysics (Hybrid, France: European Association of Geoscientists & Engineers), 1–5. [doi:10.3997/2214-4609.202120198](https://doi.org/10.3997/2214-4609.202120198).<br>
@@ -154,14 +164,14 @@ Participation every year to international (AGU and EGU) and national (GNGTS) con
 
 ### Invited
 
+- **Invited seminar** 
+	- Mary, B., Assessing vulnerability to vegetation growth on earth dikes using geophysical investigations. In UMR METIS conference, Paris UPMC, 25 mars 2015.
+	- Mary, B., Geophysical Imaging of the Root Zone: challenging but still worth a try! In UMR METIS conference, Paris UPMC, November 2021.
 
 - **Keynote** presentation for the GLOBAQUA project conference _(Agadir, Morocco, October 2018)_
 - **Keynote** presentation for the Hydrogeophysics for the critical zone EGU PICO session _(2018)_
 	- The use of hydro-geophysical monitoring for the identification of root-water-uptake patterns: ERT and MALM experiments in a vineyard, In EGU General Assembly Conference Abstracts.
 
-- **Invited seminar** 
-	- Mary, B., Assessing vulnerability to vegetation growth on earth dikes using geophysical investigations. In UMR METIS conference, Paris UPMC, 25 mars 2015.
-	- Mary, B., Geophysical Imaging of the Root Zone: challenging but still worth a try! In UMR METIS conference, Paris UPMC, November 2021.
 
 
 ## Open-source codes
@@ -204,6 +214,26 @@ website creator and maintainor ERT database
 ```{seealso}
 Details and live code getting start for each package in the [open code section](../Open_Codes/open_codes)
 ```
+## 🏫 Teaching Activity
+
+
+- **Lecturer** [UNIPD (IT) 2017 and 2018]
+	- (2x3h): MSc students in Environmental engineering – Introduction to electrical methods of prospection for agricultural purpose. Padova, 17th October 2017
+
+- **Mentoring individual** [UNIPD (IT) 2016 and 2019]
+	- MSc student (Censini M.) with a guidance for the dissertation dealing with the conception and the application of new boreholes electrodes for micro-ERT acquisition.
+	- BSc students (2) with a guidance for the data processing and visualisation using Geo-Software (GIS, 3D visualisation and statistical analysis).
+
+
+- **Public outreach** [IRSTEA (FR), 2013, 2014 and 2015]
+	- "Fête de la science", leading small classes during short events on seismic risk in the Mediterranean region (2013), on embankment dike (2014) and on underground water flow and cycle (2015). In Aix-en-Provence (FRANCE)
+	
+	
+- **Mentoring individual** [IRSTEA (FR) 2013]
+	- Mentoring individual, 3 students (with a guidance for the dissertation of one of them). Internship for an Environmental sciences training program (Level BTS et Licence 1). IRSTEA Aix-en-Provence (FRANCE)
+
+
+
 
 ## 👩🏼‍💻 Technical Experience
 
@@ -237,6 +267,9 @@ Find out more in the [cv map](cv_map.md)
     - Study from EIT method, trench analysis and allometry measurements
     - Project coordinator: I. Reiter (O3HP)<br><br>
 
+<!-- ### 🛢 Surface hydrology and hydrogeology
+Matteo Camporese – project name
+-->
 
 ### 🛢 Geohazard
 
@@ -250,6 +283,9 @@ Find out more in the [cv map](cv_map.md)
 
 
 ### 🏺 Archeology
+
+<!-- - Rita  – project name-->
+
 
 - **Education**: Geophysical characterization of the geomorphology and geodynamics in Vix \& Geophysical exploration for archaeology (Vix, France) _(2012 - 6 days)_
     - Application of electromagnetic and magnetic imaging methods.
@@ -271,8 +307,8 @@ Find out more in the [cv map](cv_map.md)
 ## 💬 Languages
 
 **French**: Native <br>
-**English**: add level here <br>
-**Spanish**: add level here <br>
+**English**: C1 (TOEIC 9 <br>
+**Spanish**: B2 <br>
 **German**: add level here
 <br><br>
 
@@ -281,7 +317,8 @@ Find out more in the [cv map](cv_map.md)
 
 **PhD candidate** Ph.D. in Applied Geophysics<br>
 	- [INRIA (former IRSTEA)](https://www.inria.fr/fr) and [CEREGE](https://www.cerege.fr/fr) - Aix en Provence, France _(2012 - 2015)_ <br>
-	- Title: 
+	- Title: Développement de l'imagerie des systèmes racinaires dans les ouvrages hydrauliques en remblai par tomographie électrique et acoustique
+	- [Open-Archive](https://www.theses.fr/2015AIXM4386)
 	
 **M.S in Applied Geophysics** at the UPMC (Paris 6), Paris, with honours<br>
 [Department: Environmental and Resources Geophysics](https://www.metis.upmc.fr/) - Paris, France _(2011 - 2012)_ <br>
@@ -295,12 +332,12 @@ Find out more in the [cv map](cv_map.md)
 
 ### Seminar organization 
 
-- **Organizing commity**: 2nd seminar _on March 11th 2022_ 
-	- [website](https://agrogeophy.github.io/2nd_agrogeophysics_seminar/)
-- **Organizing commity** + **Session convener**: EAGE NSG _April 27th 2021_
-	- [website](https://eage.eventsair.com/geophysics-for-landscape-studies-2021/)
-- **Organizing commity**: Seminar ‘Geophysics & Agriculture: the perfect match?’ _on January 31st, 2020_ 
-	- [website](http://www.soilbelgium.be/?p=3596)
+- **Organizing committee**: 2nd seminar _on March 11th 2022_ 
+	- <a href="https://agrogeophy.github.io/2nd_agrogeophysics_seminar/" target="_blank">Seminar website</a>
+- **Organizing committee** + **Session convener**: EAGE NSG _April 27th 2021_
+	- <a href="https://eage.eventsair.com/geophysics-for-landscape-studies-2021/" target="_blank">Seminar website</a>
+- **Organizing committee**: Seminar ‘Geophysics & Agriculture: the perfect match?’ _on January 31st, 2020_ 
+	- <a href="http://www.soilbelgium.be/?p=3596" target="_blank">Seminar website</a>
 
 
 ### Editorial service
@@ -331,11 +368,25 @@ Find out more in the [cv map](cv_map.md)
 
 
 
-### Reviewer
+### Review activity
+
+Peer Journal Reviewer for: 
+
+- NSG
+- Water
+- Hydrogeology Journal
+- Plant Methods
+- Plant and Soil journal
+- Irrigation Science
+- CATENA 
+- Vadose Zone Journal
 
 [Publon record](https://publons.com/researcher/1516310/benjamin-mary/)
 
+Peer Project Reviewer for: 
 
+- [BARD Proposal](https://www.bard-isus.com/) US-5528-22
+- [abc-j-research-award](http://www.geoverbund-abcj.de/geoverbund/EN/Home/research/young-academics-award/young-academics-award_node.html)
 
 #### Link to the code to reproduce
 Forked from https://github.com/carolstran/cv
