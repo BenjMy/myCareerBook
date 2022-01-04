@@ -45,7 +45,7 @@ https://orcid.org/0000-0001-7199-2885
 
 🗓️ 2021
 
-- **Mary, B.**, Peruzzo, L., Iván, V., Facca, E., Manoli, G., Putti, M., et al. (2021). Combining Models of Root-Zone Hydrology and Geoelectrical Measurements: Recent Advances and Future Prospects. Front. Water 3, 767910. [doi:10.3389/frwa.2021.767910](doi:10.3389/frwa.2021.767910).
+- **Mary, B.**, Peruzzo, L., Iván, V., Facca, E., Manoli, G., Putti, M., et al. (2021). Combining Models of Root-Zone Hydrology and Geoelectrical Measurements: Recent Advances and Future Prospects. Front. Water 3, 767910. [doi:10.3389/frwa.2021.767910](https://www.frontiersin.org/articles/10.3389/frwa.2021.767910/full).
 
 	```{admonition} Find out more
 	:class: dropdown
