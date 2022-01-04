@@ -8,7 +8,7 @@
 
 ##  ECZ-DRY (🗓️ 2019 - Now)
 
-[ECZ-Dry](): WAter Saving in Agriculture
+[ECZ-Dry](): New Technologies to monitor the earth critical zone in water-limited ecosystems
 
 - **PIs**: G. Cassiani, Università degli Studi di Padova, Dipartimento di Geoscienze & Israeli Principal Investigator
 - **Role**: Contributing researcher to experimental activities, report redaction. 
