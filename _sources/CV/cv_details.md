@@ -45,6 +45,14 @@ https://orcid.org/0000-0001-7199-2885
 
 🗓️ 2021
 
+- **Mary, B.**, Peruzzo, L., Iván, V., Facca, E., Manoli, G., Putti, M., et al. (2021). Combining Models of Root-Zone Hydrology and Geoelectrical Measurements: Recent Advances and Future Prospects. Front. Water 3, 767910. [doi:10.3389/frwa.2021.767910](doi:10.3389/frwa.2021.767910).
+
+	```{admonition} Find out more
+	:class: dropdown
+	<div data-badge-type="2" data-doi="10.3389/frwa.2021.767910" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
+	```
+
+
 - Garré, S., Hyndman, D., **Mary, B.**, and Werban, U. _(2021)_. Geophysics conquering new territories: The rise of “agrogeophysics.” Vadose zone j. 20. [doi:10.1002/vzj2.20115](https://doi.org/110.1002/vzj2.20115).<br>
 
 
@@ -52,8 +60,6 @@ https://orcid.org/0000-0001-7199-2885
 	:class: dropdown
 	<div data-badge-type="2" data-doi="10.1002/vzj2.20115" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
 	```
-
-
 
 
 - Peruzzo, L., Liu, X., Chou, C., Blancaflor, E. B., Zhao, H., Ma, X., **et al.** (2021). Three‐channel electrical impedance spectroscopy for field‐scale root phenotyping. Plant phenome j. 4.[doi:10.1002/ppj2.20021](https://doi.org/10.1002/ppj2.20021).<br>
