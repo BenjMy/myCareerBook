@@ -174,7 +174,7 @@ Participation every year to international (AGU and EGU) and national (GNGTS) con
 
 
 
-## Open-source codes
+## 🔓 Open-source codes
 
 
 - **pyDEXP**: open-source python package aiming at processing potential field data using the dEXP theory formulated by Fedi et al., 2012. 
@@ -306,10 +306,10 @@ Matteo Camporese – project name
     
 ## 💬 Languages
 
-**French**: Native <br>
-**English**: C1 (TOEIC 9 <br>
+**French**: Mother tongue <br>
+**English**: Full professional proficiency; TOEIC: 855 (Sept. 2016)  <br>
 **Spanish**: B2 <br>
-**German**: add level here
+**German, Italian, Japanese** <br>
 <br><br>
 
 ## 🎓 Education

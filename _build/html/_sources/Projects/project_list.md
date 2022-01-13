@@ -1,4 +1,4 @@
-# Project as PI or co-PI
+# Projects
 
 
 ```{warning}
@@ -6,26 +6,9 @@
 ```
 
 
-##  ECZ-DRY (🗓️ 2019 - Now)
-
-[ECZ-Dry](): New Technologies to monitor the earth critical zone in water-limited ecosystems
-
-- **PIs**: G. Cassiani, Università degli Studi di Padova, Dipartimento di Geoscienze & Israeli Principal Investigator
-- **Role**: Contributing researcher to experimental activities, report redaction. 
-- **Goal**: New Technologies To Monitor The Earth Critical Zone In Water-Limited Ecosystems
-- **Consortium**: Italy/Israel
-	
-```{figure} ../img/flickr_pics/51221139967_51a8a4a255_o.jpg
----
-scale: 50%
-align: center
----
-View of the Acacia trees in the Arava desert (Israel)
-© B. Mary
-```
-
----
-## WASA (🗓️ 2016 - 2019)
+## as PI or co-PI
+ 
+### WASA (🗓️ 2016 - 2019)
 
 [WASA](https://www.era-learn.eu/network-information/networks/eranetmed/eranetmed-joint-call-on-renewable-energies-water/water-saving-in-agriculture-technological-developments-for-the-sustainable-management-of-limited-water-resources-in-the-mediterranean-area): WAter Saving in Agriculture
 
@@ -46,7 +29,7 @@ View of the Acacia trees in the Arava desert (Israel)
 - **Website**: [link](https://www.era-learn.eu/network-information/networks/eranetmed/eranetmed-joint-call-on-renewable-energies-water/water-saving-in-agriculture-technological-developments-for-the-sustainable-management-of-limited-water-resources-in-the-mediterranean-area)
 
 
-#### Abtract
+##### Abtract
 
 The project aims to develop, test and consolidate an operational protocol aimed at reducing water consumption for the irrigation of high value-added crops, typical of the Mediterranean region, with important socio-economic consequences for current and future scenarios of possible scarcity of water resources. The protocol is defined through a combination of scientific, technical and training activities conducted by nine partners distributed in the Mediterranean basin.
 
@@ -61,6 +44,59 @@ align: center
 Electrical Tomography Survey along Orange trees in Tunis (CERTE)
 © B. Mary
 ```
+---
 
+## Others
+
+###  ROOTS (🗓️ 2021 - Now)
+
+
+[ROOTS](): Rhizosphere Observations Optimizing Terrestrial Sequestration
+
+
+- **PIs**: E. Brodie, A. Persaud, Y. Wu
+- **Role**: Contributing researcher to modelleing activities, article redaction. 
+- **Goal**: An EEG for plants
+
+ARPA-E’s Rhizosphere Observations Optimizing Terrestrial Sequestration (ROOTS) program,
+
+##### Abtract
+
+As advanced as agriculture has become, there remains a pressing need for nondestructive ways to ”see” into the soil. Now the U.S. Department of Energy’s Advanced Research Projects Agency-Energy (ARPA-E) has awarded $4.6 million to Lawrence Berkeley National Laboratory (Berkeley Lab) for two innovative projects to address this gap, giving farmers important information to increase crop yields while also promoting the storage of carbon in soil.
+
+More: https://www.universityofcalifornia.edu/news/berkeley-lab-awarded-46m-transformational-agriculture-technologies
+By Julie Chao, Berkeley Lab
+
+```{figure} ../img/iStock-roots_hero.jpg
+---
+scale: 100%
+align: center
+---
+Two Berkeley Lab projects to “see” into the soil.
+© KateLeigh/istock.com
+```
+---
+
+
+
+###  ECZ-DRY (🗓️ 2019 - Now)
+
+[ECZ-Dry](): New Technologies to monitor the earth critical zone in water-limited ecosystems
+
+- **PIs**: G. Cassiani, Università degli Studi di Padova, Dipartimento di Geoscienze & Israeli Principal Investigator
+- **Role**: Contributing researcher to experimental activities, report redaction. 
+- **Goal**: New Technologies To Monitor The Earth Critical Zone In Water-Limited Ecosystems
+- **Consortium**: Italy/Israel
+	
+```{figure} ../img/flickr_pics/51221139967_51a8a4a255_o.jpg
+---
+scale: 50%
+align: center
+---
+View of the Acacia trees in the Arava desert (Israel)
+© B. Mary
+```
+
+---
 
 

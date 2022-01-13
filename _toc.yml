@@ -12,9 +12,8 @@ parts:
        sections:
         - file: CV/map
 #  - file: CV/article_details
+     - file: Projects/Award_Grants/grant 
      - file: Projects/project_list
-       sections:
-        - file: Projects/Award_Grants/grant
      - file: Open_Codes/open_codes
  - caption: Blog
    chapters:
