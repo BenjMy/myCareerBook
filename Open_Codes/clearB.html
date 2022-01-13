@@ -129,22 +129,15 @@
    </li>
   </ul>
  </li>
- <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../Projects/project_list.html">
-   Project as PI or co-PI
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Projects/Award_Grants/grant.html">
+   The MSCA GROWING
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
-  <label for="toctree-checkbox-2">
-   <i class="fas fa-chevron-down">
-   </i>
-  </label>
-  <ul>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Projects/Award_Grants/grant.html">
-     MSCA GROWING
-    </a>
-   </li>
-  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Projects/project_list.html">
+   Projects
+  </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="open_codes.html">
@@ -277,14 +270,17 @@
         </div>
     </div>
 </div>
-    <!-- Table of contents that is only displayed when printing the page -->
-    <div id="jb-print-docs-body" class="onlyprint">
-        <h1>Preprocessing of MALM for dEXP</h1>
-        <!-- Table of contents -->
-        <div id="print-main-content" class="row">
-            <div class="col-12 col-md-12 pl-md-5 pr-md-5">
-            <div id="jb-print-toc">
-                
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Preprocessing of MALM for dEXP</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                    </div>
+                </div>
             </div>
             
               <div>
@@ -660,390 +656,11 @@ filenames = [‘MSoilR1000.0AnoR1Z-13.75W15H2.5L5S0Noise0’, # Ratio = 1000
 
               </div>
               
-            </div>
-        </div>
-    </div>
-    <div id="main-content" class="row noprint">
-        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
-        
-              <div>
-                
-  <div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%</span><span class="k">matplotlib</span> inline
-</pre></div>
-</div>
-</div>
-</div>
-<div class="tex2jax_ignore mathjax_ignore section" id="preprocessing-of-malm-for-dexp">
-<h1>Preprocessing of MALM for dEXP<a class="headerlink" href="#preprocessing-of-malm-for-dexp" title="Permalink to this headline">¶</a></h1>
-<p>This code shows how to remove the influence of the return electrode B and correct as much as it is possible the field before dEXP analysis.
-Calculations used :mod:<code class="docutils literal notranslate"><span class="pre">utils_dEXP</span></code>, while plotting use the :mod:<code class="docutils literal notranslate"><span class="pre">plot_dEXP</span></code> module.</p>
-<p>Application on a anomaly of electrical resistivity.
-The model data was created using geometric objects from :mod:<code class="docutils literal notranslate"><span class="pre">pygimli.meshtools</span></code>. The forward simulation of the data was done using :mod:<code class="docutils literal notranslate"><span class="pre">pygimli.ERTsimulate</span></code> module.</p>
-<div class="alert alert-info"><h4>Note</h4><p>This is part of a larger project aiming at inverting current sources density (see more at: https://icsd-dev.readthedocs.io/en/latest/)</p></div>
-<p><strong>References</strong></p>
-<p>Rucker, C., Gunther, T., Wagner, F.M., 2017. pyGIMLi: An open-source library for modelling and inversion in geophysics, Computers and Geosciences, 109, 106-123, doi: 10.1016/j.cageo.2017.07.011</p>
-<hr class="docutils" />
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">lib.utils_dEXP</span> <span class="k">as</span> <span class="nn">uEXP</span>
-<span class="kn">import</span> <span class="nn">lib.dEXP</span> <span class="k">as</span> <span class="nn">dEXP</span>
-<span class="kn">import</span> <span class="nn">lib.plot_dEXP</span> <span class="k">as</span> <span class="nn">pEXP</span>
-<span class="kn">import</span> <span class="nn">lib.set_parameters</span> <span class="k">as</span> <span class="nn">para</span>
-
-<span class="kn">from</span> <span class="nn">fatiando.vis.mpl</span> <span class="kn">import</span> <span class="n">square</span>
-<span class="kn">from</span> <span class="nn">fatiando</span> <span class="kn">import</span> <span class="n">gridder</span>
-<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-<span class="kn">from</span> <span class="nn">mpl_axes_aligner</span> <span class="kn">import</span> <span class="n">align</span>
-
-
-<span class="kn">import</span> <span class="nn">loadmalm.Load_sens_MALM</span> <span class="k">as</span> <span class="nn">MALM</span>
-</pre></div>
-</div>
-</div>
-</div>
-<p>Import MALM data total field U_{T} = U{a} - U{b}
-The total voltage is the superposition of the injection +I on electrode A (masse) and injection -I on the return (and remote) electrode B
-filenames = [‘MSoilR1000.0AnoR1Z-13.75W15H2.5L5S0Noise0’, # Ratio = 1000
-‘MSoilR1AnoR1Z-13.75W15H2.5L5S0Noise0’]</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">filenames</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;MSoilR1000.0AnoR1Z-13.75W15H2.5L5S0Noise0&#39;</span><span class="p">]</span>
-<span class="c1">#filenames = [&#39;MSoilR1AnoR1Z-13.75W15H2.5L5S0Noise0&#39;]</span>
-
-<span class="k">for</span> <span class="n">fi</span> <span class="ow">in</span> <span class="n">filenames</span><span class="p">:</span>
-    <span class="c1"># Load data</span>
-    <span class="n">xp</span><span class="p">,</span> <span class="n">yp</span><span class="p">,</span> <span class="n">z</span><span class="p">,</span> <span class="n">U</span><span class="p">,</span> <span class="n">maxdepth</span><span class="p">,</span> <span class="n">shape</span><span class="p">,</span> <span class="n">p1</span><span class="p">,</span> <span class="n">p2</span><span class="p">,</span> <span class="n">SimName</span><span class="p">,</span> <span class="n">model_prop</span><span class="o">=</span> <span class="n">MALM</span><span class="o">.</span><span class="n">load_MALM_sens3d</span><span class="p">(</span><span class="n">filename</span><span class="o">=</span><span class="s1">&#39;./loadmalm/&#39;</span> <span class="o">+</span>
-                                                                <span class="n">fi</span> <span class="o">+</span> <span class="s1">&#39;.pkl&#39;</span><span class="p">)</span>
-    
-    
-   
-    <span class="n">Bpos</span><span class="o">=</span> <span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;EA_EB_EN&#39;</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span>
-    <span class="n">uT_elecs</span><span class="o">=</span> <span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;u_elecs&#39;</span><span class="p">]</span>
-    <span class="n">xyzs</span> <span class="o">=</span> <span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;elecs&#39;</span><span class="p">]</span>
-    
-    <span class="n">uA</span> <span class="o">=</span> <span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;uAz0_grid&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">T</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span>
-    <span class="n">uT</span> <span class="o">=</span> <span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;uTz0_grid&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">T</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span>
-    <span class="n">xp</span><span class="p">,</span> <span class="n">yp</span><span class="p">,</span> <span class="n">zp</span> <span class="o">=</span> <span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;uTz0_grid&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">T</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">]</span>
-    
-    <span class="n">parameters</span> <span class="o">=</span> <span class="n">para</span><span class="o">.</span><span class="n">set_par</span><span class="p">(</span><span class="n">shape</span><span class="o">=</span><span class="n">shape</span><span class="p">,</span><span class="n">max_elevation</span><span class="o">=</span><span class="n">maxdepth</span><span class="p">)</span>
-    
-    <span class="n">zp</span><span class="p">,</span> <span class="n">qorder</span><span class="p">,</span> <span class="n">nlay</span> <span class="o">=</span> <span class="n">parameters</span><span class="p">[</span><span class="mi">2</span><span class="p">:</span><span class="mi">5</span><span class="p">]</span>
-    <span class="c1"># minAlt_ridge, maxAlt_ridge = parameters[5:7]</span>
-    <span class="n">max_elevation</span> <span class="o">=</span> <span class="mi">50</span>
-    <span class="n">minAlt_ridge</span> <span class="o">=</span> <span class="n">max_elevation</span><span class="o">*</span><span class="mf">0.05</span>
-    <span class="n">maxAlt_ridge</span> <span class="o">=</span> <span class="n">max_elevation</span><span class="o">*</span><span class="mf">0.65</span>
-    
-    <span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">z1</span><span class="p">,</span> <span class="n">z2</span> <span class="o">=</span> <span class="p">[</span><span class="nb">max</span><span class="p">(</span><span class="n">xp</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="o">-</span><span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;HWD&#39;</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span><span class="nb">max</span><span class="p">(</span><span class="n">xp</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span> <span class="o">+</span> <span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;HWD&#39;</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span>
-                    <span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;HWD&#39;</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span><span class="o">+</span> <span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;HWD&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span>
-                    <span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;HWD&#39;</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span><span class="o">-</span> <span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;HWD&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">/</span><span class="mi">2</span><span class="p">]</span>
-    <span class="n">xxzz</span> <span class="o">=</span> <span class="p">[</span><span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">z1</span><span class="p">,</span> <span class="n">z2</span><span class="p">]</span>
-    <span class="n">CT</span> <span class="o">=</span> <span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;SoilR&#39;</span><span class="p">]</span><span class="o">/</span><span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;AnoR&#39;</span><span class="p">]</span>
-        
-        
-    <span class="n">fix_peak_nb</span> <span class="o">=</span> <span class="mi">4</span>
-    <span class="n">smooth</span> <span class="o">=</span> <span class="kc">False</span>
-    <span class="n">interp</span> <span class="o">=</span> <span class="kc">True</span>
-
-    <span class="c1">#%%</span>
-    <span class="n">shape</span> <span class="o">=</span> <span class="p">(</span><span class="mi">200</span><span class="p">,</span><span class="mi">200</span><span class="p">)</span>
-    <span class="n">_</span><span class="p">,</span><span class="n">_</span><span class="p">,</span><span class="n">uA</span> <span class="o">=</span> <span class="n">gridder</span><span class="o">.</span><span class="n">interp</span><span class="p">(</span><span class="n">xp</span><span class="p">,</span><span class="n">yp</span><span class="p">,</span><span class="n">uA</span><span class="p">,</span><span class="n">shape</span><span class="p">)</span>
-    <span class="n">xp</span><span class="p">,</span><span class="n">yp</span><span class="p">,</span><span class="n">uT</span> <span class="o">=</span> <span class="n">gridder</span><span class="o">.</span><span class="n">interp</span><span class="p">(</span><span class="n">xp</span><span class="p">,</span><span class="n">yp</span><span class="p">,</span><span class="n">uT</span><span class="p">,</span><span class="n">shape</span><span class="p">)</span>
-
-    <span class="c1">#%%</span>
-    <span class="c1"># remove B return electrode effects using :mod:`uEXP.cor_field_B` using a resistivity of 1 Ohm.m</span>
-    
-    <span class="n">U_cor</span> <span class="o">=</span> <span class="n">uEXP</span><span class="o">.</span><span class="n">cor_field_B</span><span class="p">(</span><span class="n">xyzs</span><span class="p">[:</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="mi">0</span><span class="p">],</span><span class="n">xyzs</span><span class="p">[:</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span><span class="n">xyzs</span><span class="p">[:</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="mi">2</span><span class="p">],</span><span class="n">uT_elecs</span><span class="p">,</span><span class="n">Bpos</span><span class="p">,</span>
-                             <span class="n">rho</span><span class="o">=</span><span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;SoilR&#39;</span><span class="p">])</span>
-    
-    <span class="c1">#%%</span>
-    <span class="c1"># Compare the voltage seen by the surface electrode using 2d plot over a line</span>
-    <span class="n">p1_elecs</span><span class="o">=</span> <span class="p">[</span><span class="nb">min</span><span class="p">(</span><span class="n">xyzs</span><span class="p">[:</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="mi">0</span><span class="p">]),(</span><span class="nb">max</span><span class="p">(</span><span class="n">xyzs</span><span class="p">[:</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="mi">0</span><span class="p">])</span><span class="o">+</span><span class="nb">min</span><span class="p">(</span><span class="n">xyzs</span><span class="p">[:</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="mi">0</span><span class="p">]))</span><span class="o">/</span><span class="mi">2</span><span class="p">]</span>
-    <span class="n">p2_elecs</span><span class="o">=</span> <span class="p">[</span><span class="nb">max</span><span class="p">(</span><span class="n">xyzs</span><span class="p">[:</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="mi">0</span><span class="p">]),(</span><span class="nb">max</span><span class="p">(</span><span class="n">xyzs</span><span class="p">[:</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="mi">0</span><span class="p">])</span><span class="o">+</span><span class="nb">min</span><span class="p">(</span><span class="n">xyzs</span><span class="p">[:</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="mi">0</span><span class="p">]))</span><span class="o">/</span><span class="mi">2</span><span class="p">]</span>
-    
-    <span class="n">xx</span><span class="p">,</span> <span class="n">yy</span><span class="p">,</span> <span class="n">distance</span><span class="p">,</span> <span class="n">profile</span> <span class="o">=</span> <span class="n">gridder</span><span class="o">.</span><span class="n">profile</span><span class="p">(</span><span class="n">xyzs</span><span class="p">[:</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="mi">0</span><span class="p">],</span><span class="n">xyzs</span><span class="p">[:</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span> <span class="n">uT_elecs</span><span class="p">,</span> <span class="n">p1_elecs</span><span class="p">,</span> <span class="n">p2_elecs</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
-    <span class="c1"># plt.title(strname + &#39;_data&#39; + str(ZZ), fontsize=15)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">xx</span><span class="p">,</span> <span class="n">profile</span><span class="p">,</span> <span class="s1">&#39;.k&#39;</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;Raw&#39;</span><span class="p">)</span>
-    
-    <span class="n">xx</span><span class="p">,</span> <span class="n">yy</span><span class="p">,</span> <span class="n">distance</span><span class="p">,</span> <span class="n">profile</span> <span class="o">=</span> <span class="n">gridder</span><span class="o">.</span><span class="n">profile</span><span class="p">(</span><span class="n">xyzs</span><span class="p">[:</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="mi">0</span><span class="p">],</span><span class="n">xyzs</span><span class="p">[:</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span> <span class="n">U_cor</span><span class="p">,</span> <span class="n">p1_elecs</span><span class="p">,</span> <span class="n">p2_elecs</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">xx</span><span class="p">,</span> <span class="n">profile</span><span class="p">,</span> <span class="s1">&#39;.r&#39;</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;Corrected&#39;</span><span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;x (m)&#39;</span><span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;u (V)&#39;</span><span class="p">)</span>
-    
-    <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
-    
-    <span class="c1">#%%</span>
-    <span class="c1"># Compare with numerical solution</span>
-    <span class="n">uT_field_cor</span> <span class="o">=</span> <span class="n">uEXP</span><span class="o">.</span><span class="n">cor_field_B</span><span class="p">(</span><span class="n">xp</span><span class="p">,</span><span class="n">yp</span><span class="p">,</span><span class="n">zp</span><span class="p">,</span><span class="n">uT</span><span class="p">,</span><span class="n">Bpos</span><span class="p">,</span><span class="n">rho</span><span class="o">=</span><span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;SoilR&#39;</span><span class="p">])</span>
-    
-    <span class="c1">#%%</span>
-    <span class="c1"># Compare plot over a line</span>
-    <span class="n">xx</span><span class="p">,</span> <span class="n">yy</span><span class="p">,</span> <span class="n">distance</span><span class="p">,</span> <span class="n">puT</span> <span class="o">=</span> <span class="n">gridder</span><span class="o">.</span><span class="n">profile</span><span class="p">(</span><span class="n">xp</span><span class="p">,</span><span class="n">yp</span><span class="p">,</span> <span class="n">uT</span><span class="p">,</span> <span class="n">p1</span><span class="p">,</span> <span class="n">p2</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span>
-    
-    <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">xx</span><span class="p">,</span> <span class="n">puT</span><span class="p">,</span> <span class="n">c</span><span class="o">=</span><span class="s1">&#39;b&#39;</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s1">&#39;*&#39;</span><span class="p">,</span> <span class="n">s</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;U_</span><span class="si">{T}</span><span class="s1">&#39;</span><span class="p">)</span>
-    
-    <span class="n">xx</span><span class="p">,</span> <span class="n">yy</span><span class="p">,</span> <span class="n">distance</span><span class="p">,</span> <span class="n">puA</span> <span class="o">=</span> <span class="n">gridder</span><span class="o">.</span><span class="n">profile</span><span class="p">(</span><span class="n">xp</span><span class="p">,</span><span class="n">yp</span><span class="p">,</span> <span class="n">uA</span><span class="p">,</span> <span class="n">p1</span><span class="p">,</span> <span class="n">p2</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">xx</span><span class="p">,</span> <span class="n">puA</span><span class="p">,</span> <span class="n">c</span><span class="o">=</span><span class="s1">&#39;k&#39;</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s1">&#39;.&#39;</span><span class="p">,</span> <span class="n">s</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;U_</span><span class="si">{A}</span><span class="s1">&#39;</span><span class="p">)</span>
-    
-    <span class="n">xx</span><span class="p">,</span> <span class="n">yy</span><span class="p">,</span> <span class="n">distance</span><span class="p">,</span> <span class="n">puT_field_cor</span> <span class="o">=</span> <span class="n">gridder</span><span class="o">.</span><span class="n">profile</span><span class="p">(</span><span class="n">xp</span><span class="p">,</span><span class="n">yp</span><span class="p">,</span> <span class="n">uT_field_cor</span><span class="p">,</span> <span class="n">p1</span><span class="p">,</span> <span class="n">p2</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">xx</span><span class="p">,</span> <span class="n">puT_field_cor</span><span class="p">,</span>  <span class="n">c</span><span class="o">=</span><span class="s1">&#39;r&#39;</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s1">&#39;^&#39;</span><span class="p">,</span> <span class="n">s</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;U_</span><span class="si">{cor}</span><span class="s1"> = U_</span><span class="si">{T}</span><span class="s1"> - U_</span><span class="si">{B}</span><span class="s1">&#39;</span><span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;x (m)&#39;</span><span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;u (V)&#39;</span><span class="p">)</span>
-    
-    <span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
-    <span class="n">diff1</span> <span class="o">=</span> <span class="n">puT</span> <span class="o">-</span> <span class="n">puA</span>
-    <span class="n">diff2</span> <span class="o">=</span> <span class="n">puA</span> <span class="o">-</span> <span class="n">puT_field_cor</span>
-    <span class="c1"># plt.plot(xx, diff1, &#39;.b&#39;, label=&#39;U_{T} - U_{A}&#39;)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">xx</span><span class="p">,</span> <span class="n">diff2</span><span class="p">,</span> <span class="s1">&#39;.g&#39;</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;U_</span><span class="si">{A}</span><span class="s1"> - U_</span><span class="si">{cor}</span><span class="s1">&#39;</span><span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;x (m)&#39;</span><span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;u (V)&#39;</span><span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</div>
-<p>Run dEXP over clear and raw field data</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">U</span> <span class="o">=</span> <span class="p">[</span><span class="n">uT</span><span class="p">,</span><span class="n">uA</span><span class="p">]</span>
-
-<span class="c1"># MALM DATA synthetic anomaly: analysis of sensitivity</span>
-
-<span class="n">MESH</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="n">LABEL</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="n">DF_F</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="n">DF_FIT</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="n">XXZZ</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="n">CTm</span> <span class="o">=</span> <span class="p">[]</span>
-
-<span class="kn">import</span> <span class="nn">numpy</span> 
-<span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">ui</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">U</span><span class="p">):</span>   
-
-    <span class="c1">#%% </span>
-    <span class="c1"># Plot the data </span>
-    <span class="c1"># pEXP.plot_line(xp, yp, ui,p1,p2, interp=interp, Xaxis=&#39;y&#39;)</span>
-    
-    <span class="c1">#%% </span>
-    <span class="c1"># Pad the edges of grids (if necessary)</span>
-    <span class="c1"># xp,yp,U, shape = dEXP.pad_edges(xp,yp,U,shape,pad_type=0) # reflexion=5</span>
-    <span class="c1"># pEXP.plot_line(xp, yp,ui,p1,p2, interp=interp)</span>
-    
-    
-    <span class="c1">#%% </span>
-    <span class="c1"># Upward continuation of the field data</span>
-
-    <span class="n">mesh</span><span class="p">,</span> <span class="n">label_prop</span> <span class="o">=</span> <span class="n">dEXP</span><span class="o">.</span><span class="n">upwc</span><span class="p">(</span><span class="n">xp</span><span class="p">,</span> <span class="n">yp</span><span class="p">,</span> <span class="n">zp</span><span class="p">,</span> <span class="n">ui</span><span class="p">,</span> <span class="n">shape</span><span class="p">,</span> 
-                     <span class="n">zmin</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">zmax</span><span class="o">=</span><span class="n">max_elevation</span><span class="p">,</span> <span class="n">nlayers</span><span class="o">=</span><span class="n">nlay</span><span class="p">,</span> 
-                     <span class="n">qorder</span><span class="o">=</span><span class="n">qorder</span><span class="p">)</span>
-    
-    <span class="c1"># plt, cmap = pEXP.plot_xy(mesh, label=label_prop, Xaxis=&#39;y&#39;)</span>
-    <span class="c1"># plt.colorbar(cmap)</span>
-    
-    
-    <span class="c1">#%%</span>
-    <span class="c1"># Ridges identification</span>
-    <span class="c1"># dEXP.ridges_minmax_plot(xp, yp, mesh, p1, p2,</span>
-    <span class="c1">#                                       label=label_prop,</span>
-    <span class="c1">#                                       fix_peak_nb=2,</span>
-    <span class="c1">#                                       Xaxis=&#39;y&#39;,</span>
-    <span class="c1">#                                       method_peak=&#39;find_peaks&#39;,</span>
-    <span class="c1">#                                       showfig=False)  </span>
-    
-    <span class="c1"># or  find_peaks or peakdet or spline_roots</span>
-    <span class="n">D</span>  <span class="o">=</span> <span class="n">dEXP</span><span class="o">.</span><span class="n">ridges_minmax</span><span class="p">(</span><span class="n">xp</span><span class="p">,</span> <span class="n">yp</span><span class="p">,</span> <span class="n">mesh</span><span class="p">,</span> <span class="n">p1</span><span class="p">,</span> <span class="n">p2</span><span class="p">,</span>
-                                          <span class="n">label</span><span class="o">=</span><span class="n">label_prop</span><span class="p">,</span>
-                                          <span class="n">fix_peak_nb</span><span class="o">=</span><span class="n">fix_peak_nb</span><span class="p">,</span>
-                                          <span class="n">method_peak</span><span class="o">=</span><span class="s1">&#39;find_peaks&#39;</span><span class="p">,</span>
-                                          <span class="n">Xaxis</span><span class="o">=</span><span class="s1">&#39;y&#39;</span><span class="p">,</span>
-                                          <span class="n">smooth</span><span class="o">=</span><span class="n">smooth</span><span class="p">,</span>
-                                          <span class="n">returnAmp</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
-                                          <span class="n">showfig</span><span class="o">=</span><span class="kc">True</span>                                         
-                                          <span class="p">)</span>  
-    <span class="n">dfI</span><span class="p">,</span> <span class="n">dfII</span><span class="p">,</span> <span class="n">dfIII</span> <span class="o">=</span>  <span class="n">D</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">]</span>
-    
-    <span class="n">df</span> <span class="o">=</span> <span class="n">dfI</span><span class="p">,</span> <span class="n">dfII</span><span class="p">,</span> <span class="n">dfIII</span>
-    <span class="n">hI</span><span class="p">,</span> <span class="n">hII</span><span class="p">,</span> <span class="n">hIII</span>  <span class="o">=</span> <span class="n">D</span><span class="p">[</span><span class="mi">3</span><span class="p">:</span><span class="mi">6</span><span class="p">]</span>
-    <span class="n">heights</span>  <span class="o">=</span> <span class="n">D</span><span class="p">[</span><span class="mi">3</span><span class="p">:</span><span class="mi">6</span><span class="p">]</span>
-    
-    <span class="c1">#%%</span>
-    <span class="n">fig</span> <span class="o">=</span> <span class="n">D</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>  
-    <span class="n">ax_list</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">axes</span>
-    <span class="n">ax_list</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">([])</span>
-    <span class="n">ax_list</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">([])</span>
-    <span class="n">ax_list</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;x (m)&#39;</span><span class="p">)</span>
-    <span class="n">ax_list</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_visible</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
-
-    <span class="n">ax_list</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;voltage u  </span><span class="se">\n</span><span class="s1"> (V)&#39;</span><span class="p">)</span>
-    <span class="n">ax_list</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;voltage</span><span class="se">\n</span><span class="s1"> ($V.m^{-2}$)&#39;</span><span class="p">)</span>
-    <span class="n">ax_list</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;voltage  </span><span class="se">\n</span><span class="s1"> ($V.m^{-2}$)&#39;</span><span class="p">)</span>
-    
-    <span class="c1">#ax = plt.gca()</span>
-    <span class="n">ax_list</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">xaxis</span><span class="o">.</span><span class="n">set_ticklabels</span><span class="p">([])</span>
-    <span class="n">ax_list</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">xaxis</span><span class="o">.</span><span class="n">set_ticklabels</span><span class="p">([])</span>
-    <span class="n">fig</span> 
-    
-    <span class="k">if</span> <span class="n">i</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span>
-       <span class="n">savename</span><span class="o">=</span> <span class="s1">&#39;fig2a_SI&#39;</span>
-    <span class="k">else</span><span class="p">:</span>
-       <span class="n">savename</span><span class="o">=</span> <span class="s1">&#39;fig2b_SI&#39;</span>
-
-    <span class="n">fig</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="n">savename</span><span class="o">+</span><span class="s1">&#39;.png&#39;</span><span class="p">,</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span> <span class="n">bbox_inches</span> <span class="o">=</span> <span class="s2">&quot;tight&quot;</span><span class="p">)</span>
-    <span class="n">fig</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="n">savename</span><span class="o">+</span><span class="s1">&#39;.svg&#39;</span><span class="p">,</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span> <span class="n">bbox_inches</span> <span class="o">=</span> <span class="s2">&quot;tight&quot;</span><span class="p">)</span>
-    <span class="n">fig</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="n">savename</span><span class="o">+</span><span class="s1">&#39;.pdf&#39;</span><span class="p">,</span> <span class="n">bbox_inches</span> <span class="o">=</span> <span class="s2">&quot;tight&quot;</span><span class="p">)</span>
-
-    <span class="c1">#%% </span>
-    <span class="c1"># Plot ridges over continuated section</span>
-    
-    <span class="c1"># fig = plt.figure()</span>
-    <span class="c1"># ax = plt.gca()</span>
-    <span class="c1"># pEXP.plot_xy(mesh, label=label_prop, ax=ax) #, ldg=)</span>
-    <span class="c1"># pEXP.plot_ridges_harmonic(dfI,dfII,dfIII,ax=ax)</span>
-    
-    <span class="c1">#%%</span>
-    <span class="c1"># Filter ridges (regionally constrainsted)</span>
-
-    <span class="n">D_f</span> <span class="o">=</span> <span class="n">dEXP</span><span class="o">.</span><span class="n">filter_ridges</span><span class="p">(</span><span class="n">dfI</span><span class="p">,</span><span class="n">dfII</span><span class="p">,</span><span class="n">dfIII</span><span class="p">,</span>
-                                        <span class="n">minDepth</span><span class="o">=</span><span class="n">minAlt_ridge</span><span class="p">,</span> 
-                                        <span class="n">maxDepth</span><span class="o">=</span><span class="n">maxAlt_ridge</span><span class="p">,</span>
-                                        <span class="n">minlength</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span><span class="n">rmvNaN</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
-                                        <span class="n">xmin</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">xmax</span><span class="o">=</span><span class="mi">300</span><span class="p">,</span>
-                                        <span class="n">Xaxis</span><span class="o">=</span><span class="s1">&#39;y&#39;</span><span class="p">,</span>
-                                        <span class="n">heights</span><span class="o">=</span><span class="n">heights</span><span class="p">)</span>
-
-    <span class="c1"># df_f = dfI_f, dfII_f, dfIII_f</span>
-
-    <span class="n">dfI_f</span><span class="p">,</span> <span class="n">dfII_f</span><span class="p">,</span> <span class="n">dfIII_f</span> <span class="o">=</span>  <span class="n">D_f</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">]</span>
-    <span class="n">hI_f</span><span class="p">,</span> <span class="n">hII_f</span><span class="p">,</span> <span class="n">hIII_f</span>  <span class="o">=</span> <span class="n">D_f</span><span class="p">[</span><span class="mi">3</span><span class="p">:</span><span class="mi">6</span><span class="p">]</span>
-    <span class="n">heights</span>  <span class="o">=</span> <span class="n">D_f</span><span class="p">[</span><span class="mi">3</span><span class="p">:</span><span class="mi">6</span><span class="p">]</span>
-         
-    
-    
-    <span class="c1"># dfI_f,dfII_f, dfIII_f = dEXP.filter_ridges(dfI,dfII,dfIII,</span>
-    <span class="c1">#                                            Xaxis=&#39;y&#39;,</span>
-    <span class="c1">#                                            minDepth=minAlt_ridge,</span>
-    <span class="c1">#                                            maxDepth=maxAlt_ridge,</span>
-    <span class="c1">#                                            minlength=7,rmvNaN=True)</span>
-    <span class="c1">#                                             #,</span>
-    <span class="c1">#                                             #xmin=100, xmax=300)</span>
-    <span class="n">df_f</span> <span class="o">=</span> <span class="n">dfI_f</span><span class="p">,</span> <span class="n">dfII_f</span><span class="p">,</span> <span class="n">dfIII_f</span>
-       
-        
-    <span class="c1">#%%</span>
-    <span class="c1"># plot ridges fitted over continuated section</span>
-    
-    <span class="c1"># fig = plt.figure()</span>
-    <span class="c1"># ax = plt.gca()</span>
-    
-    <span class="c1"># pEXP.plot_xy(mesh, label=label_prop, ax=ax) #, ldg=)</span>
-    <span class="c1"># pEXP.plot_ridges_harmonic(dfI_f,dfII_f,dfIII_f,ax=ax,label=True)</span>
-    
-    <span class="n">df_fit</span> <span class="o">=</span> <span class="n">dEXP</span><span class="o">.</span><span class="n">fit_ridges</span><span class="p">(</span><span class="n">df_f</span><span class="p">,</span> <span class="n">rmvOutliers</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span> <span class="c1"># fit ridges on filtered data</span>
-    
-    <span class="c1"># pEXP.plot_ridges_sources(df_fit, ax=ax, z_max_source=-max_elevation*1.4,</span>
-    <span class="c1">#                           ridge_type=[0,1,2],ridge_nb=None)</span>
-    <span class="c1"># square([x1, x2, z1, z2])</span>
-    <span class="c1"># plt.annotate(CT,[(x1 + x2)/2, -(z1+z2)/2])</span>
-
-    <span class="c1">#%% </span>
-    <span class="c1"># save data loop</span>
-
-    <span class="n">MESH</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">mesh</span><span class="p">)</span>
-    <span class="n">LABEL</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">label_prop</span><span class="p">)</span>
-    <span class="n">DF_F</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">df_f</span><span class="p">)</span>
-    <span class="n">DF_FIT</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">df_fit</span><span class="p">)</span>
-    <span class="n">XXZZ</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">xxzz</span><span class="p">)</span>
-    <span class="n">CTm</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">CT</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
-
-<span class="n">dfI_f</span><span class="p">,</span><span class="n">dfII_f</span><span class="p">,</span><span class="n">dfIII_f</span> <span class="o">=</span> <span class="n">DF_F</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-<span class="n">fig</span><span class="p">,</span> <span class="n">ax1</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
-<span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">z1</span><span class="p">,</span> <span class="n">z2</span> <span class="o">=</span> <span class="n">XXZZ</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-<span class="n">square</span><span class="p">([</span><span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">z1</span><span class="p">,</span> <span class="n">z2</span><span class="p">])</span>
-<span class="n">plt</span><span class="p">,</span> <span class="n">cmap</span> <span class="o">=</span> <span class="n">pEXP</span><span class="o">.</span><span class="n">plot_xy</span><span class="p">(</span><span class="n">MESH</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">label</span><span class="o">=</span><span class="n">LABEL</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax1</span><span class="p">,</span> <span class="n">Xaxis</span><span class="o">=</span><span class="s1">&#39;y&#39;</span><span class="p">,</span>
-          <span class="n">Vminmax</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">10</span><span class="p">])</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">colorbar</span><span class="p">(</span><span class="n">cmap</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;upwc voltage</span><span class="se">\n</span><span class="s1">($V.m^2$)&#39;</span> <span class="p">)</span>
-<span class="n">pEXP</span><span class="o">.</span><span class="n">plot_ridges_harmonic</span><span class="p">(</span><span class="n">dfI_f</span><span class="p">,</span><span class="n">dfII_f</span><span class="p">,</span><span class="n">dfIII_f</span><span class="p">,</span><span class="n">ax</span><span class="o">=</span><span class="n">ax1</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-
-<span class="n">df_fit</span> <span class="o">=</span> <span class="n">dEXP</span><span class="o">.</span><span class="n">fit_ridges</span><span class="p">(</span><span class="n">df_f</span><span class="p">,</span> <span class="n">rmvOutliers</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span> <span class="c1"># fit ridges on filtered data</span>
-
-<span class="n">ax2</span> <span class="o">=</span> <span class="n">pEXP</span><span class="o">.</span><span class="n">plot_ridges_sources</span><span class="p">(</span><span class="n">DF_FIT</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax1</span><span class="p">,</span> <span class="n">z_max_source</span><span class="o">=-</span><span class="n">max_elevation</span><span class="o">*</span><span class="mf">1.2</span><span class="p">,</span>
-                      <span class="n">ridge_type</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">],</span><span class="n">ridge_nb</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-                      <span class="n">xmin</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">xmax</span><span class="o">=</span><span class="mi">250</span><span class="p">)</span>
-<span class="n">ax1</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;x (m)&#39;</span><span class="p">)</span>
-<span class="n">fig</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;fig2c_SI.png&#39;</span><span class="p">,</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span> <span class="n">bbox_inches</span> <span class="o">=</span> <span class="s2">&quot;tight&quot;</span><span class="p">)</span>
-<span class="n">fig</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;fig2c_SI.svg&#39;</span><span class="p">,</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span> <span class="n">bbox_inches</span> <span class="o">=</span> <span class="s2">&quot;tight&quot;</span><span class="p">)</span>
-<span class="n">fig</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;fig2c_SI.pdf&#39;</span><span class="p">,</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span> <span class="n">bbox_inches</span> <span class="o">=</span> <span class="s2">&quot;tight&quot;</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">i</span> <span class="o">=</span> <span class="mi">1</span>
-<span class="n">dfI_f</span><span class="p">,</span><span class="n">dfII_f</span><span class="p">,</span><span class="n">dfIII_f</span> <span class="o">=</span> <span class="n">DF_F</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-<span class="n">fig</span><span class="p">,</span> <span class="n">ax1</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
-<span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">z1</span><span class="p">,</span> <span class="n">z2</span> <span class="o">=</span> <span class="n">XXZZ</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-<span class="n">square</span><span class="p">([</span><span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">z1</span><span class="p">,</span> <span class="n">z2</span><span class="p">])</span>
-<span class="n">plt</span><span class="p">,</span> <span class="n">cmap</span> <span class="o">=</span> <span class="n">pEXP</span><span class="o">.</span><span class="n">plot_xy</span><span class="p">(</span><span class="n">MESH</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">label</span><span class="o">=</span><span class="n">LABEL</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax1</span><span class="p">,</span> <span class="n">Xaxis</span><span class="o">=</span><span class="s1">&#39;y&#39;</span><span class="p">,</span>
-          <span class="n">Vminmax</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">10</span><span class="p">])</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">colorbar</span><span class="p">(</span><span class="n">cmap</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;upwc voltage</span><span class="se">\n</span><span class="s1">($V.m^2$)&#39;</span> <span class="p">)</span>
-<span class="n">pEXP</span><span class="o">.</span><span class="n">plot_ridges_harmonic</span><span class="p">(</span><span class="n">dfI_f</span><span class="p">,</span><span class="n">dfII_f</span><span class="p">,</span><span class="n">dfIII_f</span><span class="p">,</span><span class="n">ax</span><span class="o">=</span><span class="n">ax1</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-
-<span class="n">df_fit</span> <span class="o">=</span> <span class="n">dEXP</span><span class="o">.</span><span class="n">fit_ridges</span><span class="p">(</span><span class="n">df_f</span><span class="p">,</span> <span class="n">rmvOutliers</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span> <span class="c1"># fit ridges on filtered data</span>
-
-<span class="n">ax2</span> <span class="o">=</span> <span class="n">pEXP</span><span class="o">.</span><span class="n">plot_ridges_sources</span><span class="p">(</span><span class="n">DF_FIT</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax1</span><span class="p">,</span> <span class="n">z_max_source</span><span class="o">=-</span><span class="n">max_elevation</span><span class="o">*</span><span class="mf">1.2</span><span class="p">,</span>
-                      <span class="n">ridge_type</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">],</span><span class="n">ridge_nb</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-                                            <span class="n">xmin</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">xmax</span><span class="o">=</span><span class="mi">250</span><span class="p">)</span>
-<span class="n">ax1</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;x (m)&#39;</span><span class="p">)</span>
-<span class="n">fig</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;fig2d_SI.png&#39;</span><span class="p">,</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span> <span class="n">bbox_inches</span> <span class="o">=</span> <span class="s2">&quot;tight&quot;</span><span class="p">)</span>
-<span class="n">fig</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;fig2d_SI.svg&#39;</span><span class="p">,</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span> <span class="n">bbox_inches</span> <span class="o">=</span> <span class="s2">&quot;tight&quot;</span><span class="p">)</span>
-<span class="n">fig</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;fig2d_SI.pdf&#39;</span><span class="p">,</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span> <span class="n">bbox_inches</span> <span class="o">=</span> <span class="s2">&quot;tight&quot;</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-
-    <script type="text/x-thebe-config">
-    {
-        requestKernel: true,
-        binderOptions: {
-            repo: "binder-examples/jupyter-stacks-datascience",
-            ref: "master",
-        },
-        codeMirrorConfig: {
-            theme: "abcdef",
-            mode: "python"
-        },
-        kernelOptions: {
-            kernelName: "python3",
-            path: "./Open_Codes"
-        },
-        predefinedOutput: true
-    }
-    </script>
-    <script>kernelName = 'python3'</script>
-
-              </div>
-              
-        
-            <!-- Previous / next buttons -->
+            
+                <!-- Previous / next buttons -->
 <div class='prev-next-area'>
 </div>
-        
+            
         </div>
     </div>
     <footer class="footer">

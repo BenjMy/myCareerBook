@@ -306,10 +306,10 @@ Matteo Camporese – project name
     
 ## 💬 Languages
 
-**French**: Native <br>
-**English**: C1 (TOEIC 9 <br>
+**French**: Mother tongue <br>
+**English**: Full professional proficiency; TOEIC: 855 (Sept. 2016)  <br>
 **Spanish**: B2 <br>
-**German**: add level here
+**German, Italian, Japanese** <br>
 <br><br>
 
 ## 🎓 Education

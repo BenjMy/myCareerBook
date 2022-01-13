@@ -131,22 +131,15 @@
    </li>
   </ul>
  </li>
- <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../Projects/project_list.html">
-   Project as PI or co-PI
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Projects/Award_Grants/grant.html">
+   The MSCA GROWING
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
-  <label for="toctree-checkbox-2">
-   <i class="fas fa-chevron-down">
-   </i>
-  </label>
-  <ul>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Projects/Award_Grants/grant.html">
-     MSCA GROWING
-    </a>
-   </li>
-  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Projects/project_list.html">
+   Projects
+  </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../Open_Codes/open_codes.html">
@@ -287,19 +280,20 @@
         </div>
     </div>
 </div>
-    <!-- Table of contents that is only displayed when printing the page -->
-    <div id="jb-print-docs-body" class="onlyprint">
-        <h1>Blog 2021</h1>
-        <!-- Table of contents -->
-        <div id="print-main-content" class="row">
-            <div class="col-12 col-md-12 pl-md-5 pr-md-5">
-            <div id="jb-print-toc">
-                
-                <div>
-                    <h2> Contents </h2>
-                </div>
-                <nav aria-label="Page">
-                    <ul class="visible nav section-nav flex-column">
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Blog 2021</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#november-2021-first-day-at-berkeley-lab">
    🗓️ November, 2021: first day at Berkeley Lab
@@ -319,7 +313,9 @@
  </li>
 </ul>
 
-                </nav>
+                        </nav>
+                    </div>
+                </div>
             </div>
             
               <div>
@@ -385,77 +381,8 @@ To this end, we have to design a methodology including non-destructive methods a
 
               </div>
               
-            </div>
-        </div>
-    </div>
-    <div id="main-content" class="row noprint">
-        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
-        
-              <div>
-                
-  <div class="tex2jax_ignore mathjax_ignore section" id="blog-2021">
-<h1>Blog 2021<a class="headerlink" href="#blog-2021" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="november-2021-first-day-at-berkeley-lab">
-<h2>🗓️ November, 2021: first day at Berkeley Lab<a class="headerlink" href="#november-2021-first-day-at-berkeley-lab" title="Permalink to this headline">¶</a></h2>
-<p>After a long wait, I finally managed to join Berkeley Lab with reduced objectives as my stay will only last 5 months (instead of 2years initially).</p>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">😅Finally! waiting for my affiliate appointment at <a href="https://twitter.com/BerkeleyLab?ref_src=twsrc%5Etfw">@BerkeleyLab</a> ... Excited to go up the hill, see the famous panoramic view, and meet the team 💯! In meantime, 1st research consists in walking around to find accommodation 🛏️ 🏡🧐! <a href="https://twitter.com/hashtag/Berkeley?src=hash&amp;ref_src=twsrc%5Etfw">#Berkeley</a> <a href="https://twitter.com/hashtag/suntotherescue?src=hash&amp;ref_src=twsrc%5Etfw">#suntotherescue</a> <a href="https://t.co/nWje2lYw8L">pic.twitter.com/nWje2lYw8L</a></p>&mdash; benj (@51benjame) <a href="https://twitter.com/51benjame/status/1461396814716833794?ref_src=twsrc%5Etfw">November 18, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
-<div class="section" id="september-2021-pycathy-is-born">
-<h2>🗓️ September, 2021: pyCATHY is born<a class="headerlink" href="#september-2021-pycathy-is-born" title="Permalink to this headline">¶</a></h2>
-<p>I started to work on pyCATHY in order to learn how to use the CATHY code originally developed in Fortran (first version developed by A. Binley dated from ??). The pyCATHY package consists in a python wrapper easing the numerical modelling of hydrology by developing object oriented class and modules to interact with core CATHY functions.</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">CATHY</span>
-
-<span class="n">simu_hydro</span> <span class="o">=</span> <span class="n">CATHY</span><span class="p">()</span>
-</pre></div>
-</div>
-<p>The aim is to develop a version-agnostic wrapper allowing to work on the differences branches of CATHY. In particular we’d like to integrate Data Assimilation capabilities and the plant model to the wrapper in order to mimick a soil-plant-interaction experiment run in the laboratory using geoelectrical ERT and MALM methods.</p>
-<p><a class="reference external" href="https://github.com/BenjMy/pycathy_wrapper"><img alt="github" src="https://img.shields.io/badge/view-github-green?logo=github" /></a></p>
-<div class="section" id="try-me">
-<h3>Try me<a class="headerlink" href="#try-me" title="Permalink to this headline">¶</a></h3>
-<p><a class="reference external" href="https://colab.research.google.com/drive/1Zl-VpMbrESu9MbeNpgUvXS6nfluno_dG#scrollTo=be0ef8fe-51bb-4d86-b00a-fa027c286ecf"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
-<p>More interactive exemple in prep in the open-code section of the book.</p>
-<!---
-
-## 🗓️ ??: mapping tree roots in earth dikes
-
-The Mediterranean Basin is prone to a plethora of natural hazards among which floods. Hydraulic structures are built to mitigate flood risk on population and assets. This risk is particularly crucial in the French Mediterranean region where about 2000 km of dikes only on PACA region, protect a large population.
-
-Roots are recognized as an environmental hazard when growing in hydraulic earth structures such as flood protecting or channel levees and dams. The aim of this thesis is to better assess how woody vegetation compromises levee integrity.
-
-To this end, we have to design a methodology including non-destructive methods and geophysical models in order to detect and localize woody roots growing in earth dikes. Several geophysical methods are often used for exploration, detection and 3D tomography of soil. Among them, some have been developed for tree roots detection such as electric – electromagnetic or acoustic prospection.
-
-
-## 🗓️ ??: Investigation of a local tree size gradient in a mixed oak-maple forest
-
---->
-</div>
-</div>
-</div>
-
-    <script type="text/x-thebe-config">
-    {
-        requestKernel: true,
-        binderOptions: {
-            repo: "binder-examples/jupyter-stacks-datascience",
-            ref: "master",
-        },
-        codeMirrorConfig: {
-            theme: "abcdef",
-            mode: "python"
-        },
-        kernelOptions: {
-            kernelName: "python3",
-            path: "./Blog"
-        },
-        predefinedOutput: true
-    }
-    </script>
-    <script>kernelName = 'python3'</script>
-
-              </div>
-              
-        
-            <!-- Previous / next buttons -->
+            
+                <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
     <a class='left-prev' id="prev-link" href="../Open_Codes/open_codes.html" title="previous page">
         <i class="fas fa-angle-left"></i>
@@ -472,7 +399,7 @@ To this end, we have to design a methodology including non-destructive methods a
     <i class="fas fa-angle-right"></i>
     </a>
 </div>
-        
+            
         </div>
     </div>
     <footer class="footer">
