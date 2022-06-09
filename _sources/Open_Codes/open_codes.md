@@ -17,6 +17,10 @@ Contribution to the development of open source codes
 
 [![github](https://img.shields.io/badge/view-github-green?logo=github)](https://github.com/agrogeophy/catalog) 
 
+The catalog is part of the FAIRsharing platform - See its [related databases](https://fairsharing.org/3765).
+
+FAIRsharing.org: CAGS; Catalog of Agrogeophysical Studies, FAIRsharing ID: http://beta.fairsharing.org/3765, Last Edited: Monday, January 31st 2022, 7:26, Last Editor:delphinedauga,Last Accessed: Wednesday, February 2nd 2022, 18:57
+
 
 #### Useful links
 

@@ -145,11 +145,15 @@ Participation every year to international (AGU and EGU) and national (GNGTS) con
 
 - **B. Mary**, F. Meggio, G. Blanchy, N. Cainelli, L. Peruzzo, J. Boaga, Y. Wu, S. Hubbard, B. Ruperti, A. Binley, G. Cassiani: Highlighting Grapevine Root Activity During a Partial Root Zone Drying in Rhizotron Using Geo-electrical Methods. AGU General Assembly (NS31A-0764) _December 2019_. https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/585475. Bibcode: 2019AGUFMNS31A0764M 
 
-- **B. Mary**, J. Boaga, G. Cassiani, R. Deiana, Non-invasive investigation below an exhausted landfill located in karstic area, 38° convegno nazionale del GNGTS si terrà, Roma, Italy – _November 2019_ <br>
+- **B. Mary**, J. Boaga, G. Cassiani, R. Deiana, Non-invasive investigation below an exhausted landfill located in karstic area, 38° convegno nazionale del GNGTS si terrà, Roma, Italy – _November 2019_ [conference proceedings pdf - p. ](http://www3.inogs.it/gngts/files/2019/GNGTS_3.2.pdf)<br>
+
 
 - M. Palladino, B. Sica, S. Chiavarini, J. Rimauro, A. Salluzzo, **B. Mary**, J. Boaga, G. Cassiani, N. Romano, On reducing VOCs concentration from groundwater for irrigation purposes: A detailed monitoring program to test the stripping efficiency of a sprinkler system, in 2019 IEEE International Workshop on Metrology for Industry 4.0 and I, in Naples, Italy – _June 2019_ <br>
 
 - Boaga J., **Mary, B.**, Peruzzo L., Schmutz M., Wu Y., Hubbard  SS, Cassiani G., 3D electrical resistivity tomography and  Mise-à-la-Masse  method  as  tools  for  the  characterization  of  vine roots, In Fall AGU General Assembly Conference Abstracts. _2019_ <br>
+
+- **B. Mary**, Geological settings characterization of a contaminated area in an urban context, 37° convegno nazionale del GNGTS si terrà,  Bologna, Italy – _November 2018_ [doi:0.6084/m9.figshare.19111823](http://dx.doi.org/10.6084/m9.figshare.19111823)<br>
+
 
 - **Mary, B.**, Boaga J., Peruzzo L., Schmutz M., Wu Y., Hubbard SS, Cassiani G., Small scale characterization of vine plant root zone via 3D electrical resistivity tomography and Mise-à-la-Masse method: a case study in a Bordeaux Vineyard, In EGU General Assembly Conference Abstracts.**PICO & proceedings**
 
@@ -164,6 +168,10 @@ Participation every year to international (AGU and EGU) and national (GNGTS) con
 
 ### Invited
 
+- **Invited working group** 
+	- Mary, B. An Open Catalogue to promote and guide agrogeophysics. Oral Presentation (Online). [Biogeophysics for 
+Climate Resilient Viticulture](https://sites.google.com/lbl.gov/biogeophysics-viticulture/home?authuser=0), January 27, 2022.
+	
 - **Invited seminar** 
 	- Mary, B., Assessing vulnerability to vegetation growth on earth dikes using geophysical investigations. In UMR METIS conference, Paris UPMC, 25 mars 2015.
 	- Mary, B., Geophysical Imaging of the Root Zone: challenging but still worth a try! In UMR METIS conference, Paris UPMC, November 2021.
@@ -354,7 +362,7 @@ Matteo Camporese – project name
 	- [github](https://github.com/agrogeophy)
 
 
-- Meetings bringing together a diverse group of experts to discuss new approaches important for quantifying in-situ interactions between microbes, soils and grapevines – across relevant scales and in the context of climate change._(2020 - to now)_
+- **French-Berkeley funds; Biogeophysics for Climate Resilient Viticulture** Meetings bringing together a diverse group of experts to discuss new approaches important for quantifying in-situ interactions between microbes, soils and grapevines – across relevant scales and in the context of climate change._(2020 - to now)_
 	- [find out more](https://sites.google.com/lbl.gov/biogeophysics-viticulture/home?authuser=0)
 	
 	
@@ -363,8 +371,6 @@ Matteo Camporese – project name
 ### Interview 
 
 - My itw to the International Research Office, [MSCA Fellow UNIPD](https://www.unipd.it/en/msca-mary)
-
-
 
 
 
