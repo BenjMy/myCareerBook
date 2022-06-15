@@ -51,7 +51,7 @@ Visit of Napa Valley (CA) vineyards
 - **PIs**: G. Cassiani, Università degli Studi di Padova
 - **Role**: Researcher 
 - **Projects**: ECZ-Dry, WASA
-
+---
 
 ###  UNIPD (🗓️ 2016-2018)
 #### Post doctoral researcher
@@ -59,7 +59,7 @@ Visit of Napa Valley (CA) vineyards
 - **PIs**: G. Cassiani, Università degli Studi di Padova
 - **Role**: Researcher 
 - **Projects**: ECZ-Dry, WASA
-
+---
 
 ###  INRAE (former IRSTEA) (🗓️ 2015-2016)
 #### Research Engineer
@@ -67,7 +67,15 @@ Visit of Napa Valley (CA) vineyards
 - **PIs**: L. Peyras & M. Vennetier, INRAE
 - **Role**: Contributing to report redaction & sollicited expertise. 
 - **Goal**: Transfer Phd knowledges towards peers and stakeholders
+---
 
+
+```{figure} /img/inraelogo.png
+---
+figclass: margin
+width: 200px
+---
+```
 
 ###  INRAE (former IRSTEA) & CEREGE (🗓️ 2012-2015)
 #### Phd Candidate 
