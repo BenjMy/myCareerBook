@@ -132,7 +132,10 @@ Participation every year to international (AGU and EGU) and national (GNGTS) con
 
 🗓️ 2022
 
-- G. Blanchy, P. McLachlan, M. Censini, **B. Mary**, J. Boaga, A. Binley, and G. Cassiani _2022_ EMI characterization in mountain catchments: multi-frequency versus multi-coil inversion using EMagPy
+- Iván, V., **Mary, B.**, Schwartz, N., Ghinassi, M., and Cassiani, G.: Spectral Induced Polarization: Laboratory measurements on artificial soils with varying water saturation, salinity and clay content, EGU General Assembly 2022, Vienna, Austria, 23–27 May 2022, EGU22-5638, [doi:10.5194/egusphere-egu22-5638](https://doi.org/10.5194/egusphere-egu22-5638), 2022.
+
+- **Mary, B.**, Botto, A., Iván, V., Peruzzo, L., Chou, C., Wu, Y., Cassiani, G., and Camporese, M.: Assimilation of ERT data to improve Feddes parameters in a hydrological model during a root water uptake experiment, EGU General Assembly 2022, Vienna, Austria, 23–27 May 2022, EGU22-6648, [doi:10.5194/egusphere-egu22-6648](https://doi.org/10.5194/egusphere-egu22-6648), 2022.
+
 
 🗓️ 2021
 
