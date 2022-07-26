@@ -3,7 +3,7 @@
 
 title: B. Mary
 author: Benjamin Mary
-logo: ./img/pressure_slow.gif
+logo: 
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html

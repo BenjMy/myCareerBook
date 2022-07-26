@@ -6,10 +6,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Projects &#8212; B. Mary</title>
+    <title>Projects as PI or co-PI &#8212; B. Mary</title>
     
-  <link href="../_static/css/theme.css" rel="stylesheet" />
-  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -19,46 +20,62 @@
   <link rel="preload" as="font" type="font/woff2" crossorigin
     href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
 
-    
-      
-
-    
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
     
-  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
     <script src="../_static/doctools.js"></script>
-    <script src="../_static/togglebutton.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
-    <script>
-        const thebe_selector = ".thebe"
-        const thebe_selector_input = "pre"
-        const thebe_selector_output = ".output"
-    </script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Open codes" href="../Open_Codes/open_codes.html" />
+    <link rel="next" title="Others" href="project_list_others.html" />
     <link rel="prev" title="The MSCA GROWING" href="Award_Grants/grant.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="en" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
     
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
     
     <div class="container-fluid" id="banner"></div>
 
@@ -67,16 +84,12 @@
     <div class="container-xl">
       <div class="row">
           
-<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
-    
-        <div class="navbar-brand-box">
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="../index.html">
       
-        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
-        
-      
-      
-      <img src="../_static/pressure_slow.gif" class="logo" alt="logo">
       
       
       <h1 class="site-logo" id="site-title">B. Mary</h1>
@@ -87,14 +100,15 @@
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
-        <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="../intro.html">
-   My career book in a nutshell
-  </a>
- </li>
-</ul>
-<p class="caption" role="heading">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    My career book in a nutshell
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
   Research
  </span>
@@ -121,21 +135,33 @@
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../CV/map.html">
+    <a class="reference internal" href="../CV/notebooks/map.html">
      Map CV
     </a>
    </li>
   </ul>
  </li>
- <li class="toctree-l1">
+ <li class="toctree-l1 current active has-children">
   <a class="reference internal" href="Award_Grants/grant.html">
    The MSCA GROWING
   </a>
- </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   Projects
-  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Projects as PI or co-PI
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="project_list_others.html">
+     Others
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../Open_Codes/open_codes.html">
@@ -143,7 +169,7 @@
   </a>
  </li>
 </ul>
-<p class="caption" role="heading">
+<p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
   Blog
  </span>
@@ -155,7 +181,7 @@
   </a>
  </li>
 </ul>
-<p class="caption" role="heading">
+<p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
   references
  </span>
@@ -169,154 +195,241 @@
 </ul>
 
     </div>
-</nav> <!-- To handle the deprecated key -->
-
-<div class="navbar_extra_footer">
-  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
-</div>
-
-</div>
-
-
-          
-
-
-          
-<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
-    
-    <div class="topbar container-xl fixed-top">
-    <div class="topbar-contents row">
-        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
-        <div class="col pl-md-4 topbar-main">
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
             
-            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-                <i class="fas fa-bars"></i>
-                <i class="fas fa-arrow-left"></i>
-                <i class="fas fa-arrow-up"></i>
-            </button>
-            
-            
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
-            class="fas fa-download"></i></button>
-
-    <div class="dropdown-buttons">
-        <!-- ipynb file if we had a myst markdown file -->
-        
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/Projects/project_list.md"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
-        <!-- Download PDF via print -->
-        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
-    </div>
-</div>
-
-            <!-- Source interaction buttons -->
-
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
-        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
-    <div class="dropdown-buttons sourcebuttons">
-        <a class="repository-button"
-            href="https://github.com/BenjMy/myCareerBook"><button type="button" class="btn btn-secondary topbarbtn"
-                data-toggle="tooltip" data-placement="left" title="Source repository"><i
-                    class="fab fa-github"></i>repository</button></a>
-        <a class="issues-button"
-            href="https://github.com/BenjMy/myCareerBook/issues/new?title=Issue%20on%20page%20%2FProjects/project_list.html&body=Your%20issue%20content%20here."><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        
-    </div>
-</div>
-
-            <!-- Full screen (wrap in <a> to have style consistency -->
-
-<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-        title="Fullscreen mode"><i
-            class="fas fa-expand"></i></button></a>
-
-            <!-- Launch buttons -->
-
-        </div>
-
-        <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show">
-            
-            <div class="tocsection onthispage pt-5 pb-3">
-                <i class="fas fa-list"></i> Contents
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
             </div>
-            <nav id="bd-toc-nav" aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/BenjMy/myCareerBook"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/BenjMy/myCareerBook/issues/new?title=Issue%20on%20page%20%2FProjects/project_list.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../_sources/Projects/project_list.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#as-pi-or-co-pi">
-   as PI or co-PI
+  <a class="reference internal nav-link" href="#wasa-2016-2019">
+   WASA (🗓️ 2016 - 2019)
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#wasa-2016-2019">
-     WASA (🗓️ 2016 - 2019)
-    </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#abtract">
-       Abtract
-      </a>
-     </li>
-    </ul>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#others">
-   Others
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#roots-2021-now">
-     ROOTS (🗓️ 2021 - Now)
-    </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#id1">
-       Abtract
-      </a>
-     </li>
-    </ul>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ecz-dry-2019-now">
-     ECZ-DRY (🗓️ 2019 - Now)
+    <a class="reference internal nav-link" href="#abstract">
+     Abstract
     </a>
    </li>
   </ul>
  </li>
 </ul>
 
-            </nav>
-        </div>
-    </div>
+    </nav>
 </div>
-    <div id="main-content" class="row">
-        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
-        
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Projects as PI or co-PI</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#wasa-2016-2019">
+   WASA (🗓️ 2016 - 2019)
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#abstract">
+     Abstract
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
               <div>
                 
-  <section id="projects">
-<h1>Projects<a class="headerlink" href="#projects" title="Permalink to this headline">¶</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="projects-as-pi-or-co-pi">
+<h1>Projects as PI or co-PI<a class="headerlink" href="#projects-as-pi-or-co-pi" title="Permalink to this headline">#</a></h1>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>🚧 This page is still under construction 🚧</p>
 </div>
-<section id="as-pi-or-co-pi">
-<h2>as PI or co-PI<a class="headerlink" href="#as-pi-or-co-pi" title="Permalink to this headline">¶</a></h2>
 <section id="wasa-2016-2019">
-<h3>WASA (🗓️ 2016 - 2019)<a class="headerlink" href="#wasa-2016-2019" title="Permalink to this headline">¶</a></h3>
+<h2>WASA (🗓️ 2016 - 2019)<a class="headerlink" href="#wasa-2016-2019" title="Permalink to this headline">#</a></h2>
 <p><a class="reference external" href="https://www.era-learn.eu/network-information/networks/eranetmed/eranetmed-joint-call-on-renewable-energies-water/water-saving-in-agriculture-technological-developments-for-the-sustainable-management-of-limited-water-resources-in-the-mediterranean-area">WASA</a>: WAter Saving in Agriculture</p>
 <ul class="simple">
 <li><p><strong>PI</strong>: G. Cassiani, Università degli Studi di Padova, Dipartimento di Geoscienze</p></li>
@@ -338,61 +451,18 @@
 </li>
 <li><p><strong>Website</strong>: <a class="reference external" href="https://www.era-learn.eu/network-information/networks/eranetmed/eranetmed-joint-call-on-renewable-energies-water/water-saving-in-agriculture-technological-developments-for-the-sustainable-management-of-limited-water-resources-in-the-mediterranean-area">link</a></p></li>
 </ul>
-<section id="abtract">
-<h4>Abtract<a class="headerlink" href="#abtract" title="Permalink to this headline">¶</a></h4>
+<figure class="margin align-default">
+<a class="reference internal image-reference" href="../_images/WASALogo.png"><img alt="../_images/WASALogo.png" src="../_images/WASALogo.png" style="width: 200px;" /></a>
+</figure>
+<section id="abstract">
+<h3>Abstract<a class="headerlink" href="#abstract" title="Permalink to this headline">#</a></h3>
 <p>The project aims to develop, test and consolidate an operational protocol aimed at reducing water consumption for the irrigation of high value-added crops, typical of the Mediterranean region, with important socio-economic consequences for current and future scenarios of possible scarcity of water resources. The protocol is defined through a combination of scientific, technical and training activities conducted by nine partners distributed in the Mediterranean basin.</p>
 <p>The aim of the project is therefore to build, refine and disseminate technical skills in irrigation management that specifically address the needs of the Euro-Mediterranean region. These skills must be able to be introduced and maintained in arid or semi-arid agricultural production areas, and must be based on simple but physically robust models of water use, and on inexpensive but reliable methodologies for monitoring soil moisture and state of crops.</p>
-<figure class="align-center" id="id2">
+<figure class="align-center" id="id1">
 <a class="reference internal image-reference" href="../_images/20170928_121513_copy_BMARY.jpg"><img alt="../_images/20170928_121513_copy_BMARY.jpg" src="../_images/20170928_121513_copy_BMARY.jpg" style="width: 309.6px; height: 412.8px;" /></a>
 <figcaption>
 <p><span class="caption-number">Fig. 6 </span><span class="caption-text">Electrical Tomography Survey along Orange trees in Tunis (CERTE)
-© B. Mary</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
-</figcaption>
-</figure>
-</section>
-</section>
-</section>
-<hr class="docutils" />
-<section id="others">
-<h2>Others<a class="headerlink" href="#others" title="Permalink to this headline">¶</a></h2>
-<section id="roots-2021-now">
-<h3>ROOTS (🗓️ 2021 - Now)<a class="headerlink" href="#roots-2021-now" title="Permalink to this headline">¶</a></h3>
-<p><span class="xref myst">ROOTS</span>: Rhizosphere Observations Optimizing Terrestrial Sequestration</p>
-<ul class="simple">
-<li><p><strong>PIs</strong>: E. Brodie, A. Persaud, Y. Wu</p></li>
-<li><p><strong>Role</strong>: Contributing researcher to modelleing activities, article redaction.</p></li>
-<li><p><strong>Goal</strong>: An EEG for plants</p></li>
-</ul>
-<p>ARPA-E’s Rhizosphere Observations Optimizing Terrestrial Sequestration (ROOTS) program,</p>
-<section id="id1">
-<h4>Abtract<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
-<p>As advanced as agriculture has become, there remains a pressing need for nondestructive ways to ”see” into the soil. Now the U.S. Department of Energy’s Advanced Research Projects Agency-Energy (ARPA-E) has awarded $4.6 million to Lawrence Berkeley National Laboratory (Berkeley Lab) for two innovative projects to address this gap, giving farmers important information to increase crop yields while also promoting the storage of carbon in soil.</p>
-<p>More: <a class="reference external" href="https://www.universityofcalifornia.edu/news/berkeley-lab-awarded-46m-transformational-agriculture-technologies">https://www.universityofcalifornia.edu/news/berkeley-lab-awarded-46m-transformational-agriculture-technologies</a>
-By Julie Chao, Berkeley Lab</p>
-<figure class="align-center" id="id3">
-<a class="reference internal image-reference" href="../_images/iStock-roots_hero.jpg"><img alt="../_images/iStock-roots_hero.jpg" src="../_images/iStock-roots_hero.jpg" style="width: 686.0px; height: 305.0px;" /></a>
-<figcaption>
-<p><span class="caption-number">Fig. 7 </span><span class="caption-text">Two Berkeley Lab projects to “see” into the soil.
-© KateLeigh/istock.com</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
-</figcaption>
-</figure>
-</section>
-</section>
-<hr class="docutils" />
-<section id="ecz-dry-2019-now">
-<h3>ECZ-DRY (🗓️ 2019 - Now)<a class="headerlink" href="#ecz-dry-2019-now" title="Permalink to this headline">¶</a></h3>
-<p><span class="xref myst">ECZ-Dry</span>: New Technologies to monitor the earth critical zone in water-limited ecosystems</p>
-<ul class="simple">
-<li><p><strong>PIs</strong>: G. Cassiani, Università degli Studi di Padova, Dipartimento di Geoscienze &amp; Israeli Principal Investigator</p></li>
-<li><p><strong>Role</strong>: Contributing researcher to experimental activities, report redaction.</p></li>
-<li><p><strong>Goal</strong>: New Technologies To Monitor The Earth Critical Zone In Water-Limited Ecosystems</p></li>
-<li><p><strong>Consortium</strong>: Italy/Israel</p></li>
-</ul>
-<figure class="align-center" id="id4">
-<a class="reference internal image-reference" href="../_images/51221139967_51a8a4a255_o.jpg"><img alt="../_images/51221139967_51a8a4a255_o.jpg" src="../_images/51221139967_51a8a4a255_o.jpg" style="width: 784.0px; height: 218.0px;" /></a>
-<figcaption>
-<p><span class="caption-number">Fig. 8 </span><span class="caption-text">View of the Acacia trees in the Arava desert (Israel)
-© B. Mary</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+© B. Mary</span><a class="headerlink" href="#id1" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <hr class="docutils" />
@@ -422,54 +492,48 @@ By Julie Chao, Berkeley Lab</p>
 
               </div>
               
-        
-            
-
-
-
-<div class='prev-next-bottom'>
-    
-    <div id="prev">
-        <a class="left-prev" href="Award_Grants/grant.html" title="previous page">
-            <i class="prevnext-label fas fa-angle-left"></i>
-            <div class="prevnext-info">
-                <p class="prevnext-label">previous</p>
-                <p class="prevnext-title">The MSCA GROWING</p>
-            </div>
-        </a>
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="Award_Grants/grant.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">The MSCA GROWING</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="project_list_others.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Others</p>
     </div>
-     <div id="next">
-        <a class="right-next" href="../Open_Codes/open_codes.html" title="next page">
-            <div class="prevnext-info">
-                <p class="prevnext-label">next</p>
-                <p class="prevnext-title">Open codes</p>
-            </div>
-            <i class="prevnext-label fas fa-angle-right"></i>
-        </a>
-     </div>
-
+    <i class="fas fa-angle-right"></i>
+    </a>
 </div>
-        
+            </footer>
         </div>
     </div>
-    <footer class="footer">
-    <div class="container">
-      <p>
-        
-          By Benjamin Mary<br/>
-        
-            &copy; Copyright 2021.<br/>
-      </p>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Benjamin Mary<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
     </div>
-  </footer>
-</main>
+    
+</div>
 
 
       </div>
     </div>
   
-  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
 
-  
+
   </body>
 </html>

@@ -10,10 +10,13 @@ parts:
      - file: CV/current_pos
      - file: CV/cv_details
        sections:
-        - file: CV/map
+        - file: CV/notebooks/map
 #  - file: CV/article_details
      - file: Projects/Award_Grants/grant 
-     - file: Projects/project_list
+     - file: Projects/projects 
+       sections:
+        - file: Projects/project_list
+        - file: Projects/project_list_others
      - file: Open_Codes/open_codes
  - caption: Blog
    chapters:
