@@ -50,6 +50,8 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.1/dist/embed-amd.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -88,11 +90,6 @@ const thebe_selector_output = ".output, .cell_output"
         <div class="bd-sidebar__top"><div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="../index.html">
       
-        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
-        
-      
-      
-      <img src="../_static/pressure_slow.gif" class="logo" alt="logo">
       
       
       <h1 class="site-logo" id="site-title">B. Mary</h1>
@@ -138,7 +135,7 @@ const thebe_selector_output = ".output, .cell_output"
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../CV/map.html">
+    <a class="reference internal" href="../CV/notebooks/map.html">
      Map CV
     </a>
    </li>
@@ -149,10 +146,27 @@ const thebe_selector_output = ".output, .cell_output"
    The MSCA GROWING
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../Projects/project_list.html">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../Projects/projects.html">
    Projects
   </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Projects/project_list.html">
+     Projects as PI or co-PI
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Projects/project_list_others.html">
+     Others
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="open_codes.html">
