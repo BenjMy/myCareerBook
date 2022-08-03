@@ -2,10 +2,17 @@
 
 _Last edited: december 4th, 2021_
 
-#### Soil-plant-Atmosphere interaction 🌱🌳🌤️💧
+### Soil-plant-Atmosphere interaction 🌱🌳🌤️💧
 
 
 Since the end of my phd in 2015, my research interests mainly focus on improving our understanding of the role of the roots in regulating water in the {term}`SPAC` using experimental non-destructive approaches (see {numref}`rhizo_neons`).
+
+I contributed to 2 main projects: 
+
+
+- [GROWING](Projects/Award_Grants/grant): Geophysical Roots Obervations for Water SavING
+- [WASA](Projects/project_list.html#WASA (🗓️ 2016 - 2019)): Water Saving in Agriculture  (2016 - 2019)
+- and [others](Projects/projects)  
 
 ```{figure} /img/flickr_pics/51155416189_da46d5911c_o.jpg
 ---
@@ -18,7 +25,7 @@ Artistic picture of the vine plant growing under neons'lights during a lab exper
 © B. Mary
 ```
 
-#### Geohazards ⛰🌊🏜️
+### Geohazards ⛰🌊🏜️
 
 I also like to solve other typical geophysical problematic such as geohazard assessment (landslide monitoring, landfill leakage detection). 
 Field work is a great opportunity to make some sport and change its point of view (see {numref}`valfredda`)
@@ -34,10 +41,11 @@ Picture at the top of the val fredda catchment in Italy during EM imaging method
 © B. Mary
 ```
 
-#### FAIR and reproducible research 🚀🎉
+### FAIR and reproducible research 🚀🎉
 
 Finally, I'm really enthusiastic with all the splendid initiatives and tools towards a more . I'm trying to join the movement building reproducible research (see {numref}`logoCAGS`).
 
+I contributed to [open source codes](Open_Codes/open_codes)  
 
 ```{figure} /img/logo_big.png
 ---
@@ -49,7 +57,7 @@ Logo of the CAGS (Catalog of Agrogeophysical Studies) promoting FAIR practicies 
 © B. Mary
 ```
 
-### Glossary
+#### Glossary
 
 ```{glossary}
 SPAC
