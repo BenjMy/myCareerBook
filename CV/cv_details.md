@@ -395,6 +395,7 @@ Peer Journal Reviewer for:
 - Irrigation Science
 - CATENA 
 - Vadose Zone Journal
+- Journal of Open Source Software (JOSS)
 
 [Publon record](https://publons.com/researcher/1516310/benjamin-mary/)
 

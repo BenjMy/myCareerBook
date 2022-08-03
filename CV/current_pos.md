@@ -61,6 +61,12 @@ Visit of Napa Valley (CA) vineyards
 - **Projects**: ECZ-Dry, WASA
 ---
 
+```{figure} /img/inraelogo.png
+---
+figclass: margin
+width: 200px
+---
+```
 ###  INRAE (former IRSTEA) (🗓️ 2015-2016)
 #### Research Engineer
 
@@ -85,6 +91,12 @@ width: 200px
 - **Goal**: Développement de l'imagerie des systèmes racinaires dans les ouvrages hydrauliques en remblai par tomographie électrique et acoustique
 
 
+```{figure} /img/inraelogo.png
+---
+figclass: margin
+width: 200px
+---
+```
 
 
 

@@ -17,7 +17,7 @@ I consider an important step in my early career occured after moving towards **O
 
 - The **[CV](CV/cv_details)** section give an overview of my contributions in terms of article, teaching and public outreach engagement. 
 - The **[Open codes](Open_Codes/open_codes)** section show interactive example of the main codes I'm routinely and actively developing. 
-- Finally, the **[blog](Blog/blog)** section highlights moments of my research covering different topics such as field acquisition, new code development, project milestone etc...
+- Finally, the **[blog](Blog/list)** section highlights moments of my research covering different topics such as field acquisition, new code development, project milestone etc...
 
 
 ```{admonition} I'd love to hear from you!
