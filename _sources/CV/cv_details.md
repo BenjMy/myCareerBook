@@ -46,7 +46,11 @@ https://orcid.org/0000-0001-7199-2885
 <!--- [doi:](https://doi.org/).<br>-->
 
 
+
 🗓️ 2022
+
+
+- Dimech, A., Cheng, L., Chouteau, M., Chambers, J., Uhlemann, S., Wilkinson, P., **et al**. (2022). A Review on Applications of Time-Lapse Electrical Resistivity Tomography Over the Last 30 Years : Perspectives for Mining Waste Monitoring. Surv Geophys. [doi:10.1007/s10712-022-09731-2](https://link.springer.com/article/10.1007/s10712-022-09731-2)
 
 
 🗓️ 2021
