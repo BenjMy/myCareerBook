@@ -20,8 +20,10 @@ parts:
      - file: Open_Codes/open_codes
  - caption: Blog
    chapters:
-        #- file: Blog/blog2022
-        - file: Blog/blog2021
+        - file: Blog/list_blog
+          sections:
+          - file: Blog/blog2022
+          - file: Blog/blog2021
  - caption: references
    chapters:
          - file: references
