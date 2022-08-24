@@ -1,8 +1,8 @@
 ## Research interests
 
-_Last edited: december 4th, 2021_
+_Last edited: August 24th, 2022_
 
-### Soil-plant-Atmosphere interaction 🌱🌳🌤️💧
+### Soil-plant-Atmosphere interactions 🌱🌳🌤️💧
 
 
 Since the end of my phd in 2015, my research interests mainly focus on improving our understanding of the role of the roots in regulating water in the {term}`SPAC` using experimental non-destructive approaches (see {numref}`rhizo_neons`).
