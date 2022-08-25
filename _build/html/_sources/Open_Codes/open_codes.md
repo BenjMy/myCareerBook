@@ -9,6 +9,12 @@ Contribution to the development of open source codes
 
 ---
 ## CAGS
+
+````{margin}
+{bdg-primary}`Database` 
+{bdg-primary}`Community engagement`
+````
+
 **The Catalog of Agrogeophysical Survey** is a platform putting together a database/catalog of agrogeophysical surveys in order to promote {term}`FAIR` practicies and boost future research.
 
 - Catalog
@@ -17,13 +23,12 @@ Contribution to the development of open source codes
 
 [![github](https://img.shields.io/badge/view-github-green?logo=github)](https://github.com/agrogeophy/catalog) 
 
+
 The catalog is part of the FAIRsharing platform - See its [related databases](https://fairsharing.org/3765).
 
 FAIRsharing.org: CAGS; Catalog of Agrogeophysical Studies, FAIRsharing ID: http://beta.fairsharing.org/3765, Last Edited: Monday, January 31st 2022, 7:26, Last Editor:delphinedauga,Last Accessed: Wednesday, February 2nd 2022, 18:57
 
 
-```{note} Database; Community engagement
-```
 
 
 

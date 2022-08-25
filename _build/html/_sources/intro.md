@@ -15,9 +15,30 @@ This book is a compilation of my early career work as a geophysicist in academia
 I consider an important step in my early career occured after moving towards **Open Science**. This change of perspective has been triggered while I was working on my [Marie-Curie fellowship](https://cordis.europa.eu/project/id/842922), remotely from France during the Covid-19 pandemic and I needed access to data. I investigate how we can produce more FAIR data in geophysics and found very inspiring people paving the way. 
 
 
-- The **[CV](CV/cv_details)** section give an overview of my contributions in terms of article, teaching and public outreach engagement. 
-- The **[Open codes](Open_Codes/open_codes)** section show interactive example of the main codes I'm routinely and actively developing. 
-- Finally, the **[blog](Blog/list)** section highlights moments of my research covering different topics such as field acquisition, new code development, project milestone etc...
+
+
+::::{grid}
+:gutter: 3
+
+:::{grid-item-card}
+**[CV](CV/cv_details)**
+
+Give an overview of my contributions in terms of article, teaching and public outreach engagement. 
+:::
+
+:::{grid-item-card}
+**[Open codes](Open_Codes/open_codes)**
+
+Show interactive example of the main codes I'm routinely and actively developing. 
+:::
+
+:::{grid-item-card} 
+**[Blog](Blog/list_blog)**
+
+
+Highlights moments of my research covering different topics such as field acquisition, new code development, project milestone etc...
+:::
+::::
 
 
 ```{admonition} I'd love to hear from you!
