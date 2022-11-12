@@ -53,7 +53,7 @@ Visit of Napa Valley (CA) vineyards
 - **Projects**: ECZ-Dry, WASA
 ---
 
-###  UNIPD (🗓️ 2016-2018)
+###  UNIPD (🗓️ 2017-2018)
 #### Post doctoral researcher
 
 - **PIs**: G. Cassiani, Università degli Studi di Padova
