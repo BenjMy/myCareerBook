@@ -15,29 +15,15 @@ Use the right panel menu to navigate the CV
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 
 
-
+<!--
 ## About
 Benjamin Mary
 
 _I'm a Marie-Curie fellow working with geophysics applied to agronomy between Padua (IT) and Berkeley (USA)_ <br>
 
-[Email](mailto:benjamin.mary@unipd.it) / [Website](JupyterBook) / [GitHub](https://github.com/benjmy/) / [Scholar](https://scholar.google.com/citations?user=3kDP4-AAAAAJ&hl=en) /
+--> 
 
-### ORCID
-
-<a href="https://orcid.org/0000-0001-7199-2885">
-<img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
-https://orcid.org/0000-0001-7199-2885
-</a>
-
-### ResearchGate
-
-<a href="https://www.researchgate.net/profile/Benjamin-Mary-2">
-<i class='fab fa-researchgate' style='font-size:48px;color:green'></i>
-</a>
-
-
-
+[Email](mailto:benjamin.mary@unipd.it) / [Website](JupyterBook) / [GitHub](https://github.com/benjmy/) / [Scholar](https://scholar.google.com/citations?user=3kDP4-AAAAAJ&hl=en) / <a href="https://orcid.org/0000-0001-7199-2885"> Orcid </a> / <a href="https://www.researchgate.net/profile/Benjamin-Mary-2"> Researchgate </a>
 
 
 ## 🗞 Peer-reviewed articles
@@ -49,7 +35,19 @@ https://orcid.org/0000-0001-7199-2885
 
 🗓️ 2022
 
+- **Mary, B.**, Peruzzo, L., Wu, Y., and Cassiani, G. (2022). Advanced Potential Field Analysis Applied to Mise‐à‐la‐Masse Surveys for Leakage Detection. JGR Solid Earth 127. [doi:10.1029/2022JB024747](https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2022JB024747)
 
+	```{admonition} Find out more
+	:class: dropdown
+	
+	<div data-badge-type="2" data-doi="10.1029/2022JB024747" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
+	
+	[📊 Data repository](https://doi.org/10.5281/zenodo.6538070)	
+	
+	[🧮 Code repository](https://github.com/BenjMy/dEXP_imaging/tree/master/notebooks_JGR)
+	
+	```
+	
 - Dimech, A., Cheng, L., Chouteau, M., Chambers, J., Uhlemann, S., Wilkinson, P., **et al**. (2022). A Review on Applications of Time-Lapse Electrical Resistivity Tomography Over the Last 30 Years : Perspectives for Mining Waste Monitoring. Surv Geophys. [doi:10.1007/s10712-022-09731-2](https://link.springer.com/article/10.1007/s10712-022-09731-2)
 
 
@@ -181,13 +179,17 @@ Participation every year to international (AGU and EGU) and national (GNGTS) con
 
 ### Invited
 
+
+
 - **Invited working group** 
 	- Mary, B. An Open Catalogue to promote and guide agrogeophysics. Oral Presentation (Online). [Biogeophysics for 
 Climate Resilient Viticulture](https://sites.google.com/lbl.gov/biogeophysics-viticulture/home?authuser=0), January 27, 2022.
 	
 - **Invited seminar** 
-	- Mary, B., Assessing vulnerability to vegetation growth on earth dikes using geophysical investigations. In UMR METIS conference, Paris UPMC, 25 mars 2015.
-	- Mary, B., Geophysical Imaging of the Root Zone: challenging but still worth a try! In UMR METIS conference, Paris UPMC, November 2021.
+	- Madrid UPM, November 2022: Mary, B., The geophysical toolbox applied to the root zone: Methods, Implications and Outlook. <a href='https://ceigram.upm.es/seminario/seminario-ceigram-geophysical-roots-observation-for-water-saving/'> Link </a>
+	- Paris UPMC, November 2021: Mary, B., Geophysical Imaging of the Root Zone: challenging but still worth a try! In UMR METIS conference.
+	- Paris UPMC, 25 mars 2015: Mary, B., Assessing vulnerability to vegetation growth on earth dikes using geophysical investigations. In UMR METIS conference.
+
 
 - **Keynote** presentation for the GLOBAQUA project conference _(Agadir, Morocco, October 2018)_
 - **Keynote** presentation for the Hydrogeophysics for the critical zone EGU PICO session _(2018)_

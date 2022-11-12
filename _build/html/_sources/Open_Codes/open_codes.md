@@ -45,14 +45,32 @@ Project logo
 © S. Garré
 ```
 
+```{warning}
+Found a bug 🐛/ a typo ? [Email me](mailto:benjamin.mary@unipd.it)
+```
+
 ---
 ## pyDEXP
+
+````{margin}
+{bdg-primary}`Potential Field Theory` 
+{bdg-primary}`Inversion`
+````
+
 Open-source python package aiming at processing potential field data using the **dEXP theory** formulated by {cite:p}`fedi_dexp_2005`. 
 
 [![github](https://img.shields.io/badge/view-github-green?logo=github)](https://github.com/BenjMy/dEXP_imaging) 
 
 
 ### How to install
+
+Install using setup.py:
+
+    git clone https://github.com/BenjMy/dEXP_imaging
+    cd dEXP_imaging
+    python setup.py develop|install
+    import dEXP
+
 
 ### How to use
 
@@ -61,11 +79,19 @@ Open-source python package aiming at processing potential field data using the *
 -->
 ### Notebook example
 
+[🧮 Code repository](https://github.com/BenjMy/dEXP_imaging/tree/master/notebooks_JGR)
+	
 ### How to cite
+
+**Mary, B.**, Peruzzo, L., Wu, Y., and Cassiani, G. (2022). Advanced Potential Field Analysis Applied to Mise‐à‐la‐Masse Surveys for Leakage Detection. JGR Solid Earth 127. [doi:10.1029/2022JB024747](https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2022JB024747)
 
 
 ---
 ## pyCATHY
+````{margin}
+{bdg-primary}`Hydrogeology` 
+{bdg-primary}`Data Assimilation`
+````
 Open-source python package wrapper aiming at **coupling hydrological forward modelling with geophysical data** by {cite:p}`camporese_surface-subsurface_2010`. 
 
 [![github](https://img.shields.io/badge/view-github-green?logo=github)](https://github.com/BenjMy/pycathy_wrapper) 
@@ -83,6 +109,13 @@ Result of a controlled irrigation in a rhizotron using CATHY
 
 
 ### How to install
+
+Install using setup.py:
+
+    git clone https://github.com/BenjMy/pycathy_wrapper
+    cd pycathy_wrapper
+    python setup.py develop|install
+    import pyCATHY
 
 ### How to use
 
@@ -109,6 +142,11 @@ Weill, S., Altissimo, M., Cassiani, G., Deiana, R., Marani, M., Putti, M. (2013)
 
 ### How to cite
 
+```{warning}
+Found a bug 🐛/ a typo ? [Email me](mailto:benjamin.mary@unipd.it)
+```
+
+
 ---
 ## iCSD
 Inversion of Current Source Density data. Application to imaging of plant roots.
@@ -122,6 +160,11 @@ Inversion of Current Source Density data. Application to imaging of plant roots.
 ### How to cite
 
 
+```{warning}
+Found a bug 🐛/ a typo ? [Email me](mailto:benjamin.mary@unipd.it)
+```
+
+
 ### Glossary
 
 ```{glossary}
@@ -129,10 +172,6 @@ FAIR
   FAIR data are data which meet principles of findability, accessibility, interoperability, and reusability.[1] 
 ```
 
-
-```{warning}
-Found a bug 🐛/ a typo ? [Email me](mailto:benjamin.mary@unipd.it)
-```
 
 
 
