@@ -510,12 +510,12 @@ title="Print to PDF"
 </ul>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># read csv file</span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="n">pd</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">plotting</span><span class="o">.</span><span class="n">backend</span> <span class="o">=</span> <span class="s2">&quot;plotly&quot;</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span># read csv file
+import pandas as pd
+pd.options.plotting.backend = &quot;plotly&quot;
 
-<span class="n">articles_zenodo</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="s1">&#39;RyC_articles.xlsx&#39;</span><span class="p">,</span><span class="n">sheet_name</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">articles_zenodo</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+articles_zenodo = pd.read_excel(&#39;RyC_articles.xlsx&#39;,sheet_name=1)
+articles_zenodo.head()
 </pre></div>
 </div>
 </div>
@@ -689,24 +689,24 @@ title="Print to PDF"
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#from rpy2.robjects.packages import importr</span>
-<span class="kn">from</span> <span class="nn">scholarly</span> <span class="kn">import</span> <span class="n">scholarly</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span>#from rpy2.robjects.packages import importr
+from scholarly import scholarly
 
-<span class="c1"># Retrieve the author&#39;s data, fill-in, and print</span>
-<span class="c1"># Get an iterator for the author results</span>
-<span class="n">search_query</span> <span class="o">=</span> <span class="n">scholarly</span><span class="o">.</span><span class="n">search_author</span><span class="p">(</span><span class="s1">&#39;Benjamin Mary, Padova&#39;</span><span class="p">)</span>
-<span class="c1"># Retrieve the first result from the iterator</span>
-<span class="n">first_author_result</span> <span class="o">=</span> <span class="nb">next</span><span class="p">(</span><span class="n">search_query</span><span class="p">)</span>
-<span class="n">scholarly</span><span class="o">.</span><span class="n">pprint</span><span class="p">(</span><span class="n">first_author_result</span><span class="p">)</span>
+# Retrieve the author&#39;s data, fill-in, and print
+# Get an iterator for the author results
+search_query = scholarly.search_author(&#39;Benjamin Mary, Padova&#39;)
+# Retrieve the first result from the iterator
+first_author_result = next(search_query)
+scholarly.pprint(first_author_result)
 
-<span class="c1"># Retrieve all the details for the author</span>
-<span class="n">author</span> <span class="o">=</span> <span class="n">scholarly</span><span class="o">.</span><span class="n">fill</span><span class="p">(</span><span class="n">first_author_result</span> <span class="p">)</span>
-<span class="c1">#scholarly.pprint(author)</span>
+# Retrieve all the details for the author
+author = scholarly.fill(first_author_result )
+#scholarly.pprint(author)
 
 
-<span class="n">first_author_result</span>
+first_author_result
 
-<span class="n">citedby</span>
+citedby
 </pre></div>
 </div>
 </div>
@@ -737,44 +737,44 @@ title="Print to PDF"
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib</span> <span class="k">as</span> <span class="nn">mpl</span>
-<span class="n">pd</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">plotting</span><span class="o">.</span><span class="n">backend</span> <span class="o">=</span> <span class="s2">&quot;matplotlib&quot;</span>
-<span class="n">mpl</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s1">&#39;font.family&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;Avenir&#39;</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s1">&#39;font.size&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">18</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s1">&#39;axes.linewidth&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span>
-<span class="n">mpl</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s1">&#39;font.family&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;Avenir&#39;</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s1">&#39;font.size&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">18</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s1">&#39;axes.linewidth&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span>import matplotlib as mpl
+pd.options.plotting.backend = &quot;matplotlib&quot;
+mpl.rcParams[&#39;font.family&#39;] = &#39;Avenir&#39;
+plt.rcParams[&#39;font.size&#39;] = 18
+plt.rcParams[&#39;axes.linewidth&#39;] = 2
+mpl.rcParams[&#39;font.family&#39;] = &#39;Avenir&#39;
+plt.rcParams[&#39;font.size&#39;] = 18
+plt.rcParams[&#39;axes.linewidth&#39;] = 2
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pd_citations</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">author</span><span class="p">[</span><span class="s1">&#39;cites_per_year&#39;</span><span class="p">],</span> <span class="n">index</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
-<span class="n">pd_cit_t</span> <span class="o">=</span> <span class="n">pd_citations</span><span class="o">.</span><span class="n">transpose</span><span class="p">()</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span>pd_citations = pd.DataFrame(author[&#39;cites_per_year&#39;], index=[0])
+pd_cit_t = pd_citations.transpose()
 
 
 
 
-<span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
-<span class="n">ax</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_axes</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">])</span>
-<span class="c1">#ax.spines[&#39;right&#39;].set_visible(False)</span>
-<span class="c1">#ax.spines[&#39;top&#39;].set_visible(False)</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">xaxis</span><span class="o">.</span><span class="n">set_tick_params</span><span class="p">(</span><span class="n">which</span><span class="o">=</span><span class="s1">&#39;major&#39;</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">direction</span><span class="o">=</span><span class="s1">&#39;in&#39;</span><span class="p">,</span> <span class="n">top</span><span class="o">=</span><span class="s1">&#39;on&#39;</span><span class="p">)</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">xaxis</span><span class="o">.</span><span class="n">set_tick_params</span><span class="p">(</span><span class="n">which</span><span class="o">=</span><span class="s1">&#39;minor&#39;</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">7</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">direction</span><span class="o">=</span><span class="s1">&#39;in&#39;</span><span class="p">,</span> <span class="n">top</span><span class="o">=</span><span class="s1">&#39;on&#39;</span><span class="p">)</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">yaxis</span><span class="o">.</span><span class="n">set_tick_params</span><span class="p">(</span><span class="n">which</span><span class="o">=</span><span class="s1">&#39;major&#39;</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">direction</span><span class="o">=</span><span class="s1">&#39;in&#39;</span><span class="p">,</span> <span class="n">right</span><span class="o">=</span><span class="s1">&#39;on&#39;</span><span class="p">)</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">yaxis</span><span class="o">.</span><span class="n">set_tick_params</span><span class="p">(</span><span class="n">which</span><span class="o">=</span><span class="s1">&#39;minor&#39;</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">7</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">direction</span><span class="o">=</span><span class="s1">&#39;in&#39;</span><span class="p">,</span> <span class="n">right</span><span class="o">=</span><span class="s1">&#39;on&#39;</span><span class="p">)</span>
-<span class="n">pd_cit_t</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">,</span><span class="n">linewidth</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;k&#39;</span><span class="p">,</span><span class="n">legend</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;year&#39;</span><span class="p">)</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;cites per year&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">annotate</span><span class="p">(</span><span class="s1">&#39;total:&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">author</span><span class="p">[</span><span class="s1">&#39;citedby&#39;</span><span class="p">]),</span> <span class="n">xy</span><span class="o">=</span><span class="p">(</span><span class="mf">0.65</span><span class="p">,</span> <span class="mf">0.85</span><span class="p">),</span> <span class="n">xycoords</span><span class="o">=</span><span class="s1">&#39;axes fraction&#39;</span><span class="p">)</span>
+fig = plt.figure(figsize=(5, 3))
+ax = fig.add_axes([0, 0, 1, 1])
+#ax.spines[&#39;right&#39;].set_visible(False)
+#ax.spines[&#39;top&#39;].set_visible(False)
+ax.xaxis.set_tick_params(which=&#39;major&#39;, size=10, width=2, direction=&#39;in&#39;, top=&#39;on&#39;)
+ax.xaxis.set_tick_params(which=&#39;minor&#39;, size=7, width=2, direction=&#39;in&#39;, top=&#39;on&#39;)
+ax.yaxis.set_tick_params(which=&#39;major&#39;, size=10, width=2, direction=&#39;in&#39;, right=&#39;on&#39;)
+ax.yaxis.set_tick_params(which=&#39;minor&#39;, size=7, width=2, direction=&#39;in&#39;, right=&#39;on&#39;)
+pd_cit_t[:-1].plot(ax=ax,linewidth=2, color=&#39;k&#39;,legend=None)
+ax.set_xlabel(&#39;year&#39;)
+ax.set_ylabel(&#39;cites per year&#39;)
+plt.annotate(&#39;total:&#39; + str(author[&#39;citedby&#39;]), xy=(0.65, 0.85), xycoords=&#39;axes fraction&#39;)
 
 
 
-<span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;cites per year per article&#39;</span><span class="p">)</span>
+ax.set_ylabel(&#39;cites per year per article&#39;)
 
-<span class="n">pd_cit_t</span>
+pd_cit_t
 </pre></div>
 </div>
 </div>
@@ -840,17 +840,17 @@ title="Print to PDF"
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">publications</span> <span class="o">=</span> <span class="n">author</span><span class="p">[</span><span class="s1">&#39;publications&#39;</span><span class="p">]</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span>publications = author[&#39;publications&#39;]
 
-<span class="n">pub_year</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">publications</span><span class="p">:</span>   
-    <span class="k">try</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="n">key</span><span class="p">[</span><span class="s1">&#39;bib&#39;</span><span class="p">][</span><span class="s1">&#39;pub_year&#39;</span><span class="p">])</span>
-        <span class="n">pub_year</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">key</span><span class="p">[</span><span class="s1">&#39;bib&#39;</span><span class="p">][</span><span class="s1">&#39;pub_year&#39;</span><span class="p">]))</span>
-    <span class="k">except</span><span class="p">:</span>
-        <span class="k">pass</span>
+pub_year = []
+for key in publications:   
+    try:
+        print(key[&#39;bib&#39;][&#39;pub_year&#39;])
+        pub_year.append(int(key[&#39;bib&#39;][&#39;pub_year&#39;]))
+    except:
+        pass
 
-<span class="n">pub_year</span>
+pub_year
 </pre></div>
 </div>
 </div>
@@ -919,51 +919,54 @@ title="Print to PDF"
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Take a closer look at the first publication</span>
-<span class="n">first_publication</span> <span class="o">=</span> <span class="n">author</span><span class="p">[</span><span class="s1">&#39;publications&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
-<span class="n">first_publication_filled</span> <span class="o">=</span> <span class="n">scholarly</span><span class="o">.</span><span class="n">fill</span><span class="p">(</span><span class="n">first_publication</span><span class="p">)</span>
-<span class="c1">#scholarly.pprint(first_publication_filled)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span># Take a closer look at the first publication
+first_publication = author[&#39;publications&#39;][0]
+first_publication_filled = scholarly.fill(first_publication)
+#scholarly.pprint(first_publication_filled)
+
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Print the titles of the author&#39;s publications</span>
-<span class="c1">#publication_titles = [pub[&#39;bib&#39;][&#39;title&#39;] for pub in author[&#39;publications&#39;]]</span>
-<span class="c1">#print(publication_titles)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span># Print the titles of the author&#39;s publications
+#publication_titles = [pub[&#39;bib&#39;][&#39;title&#39;] for pub in author[&#39;publications&#39;]]
+#print(publication_titles)
+
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Which papers cited that publication?</span>
-<span class="c1">#citations = [citation[&#39;bib&#39;][&#39;title&#39;] for citation in scholarly.citedby(first_publication_filled)]</span>
-<span class="c1">#print(citations)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span># Which papers cited that publication?
+#citations = [citation[&#39;bib&#39;][&#39;title&#39;] for citation in scholarly.citedby(first_publication_filled)]
+#print(citations)
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">field_activity</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">&#39;Publication Year&#39;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="n">field_activity</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span>field_activity.sort_values(by=&#39;Publication Year&#39;, ascending=True, inplace=True)
+field_activity
 
-<span class="n">nb_publi_year</span> <span class="o">=</span> <span class="n">field_activity</span><span class="p">[</span><span class="s1">&#39;Publication Year&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
+nb_publi_year = field_activity[&#39;Publication Year&#39;].value_counts()
 
-<span class="n">field_activity</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;Item Type&#39;</span><span class="p">)</span>
+field_activity.groupby(&#39;Item Type&#39;)
 
-<span class="n">mean_impact_factor</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="n">nb_of_citations</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="n">nb_of_citations_year</span> <span class="o">=</span> <span class="p">[]</span>
+mean_impact_factor = []
+nb_of_citations = []
+nb_of_citations_year = []
 
-<span class="c1"># period of 2020/2021</span>
-<span class="c1"># ------------------</span>
-<span class="n">Soil_IF</span> <span class="o">=</span> <span class="mf">3.3</span>
-<span class="n">PS_IF</span> <span class="o">=</span> <span class="mf">3.299</span> 
-<span class="n">VZJ_IF</span> <span class="o">=</span> <span class="mf">3.289</span>
-<span class="n">SciRep_IF</span> <span class="o">=</span> <span class="mf">4.379</span>
+# period of 2020/2021
+# ------------------
+Soil_IF = 3.3
+PS_IF = 3.299 
+VZJ_IF = 3.289
+SciRep_IF = 4.379
+
 </pre></div>
 </div>
 </div>
@@ -984,26 +987,28 @@ title="Print to PDF"
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">field_activity</span><span class="p">[</span><span class="s1">&#39;Nb_year&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">nb_publi_year</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span>
+field_activity[&#39;Nb_year&#39;] = nb_publi_year
 
-<span class="n">field_activity</span>
-
-
-
-<span class="n">fig</span> <span class="o">=</span> <span class="n">nb_publi_year</span><span class="o">.</span><span class="n">sort_index</span><span class="p">()</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;Year&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;Nb&quot;</span><span class="p">,</span><span class="n">legend</span><span class="o">=</span><span class="p">[],</span> <span class="n">color</span><span class="o">=</span><span class="s2">&quot;species&quot;</span><span class="p">,</span>
-                <span class="n">title</span><span class="o">=</span><span class="s2">&quot;Automatic Labels Based on Data Frame Column Names&quot;</span><span class="p">)</span>
-<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+field_activity
 
 
-<span class="n">nb_publi_year</span>
+
+fig = nb_publi_year.sort_index().plot(x=&quot;Year&quot;, y=&quot;Nb&quot;,legend=[], color=&quot;species&quot;,
+                title=&quot;Automatic Labels Based on Data Frame Column Names&quot;)
+fig.show()
+
+
+nb_publi_year
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">rpy2.robjects.packages</span> <span class="kn">import</span> <span class="n">importr</span>
-<span class="n">utils</span> <span class="o">=</span> <span class="n">importr</span><span class="p">(</span><span class="s1">&#39;scholar&#39;</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span>from rpy2.robjects.packages import importr
+utils = importr(&#39;scholar&#39;)
+
 </pre></div>
 </div>
 </div>

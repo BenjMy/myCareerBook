@@ -449,43 +449,43 @@ title="Print to PDF"
                 
   <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">plotly.graph_objects</span> <span class="k">as</span> <span class="nn">go</span>
-<span class="kn">import</span> <span class="nn">urllib</span><span class="o">,</span> <span class="nn">json</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span>import plotly.graph_objects as go
+import urllib, json
 
-<span class="n">url</span> <span class="o">=</span> <span class="s1">&#39;https://raw.githubusercontent.com/plotly/plotly.js/master/test/image/mocks/sankey_energy.json&#39;</span>
-<span class="n">response</span> <span class="o">=</span> <span class="n">urllib</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">urlopen</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
-<span class="n">data</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">read</span><span class="p">())</span>
+url = &#39;https://raw.githubusercontent.com/plotly/plotly.js/master/test/image/mocks/sankey_energy.json&#39;
+response = urllib.request.urlopen(url)
+data = json.loads(response.read())
 
-<span class="c1"># override gray link colors with &#39;source&#39; colors</span>
-<span class="n">opacity</span> <span class="o">=</span> <span class="mf">0.4</span>
-<span class="c1"># change &#39;magenta&#39; to its &#39;rgba&#39; value to add opacity</span>
-<span class="n">data</span><span class="p">[</span><span class="s1">&#39;data&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="s1">&#39;node&#39;</span><span class="p">][</span><span class="s1">&#39;color&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;rgba(255,0,255, 0.8)&#39;</span> <span class="k">if</span> <span class="n">color</span> <span class="o">==</span> <span class="s2">&quot;magenta&quot;</span> <span class="k">else</span> <span class="n">color</span> <span class="k">for</span> <span class="n">color</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;data&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="s1">&#39;node&#39;</span><span class="p">][</span><span class="s1">&#39;color&#39;</span><span class="p">]]</span>
-<span class="n">data</span><span class="p">[</span><span class="s1">&#39;data&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="s1">&#39;link&#39;</span><span class="p">][</span><span class="s1">&#39;color&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;data&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="s1">&#39;node&#39;</span><span class="p">][</span><span class="s1">&#39;color&#39;</span><span class="p">][</span><span class="n">src</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;0.8&quot;</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">opacity</span><span class="p">))</span>
-                                    <span class="k">for</span> <span class="n">src</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;data&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="s1">&#39;link&#39;</span><span class="p">][</span><span class="s1">&#39;source&#39;</span><span class="p">]]</span>
+# override gray link colors with &#39;source&#39; colors
+opacity = 0.4
+# change &#39;magenta&#39; to its &#39;rgba&#39; value to add opacity
+data[&#39;data&#39;][0][&#39;node&#39;][&#39;color&#39;] = [&#39;rgba(255,0,255, 0.8)&#39; if color == &quot;magenta&quot; else color for color in data[&#39;data&#39;][0][&#39;node&#39;][&#39;color&#39;]]
+data[&#39;data&#39;][0][&#39;link&#39;][&#39;color&#39;] = [data[&#39;data&#39;][0][&#39;node&#39;][&#39;color&#39;][src].replace(&quot;0.8&quot;, str(opacity))
+                                    for src in data[&#39;data&#39;][0][&#39;link&#39;][&#39;source&#39;]]
 
-<span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="p">[</span><span class="n">go</span><span class="o">.</span><span class="n">Sankey</span><span class="p">(</span>
-    <span class="n">valueformat</span> <span class="o">=</span> <span class="s2">&quot;.0f&quot;</span><span class="p">,</span>
-    <span class="n">valuesuffix</span> <span class="o">=</span> <span class="s2">&quot;TWh&quot;</span><span class="p">,</span>
-    <span class="c1"># Define nodes</span>
-    <span class="n">node</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span>
-      <span class="n">pad</span> <span class="o">=</span> <span class="mi">15</span><span class="p">,</span>
-      <span class="n">thickness</span> <span class="o">=</span> <span class="mi">15</span><span class="p">,</span>
-      <span class="n">line</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">color</span> <span class="o">=</span> <span class="s2">&quot;black&quot;</span><span class="p">,</span> <span class="n">width</span> <span class="o">=</span> <span class="mf">0.5</span><span class="p">),</span>
-      <span class="n">label</span> <span class="o">=</span>  <span class="n">data</span><span class="p">[</span><span class="s1">&#39;data&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="s1">&#39;node&#39;</span><span class="p">][</span><span class="s1">&#39;label&#39;</span><span class="p">],</span>
-      <span class="n">color</span> <span class="o">=</span>  <span class="n">data</span><span class="p">[</span><span class="s1">&#39;data&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="s1">&#39;node&#39;</span><span class="p">][</span><span class="s1">&#39;color&#39;</span><span class="p">]</span>
-    <span class="p">),</span>
-    <span class="c1"># Add links</span>
-    <span class="n">link</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span>
-      <span class="n">source</span> <span class="o">=</span>  <span class="n">data</span><span class="p">[</span><span class="s1">&#39;data&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="s1">&#39;link&#39;</span><span class="p">][</span><span class="s1">&#39;source&#39;</span><span class="p">],</span>
-      <span class="n">target</span> <span class="o">=</span>  <span class="n">data</span><span class="p">[</span><span class="s1">&#39;data&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="s1">&#39;link&#39;</span><span class="p">][</span><span class="s1">&#39;target&#39;</span><span class="p">],</span>
-      <span class="n">value</span> <span class="o">=</span>  <span class="n">data</span><span class="p">[</span><span class="s1">&#39;data&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="s1">&#39;link&#39;</span><span class="p">][</span><span class="s1">&#39;value&#39;</span><span class="p">],</span>
-      <span class="n">label</span> <span class="o">=</span>  <span class="n">data</span><span class="p">[</span><span class="s1">&#39;data&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="s1">&#39;link&#39;</span><span class="p">][</span><span class="s1">&#39;label&#39;</span><span class="p">],</span>
-      <span class="n">color</span> <span class="o">=</span>  <span class="n">data</span><span class="p">[</span><span class="s1">&#39;data&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="s1">&#39;link&#39;</span><span class="p">][</span><span class="s1">&#39;color&#39;</span><span class="p">]</span>
-<span class="p">))])</span>
+fig = go.Figure(data=[go.Sankey(
+    valueformat = &quot;.0f&quot;,
+    valuesuffix = &quot;TWh&quot;,
+    # Define nodes
+    node = dict(
+      pad = 15,
+      thickness = 15,
+      line = dict(color = &quot;black&quot;, width = 0.5),
+      label =  data[&#39;data&#39;][0][&#39;node&#39;][&#39;label&#39;],
+      color =  data[&#39;data&#39;][0][&#39;node&#39;][&#39;color&#39;]
+    ),
+    # Add links
+    link = dict(
+      source =  data[&#39;data&#39;][0][&#39;link&#39;][&#39;source&#39;],
+      target =  data[&#39;data&#39;][0][&#39;link&#39;][&#39;target&#39;],
+      value =  data[&#39;data&#39;][0][&#39;link&#39;][&#39;value&#39;],
+      label =  data[&#39;data&#39;][0][&#39;link&#39;][&#39;label&#39;],
+      color =  data[&#39;data&#39;][0][&#39;link&#39;][&#39;color&#39;]
+))])
 
-<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">title_text</span><span class="o">=</span><span class="s2">&quot;Energy forecast for 2050&lt;br&gt;Source: Department of Energy &amp; Climate Change, Tom Counsell via &lt;a href=&#39;https://bost.ocks.org/mike/sankey/&#39;&gt;Mike Bostock&lt;/a&gt;&quot;</span><span class="p">,</span>
-                  <span class="n">font_size</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
-<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+fig.update_layout(title_text=&quot;Energy forecast for 2050&lt;br&gt;Source: Department of Energy &amp; Climate Change, Tom Counsell via &lt;a href=&#39;https://bost.ocks.org/mike/sankey/&#39;&gt;Mike Bostock&lt;/a&gt;&quot;,
+                  font_size=10)
+fig.show()
 </pre></div>
 </div>
 </div>
@@ -595,19 +595,19 @@ if (outputEl) {{
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">plotly.graph_objects</span> <span class="k">as</span> <span class="nn">go</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span>import plotly.graph_objects as go
 
-<span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Sankey</span><span class="p">(</span>
-    <span class="n">arrangement</span> <span class="o">=</span> <span class="s2">&quot;snap&quot;</span><span class="p">,</span>
-    <span class="n">node</span> <span class="o">=</span> <span class="p">{</span>
-        <span class="s2">&quot;label&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;A&quot;</span><span class="p">,</span> <span class="s2">&quot;B&quot;</span><span class="p">,</span> <span class="s2">&quot;C&quot;</span><span class="p">,</span> <span class="s2">&quot;D&quot;</span><span class="p">,</span> <span class="s2">&quot;E&quot;</span><span class="p">,</span> <span class="s2">&quot;F&quot;</span><span class="p">],</span>
-        <span class="s1">&#39;pad&#39;</span><span class="p">:</span><span class="mi">10</span><span class="p">},</span>  <span class="c1"># 10 Pixels</span>
-    <span class="n">link</span> <span class="o">=</span> <span class="p">{</span>
-        <span class="s2">&quot;source&quot;</span><span class="p">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">],</span>
-        <span class="s2">&quot;target&quot;</span><span class="p">:</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span>
-        <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">]}))</span>
+fig = go.Figure(go.Sankey(
+    arrangement = &quot;snap&quot;,
+    node = {
+        &quot;label&quot;: [&quot;A&quot;, &quot;B&quot;, &quot;C&quot;, &quot;D&quot;, &quot;E&quot;, &quot;F&quot;],
+        &#39;pad&#39;:10},  # 10 Pixels
+    link = {
+        &quot;source&quot;: [0, 0, 1, 2, 5, 4, 3, 5],
+        &quot;target&quot;: [5, 3, 4, 3, 0, 2, 2, 3],
+        &quot;value&quot;: [1, 2, 1, 1, 1, 1, 1, 2]}))
 
-<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+fig.show()
 </pre></div>
 </div>
 </div>

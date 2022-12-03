@@ -430,83 +430,83 @@ title="Print to PDF"
 </div>
 <div class="cell tag_hide-input docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">ipywidgets</span> <span class="kn">import</span> <span class="n">HTML</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span>from ipywidgets import HTML
 
-<span class="kn">from</span> <span class="nn">ipyleaflet</span> <span class="kn">import</span> <span class="n">Map</span><span class="p">,</span> <span class="n">Marker</span><span class="p">,</span> <span class="n">Popup</span><span class="p">,</span> <span class="n">Icon</span><span class="p">,</span> <span class="n">AwesomeIcon</span>
-<span class="kn">from</span> <span class="nn">ipyleaflet</span> <span class="kn">import</span>  <span class="n">LegendControl</span><span class="p">,</span> <span class="n">basemaps</span>
+from ipyleaflet import Map, Marker, Popup, Icon, AwesomeIcon
+from ipyleaflet import  LegendControl, basemaps
 
-<span class="c1"># read csv file</span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="n">field_activity</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;field.csv&#39;</span><span class="p">)</span>
-<span class="n">field_activity</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Lat&#39;</span><span class="p">,</span> <span class="s1">&#39;Long&#39;</span><span class="p">],</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+# read csv file
+import pandas as pd
+field_activity = pd.read_csv(&#39;field.csv&#39;)
+field_activity.dropna(subset=[&#39;Lat&#39;, &#39;Long&#39;],inplace=True)
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell tag_hide-input docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">center</span> <span class="o">=</span> <span class="p">(</span><span class="mf">43.500000</span><span class="p">,</span> <span class="mf">15.090278</span><span class="p">)</span>
-<span class="n">m</span> <span class="o">=</span> <span class="n">Map</span><span class="p">(</span><span class="n">basemap</span><span class="o">=</span><span class="n">basemaps</span><span class="o">.</span><span class="n">Esri</span><span class="o">.</span><span class="n">WorldTopoMap</span><span class="p">,</span> <span class="n">center</span><span class="o">=</span><span class="n">center</span><span class="p">,</span> <span class="n">zoom</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">zoom_control</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> 
-        <span class="n">close_popup_on_click</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span>center = (43.500000, 15.090278)
+m = Map(basemap=basemaps.Esri.WorldTopoMap, center=center, zoom=4, zoom_control=False, 
+        close_popup_on_click=False)
 
-<span class="c1"># define icon for different field activities: archeology, risk assessement, hydrology, ECZ plant soil interaction</span>
+# define icon for different field activities: archeology, risk assessement, hydrology, ECZ plant soil interaction
 
-<span class="n">icon_archeo</span> <span class="o">=</span> <span class="n">AwesomeIcon</span><span class="p">(</span>
-            <span class="n">name</span><span class="o">=</span><span class="s1">&#39;hammer&#39;</span><span class="p">,</span>
-            <span class="n">marker_color</span><span class="o">=</span><span class="s1">&#39;beige&#39;</span><span class="p">,</span>
-            <span class="n">icon_color</span><span class="o">=</span><span class="s1">&#39;black&#39;</span><span class="p">,</span>
-            <span class="n">spin</span><span class="o">=</span><span class="kc">False</span>
-        <span class="p">)</span>
+icon_archeo = AwesomeIcon(
+            name=&#39;hammer&#39;,
+            marker_color=&#39;beige&#39;,
+            icon_color=&#39;black&#39;,
+            spin=False
+        )
 
-<span class="n">icon_risk</span> <span class="o">=</span> <span class="n">AwesomeIcon</span><span class="p">(</span>
-            <span class="n">name</span><span class="o">=</span><span class="s1">&#39;exclamation-circle&#39;</span><span class="p">,</span>
-            <span class="n">marker_color</span><span class="o">=</span><span class="s1">&#39;red&#39;</span><span class="p">,</span>
-        <span class="p">)</span>
+icon_risk = AwesomeIcon(
+            name=&#39;exclamation-circle&#39;,
+            marker_color=&#39;red&#39;,
+        )
 
-<span class="n">icon_hydro</span> <span class="o">=</span> <span class="n">AwesomeIcon</span><span class="p">(</span>
-            <span class="n">name</span><span class="o">=</span><span class="s1">&#39;hand-holding-water&#39;</span><span class="p">,</span>
-            <span class="n">marker_color</span><span class="o">=</span><span class="s1">&#39;blue&#39;</span><span class="p">,</span>
-        <span class="p">)</span>
+icon_hydro = AwesomeIcon(
+            name=&#39;hand-holding-water&#39;,
+            marker_color=&#39;blue&#39;,
+        )
 
-<span class="n">icon_vegetation</span> <span class="o">=</span> <span class="n">AwesomeIcon</span><span class="p">(</span>
-            <span class="n">name</span><span class="o">=</span><span class="s1">&#39;seedling&#39;</span><span class="p">,</span>
-            <span class="n">marker_color</span><span class="o">=</span><span class="s1">&#39;green&#39;</span><span class="p">,</span>
-        <span class="p">)</span>
+icon_vegetation = AwesomeIcon(
+            name=&#39;seedling&#39;,
+            marker_color=&#39;green&#39;,
+        )
 
-<span class="n">icon_type</span> <span class="o">=</span> <span class="p">{</span>
-            <span class="s1">&#39;Archeology&#39;</span><span class="p">:</span> <span class="n">icon_archeo</span><span class="p">,</span>
-            <span class="s1">&#39;Geohazard&#39;</span><span class="p">:</span> <span class="n">icon_risk</span><span class="p">,</span>
-            <span class="s1">&#39;Hydrology&#39;</span><span class="p">:</span> <span class="n">icon_hydro</span><span class="p">,</span>
-            <span class="s1">&#39;Interaction soil-plant-atmosphere&#39;</span><span class="p">:</span> <span class="n">icon_vegetation</span><span class="p">,</span>
-            <span class="p">}</span>
+icon_type = {
+            &#39;Archeology&#39;: icon_archeo,
+            &#39;Geohazard&#39;: icon_risk,
+            &#39;Hydrology&#39;: icon_hydro,
+            &#39;Interaction soil-plant-atmosphere&#39;: icon_vegetation,
+            }
 
 
-<span class="n">field_sites</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">coords</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">field_activity</span><span class="p">[</span><span class="s1">&#39;Lat&#39;</span><span class="p">],</span><span class="n">field_activity</span><span class="p">[</span><span class="s1">&#39;Long&#39;</span><span class="p">])):</span>
-    <span class="n">lt</span><span class="p">,</span> <span class="n">lg</span> <span class="o">=</span> <span class="n">coords</span>
-    <span class="n">field_sites</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">lt</span><span class="p">,</span> <span class="n">lg</span><span class="p">))</span>
+field_sites = []
+for i, coords in enumerate(zip(field_activity[&#39;Lat&#39;],field_activity[&#39;Long&#39;])):
+    lt, lg = coords
+    field_sites.append((lt, lg))
       
-    <span class="n">marker</span> <span class="o">=</span> <span class="n">Marker</span><span class="p">(</span><span class="n">location</span><span class="o">=</span><span class="p">(</span><span class="n">lt</span><span class="p">,</span> <span class="n">lg</span><span class="p">),</span> <span class="n">icon</span><span class="o">=</span> <span class="n">icon_type</span><span class="p">[</span><span class="n">field_activity</span><span class="p">[</span><span class="s1">&#39;Purpose&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">to_numpy</span><span class="p">()[</span><span class="n">i</span><span class="p">]])</span>
-    <span class="n">message</span> <span class="o">=</span> <span class="n">HTML</span><span class="p">()</span>
-    <span class="n">message</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="n">field_activity</span><span class="p">[</span><span class="s1">&#39;Location_name&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">to_numpy</span><span class="p">()[</span><span class="n">i</span><span class="p">]</span>
-    <span class="n">message</span><span class="o">.</span><span class="n">description</span> <span class="o">=</span> <span class="n">field_activity</span><span class="p">[</span><span class="s1">&#39;Purpose&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">to_numpy</span><span class="p">()[</span><span class="n">i</span><span class="p">]</span>
-    <span class="n">marker</span><span class="o">.</span><span class="n">popup</span> <span class="o">=</span> <span class="n">message</span>
-    <span class="c1">#marker.dragging.disable()</span>
+    marker = Marker(location=(lt, lg), icon= icon_type[field_activity[&#39;Purpose&#39;].to_numpy()[i]])
+    message = HTML()
+    message.value = field_activity[&#39;Location_name&#39;].to_numpy()[i]
+    message.description = field_activity[&#39;Purpose&#39;].to_numpy()[i]
+    marker.popup = message
+    #marker.dragging.disable()
     
 
-    <span class="n">m</span><span class="o">.</span><span class="n">add_layer</span><span class="p">(</span><span class="n">marker</span><span class="p">)</span>
+    m.add_layer(marker)
     
-<span class="n">legend</span> <span class="o">=</span> <span class="n">LegendControl</span><span class="p">({</span><span class="s2">&quot;Interactions Soil-Plant-Atmosphere&quot;</span><span class="p">:</span><span class="s2">&quot;green&quot;</span><span class="p">,</span> <span class="s2">&quot;Geohazards&quot;</span><span class="p">:</span><span class="s2">&quot;red&quot;</span><span class="p">,</span> <span class="s2">&quot;Hydrology&quot;</span><span class="p">:</span><span class="s2">&quot;blue&quot;</span><span class="p">,</span>  <span class="s2">&quot;Archeology&quot;</span><span class="p">:</span><span class="s2">&quot;beige&quot;</span><span class="p">},</span> 
-                       <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Field network&quot;</span><span class="p">,</span> 
-                       <span class="n">position</span><span class="o">=</span><span class="s2">&quot;topright&quot;</span><span class="p">)</span>
-<span class="n">m</span><span class="o">.</span><span class="n">add_control</span><span class="p">(</span><span class="n">legend</span><span class="p">)</span>
+legend = LegendControl({&quot;Interactions Soil-Plant-Atmosphere&quot;:&quot;green&quot;, &quot;Geohazards&quot;:&quot;red&quot;, &quot;Hydrology&quot;:&quot;blue&quot;,  &quot;Archeology&quot;:&quot;beige&quot;}, 
+                       name=&quot;Field network&quot;, 
+                       position=&quot;topright&quot;)
+m.add_control(legend)
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell tag_hide-input docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">m</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span>m
 </pre></div>
 </div>
 </div>
