@@ -187,6 +187,16 @@ Climate Resilient Viticulture](https://sites.google.com/lbl.gov/biogeophysics-vi
 	
 - **Invited seminar** 
 	- Madrid UPM, November 2022: Mary, B., The geophysical toolbox applied to the root zone: Methods, Implications and Outlook. <a href='https://ceigram.upm.es/seminario/seminario-ceigram-geophysical-roots-observation-for-water-saving/'> Link </a>
+	
+	```{admonition} Find out more
+	:class: dropdown
+		
+	[📊 Slides repository](https://figshare.com/articles/presentation/The_geophysical_toolbox_applied_to_the_root_zone/21594255) - 10.6084/m9.figshare.21594255.v1
+		
+
+	```
+	
+	
 	- Paris UPMC, November 2021: Mary, B., Geophysical Imaging of the Root Zone: challenging but still worth a try! In UMR METIS conference.
 	- Paris UPMC, 25 mars 2015: Mary, B., Assessing vulnerability to vegetation growth on earth dikes using geophysical investigations. In UMR METIS conference.
 
@@ -355,7 +365,12 @@ Matteo Camporese – project name
 
 ### Seminar organization 
 
-- **Organizing committee**: 2nd seminar _on March 11th 2022_ 
+**2023**
+- **Organizing committee**: CATHY_days_2023 _May 31st and June 1st, 2023_ 
+	- <a href="https://cathy-org.github.io/CATHY_days_2023/" target="_blank">Seminar website</a>
+	
+**< 2022**
+- **Organizing committee**: 2nd Agrogeophysics seminar _on March 11th 2022_ 
 	- <a href="https://agrogeophy.github.io/2nd_agrogeophysics_seminar/" target="_blank">Seminar website</a>
 - **Organizing committee** + **Session convener**: EAGE NSG _April 27th 2021_
 	- <a href="https://eage.eventsair.com/geophysics-for-landscape-studies-2021/" target="_blank">Seminar website</a>

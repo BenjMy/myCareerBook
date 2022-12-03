@@ -193,8 +193,7 @@ Climate Resilient Viticulture](https://sites.google.com/lbl.gov/biogeophysics-vi
 		
 	[📊 Slides repository](https://figshare.com/articles/presentation/The_geophysical_toolbox_applied_to_the_root_zone/21594255) - 10.6084/m9.figshare.21594255.v1
 		
-	
-	
+
 	```
 	
 	

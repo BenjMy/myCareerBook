@@ -86,6 +86,11 @@ Install using setup.py:
 **Mary, B.**, Peruzzo, L., Wu, Y., and Cassiani, G. (2022). Advanced Potential Field Analysis Applied to Mise‐à‐la‐Masse Surveys for Leakage Detection. JGR Solid Earth 127. [doi:10.1029/2022JB024747](https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2022JB024747)
 
 
+```{warning}
+Found a bug 🐛/ a typo ? [Email me](mailto:benjamin.mary@unipd.it)
+```
+
+
 ---
 ## pyCATHY
 ````{margin}
