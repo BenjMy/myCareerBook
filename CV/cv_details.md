@@ -35,6 +35,16 @@ _I'm a Marie-Curie fellow working with geophysics applied to agronomy between Pa
 
 🗓️ 2022
 
+<!--
+Electro-magnetic geophysical dynamics under conservation and conventional farming 3
+
+-->
+
+
+
+- Carrera, A., Longo, M., Piccoli, I., **Mary, B.**, Cassiani, G., and Morari, F. (2022). Electro-Magnetic Geophysical Dynamics under Conservation and Conventional Farming. Remote Sensing 14, 6243. doi: 10.3390/rs14246243.[doi:10.3390/rs14246243](https://www.mdpi.com/2072-4292/14/24/6243)
+
+
 - **Mary, B.**, Peruzzo, L., Wu, Y., and Cassiani, G. (2022). Advanced Potential Field Analysis Applied to Mise‐à‐la‐Masse Surveys for Leakage Detection. JGR Solid Earth 127. [doi:10.1029/2022JB024747](https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2022JB024747)
 
 	```{admonition} Find out more
@@ -45,6 +55,11 @@ _I'm a Marie-Curie fellow working with geophysics applied to agronomy between Pa
 	[📊 Data repository](https://doi.org/10.5281/zenodo.6538070)	
 	
 	[🧮 Code repository](https://github.com/BenjMy/dEXP_imaging/tree/master/notebooks_JGR)
+	
+
+	<div data-badge-type="2" data-doi="10.1029/2022JB024747" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
+	<span class="__dimensions_badge_embed__" data-doi="10.1029/2022JB024747" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
 	
 	```
 	
@@ -57,7 +72,8 @@ _I'm a Marie-Curie fellow working with geophysics applied to agronomy between Pa
 
 	```{admonition} Find out more
 	:class: dropdown
-	<div data-badge-type="2" data-doi="10.3389/frwa.2021.767910" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
+	<div data-badge-type="donut" data-doi="10.3389/frwa.2021.767910" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>	
+	<span class="__dimensions_badge_embed__" data-doi="10.3389/frwa.2021.767910" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 	```
 
 
