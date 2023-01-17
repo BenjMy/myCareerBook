@@ -17,21 +17,17 @@ Traceback (most recent call last):
     raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
 nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
 ------------------
-pd.showfield_activity
+library(rmarkdown)
+library(scholar)      # To request data from google scholar.
+library(tidyverse)    # What do you do without?
+library(hrbrthemes)
+library(DT)
 ------------------
 
-[0;31m---------------------------------------------------------------------------[0m
-[0;31mAttributeError[0m                            Traceback (most recent call last)
-[0;32m<ipython-input-4-1c5d7fa183c8>[0m in [0;36m<module>[0;34m[0m
-[0;32m----> 1[0;31m [0mpd[0m[0;34m.[0m[0mshowfield_activity[0m[0;34m[0m[0;34m[0m[0m
-[0m
-[0;32m~/miniconda3/envs/Dimech-env/lib/python3.7/site-packages/pandas/__init__.py[0m in [0;36m__getattr__[0;34m(name)[0m
-[1;32m    242[0m         [0;32mreturn[0m [0m_SparseArray[0m[0;34m[0m[0;34m[0m[0m
-[1;32m    243[0m [0;34m[0m[0m
-[0;32m--> 244[0;31m     [0;32mraise[0m [0mAttributeError[0m[0;34m([0m[0;34mf"module 'pandas' has no attribute '{name}'"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[0m[1;32m    245[0m [0;34m[0m[0m
-[1;32m    246[0m [0;34m[0m[0m
+Error in library(scholar): there is no package called ‘scholar’
+Traceback:
 
-[0;31mAttributeError[0m: module 'pandas' has no attribute 'showfield_activity'
-AttributeError: module 'pandas' has no attribute 'showfield_activity'
+1. library(scholar)
+ERROR: Error in library(scholar): there is no package called ‘scholar’
+
 

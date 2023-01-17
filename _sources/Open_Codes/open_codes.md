@@ -160,6 +160,13 @@ Inversion of Current Source Density data. Application to imaging of plant roots.
 
 ### How to install
 
+Install using setup.py:
+
+    git clone https://github.com/BenjMy/icsd_dev
+    cd icsd_dev
+    python setup.py develop|install
+    import icsd
+    
 ### How to use
 
 ### How to cite

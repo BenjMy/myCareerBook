@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Preprocessing of MALM for dEXP &#8212; B. Mary</title>
+    <title>Preprocessing of MALM for dEXP &#8212; Benjamin Mary Career Book</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -50,6 +50,8 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.1/dist/embed-amd.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -88,9 +90,14 @@ const thebe_selector_output = ".output, .cell_output"
         <div class="bd-sidebar__top"><div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="../index.html">
       
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
       
       
-      <h1 class="site-logo" id="site-title">B. Mary</h1>
+      <img src="../_static/photoMe1.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Benjamin Mary Career Book</h1>
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
@@ -122,23 +129,55 @@ const thebe_selector_output = ".output, .cell_output"
    Current position
   </a>
  </li>
- <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../CV/cv_details.html">
-   CV
+ <li class="toctree-l1">
+  <a class="reference internal" href="../CV/past_pos.html">
+   Past positions
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
-  <label for="toctree-checkbox-1">
-   <i class="fas fa-chevron-down">
-   </i>
-  </label>
-  <ul>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../CV/notebooks/map.html">
-     Map CV
-    </a>
-   </li>
-  </ul>
  </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  CV
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../CV/cv_peerReviewedArticle.html">
+   Articles &amp; Comm.
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../CV/cv_awards.html">
+   Awards
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../CV/cv_community.html">
+   Community
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../CV/cv_teaching.html">
+   Teaching &amp; Outreach
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../CV/cv_education.html">
+   Education &amp; Technical experiences
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../CV/notebooks/map.html">
+   Map CV
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Projects
+ </span>
+</p>
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../Projects/Award_Grants/grant.html">
    The MSCA GROWING
@@ -148,8 +187,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../Projects/projects.html">
    Projects
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
-  <label for="toctree-checkbox-2">
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -166,6 +205,13 @@ const thebe_selector_output = ".output, .cell_output"
    </li>
   </ul>
  </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Open-Science
+ </span>
+</p>
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="open_codes.html">
    Open codes
@@ -178,27 +224,15 @@ const thebe_selector_output = ".output, .cell_output"
  </span>
 </p>
 <ul class="nav bd-sidenav">
- <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../Blog/list_blog.html">
-   Blog/years
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Blog/blog2022.html">
+   Blog 2022
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
-  <label for="toctree-checkbox-3">
-   <i class="fas fa-chevron-down">
-   </i>
-  </label>
-  <ul>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Blog/blog2022.html">
-     Blog 2022
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Blog/blog2021.html">
-     Blog 2021
-    </a>
-   </li>
-  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Blog/blog2021.html">
+   Blog 2021
+  </a>
  </li>
 </ul>
 <p aria-level="2" class="caption" role="heading">
@@ -422,7 +456,7 @@ title="Print to PDF"
                 
   <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span>%matplotlib inline
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%</span><span class="k">matplotlib</span> inline
 </pre></div>
 </div>
 </div>
@@ -439,18 +473,30 @@ The model data was created using geometric objects from :mod:<code class="docuti
 <hr class="docutils" />
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span>import lib.utils_dEXP as uEXP
-import lib.dEXP as dEXP
-import lib.plot_dEXP as pEXP
-import lib.set_parameters as para
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">lib.utils_dEXP</span> <span class="k">as</span> <span class="nn">uEXP</span>
+<span class="kn">import</span> <span class="nn">lib.dEXP</span> <span class="k">as</span> <span class="nn">dEXP</span>
+<span class="kn">import</span> <span class="nn">lib.plot_dEXP</span> <span class="k">as</span> <span class="nn">pEXP</span>
+<span class="kn">import</span> <span class="nn">lib.set_parameters</span> <span class="k">as</span> <span class="nn">para</span>
 
-from fatiando.vis.mpl import square
-from fatiando import gridder
-import matplotlib.pyplot as plt
-from mpl_axes_aligner import align
+<span class="kn">from</span> <span class="nn">fatiando.vis.mpl</span> <span class="kn">import</span> <span class="n">square</span>
+<span class="kn">from</span> <span class="nn">fatiando</span> <span class="kn">import</span> <span class="n">gridder</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">from</span> <span class="nn">mpl_axes_aligner</span> <span class="kn">import</span> <span class="n">align</span>
 
 
-import loadmalm.Load_sens_MALM as MALM
+<span class="kn">import</span> <span class="nn">loadmalm.Load_sens_MALM</span> <span class="k">as</span> <span class="nn">MALM</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">line</span> <span class="mi">1</span>
+<span class="ne">----&gt; </span><span class="mi">1</span> <span class="kn">import</span> <span class="nn">lib.utils_dEXP</span> <span class="k">as</span> <span class="nn">uEXP</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="kn">import</span> <span class="nn">lib.dEXP</span> <span class="k">as</span> <span class="nn">dEXP</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="kn">import</span> <span class="nn">lib.plot_dEXP</span> <span class="k">as</span> <span class="nn">pEXP</span>
+
+<span class="ne">ModuleNotFoundError</span>: No module named &#39;lib&#39;
 </pre></div>
 </div>
 </div>
@@ -461,102 +507,102 @@ filenames = [‘MSoilR1000.0AnoR1Z-13.75W15H2.5L5S0Noise0’, # Ratio = 1000
 ‘MSoilR1AnoR1Z-13.75W15H2.5L5S0Noise0’]</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span>filenames = [&#39;MSoilR1000.0AnoR1Z-13.75W15H2.5L5S0Noise0&#39;]
-#filenames = [&#39;MSoilR1AnoR1Z-13.75W15H2.5L5S0Noise0&#39;]
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">filenames</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;MSoilR1000.0AnoR1Z-13.75W15H2.5L5S0Noise0&#39;</span><span class="p">]</span>
+<span class="c1">#filenames = [&#39;MSoilR1AnoR1Z-13.75W15H2.5L5S0Noise0&#39;]</span>
 
-for fi in filenames:
-    # Load data
-    xp, yp, z, U, maxdepth, shape, p1, p2, SimName, model_prop= MALM.load_MALM_sens3d(filename=&#39;./loadmalm/&#39; +
-                                                                fi + &#39;.pkl&#39;)
+<span class="k">for</span> <span class="n">fi</span> <span class="ow">in</span> <span class="n">filenames</span><span class="p">:</span>
+    <span class="c1"># Load data</span>
+    <span class="n">xp</span><span class="p">,</span> <span class="n">yp</span><span class="p">,</span> <span class="n">z</span><span class="p">,</span> <span class="n">U</span><span class="p">,</span> <span class="n">maxdepth</span><span class="p">,</span> <span class="n">shape</span><span class="p">,</span> <span class="n">p1</span><span class="p">,</span> <span class="n">p2</span><span class="p">,</span> <span class="n">SimName</span><span class="p">,</span> <span class="n">model_prop</span><span class="o">=</span> <span class="n">MALM</span><span class="o">.</span><span class="n">load_MALM_sens3d</span><span class="p">(</span><span class="n">filename</span><span class="o">=</span><span class="s1">&#39;./loadmalm/&#39;</span> <span class="o">+</span>
+                                                                <span class="n">fi</span> <span class="o">+</span> <span class="s1">&#39;.pkl&#39;</span><span class="p">)</span>
     
     
    
-    Bpos= model_prop[&#39;EA_EB_EN&#39;][1]
-    uT_elecs= model_prop[&#39;u_elecs&#39;]
-    xyzs = model_prop[&#39;elecs&#39;]
+    <span class="n">Bpos</span><span class="o">=</span> <span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;EA_EB_EN&#39;</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span>
+    <span class="n">uT_elecs</span><span class="o">=</span> <span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;u_elecs&#39;</span><span class="p">]</span>
+    <span class="n">xyzs</span> <span class="o">=</span> <span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;elecs&#39;</span><span class="p">]</span>
     
-    uA = model_prop[&#39;uAz0_grid&#39;].T[3]
-    uT = model_prop[&#39;uTz0_grid&#39;].T[3]
-    xp, yp, zp = model_prop[&#39;uTz0_grid&#39;].T[0:3]
+    <span class="n">uA</span> <span class="o">=</span> <span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;uAz0_grid&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">T</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span>
+    <span class="n">uT</span> <span class="o">=</span> <span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;uTz0_grid&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">T</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span>
+    <span class="n">xp</span><span class="p">,</span> <span class="n">yp</span><span class="p">,</span> <span class="n">zp</span> <span class="o">=</span> <span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;uTz0_grid&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">T</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">]</span>
     
-    parameters = para.set_par(shape=shape,max_elevation=maxdepth)
+    <span class="n">parameters</span> <span class="o">=</span> <span class="n">para</span><span class="o">.</span><span class="n">set_par</span><span class="p">(</span><span class="n">shape</span><span class="o">=</span><span class="n">shape</span><span class="p">,</span><span class="n">max_elevation</span><span class="o">=</span><span class="n">maxdepth</span><span class="p">)</span>
     
-    zp, qorder, nlay = parameters[2:5]
-    # minAlt_ridge, maxAlt_ridge = parameters[5:7]
-    max_elevation = 50
-    minAlt_ridge = max_elevation*0.05
-    maxAlt_ridge = max_elevation*0.65
+    <span class="n">zp</span><span class="p">,</span> <span class="n">qorder</span><span class="p">,</span> <span class="n">nlay</span> <span class="o">=</span> <span class="n">parameters</span><span class="p">[</span><span class="mi">2</span><span class="p">:</span><span class="mi">5</span><span class="p">]</span>
+    <span class="c1"># minAlt_ridge, maxAlt_ridge = parameters[5:7]</span>
+    <span class="n">max_elevation</span> <span class="o">=</span> <span class="mi">50</span>
+    <span class="n">minAlt_ridge</span> <span class="o">=</span> <span class="n">max_elevation</span><span class="o">*</span><span class="mf">0.05</span>
+    <span class="n">maxAlt_ridge</span> <span class="o">=</span> <span class="n">max_elevation</span><span class="o">*</span><span class="mf">0.65</span>
     
-    x1, x2, z1, z2 = [max(xp)/2-model_prop[&#39;HWD&#39;][1]/2,max(xp)/2 + model_prop[&#39;HWD&#39;][1]/2,
-                    model_prop[&#39;HWD&#39;][2]+ model_prop[&#39;HWD&#39;][0]/2,
-                    model_prop[&#39;HWD&#39;][2]- model_prop[&#39;HWD&#39;][0]/2]
-    xxzz = [x1, x2, z1, z2]
-    CT = model_prop[&#39;SoilR&#39;]/model_prop[&#39;AnoR&#39;]
+    <span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">z1</span><span class="p">,</span> <span class="n">z2</span> <span class="o">=</span> <span class="p">[</span><span class="nb">max</span><span class="p">(</span><span class="n">xp</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="o">-</span><span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;HWD&#39;</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span><span class="nb">max</span><span class="p">(</span><span class="n">xp</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span> <span class="o">+</span> <span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;HWD&#39;</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span>
+                    <span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;HWD&#39;</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span><span class="o">+</span> <span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;HWD&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span>
+                    <span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;HWD&#39;</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span><span class="o">-</span> <span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;HWD&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">/</span><span class="mi">2</span><span class="p">]</span>
+    <span class="n">xxzz</span> <span class="o">=</span> <span class="p">[</span><span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">z1</span><span class="p">,</span> <span class="n">z2</span><span class="p">]</span>
+    <span class="n">CT</span> <span class="o">=</span> <span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;SoilR&#39;</span><span class="p">]</span><span class="o">/</span><span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;AnoR&#39;</span><span class="p">]</span>
         
         
-    fix_peak_nb = 4
-    smooth = False
-    interp = True
+    <span class="n">fix_peak_nb</span> <span class="o">=</span> <span class="mi">4</span>
+    <span class="n">smooth</span> <span class="o">=</span> <span class="kc">False</span>
+    <span class="n">interp</span> <span class="o">=</span> <span class="kc">True</span>
 
-    #%%
-    shape = (200,200)
-    _,_,uA = gridder.interp(xp,yp,uA,shape)
-    xp,yp,uT = gridder.interp(xp,yp,uT,shape)
+    <span class="c1">#%%</span>
+    <span class="n">shape</span> <span class="o">=</span> <span class="p">(</span><span class="mi">200</span><span class="p">,</span><span class="mi">200</span><span class="p">)</span>
+    <span class="n">_</span><span class="p">,</span><span class="n">_</span><span class="p">,</span><span class="n">uA</span> <span class="o">=</span> <span class="n">gridder</span><span class="o">.</span><span class="n">interp</span><span class="p">(</span><span class="n">xp</span><span class="p">,</span><span class="n">yp</span><span class="p">,</span><span class="n">uA</span><span class="p">,</span><span class="n">shape</span><span class="p">)</span>
+    <span class="n">xp</span><span class="p">,</span><span class="n">yp</span><span class="p">,</span><span class="n">uT</span> <span class="o">=</span> <span class="n">gridder</span><span class="o">.</span><span class="n">interp</span><span class="p">(</span><span class="n">xp</span><span class="p">,</span><span class="n">yp</span><span class="p">,</span><span class="n">uT</span><span class="p">,</span><span class="n">shape</span><span class="p">)</span>
 
-    #%%
-    # remove B return electrode effects using :mod:`uEXP.cor_field_B` using a resistivity of 1 Ohm.m
+    <span class="c1">#%%</span>
+    <span class="c1"># remove B return electrode effects using :mod:`uEXP.cor_field_B` using a resistivity of 1 Ohm.m</span>
     
-    U_cor = uEXP.cor_field_B(xyzs[:-3,0],xyzs[:-3,1],xyzs[:-3,2],uT_elecs,Bpos,
-                             rho=model_prop[&#39;SoilR&#39;])
+    <span class="n">U_cor</span> <span class="o">=</span> <span class="n">uEXP</span><span class="o">.</span><span class="n">cor_field_B</span><span class="p">(</span><span class="n">xyzs</span><span class="p">[:</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="mi">0</span><span class="p">],</span><span class="n">xyzs</span><span class="p">[:</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span><span class="n">xyzs</span><span class="p">[:</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="mi">2</span><span class="p">],</span><span class="n">uT_elecs</span><span class="p">,</span><span class="n">Bpos</span><span class="p">,</span>
+                             <span class="n">rho</span><span class="o">=</span><span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;SoilR&#39;</span><span class="p">])</span>
     
-    #%%
-    # Compare the voltage seen by the surface electrode using 2d plot over a line
-    p1_elecs= [min(xyzs[:-3,0]),(max(xyzs[:-3,0])+min(xyzs[:-3,0]))/2]
-    p2_elecs= [max(xyzs[:-3,0]),(max(xyzs[:-3,0])+min(xyzs[:-3,0]))/2]
+    <span class="c1">#%%</span>
+    <span class="c1"># Compare the voltage seen by the surface electrode using 2d plot over a line</span>
+    <span class="n">p1_elecs</span><span class="o">=</span> <span class="p">[</span><span class="nb">min</span><span class="p">(</span><span class="n">xyzs</span><span class="p">[:</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="mi">0</span><span class="p">]),(</span><span class="nb">max</span><span class="p">(</span><span class="n">xyzs</span><span class="p">[:</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="mi">0</span><span class="p">])</span><span class="o">+</span><span class="nb">min</span><span class="p">(</span><span class="n">xyzs</span><span class="p">[:</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="mi">0</span><span class="p">]))</span><span class="o">/</span><span class="mi">2</span><span class="p">]</span>
+    <span class="n">p2_elecs</span><span class="o">=</span> <span class="p">[</span><span class="nb">max</span><span class="p">(</span><span class="n">xyzs</span><span class="p">[:</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="mi">0</span><span class="p">]),(</span><span class="nb">max</span><span class="p">(</span><span class="n">xyzs</span><span class="p">[:</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="mi">0</span><span class="p">])</span><span class="o">+</span><span class="nb">min</span><span class="p">(</span><span class="n">xyzs</span><span class="p">[:</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="mi">0</span><span class="p">]))</span><span class="o">/</span><span class="mi">2</span><span class="p">]</span>
     
-    xx, yy, distance, profile = gridder.profile(xyzs[:-3,0],xyzs[:-3,1], uT_elecs, p1_elecs, p2_elecs, 1000)
-    plt.figure()
-    # plt.title(strname + &#39;_data&#39; + str(ZZ), fontsize=15)
-    plt.plot(xx, profile, &#39;.k&#39;,label=&#39;Raw&#39;)
+    <span class="n">xx</span><span class="p">,</span> <span class="n">yy</span><span class="p">,</span> <span class="n">distance</span><span class="p">,</span> <span class="n">profile</span> <span class="o">=</span> <span class="n">gridder</span><span class="o">.</span><span class="n">profile</span><span class="p">(</span><span class="n">xyzs</span><span class="p">[:</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="mi">0</span><span class="p">],</span><span class="n">xyzs</span><span class="p">[:</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span> <span class="n">uT_elecs</span><span class="p">,</span> <span class="n">p1_elecs</span><span class="p">,</span> <span class="n">p2_elecs</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+    <span class="c1"># plt.title(strname + &#39;_data&#39; + str(ZZ), fontsize=15)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">xx</span><span class="p">,</span> <span class="n">profile</span><span class="p">,</span> <span class="s1">&#39;.k&#39;</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;Raw&#39;</span><span class="p">)</span>
     
-    xx, yy, distance, profile = gridder.profile(xyzs[:-3,0],xyzs[:-3,1], U_cor, p1_elecs, p2_elecs, 1000)
-    plt.plot(xx, profile, &#39;.r&#39;,label=&#39;Corrected&#39;)
-    plt.grid()
-    plt.xlabel(&#39;x (m)&#39;)
-    plt.ylabel(&#39;u (V)&#39;)
+    <span class="n">xx</span><span class="p">,</span> <span class="n">yy</span><span class="p">,</span> <span class="n">distance</span><span class="p">,</span> <span class="n">profile</span> <span class="o">=</span> <span class="n">gridder</span><span class="o">.</span><span class="n">profile</span><span class="p">(</span><span class="n">xyzs</span><span class="p">[:</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="mi">0</span><span class="p">],</span><span class="n">xyzs</span><span class="p">[:</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span> <span class="n">U_cor</span><span class="p">,</span> <span class="n">p1_elecs</span><span class="p">,</span> <span class="n">p2_elecs</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">xx</span><span class="p">,</span> <span class="n">profile</span><span class="p">,</span> <span class="s1">&#39;.r&#39;</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;Corrected&#39;</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;x (m)&#39;</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;u (V)&#39;</span><span class="p">)</span>
     
-    plt.legend()
+    <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
     
-    #%%
-    # Compare with numerical solution
-    uT_field_cor = uEXP.cor_field_B(xp,yp,zp,uT,Bpos,rho=model_prop[&#39;SoilR&#39;])
+    <span class="c1">#%%</span>
+    <span class="c1"># Compare with numerical solution</span>
+    <span class="n">uT_field_cor</span> <span class="o">=</span> <span class="n">uEXP</span><span class="o">.</span><span class="n">cor_field_B</span><span class="p">(</span><span class="n">xp</span><span class="p">,</span><span class="n">yp</span><span class="p">,</span><span class="n">zp</span><span class="p">,</span><span class="n">uT</span><span class="p">,</span><span class="n">Bpos</span><span class="p">,</span><span class="n">rho</span><span class="o">=</span><span class="n">model_prop</span><span class="p">[</span><span class="s1">&#39;SoilR&#39;</span><span class="p">])</span>
     
-    #%%
-    # Compare plot over a line
-    xx, yy, distance, puT = gridder.profile(xp,yp, uT, p1, p2, 1000)
+    <span class="c1">#%%</span>
+    <span class="c1"># Compare plot over a line</span>
+    <span class="n">xx</span><span class="p">,</span> <span class="n">yy</span><span class="p">,</span> <span class="n">distance</span><span class="p">,</span> <span class="n">puT</span> <span class="o">=</span> <span class="n">gridder</span><span class="o">.</span><span class="n">profile</span><span class="p">(</span><span class="n">xp</span><span class="p">,</span><span class="n">yp</span><span class="p">,</span> <span class="n">uT</span><span class="p">,</span> <span class="n">p1</span><span class="p">,</span> <span class="n">p2</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span>
     
-    plt.figure()
-    plt.subplot(2,1,1)
-    plt.scatter(xx, puT, c=&#39;b&#39;, marker=&#39;*&#39;, s=1, label=&#39;U_{T}&#39;)
+    <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">xx</span><span class="p">,</span> <span class="n">puT</span><span class="p">,</span> <span class="n">c</span><span class="o">=</span><span class="s1">&#39;b&#39;</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s1">&#39;*&#39;</span><span class="p">,</span> <span class="n">s</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;U_</span><span class="si">{T}</span><span class="s1">&#39;</span><span class="p">)</span>
     
-    xx, yy, distance, puA = gridder.profile(xp,yp, uA, p1, p2, 1000)
-    plt.scatter(xx, puA, c=&#39;k&#39;, marker=&#39;.&#39;, s=1, label=&#39;U_{A}&#39;)
+    <span class="n">xx</span><span class="p">,</span> <span class="n">yy</span><span class="p">,</span> <span class="n">distance</span><span class="p">,</span> <span class="n">puA</span> <span class="o">=</span> <span class="n">gridder</span><span class="o">.</span><span class="n">profile</span><span class="p">(</span><span class="n">xp</span><span class="p">,</span><span class="n">yp</span><span class="p">,</span> <span class="n">uA</span><span class="p">,</span> <span class="n">p1</span><span class="p">,</span> <span class="n">p2</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">xx</span><span class="p">,</span> <span class="n">puA</span><span class="p">,</span> <span class="n">c</span><span class="o">=</span><span class="s1">&#39;k&#39;</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s1">&#39;.&#39;</span><span class="p">,</span> <span class="n">s</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;U_</span><span class="si">{A}</span><span class="s1">&#39;</span><span class="p">)</span>
     
-    xx, yy, distance, puT_field_cor = gridder.profile(xp,yp, uT_field_cor, p1, p2, 1000)
-    plt.scatter(xx, puT_field_cor,  c=&#39;r&#39;, marker=&#39;^&#39;, s=5, label=&#39;U_{cor} = U_{T} - U_{B}&#39;)
-    plt.grid()
-    plt.legend()
-    plt.xlabel(&#39;x (m)&#39;)
-    plt.ylabel(&#39;u (V)&#39;)
+    <span class="n">xx</span><span class="p">,</span> <span class="n">yy</span><span class="p">,</span> <span class="n">distance</span><span class="p">,</span> <span class="n">puT_field_cor</span> <span class="o">=</span> <span class="n">gridder</span><span class="o">.</span><span class="n">profile</span><span class="p">(</span><span class="n">xp</span><span class="p">,</span><span class="n">yp</span><span class="p">,</span> <span class="n">uT_field_cor</span><span class="p">,</span> <span class="n">p1</span><span class="p">,</span> <span class="n">p2</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">xx</span><span class="p">,</span> <span class="n">puT_field_cor</span><span class="p">,</span>  <span class="n">c</span><span class="o">=</span><span class="s1">&#39;r&#39;</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s1">&#39;^&#39;</span><span class="p">,</span> <span class="n">s</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;U_</span><span class="si">{cor}</span><span class="s1"> = U_</span><span class="si">{T}</span><span class="s1"> - U_</span><span class="si">{B}</span><span class="s1">&#39;</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;x (m)&#39;</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;u (V)&#39;</span><span class="p">)</span>
     
-    plt.subplot(2,1,2)
-    diff1 = puT - puA
-    diff2 = puA - puT_field_cor
-    # plt.plot(xx, diff1, &#39;.b&#39;, label=&#39;U_{T} - U_{A}&#39;)
-    plt.plot(xx, diff2, &#39;.g&#39;, label=&#39;U_{A} - U_{cor}&#39;)
-    plt.xlabel(&#39;x (m)&#39;)
-    plt.ylabel(&#39;u (V)&#39;)
-    plt.legend()
+    <span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
+    <span class="n">diff1</span> <span class="o">=</span> <span class="n">puT</span> <span class="o">-</span> <span class="n">puA</span>
+    <span class="n">diff2</span> <span class="o">=</span> <span class="n">puA</span> <span class="o">-</span> <span class="n">puT_field_cor</span>
+    <span class="c1"># plt.plot(xx, diff1, &#39;.b&#39;, label=&#39;U_{T} - U_{A}&#39;)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">xx</span><span class="p">,</span> <span class="n">diff2</span><span class="p">,</span> <span class="s1">&#39;.g&#39;</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;U_</span><span class="si">{A}</span><span class="s1"> - U_</span><span class="si">{cor}</span><span class="s1">&#39;</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;x (m)&#39;</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;u (V)&#39;</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -564,205 +610,205 @@ for fi in filenames:
 <p>Run dEXP over clear and raw field data</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span>U = [uT,uA]
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">U</span> <span class="o">=</span> <span class="p">[</span><span class="n">uT</span><span class="p">,</span><span class="n">uA</span><span class="p">]</span>
 
-# MALM DATA synthetic anomaly: analysis of sensitivity
+<span class="c1"># MALM DATA synthetic anomaly: analysis of sensitivity</span>
 
-MESH = []
-LABEL = []
-DF_F = []
-DF_FIT = []
-XXZZ = []
-CTm = []
+<span class="n">MESH</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">LABEL</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">DF_F</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">DF_FIT</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">XXZZ</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">CTm</span> <span class="o">=</span> <span class="p">[]</span>
 
-import numpy 
-for i, ui in enumerate(U):   
+<span class="kn">import</span> <span class="nn">numpy</span> 
+<span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">ui</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">U</span><span class="p">):</span>   
 
-    #%% 
-    # Plot the data 
-    # pEXP.plot_line(xp, yp, ui,p1,p2, interp=interp, Xaxis=&#39;y&#39;)
+    <span class="c1">#%% </span>
+    <span class="c1"># Plot the data </span>
+    <span class="c1"># pEXP.plot_line(xp, yp, ui,p1,p2, interp=interp, Xaxis=&#39;y&#39;)</span>
     
-    #%% 
-    # Pad the edges of grids (if necessary)
-    # xp,yp,U, shape = dEXP.pad_edges(xp,yp,U,shape,pad_type=0) # reflexion=5
-    # pEXP.plot_line(xp, yp,ui,p1,p2, interp=interp)
+    <span class="c1">#%% </span>
+    <span class="c1"># Pad the edges of grids (if necessary)</span>
+    <span class="c1"># xp,yp,U, shape = dEXP.pad_edges(xp,yp,U,shape,pad_type=0) # reflexion=5</span>
+    <span class="c1"># pEXP.plot_line(xp, yp,ui,p1,p2, interp=interp)</span>
     
     
-    #%% 
-    # Upward continuation of the field data
+    <span class="c1">#%% </span>
+    <span class="c1"># Upward continuation of the field data</span>
 
-    mesh, label_prop = dEXP.upwc(xp, yp, zp, ui, shape, 
-                     zmin=0, zmax=max_elevation, nlayers=nlay, 
-                     qorder=qorder)
+    <span class="n">mesh</span><span class="p">,</span> <span class="n">label_prop</span> <span class="o">=</span> <span class="n">dEXP</span><span class="o">.</span><span class="n">upwc</span><span class="p">(</span><span class="n">xp</span><span class="p">,</span> <span class="n">yp</span><span class="p">,</span> <span class="n">zp</span><span class="p">,</span> <span class="n">ui</span><span class="p">,</span> <span class="n">shape</span><span class="p">,</span> 
+                     <span class="n">zmin</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">zmax</span><span class="o">=</span><span class="n">max_elevation</span><span class="p">,</span> <span class="n">nlayers</span><span class="o">=</span><span class="n">nlay</span><span class="p">,</span> 
+                     <span class="n">qorder</span><span class="o">=</span><span class="n">qorder</span><span class="p">)</span>
     
-    # plt, cmap = pEXP.plot_xy(mesh, label=label_prop, Xaxis=&#39;y&#39;)
-    # plt.colorbar(cmap)
+    <span class="c1"># plt, cmap = pEXP.plot_xy(mesh, label=label_prop, Xaxis=&#39;y&#39;)</span>
+    <span class="c1"># plt.colorbar(cmap)</span>
     
     
-    #%%
-    # Ridges identification
-    # dEXP.ridges_minmax_plot(xp, yp, mesh, p1, p2,
-    #                                       label=label_prop,
-    #                                       fix_peak_nb=2,
-    #                                       Xaxis=&#39;y&#39;,
-    #                                       method_peak=&#39;find_peaks&#39;,
-    #                                       showfig=False)  
+    <span class="c1">#%%</span>
+    <span class="c1"># Ridges identification</span>
+    <span class="c1"># dEXP.ridges_minmax_plot(xp, yp, mesh, p1, p2,</span>
+    <span class="c1">#                                       label=label_prop,</span>
+    <span class="c1">#                                       fix_peak_nb=2,</span>
+    <span class="c1">#                                       Xaxis=&#39;y&#39;,</span>
+    <span class="c1">#                                       method_peak=&#39;find_peaks&#39;,</span>
+    <span class="c1">#                                       showfig=False)  </span>
     
-    # or  find_peaks or peakdet or spline_roots
-    D  = dEXP.ridges_minmax(xp, yp, mesh, p1, p2,
-                                          label=label_prop,
-                                          fix_peak_nb=fix_peak_nb,
-                                          method_peak=&#39;find_peaks&#39;,
-                                          Xaxis=&#39;y&#39;,
-                                          smooth=smooth,
-                                          returnAmp=True,
-                                          showfig=True                                         
-                                          )  
-    dfI, dfII, dfIII =  D[0:3]
+    <span class="c1"># or  find_peaks or peakdet or spline_roots</span>
+    <span class="n">D</span>  <span class="o">=</span> <span class="n">dEXP</span><span class="o">.</span><span class="n">ridges_minmax</span><span class="p">(</span><span class="n">xp</span><span class="p">,</span> <span class="n">yp</span><span class="p">,</span> <span class="n">mesh</span><span class="p">,</span> <span class="n">p1</span><span class="p">,</span> <span class="n">p2</span><span class="p">,</span>
+                                          <span class="n">label</span><span class="o">=</span><span class="n">label_prop</span><span class="p">,</span>
+                                          <span class="n">fix_peak_nb</span><span class="o">=</span><span class="n">fix_peak_nb</span><span class="p">,</span>
+                                          <span class="n">method_peak</span><span class="o">=</span><span class="s1">&#39;find_peaks&#39;</span><span class="p">,</span>
+                                          <span class="n">Xaxis</span><span class="o">=</span><span class="s1">&#39;y&#39;</span><span class="p">,</span>
+                                          <span class="n">smooth</span><span class="o">=</span><span class="n">smooth</span><span class="p">,</span>
+                                          <span class="n">returnAmp</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+                                          <span class="n">showfig</span><span class="o">=</span><span class="kc">True</span>                                         
+                                          <span class="p">)</span>  
+    <span class="n">dfI</span><span class="p">,</span> <span class="n">dfII</span><span class="p">,</span> <span class="n">dfIII</span> <span class="o">=</span>  <span class="n">D</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">]</span>
     
-    df = dfI, dfII, dfIII
-    hI, hII, hIII  = D[3:6]
-    heights  = D[3:6]
+    <span class="n">df</span> <span class="o">=</span> <span class="n">dfI</span><span class="p">,</span> <span class="n">dfII</span><span class="p">,</span> <span class="n">dfIII</span>
+    <span class="n">hI</span><span class="p">,</span> <span class="n">hII</span><span class="p">,</span> <span class="n">hIII</span>  <span class="o">=</span> <span class="n">D</span><span class="p">[</span><span class="mi">3</span><span class="p">:</span><span class="mi">6</span><span class="p">]</span>
+    <span class="n">heights</span>  <span class="o">=</span> <span class="n">D</span><span class="p">[</span><span class="mi">3</span><span class="p">:</span><span class="mi">6</span><span class="p">]</span>
     
-    #%%
-    fig = D[-1]  
-    ax_list = fig.axes
-    ax_list[0].set_xlabel([])
-    ax_list[1].set_xlabel([])
-    ax_list[2].set_xlabel(&#39;x (m)&#39;)
-    ax_list[0].set_visible(True)
+    <span class="c1">#%%</span>
+    <span class="n">fig</span> <span class="o">=</span> <span class="n">D</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>  
+    <span class="n">ax_list</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">axes</span>
+    <span class="n">ax_list</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">([])</span>
+    <span class="n">ax_list</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">([])</span>
+    <span class="n">ax_list</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;x (m)&#39;</span><span class="p">)</span>
+    <span class="n">ax_list</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_visible</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
 
-    ax_list[0].set_ylabel(&#39;voltage u  \n (V)&#39;)
-    ax_list[1].set_ylabel(&#39;voltage\n ($V.m^{-2}$)&#39;)
-    ax_list[2].set_ylabel(&#39;voltage  \n ($V.m^{-2}$)&#39;)
+    <span class="n">ax_list</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;voltage u  </span><span class="se">\n</span><span class="s1"> (V)&#39;</span><span class="p">)</span>
+    <span class="n">ax_list</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;voltage</span><span class="se">\n</span><span class="s1"> ($V.m^{-2}$)&#39;</span><span class="p">)</span>
+    <span class="n">ax_list</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;voltage  </span><span class="se">\n</span><span class="s1"> ($V.m^{-2}$)&#39;</span><span class="p">)</span>
     
-    #ax = plt.gca()
-    ax_list[0].xaxis.set_ticklabels([])
-    ax_list[1].xaxis.set_ticklabels([])
-    fig 
+    <span class="c1">#ax = plt.gca()</span>
+    <span class="n">ax_list</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">xaxis</span><span class="o">.</span><span class="n">set_ticklabels</span><span class="p">([])</span>
+    <span class="n">ax_list</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">xaxis</span><span class="o">.</span><span class="n">set_ticklabels</span><span class="p">([])</span>
+    <span class="n">fig</span> 
     
-    if i==0:
-       savename= &#39;fig2a_SI&#39;
-    else:
-       savename= &#39;fig2b_SI&#39;
+    <span class="k">if</span> <span class="n">i</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span>
+       <span class="n">savename</span><span class="o">=</span> <span class="s1">&#39;fig2a_SI&#39;</span>
+    <span class="k">else</span><span class="p">:</span>
+       <span class="n">savename</span><span class="o">=</span> <span class="s1">&#39;fig2b_SI&#39;</span>
 
-    fig.savefig(savename+&#39;.png&#39;, dpi=400, bbox_inches = &quot;tight&quot;)
-    fig.savefig(savename+&#39;.svg&#39;, dpi=400, bbox_inches = &quot;tight&quot;)
-    fig.savefig(savename+&#39;.pdf&#39;, bbox_inches = &quot;tight&quot;)
+    <span class="n">fig</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="n">savename</span><span class="o">+</span><span class="s1">&#39;.png&#39;</span><span class="p">,</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span> <span class="n">bbox_inches</span> <span class="o">=</span> <span class="s2">&quot;tight&quot;</span><span class="p">)</span>
+    <span class="n">fig</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="n">savename</span><span class="o">+</span><span class="s1">&#39;.svg&#39;</span><span class="p">,</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span> <span class="n">bbox_inches</span> <span class="o">=</span> <span class="s2">&quot;tight&quot;</span><span class="p">)</span>
+    <span class="n">fig</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="n">savename</span><span class="o">+</span><span class="s1">&#39;.pdf&#39;</span><span class="p">,</span> <span class="n">bbox_inches</span> <span class="o">=</span> <span class="s2">&quot;tight&quot;</span><span class="p">)</span>
 
-    #%% 
-    # Plot ridges over continuated section
+    <span class="c1">#%% </span>
+    <span class="c1"># Plot ridges over continuated section</span>
     
-    # fig = plt.figure()
-    # ax = plt.gca()
-    # pEXP.plot_xy(mesh, label=label_prop, ax=ax) #, ldg=)
-    # pEXP.plot_ridges_harmonic(dfI,dfII,dfIII,ax=ax)
+    <span class="c1"># fig = plt.figure()</span>
+    <span class="c1"># ax = plt.gca()</span>
+    <span class="c1"># pEXP.plot_xy(mesh, label=label_prop, ax=ax) #, ldg=)</span>
+    <span class="c1"># pEXP.plot_ridges_harmonic(dfI,dfII,dfIII,ax=ax)</span>
     
-    #%%
-    # Filter ridges (regionally constrainsted)
+    <span class="c1">#%%</span>
+    <span class="c1"># Filter ridges (regionally constrainsted)</span>
 
-    D_f = dEXP.filter_ridges(dfI,dfII,dfIII,
-                                        minDepth=minAlt_ridge, 
-                                        maxDepth=maxAlt_ridge,
-                                        minlength=5,rmvNaN=True,
-                                        xmin=100, xmax=300,
-                                        Xaxis=&#39;y&#39;,
-                                        heights=heights)
+    <span class="n">D_f</span> <span class="o">=</span> <span class="n">dEXP</span><span class="o">.</span><span class="n">filter_ridges</span><span class="p">(</span><span class="n">dfI</span><span class="p">,</span><span class="n">dfII</span><span class="p">,</span><span class="n">dfIII</span><span class="p">,</span>
+                                        <span class="n">minDepth</span><span class="o">=</span><span class="n">minAlt_ridge</span><span class="p">,</span> 
+                                        <span class="n">maxDepth</span><span class="o">=</span><span class="n">maxAlt_ridge</span><span class="p">,</span>
+                                        <span class="n">minlength</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span><span class="n">rmvNaN</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+                                        <span class="n">xmin</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">xmax</span><span class="o">=</span><span class="mi">300</span><span class="p">,</span>
+                                        <span class="n">Xaxis</span><span class="o">=</span><span class="s1">&#39;y&#39;</span><span class="p">,</span>
+                                        <span class="n">heights</span><span class="o">=</span><span class="n">heights</span><span class="p">)</span>
 
-    # df_f = dfI_f, dfII_f, dfIII_f
+    <span class="c1"># df_f = dfI_f, dfII_f, dfIII_f</span>
 
-    dfI_f, dfII_f, dfIII_f =  D_f[0:3]
-    hI_f, hII_f, hIII_f  = D_f[3:6]
-    heights  = D_f[3:6]
+    <span class="n">dfI_f</span><span class="p">,</span> <span class="n">dfII_f</span><span class="p">,</span> <span class="n">dfIII_f</span> <span class="o">=</span>  <span class="n">D_f</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">]</span>
+    <span class="n">hI_f</span><span class="p">,</span> <span class="n">hII_f</span><span class="p">,</span> <span class="n">hIII_f</span>  <span class="o">=</span> <span class="n">D_f</span><span class="p">[</span><span class="mi">3</span><span class="p">:</span><span class="mi">6</span><span class="p">]</span>
+    <span class="n">heights</span>  <span class="o">=</span> <span class="n">D_f</span><span class="p">[</span><span class="mi">3</span><span class="p">:</span><span class="mi">6</span><span class="p">]</span>
          
     
     
-    # dfI_f,dfII_f, dfIII_f = dEXP.filter_ridges(dfI,dfII,dfIII,
-    #                                            Xaxis=&#39;y&#39;,
-    #                                            minDepth=minAlt_ridge,
-    #                                            maxDepth=maxAlt_ridge,
-    #                                            minlength=7,rmvNaN=True)
-    #                                             #,
-    #                                             #xmin=100, xmax=300)
-    df_f = dfI_f, dfII_f, dfIII_f
+    <span class="c1"># dfI_f,dfII_f, dfIII_f = dEXP.filter_ridges(dfI,dfII,dfIII,</span>
+    <span class="c1">#                                            Xaxis=&#39;y&#39;,</span>
+    <span class="c1">#                                            minDepth=minAlt_ridge,</span>
+    <span class="c1">#                                            maxDepth=maxAlt_ridge,</span>
+    <span class="c1">#                                            minlength=7,rmvNaN=True)</span>
+    <span class="c1">#                                             #,</span>
+    <span class="c1">#                                             #xmin=100, xmax=300)</span>
+    <span class="n">df_f</span> <span class="o">=</span> <span class="n">dfI_f</span><span class="p">,</span> <span class="n">dfII_f</span><span class="p">,</span> <span class="n">dfIII_f</span>
        
         
-    #%%
-    # plot ridges fitted over continuated section
+    <span class="c1">#%%</span>
+    <span class="c1"># plot ridges fitted over continuated section</span>
     
-    # fig = plt.figure()
-    # ax = plt.gca()
+    <span class="c1"># fig = plt.figure()</span>
+    <span class="c1"># ax = plt.gca()</span>
     
-    # pEXP.plot_xy(mesh, label=label_prop, ax=ax) #, ldg=)
-    # pEXP.plot_ridges_harmonic(dfI_f,dfII_f,dfIII_f,ax=ax,label=True)
+    <span class="c1"># pEXP.plot_xy(mesh, label=label_prop, ax=ax) #, ldg=)</span>
+    <span class="c1"># pEXP.plot_ridges_harmonic(dfI_f,dfII_f,dfIII_f,ax=ax,label=True)</span>
     
-    df_fit = dEXP.fit_ridges(df_f, rmvOutliers=True) # fit ridges on filtered data
+    <span class="n">df_fit</span> <span class="o">=</span> <span class="n">dEXP</span><span class="o">.</span><span class="n">fit_ridges</span><span class="p">(</span><span class="n">df_f</span><span class="p">,</span> <span class="n">rmvOutliers</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span> <span class="c1"># fit ridges on filtered data</span>
     
-    # pEXP.plot_ridges_sources(df_fit, ax=ax, z_max_source=-max_elevation*1.4,
-    #                           ridge_type=[0,1,2],ridge_nb=None)
-    # square([x1, x2, z1, z2])
-    # plt.annotate(CT,[(x1 + x2)/2, -(z1+z2)/2])
+    <span class="c1"># pEXP.plot_ridges_sources(df_fit, ax=ax, z_max_source=-max_elevation*1.4,</span>
+    <span class="c1">#                           ridge_type=[0,1,2],ridge_nb=None)</span>
+    <span class="c1"># square([x1, x2, z1, z2])</span>
+    <span class="c1"># plt.annotate(CT,[(x1 + x2)/2, -(z1+z2)/2])</span>
 
-    #%% 
-    # save data loop
+    <span class="c1">#%% </span>
+    <span class="c1"># save data loop</span>
 
-    MESH.append(mesh)
-    LABEL.append(label_prop)
-    DF_F.append(df_f)
-    DF_FIT.append(df_fit)
-    XXZZ.append(xxzz)
-    CTm.append(CT)
+    <span class="n">MESH</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">mesh</span><span class="p">)</span>
+    <span class="n">LABEL</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">label_prop</span><span class="p">)</span>
+    <span class="n">DF_F</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">df_f</span><span class="p">)</span>
+    <span class="n">DF_FIT</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">df_fit</span><span class="p">)</span>
+    <span class="n">XXZZ</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">xxzz</span><span class="p">)</span>
+    <span class="n">CTm</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">CT</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span>i = 0
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
 
-dfI_f,dfII_f,dfIII_f = DF_F[i]
-fig, ax1 = plt.subplots(figsize=(15,3))
-x1, x2, z1, z2 = XXZZ[i]
-square([x1, x2, z1, z2])
-plt, cmap = pEXP.plot_xy(MESH[i], label=LABEL[i], ax=ax1, Xaxis=&#39;y&#39;,
-          Vminmax=[0,10])
-plt.colorbar(cmap, label=&#39;upwc voltage\n($V.m^2$)&#39; )
-pEXP.plot_ridges_harmonic(dfI_f,dfII_f,dfIII_f,ax=ax1,label=True)
+<span class="n">dfI_f</span><span class="p">,</span><span class="n">dfII_f</span><span class="p">,</span><span class="n">dfIII_f</span> <span class="o">=</span> <span class="n">DF_F</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+<span class="n">fig</span><span class="p">,</span> <span class="n">ax1</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
+<span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">z1</span><span class="p">,</span> <span class="n">z2</span> <span class="o">=</span> <span class="n">XXZZ</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+<span class="n">square</span><span class="p">([</span><span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">z1</span><span class="p">,</span> <span class="n">z2</span><span class="p">])</span>
+<span class="n">plt</span><span class="p">,</span> <span class="n">cmap</span> <span class="o">=</span> <span class="n">pEXP</span><span class="o">.</span><span class="n">plot_xy</span><span class="p">(</span><span class="n">MESH</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">label</span><span class="o">=</span><span class="n">LABEL</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax1</span><span class="p">,</span> <span class="n">Xaxis</span><span class="o">=</span><span class="s1">&#39;y&#39;</span><span class="p">,</span>
+          <span class="n">Vminmax</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">10</span><span class="p">])</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">colorbar</span><span class="p">(</span><span class="n">cmap</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;upwc voltage</span><span class="se">\n</span><span class="s1">($V.m^2$)&#39;</span> <span class="p">)</span>
+<span class="n">pEXP</span><span class="o">.</span><span class="n">plot_ridges_harmonic</span><span class="p">(</span><span class="n">dfI_f</span><span class="p">,</span><span class="n">dfII_f</span><span class="p">,</span><span class="n">dfIII_f</span><span class="p">,</span><span class="n">ax</span><span class="o">=</span><span class="n">ax1</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 
-df_fit = dEXP.fit_ridges(df_f, rmvOutliers=False) # fit ridges on filtered data
+<span class="n">df_fit</span> <span class="o">=</span> <span class="n">dEXP</span><span class="o">.</span><span class="n">fit_ridges</span><span class="p">(</span><span class="n">df_f</span><span class="p">,</span> <span class="n">rmvOutliers</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span> <span class="c1"># fit ridges on filtered data</span>
 
-ax2 = pEXP.plot_ridges_sources(DF_FIT[i], ax=ax1, z_max_source=-max_elevation*1.2,
-                      ridge_type=[0,1,2],ridge_nb=None,
-                      xmin=100, xmax=250)
-ax1.set_xlabel(&#39;x (m)&#39;)
-fig.savefig(&#39;fig2c_SI.png&#39;, dpi=400, bbox_inches = &quot;tight&quot;)
-fig.savefig(&#39;fig2c_SI.svg&#39;, dpi=400, bbox_inches = &quot;tight&quot;)
-fig.savefig(&#39;fig2c_SI.pdf&#39;, dpi=400, bbox_inches = &quot;tight&quot;)
+<span class="n">ax2</span> <span class="o">=</span> <span class="n">pEXP</span><span class="o">.</span><span class="n">plot_ridges_sources</span><span class="p">(</span><span class="n">DF_FIT</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax1</span><span class="p">,</span> <span class="n">z_max_source</span><span class="o">=-</span><span class="n">max_elevation</span><span class="o">*</span><span class="mf">1.2</span><span class="p">,</span>
+                      <span class="n">ridge_type</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">],</span><span class="n">ridge_nb</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                      <span class="n">xmin</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">xmax</span><span class="o">=</span><span class="mi">250</span><span class="p">)</span>
+<span class="n">ax1</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;x (m)&#39;</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;fig2c_SI.png&#39;</span><span class="p">,</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span> <span class="n">bbox_inches</span> <span class="o">=</span> <span class="s2">&quot;tight&quot;</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;fig2c_SI.svg&#39;</span><span class="p">,</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span> <span class="n">bbox_inches</span> <span class="o">=</span> <span class="s2">&quot;tight&quot;</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;fig2c_SI.pdf&#39;</span><span class="p">,</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span> <span class="n">bbox_inches</span> <span class="o">=</span> <span class="s2">&quot;tight&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span>i = 1
-dfI_f,dfII_f,dfIII_f = DF_F[i]
-fig, ax1 = plt.subplots(figsize=(15,3))
-x1, x2, z1, z2 = XXZZ[i]
-square([x1, x2, z1, z2])
-plt, cmap = pEXP.plot_xy(MESH[i], label=LABEL[i], ax=ax1, Xaxis=&#39;y&#39;,
-          Vminmax=[0,10])
-plt.colorbar(cmap, label=&#39;upwc voltage\n($V.m^2$)&#39; )
-pEXP.plot_ridges_harmonic(dfI_f,dfII_f,dfIII_f,ax=ax1,label=True)
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">i</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="n">dfI_f</span><span class="p">,</span><span class="n">dfII_f</span><span class="p">,</span><span class="n">dfIII_f</span> <span class="o">=</span> <span class="n">DF_F</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+<span class="n">fig</span><span class="p">,</span> <span class="n">ax1</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
+<span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">z1</span><span class="p">,</span> <span class="n">z2</span> <span class="o">=</span> <span class="n">XXZZ</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+<span class="n">square</span><span class="p">([</span><span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">z1</span><span class="p">,</span> <span class="n">z2</span><span class="p">])</span>
+<span class="n">plt</span><span class="p">,</span> <span class="n">cmap</span> <span class="o">=</span> <span class="n">pEXP</span><span class="o">.</span><span class="n">plot_xy</span><span class="p">(</span><span class="n">MESH</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">label</span><span class="o">=</span><span class="n">LABEL</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax1</span><span class="p">,</span> <span class="n">Xaxis</span><span class="o">=</span><span class="s1">&#39;y&#39;</span><span class="p">,</span>
+          <span class="n">Vminmax</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">10</span><span class="p">])</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">colorbar</span><span class="p">(</span><span class="n">cmap</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;upwc voltage</span><span class="se">\n</span><span class="s1">($V.m^2$)&#39;</span> <span class="p">)</span>
+<span class="n">pEXP</span><span class="o">.</span><span class="n">plot_ridges_harmonic</span><span class="p">(</span><span class="n">dfI_f</span><span class="p">,</span><span class="n">dfII_f</span><span class="p">,</span><span class="n">dfIII_f</span><span class="p">,</span><span class="n">ax</span><span class="o">=</span><span class="n">ax1</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 
-df_fit = dEXP.fit_ridges(df_f, rmvOutliers=True) # fit ridges on filtered data
+<span class="n">df_fit</span> <span class="o">=</span> <span class="n">dEXP</span><span class="o">.</span><span class="n">fit_ridges</span><span class="p">(</span><span class="n">df_f</span><span class="p">,</span> <span class="n">rmvOutliers</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span> <span class="c1"># fit ridges on filtered data</span>
 
-ax2 = pEXP.plot_ridges_sources(DF_FIT[i], ax=ax1, z_max_source=-max_elevation*1.2,
-                      ridge_type=[0,1,2],ridge_nb=None,
-                                            xmin=100, xmax=250)
-ax1.set_xlabel(&#39;x (m)&#39;)
-fig.savefig(&#39;fig2d_SI.png&#39;, dpi=400, bbox_inches = &quot;tight&quot;)
-fig.savefig(&#39;fig2d_SI.svg&#39;, dpi=400, bbox_inches = &quot;tight&quot;)
-fig.savefig(&#39;fig2d_SI.pdf&#39;, dpi=400, bbox_inches = &quot;tight&quot;)
+<span class="n">ax2</span> <span class="o">=</span> <span class="n">pEXP</span><span class="o">.</span><span class="n">plot_ridges_sources</span><span class="p">(</span><span class="n">DF_FIT</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax1</span><span class="p">,</span> <span class="n">z_max_source</span><span class="o">=-</span><span class="n">max_elevation</span><span class="o">*</span><span class="mf">1.2</span><span class="p">,</span>
+                      <span class="n">ridge_type</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">],</span><span class="n">ridge_nb</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                                            <span class="n">xmin</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">xmax</span><span class="o">=</span><span class="mi">250</span><span class="p">)</span>
+<span class="n">ax1</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;x (m)&#39;</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;fig2d_SI.png&#39;</span><span class="p">,</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span> <span class="n">bbox_inches</span> <span class="o">=</span> <span class="s2">&quot;tight&quot;</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;fig2d_SI.svg&#39;</span><span class="p">,</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span> <span class="n">bbox_inches</span> <span class="o">=</span> <span class="s2">&quot;tight&quot;</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;fig2d_SI.pdf&#39;</span><span class="p">,</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span> <span class="n">bbox_inches</span> <span class="o">=</span> <span class="s2">&quot;tight&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
