@@ -8,22 +8,33 @@ parts:
    chapters:
      - file: interests
      - file: CV/current_pos
-     - file: CV/cv_details
-       sections:
-        - file: CV/notebooks/map
+     - file: CV/past_pos
+     #- file: CV/cv_details
+ - caption: CV
+   chapters:
+     - file: CV/cv_peerReviewedArticle
+     - file: CV/cv_awards
+     - file: CV/cv_community
+     - file: CV/cv_teaching
+     - file: CV/cv_education
+     - file: CV/notebooks/map
 #  - file: CV/article_details
+ - caption: Projects
+   chapters:
      - file: Projects/Award_Grants/grant 
      - file: Projects/projects 
        sections:
         - file: Projects/project_list
         - file: Projects/project_list_others
+ - caption: Open-Science
+   chapters:
      - file: Open_Codes/open_codes
  - caption: Blog
    chapters:
-        - file: Blog/list_blog
-          sections:
-          - file: Blog/blog2022
-          - file: Blog/blog2021
+        #- file: Blog/list_blog
+          #sections:
+     - file: Blog/blog2022
+     - file: Blog/blog2021
  - caption: references
    chapters:
          - file: references

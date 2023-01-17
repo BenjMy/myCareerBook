@@ -15,7 +15,7 @@
 # ### scholarly API
 # - pip install scholarly
 
-# In[1]:
+# In[9]:
 
 
 # read csv file
@@ -26,7 +26,7 @@ articles_zenodo = pd.read_excel('RyC_articles.xlsx',sheet_name=1)
 articles_zenodo.head()
 
 
-# In[1]:
+# In[10]:
 
 
 #from rpy2.robjects.packages import importr
@@ -34,13 +34,19 @@ from scholarly import scholarly
 
 # Retrieve the author's data, fill-in, and print
 # Get an iterator for the author results
-search_query = scholarly.search_author('Benjamin Mary, Padova')
+search_query = scholarly.search_author('Benjamin Mary')
+#search_query = scholarly.search_author('Benjamin Mary, Padova')
+
+
+# In[ ]:
+
+
 # Retrieve the first result from the iterator
 first_author_result = next(search_query)
 scholarly.pprint(first_author_result)
 
 # Retrieve all the details for the author
-author = scholarly.fill(first_author_result )
+author = scholarly.fill(first_author_result)
 #scholarly.pprint(author)
 
 
@@ -55,7 +61,7 @@ citedby
 
 
 
-# In[55]:
+# In[2]:
 
 
 import matplotlib as mpl
@@ -68,7 +74,7 @@ plt.rcParams['font.size'] = 18
 plt.rcParams['axes.linewidth'] = 2
 
 
-# In[75]:
+# In[3]:
 
 
 pd_citations = pd.DataFrame(author['cites_per_year'], index=[0])
@@ -97,7 +103,7 @@ ax.set_ylabel('cites per year per article')
 pd_cit_t
 
 
-# In[93]:
+# In[4]:
 
 
 publications = author['publications']

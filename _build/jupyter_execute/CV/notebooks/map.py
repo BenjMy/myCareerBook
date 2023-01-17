@@ -8,6 +8,12 @@
 # ```
 # 
 
+# ```{admonition} Note
+# The map display all the field surveys I conducted or participated in the data processing. It starts from 2013 to now. Other metadatas are attached in the table such as the type of survey, the ancillary data collected, the PI of the field site.
+# ```
+# 
+# 
+
 # In[1]:
 
 
@@ -15,13 +21,31 @@ from ipywidgets import HTML
 
 from ipyleaflet import Map, Marker, Popup, Icon, AwesomeIcon
 from ipyleaflet import  LegendControl, basemaps
+from IPython.display import Markdown
 
 # read csv file
 import pandas as pd
-field_activity = pd.read_csv('field.csv')
+field_activity = pd.read_csv('../field.csv')
 field_activity.dropna(subset=['Lat', 'Long'],inplace=True)
+field_activity = field_activity.sort_values(by='Date',ascending=False)
+field_activity
+Purposes = field_activity['Purpose'].unique()
+Purposes
 
+from IPython.display import Markdown, display
+def printmd(string):
+    display(Markdown(string))
 
+    
+total_field = len(field_activity) 
+
+printmd('''
+        Total Number of field activities: {total_field}, among with
+        '''.format(total_field=total_field)
+        )
+for i in Purposes:
+    #printmd('''{i}'''.format(i=i))
+    printmd('''* {} in {}'''.format(sum(field_activity['Purpose']==i),i))
 # In[2]:
 
 
@@ -88,8 +112,8 @@ m.add_control(legend)
 m
 
 
-# In[ ]:
+# In[4]:
 
 
-
+display(field_activity)
 

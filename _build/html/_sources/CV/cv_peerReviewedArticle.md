@@ -1,0 +1,268 @@
+# Articles & Comm.
+
+<!--
+```{warning}
+🚧 This page is still under construction 🚧
+```
+
+--> 
+
+_Last edited: January 17th, 2023_
+
+```{admonition} Look right ➡️
+:class: tip
+Use the right panel menu to navigate the CV 
+```
+
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
+
+<!--
+## About
+Benjamin Mary
+
+_I'm a Marie-Curie fellow working with geophysics applied to agronomy between Padua (IT) and Berkeley (USA)_ <br>
+
+--> 
+
+[Email](mailto:benjamin.mary@unipd.it) / [Website](JupyterBook) / [GitHub](https://github.com/benjmy/) / [Scholar](https://scholar.google.com/citations?user=3kDP4-AAAAAJ&hl=en) / <a href="https://orcid.org/0000-0001-7199-2885"> Orcid </a> / <a href="https://www.researchgate.net/profile/Benjamin-Mary-2"> Researchgate </a>
+
+
+## 🗞 Peer-reviewed articles
+
+<!--- Frontiers in Earth Science style from https://zbib.org/ -->
+<!--- [doi:](https://doi.org/).<br>-->
+
+
+
+🗓️ 2023
+
+<!--
+Electro-magnetic geophysical dynamics under conservation and conventional farming 3
+
+-->
+
+```{admonition} In preparation
+
+- M. Palladino, B. Sica, **B. Mary**, G. Cassiani, J. Boaga, S. Chiavarini, J. Rimauro, A. Salluzzo, G. Armiento, N. Romano*. A monitoring and modeling study to support an environmentally effective technique for reducing VOCs concentration from groundwater for irrigation purposes
+
+- **B. Mary**, V. Iván, F. Meggio, L. Peruzzo, G. Blanchy, Chou, C., Y. Wu, G. Cassiani: Imaging of the active root current pathway under partial root-zone drying stress: A laboratory study for Vitis vinifera.
+
+- Peruzzo et al. 2023 (in prep. for Science of the Total Environment). Fabricated ecosystem stations, beyond weather: setup and preliminary results.
+
+- B. Loiseau, S. Carrière, D. Jougnot, R. Guerin, N. Martin, N. Delpierre, **B. Mary**, K. Singha (2023 In prep. for Science of the Total Environment). The geophysical toolbox applied to forest ecosystems – a review
+
+```
+
+```{admonition} Submitted
+
+
+- H. Gua, I. Cseresnyes, J. R. Butnord, **B. Mary**, X. Zhanga, Y. Lua, X. Liua* (2023 submitted to ?) Soil electrical capacitance makes plant roots unhidden
+
+
+```
+
+🗓️ 2022
+
+- Carrera, A., Longo, M., Piccoli, I., **Mary, B.**, Cassiani, G., and Morari, F. (2022). Electro-Magnetic Geophysical Dynamics under Conservation and Conventional Farming. Remote Sensing 14, 6243. doi: 10.3390/rs14246243.[doi:10.3390/rs14246243](https://www.mdpi.com/2072-4292/14/24/6243)
+
+
+- **Mary, B.**, Peruzzo, L., Wu, Y., and Cassiani, G. (2022). Advanced Potential Field Analysis Applied to Mise‐à‐la‐Masse Surveys for Leakage Detection. JGR Solid Earth 127. [doi:10.1029/2022JB024747](https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2022JB024747)
+
+	```{admonition} Find out more
+	:class: dropdown
+	
+	<div data-badge-type="2" data-doi="10.1029/2022JB024747" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
+	
+	[📊 Data repository](https://doi.org/10.5281/zenodo.6538070)	
+	
+	[🧮 Code repository](https://github.com/BenjMy/dEXP_imaging/tree/master/notebooks_JGR)
+	
+
+	<div data-badge-type="2" data-doi="10.1029/2022JB024747" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
+	<span class="__dimensions_badge_embed__" data-doi="10.1029/2022JB024747" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+	
+	```
+	
+- Dimech, A., Cheng, L., Chouteau, M., Chambers, J., Uhlemann, S., Wilkinson, P., **et al**. (2022). A Review on Applications of Time-Lapse Electrical Resistivity Tomography Over the Last 30 Years : Perspectives for Mining Waste Monitoring. Surv Geophys. [doi:10.1007/s10712-022-09731-2](https://link.springer.com/article/10.1007/s10712-022-09731-2)
+
+
+🗓️ 2021
+
+- **Mary, B.**, Peruzzo, L., Iván, V., Facca, E., Manoli, G., Putti, M., et al. (2021). Combining Models of Root-Zone Hydrology and Geoelectrical Measurements: Recent Advances and Future Prospects. Front. Water 3, 767910. [doi:10.3389/frwa.2021.767910](https://www.frontiersin.org/articles/10.3389/frwa.2021.767910/full).
+
+	```{admonition} Find out more
+	:class: dropdown
+	<div data-badge-type="donut" data-doi="10.3389/frwa.2021.767910" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>	
+	<span class="__dimensions_badge_embed__" data-doi="10.3389/frwa.2021.767910" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+	```
+
+
+- Garré, S., Hyndman, D., **Mary, B.**, and Werban, U. _(2021)_. Geophysics conquering new territories: The rise of “agrogeophysics.” Vadose zone j. 20. [doi:10.1002/vzj2.20115](https://doi.org/110.1002/vzj2.20115).<br>
+
+
+	```{admonition} Find out more
+	:class: dropdown
+	<div data-badge-type="2" data-doi="10.1002/vzj2.20115" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
+	```
+
+
+- Peruzzo, L., Liu, X., Chou, C., Blancaflor, E. B., Zhao, H., Ma, X., **et al.** (2021). Three‐channel electrical impedance spectroscopy for field‐scale root phenotyping. Plant phenome j. 4.[doi:10.1002/ppj2.20021](https://doi.org/10.1002/ppj2.20021).<br>
+
+	```{admonition} Find out more
+	:class: dropdown
+	<div data-badge-type="2" data-doi="10.1002/ppj2.20021" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
+	```
+
+
+
+
+🗓️ 2020
+
+- Peruzzo, L., Chou, C., Wu, Y., Schmutz, M., **Mary, B.**, Wagner, F. M., et al. _(2020)_. Imaging of plant current pathways for non-invasive root Phenotyping using a newly developed electrical current source density approach. Plant Soil 450, 567–584. [doi:10.1007/s11104-020-04529-w](https://doi.org/10.1007/s11104-020-04529-w).<br>
+
+
+- **Mary, B.**, Peruzzo, L., Boaga, J., Cenni, N., Schmutz, M., Wu, Y., et al. _(2020)_. Time-lapse monitoring of root water uptake using electrical resistivity tomography and Mise-à-la-Masse: a vineyard infiltration experiment. Soils and plants [doi:10.5194/soil-6-95-2020](https://doi.org/10.5194/soil-6-95-2020).<br>
+
+
+	```{admonition} Find out more
+	:class: dropdown
+	[📊 Data repository](http://researchdata.cab.unipd.it/321/)
+	```
+
+
+
+
+🗓️ <= 2019
+
+- **Mary, B.**, Vanella, D., Consoli, S., and Cassiani, G. (2019). Assessing the extent of citrus trees root apparatus under deficit irrigation via multi-method geo-electrical imaging. Sci Rep 9, 9913. [doi:10.1038/s41598-019-46107-w](https://doi.org/10.1038/s41598-019-46107-w)
+
+	```{admonition} Find out more
+	:class: dropdown
+	[📊 Data repository](http://researchdata.cab.unipd.it/136/)
+	```
+	
+- **Mary, B.**, Peruzzo, L., Boaga, J., Schmutz, M., Wu, Y., Hubbard, S. S., et al. (2018). Small-scale characterization of vine plant root water uptake via 3-D electrical resistivity tomography and mise-à-la-masse method. Hydrol. Earth Syst. Sci. 22, 5427–5444.[doi:10.5194/hess-22-5427-2018](https://doi.org/10.5194/hess-22-5427-2018).<br>
+
+- **Mary, B.**, Abdulsamad, F., Saracco, G., Peyras, L., Vennetier, M., Mériaux, P., et al. _(2017)_. Improvement of coarse root detection using time and frequency induced polarization: from laboratory to field experiments. Plant Soil 417, 243–259. [doi:10.1007/s11104-017-3255-4](https://doi.org/10.1007/s11104-017-3255-4).<br>
+
+- **Mary, B.**, Saracco, G., Peyras, L., Vennetier, M., Mériaux, P., and Camerlynck, C. _(2016)_. Mapping tree root system in dikes using induced polarization: Focus on the influence of soil water content. Journal of Applied Geophysics 135, 387–396.[doi:10.1016/j.jappgeo.2016.05.005](https://doi.org/10.1016/j.jappgeo.2016.05.005).<br>
+
+
+- **Mary, B.**, Saracco, G., Peyras, L., Vennetier, M., Mériaux, P., and Baden, D. _(2015)_. Preliminary Use of Ultrasonic Tomography Measurement to Map Tree Roots Growing in Earth Dikes. Physics Procedia 70, 965–969.[doi:10.1016/j.phpro.2015.08.201](https://doi.org/10.1016/j.phpro.2015.08.201).<br>
+
+
+- Vennetier, M., Zanetti, C., Meriaux, P., and **Mary, B.** (2015). Tree root architecture: new insights from a comprehensive study on dikes. Plant Soil 387, 81–101. [doi:10.1007/s11104-014-2272-9](https://link.springer.com/article/10.1007/s11104-014-2272-9).<br>
+
+
+<!---
+
+\cventry[0.5cm]{2016}{\underline{Mary, B.}\textnormal{, Vennetier, M., Peyras, L., Saracco, G., Mériaux, P., Camerlynck, C.}}{Mapping tree root system using induced polarization : focus on the influence of the water content of the soil - DOI: 10.1016/j.jappgeo.2016.05.005}{\textbf{Journal of Applied Geophysics}}{}{}
+
+\cventry[0.5cm]{2015 \\ }{\underline{Mary, B.}\textnormal{, Saracco, G., Peyras, L., Vennetier, M., Mériaux, P., \& Baden, D.}}{Preliminary use of ultrasonic measurement to map tree root system}{ICU (International Congress on Ultrasonics) - Metz}{\textbf{Physics Procedia}, 70, 965-969 - DOI: 10.1016/j.phpro.2015.08.201}{}
+
+
+-->
+
+
+## 🎤 Communications
+    
+Participation every year to international (AGU and EGU) and national (GNGTS) conferences.
+
+
+
+
+<!--
+
+-->
+
+🗓️ 2023
+
+- **Mary, B.**, K. Kaffas, M. Censini, F. S. Manca di Villahermosa, A. Dani, M. Verdone, F. Preti, P. Trucchi, D. Penna, G. Cassiani. Supporting subsurface preferential flow in a small forested catchment from geophysical data and hydrological modelling
+
+- **Mary, B.** pyCATHY: a python wrapper for Data Assimilation in CATHY. CATchment HYdrology (CATHY) days. May 31st and June 1st, 2023 in San Vito di Cadore (IT).
+
+
+🗓️ 2022
+
+
+- Iván, V., **Mary, B.**, Schwartz, N., Ghinassi, M., and Cassiani, G.: Spectral Induced Polarization: Laboratory measurements on artificial soils with varying water saturation, salinity and clay content, EGU General Assembly 2022, Vienna, Austria, 23–27 May 2022, EGU22-5638, [doi:10.5194/egusphere-egu22-5638](https://doi.org/10.5194/egusphere-egu22-5638), 2022.
+
+- **Mary, B.**, Botto, A., Iván, V., Peruzzo, L., Chou, C., Wu, Y., Cassiani, G., and Camporese, M.: Assimilation of ERT data to improve Feddes parameters in a hydrological model during a root water uptake experiment, EGU General Assembly 2022, Vienna, Austria, 23–27 May 2022, EGU22-6648, [doi:10.5194/egusphere-egu22-6648](https://doi.org/10.5194/egusphere-egu22-6648), 2022.
+
+
+🗓️ 2021
+
+- Cassiani, G., **Mary, B.**, Boaga, J., Barone, I., and Ivan, V. _(2021)_. Geophysical Imaging of the Root Zone: Methods, Implications and Outlook. in NSG2021 27th European Meeting of Environmental and Engineering Geophysics (Hybrid, France: European Association of Geoscientists & Engineers), 1–5. [doi:10.3997/2214-4609.202120198](https://doi.org/10.3997/2214-4609.202120198).<br>
+
+
+- **Mary, B.**, Iván, V., and Cassiani, G.: Root system monitoring using a mise-à-la-masse (MALM) extension to time-domain IP, EGU General Assembly _2021_, online, 19–30 Apr 2021, EGU21-2839, [doi:10.5194/egusphere-egu21-2839](https://doi.org/10.5194/egusphere-egu21-2839).
+
+- Iván, V., **Mary, B.**, Blanchy, G., Weigand, M., and Garré, S.: Supporting successful data and codes sharing practices in agrogeophysics, EGU General Assembly _2021_, online, 19–30 Apr 2021, EGU21-12526, [doi:10.5194/10.5194/egusphere-egu21-12526](https://doi.org/10.5194/egusphere-egu21-12526).
+
+
+
+🗓️ <= 2020
+
+- **B. Mary**: The GROWING project, Gembloux seminar ‘Geophysics & Agriculture: the perfect match?’ on _January 31st, 2020_. http://www.soilbelgium.be/?p=3596
+
+- **B. Mary**, F. Meggio, G. Blanchy, N. Cainelli, L. Peruzzo, J. Boaga, Y. Wu, S. Hubbard, B. Ruperti, A. Binley, G. Cassiani: Highlighting Grapevine Root Activity During a Partial Root Zone Drying in Rhizotron Using Geo-electrical Methods. AGU General Assembly (NS31A-0764) _December 2019_. https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/585475. Bibcode: 2019AGUFMNS31A0764M 
+
+- **B. Mary**, J. Boaga, G. Cassiani, R. Deiana, Non-invasive investigation below an exhausted landfill located in karstic area, 38° convegno nazionale del GNGTS si terrà, Roma, Italy – _November 2019_ [conference proceedings pdf - p. ](http://www3.inogs.it/gngts/files/2019/GNGTS_3.2.pdf)<br>
+
+
+- M. Palladino, B. Sica, S. Chiavarini, J. Rimauro, A. Salluzzo, **B. Mary**, J. Boaga, G. Cassiani, N. Romano, On reducing VOCs concentration from groundwater for irrigation purposes: A detailed monitoring program to test the stripping efficiency of a sprinkler system, in 2019 IEEE International Workshop on Metrology for Industry 4.0 and I, in Naples, Italy – _June 2019_ <br>
+
+- Boaga J., **Mary, B.**, Peruzzo L., Schmutz M., Wu Y., Hubbard  SS, Cassiani G., 3D electrical resistivity tomography and  Mise-à-la-Masse  method  as  tools  for  the  characterization  of  vine roots, In Fall AGU General Assembly Conference Abstracts. _2019_ <br>
+
+- **B. Mary**, Geological settings characterization of a contaminated area in an urban context, 37° convegno nazionale del GNGTS si terrà,  Bologna, Italy – _November 2018_ [doi:0.6084/m9.figshare.19111823](http://dx.doi.org/10.6084/m9.figshare.19111823)<br>
+
+
+- **Mary, B.**, Boaga J., Peruzzo L., Schmutz M., Wu Y., Hubbard SS, Cassiani G., Small scale characterization of vine plant root zone via 3D electrical resistivity tomography and Mise-à-la-Masse method: a case study in a Bordeaux Vineyard, In EGU General Assembly Conference Abstracts.**PICO & proceedings**
+
+- **Mary, B.**, Saracco, G., Peyras, L., Vennetier, M., & Mériaux, P., Assessing vulnerability to vegetation growth on earth dikes using geophysical investigations, In EGU General Assembly Conference Abstracts (Vol. 17, p. 15388).
+
+- **Mary, B.**, Vers le développement d'une méthode géophysique pour la détection de racines ligneuses implantée dans les sols d'ouvrages hydrauliques, Journées GFHN (Groupe Francophone Humidimétrie et TraNsferts en Milieux Poreux) **Poster & proceedings**
+
+- **Mary, B.**, Assessing vulnerability to vegetation growth on earth dikes using geophysical investigations, OT-Med Progress Meeting - Carry-Le-Rouet (FRANCE)
+
+- **Mary, B.**, Preliminary use of induced polarization  measurement  to  study  tree  roots  growing in earth dikes, 3rd International Workshop on Induced Polarization.
+
+
+### Invited
+
+
+- **Invited seminar** 
+	- Madrid UPM, November 2022: Mary, B., The geophysical toolbox applied to the root zone: Methods, Implications and Outlook. <a href='https://ceigram.upm.es/seminario/seminario-ceigram-geophysical-roots-observation-for-water-saving/'> Link </a>
+	
+	```{admonition} Find out more
+	:class: dropdown
+		
+	[📊 Slides repository](https://figshare.com/articles/presentation/The_geophysical_toolbox_applied_to_the_root_zone/21594255) - 10.6084/m9.figshare.21594255.v1
+		
+
+	```
+	- Paris UPMC, November 2021: Mary, B., Geophysical Imaging of the Root Zone: challenging but still worth a try! In UMR METIS conference.
+	- Paris UPMC, 25 mars 2015: Mary, B., Assessing vulnerability to vegetation growth on earth dikes using geophysical investigations. In UMR METIS conference.
+
+
+- **Keynote** presentation for the GLOBAQUA project conference _(Agadir, Morocco, October 2018)_
+- **Keynote** presentation for the Hydrogeophysics for the critical zone EGU PICO session _(2018)_
+	- The use of hydro-geophysical monitoring for the identification of root-water-uptake patterns: ERT and MALM experiments in a vineyard, In EGU General Assembly Conference Abstracts.
+
+
+- **Invited working group** 
+	- Mary, B. An Open Catalogue to promote and guide agrogeophysics. Oral Presentation (Online). [Biogeophysics for 
+Climate Resilient Viticulture](https://sites.google.com/lbl.gov/biogeophysics-viticulture/home?authuser=0), January 27, 2022.
+	
+
+
+
+```{warning}
+Found a bug 🐛/ a typo ? [Email me](mailto:benjamin.mary@unipd.it)
+```
+
+
+

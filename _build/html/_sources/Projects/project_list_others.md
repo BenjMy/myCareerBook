@@ -4,6 +4,39 @@
 🚧 This page is still under construction 🚧
 ```
 
+<!--
+## WATSON 
+
+- Daniele Penna
+- ...
+
+PRIN project marco borga
+PRIN WATZON
+--> 
+
+
+
+##  WATSON (🗓️ 09/2022 - 09/2024)
+
+
+[WATSON](https://watson-cost.eu/): WATer isotopeS in the critical zONe: from groundwater recharge to plant transpiration
+
+
+- **Action Chair**: Prof. Daniele Penna
+- **Role**: Contributing researcher to modeling activities, article redaction. 
+- **WP**:
+	- Spatio-temporal patterns of groundwater recharge and soil water mixing processes	
+	- Spatio-temporal patterns of water sources used by vegetation	
+	- Catchment-scale water residence time and travel times	
+	- Networking and dissemination
+
+```{figure} /img/watson_Brand_rgb.png
+---
+figclass: margin
+width: 200px
+---
+```
+
 
 ##  ROOTS (🗓️ 2021 - Now)
 
@@ -12,7 +45,7 @@
 
 
 - **PIs**: E. Brodie, A. Persaud, Y. Wu
-- **Role**: Contributing researcher to modelleing activities, article redaction. 
+- **Role**: Contributing researcher to modeling activities, article redaction. 
 - **Goal**: An EEG for plants
 
 ```{figure} /img/arpae_roots_logo.jpeg
@@ -77,6 +110,8 @@ View of the Acacia trees in the Arava desert (Israel)
 ```
 
 ---
+
+
 
 
 

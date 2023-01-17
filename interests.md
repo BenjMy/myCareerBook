@@ -4,15 +4,14 @@ _Last edited: August 24th, 2022_
 
 ### Soil-plant-Atmosphere interactions 🌱🌳🌤️💧
 
-
+# Agronomy
 Since the end of my phd in 2015, my research interests mainly focus on improving our understanding of the role of the roots in regulating water in the {term}`SPAC` using experimental non-destructive approaches (see {numref}`rhizo_neons`).
 
-I contributed to 2 main projects: 
-
-
+I contributed to 3 projects: 
 - [GROWING](Projects/Award_Grants/grant): Geophysical Roots Obervations for Water SavING
 - [WASA](Projects/project_list.html#WASA (🗓️ 2016 - 2019)): Water Saving in Agriculture  (2016 - 2019)
-- and [others](Projects/projects)  
+- [ROOTS](Projects/project_list_others.html#ROOTS (🗓️ 2021 - Now)):  Rhizosphere Observations Optimizing Terrestrial Sequestration
+- [SoCoRisk](Projects/project_list_others.html#SoCoRisk (🗓️ 01/03/2021 - 28/02/2024)) : Implementation of soil compaction risk assessment system – end-user’s evaluation of potentials and barriers
 
 ```{figure} /img/flickr_pics/51155416189_da46d5911c_o.jpg
 ---
@@ -24,6 +23,13 @@ align: center
 Artistic picture of the vine plant growing under neons'lights during a lab experiment
 © B. Mary
 ```
+
+
+## Earth Critical Zone Hydrology
+
+- [ECZ-DRY](Projects/project_list_others.html#ECZ-DRY (🗓️ 2019 - Now)): New Technologies to monitor the earth critical zone in water-limited ecosystems
+- [WATSON](Projects/project_list_others.html#WATSON (🗓️ 09/2022 - 09/2024)) : WATer isotopeS in the critical zONe: from groundwater recharge to plant transpiration
+
 
 ### Geohazards ⛰🌊🏜️
 
@@ -40,6 +46,11 @@ align: center
 Picture at the top of the val fredda catchment in Italy during EM imaging method trial.
 © B. Mary
 ```
+
+<!--
+I contributed to 2 main projects: 
+- and [others](Projects/projects)  
+-->
 
 ### FAIR and reproducible research 🚀🎉
 

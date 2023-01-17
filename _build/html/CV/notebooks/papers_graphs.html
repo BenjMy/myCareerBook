@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Network graph &#8212; B. Mary</title>
+    <title>Network graph &#8212; Benjamin Mary Career Book</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -87,9 +87,14 @@ const thebe_selector_output = ".output, .cell_output"
         <div class="bd-sidebar__top"><div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="../../index.html">
       
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
       
       
-      <h1 class="site-logo" id="site-title">B. Mary</h1>
+      <img src="../../_static/photoMe1.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Benjamin Mary Career Book</h1>
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
@@ -121,23 +126,55 @@ const thebe_selector_output = ".output, .cell_output"
    Current position
   </a>
  </li>
- <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../cv_details.html">
-   CV
+ <li class="toctree-l1">
+  <a class="reference internal" href="../past_pos.html">
+   Past positions
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
-  <label for="toctree-checkbox-1">
-   <i class="fas fa-chevron-down">
-   </i>
-  </label>
-  <ul>
-   <li class="toctree-l2">
-    <a class="reference internal" href="map.html">
-     Map CV
-    </a>
-   </li>
-  </ul>
  </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  CV
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../cv_peerReviewedArticle.html">
+   Articles &amp; Comm.
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../cv_awards.html">
+   Awards
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../cv_community.html">
+   Community
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../cv_teaching.html">
+   Teaching &amp; Outreach
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../cv_education.html">
+   Education
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="map.html">
+   Map CV
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Projects
+ </span>
+</p>
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../../Projects/Award_Grants/grant.html">
    The MSCA GROWING
@@ -147,8 +184,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../Projects/projects.html">
    Projects
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
-  <label for="toctree-checkbox-2">
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -165,6 +202,13 @@ const thebe_selector_output = ".output, .cell_output"
    </li>
   </ul>
  </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Open-Science
+ </span>
+</p>
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../../Open_Codes/open_codes.html">
    Open codes
@@ -177,27 +221,15 @@ const thebe_selector_output = ".output, .cell_output"
  </span>
 </p>
 <ul class="nav bd-sidenav">
- <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../../Blog/list_blog.html">
-   Blog/years
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../Blog/blog2022.html">
+   Blog 2022
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
-  <label for="toctree-checkbox-3">
-   <i class="fas fa-chevron-down">
-   </i>
-  </label>
-  <ul>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../Blog/blog2022.html">
-     Blog 2022
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../Blog/blog2021.html">
-     Blog 2021
-    </a>
-   </li>
-  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../Blog/blog2021.html">
+   Blog 2021
+  </a>
  </li>
 </ul>
 <p aria-level="2" class="caption" role="heading">
@@ -519,172 +551,53 @@ title="Print to PDF"
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_html"><div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">FileNotFoundError</span><span class="g g-Whitespace">                         </span>Traceback (most recent call last)
+<span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">ipykernel_56990</span><span class="o">/</span><span class="mf">3293729661.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="n">pd</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">plotting</span><span class="o">.</span><span class="n">backend</span> <span class="o">=</span> <span class="s2">&quot;plotly&quot;</span>
+<span class="g g-Whitespace">      </span><span class="mi">4</span> 
+<span class="ne">----&gt; </span><span class="mi">5</span> <span class="n">articles_zenodo</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="s1">&#39;RyC_articles.xlsx&#39;</span><span class="p">,</span><span class="n">sheet_name</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">6</span> <span class="n">articles_zenodo</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
+<span class="nn">~/miniconda3/envs/py39/lib/python3.9/site-packages/pandas/util/_decorators.py</span> in <span class="ni">wrapper</span><span class="nt">(*args, **kwargs)</span>
+<span class="g g-Whitespace">    </span><span class="mi">309</span>                     <span class="n">stacklevel</span><span class="o">=</span><span class="n">stacklevel</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">310</span>                 <span class="p">)</span>
+<span class="ne">--&gt; </span><span class="mi">311</span>             <span class="k">return</span> <span class="n">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">312</span> 
+<span class="g g-Whitespace">    </span><span class="mi">313</span>         <span class="k">return</span> <span class="n">wrapper</span>
 
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Key</th>
-      <th>Item Type</th>
-      <th>Publication Year</th>
-      <th>Author</th>
-      <th>Title</th>
-      <th>Publication Title</th>
-      <th>ISBN</th>
-      <th>ISSN</th>
-      <th>DOI</th>
-      <th>Url</th>
-      <th>...</th>
-      <th>Programming Language</th>
-      <th>Version</th>
-      <th>System</th>
-      <th>Code</th>
-      <th>Code Number</th>
-      <th>Section</th>
-      <th>Session</th>
-      <th>Committee</th>
-      <th>History</th>
-      <th>Legislative Body</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Y7THFE63</td>
-      <td>journalArticle</td>
-      <td>2019</td>
-      <td>Mary, Benjamin; Vanella, Daniela; Consoli, Sim...</td>
-      <td>Assessing the extent of citrus trees root appa...</td>
-      <td>Scientific Reports</td>
-      <td>NaN</td>
-      <td>2045-2322</td>
-      <td>10.1038/s41598-019-46107-w</td>
-      <td>http://www.nature.com/articles/s41598-019-46107-w</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>AFTZCWGH</td>
-      <td>journalArticle</td>
-      <td>2015</td>
-      <td>Vennetier, Michel; Zanetti, Caroline; Meriaux,...</td>
-      <td>Tree root architecture: new insights from a co...</td>
-      <td>Plant and Soil</td>
-      <td>NaN</td>
-      <td>0032-079X, 1573-5036</td>
-      <td>10.1007/s11104-014-2272-9</td>
-      <td>http://link.springer.com/10.1007/s11104-014-22...</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3I9JB8BR</td>
-      <td>journalArticle</td>
-      <td>2020</td>
-      <td>Benjamin Mary; Guillaume Blanchy</td>
-      <td>CAGS: Catalog of Agrogeophysical Studies</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>https://zenodo.org/record/4058524#.X_c10OhKg2w</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>9GLKV28K</td>
-      <td>journalArticle</td>
-      <td>2020</td>
-      <td>Mary, Benjamin; Peruzzo, Luca; Boaga, Jacopo; ...</td>
-      <td>Time-lapse monitoring of root water uptake usi...</td>
-      <td>SOIL</td>
-      <td>NaN</td>
-      <td>2199-3971</td>
-      <td>https://doi.org/10.5194/soil-6-95-2020</td>
-      <td>https://soil.copernicus.org/articles/6/95/2020/</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>V83BNVM8</td>
-      <td>journalArticle</td>
-      <td>2020</td>
-      <td>Peruzzo, Luca; Chou, Chunwei; Wu, Yuxin; Schmu...</td>
-      <td>Imaging of plant current pathways for non-inva...</td>
-      <td>Plant and Soil</td>
-      <td>NaN</td>
-      <td>0032-079X, 1573-5036</td>
-      <td>10.1007/s11104-020-04529-w</td>
-      <td>http://link.springer.com/10.1007/s11104-020-04...</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-  </tbody>
-</table>
-<p>5 rows × 87 columns</p>
-</div></div></div>
+<span class="nn">~/miniconda3/envs/py39/lib/python3.9/site-packages/pandas/io/excel/_base.py</span> in <span class="ni">read_excel</span><span class="nt">(io, sheet_name, header, names, index_col, usecols, squeeze, dtype, engine, converters, true_values, false_values, skiprows, nrows, na_values, keep_default_na, na_filter, verbose, parse_dates, date_parser, thousands, comment, skipfooter, convert_float, mangle_dupe_cols, storage_options)</span>
+<span class="g g-Whitespace">    </span><span class="mi">362</span>     <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">io</span><span class="p">,</span> <span class="n">ExcelFile</span><span class="p">):</span>
+<span class="g g-Whitespace">    </span><span class="mi">363</span>         <span class="n">should_close</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="ne">--&gt; </span><span class="mi">364</span>         <span class="n">io</span> <span class="o">=</span> <span class="n">ExcelFile</span><span class="p">(</span><span class="n">io</span><span class="p">,</span> <span class="n">storage_options</span><span class="o">=</span><span class="n">storage_options</span><span class="p">,</span> <span class="n">engine</span><span class="o">=</span><span class="n">engine</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">365</span>     <span class="k">elif</span> <span class="n">engine</span> <span class="ow">and</span> <span class="n">engine</span> <span class="o">!=</span> <span class="n">io</span><span class="o">.</span><span class="n">engine</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">366</span>         <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+
+<span class="nn">~/miniconda3/envs/py39/lib/python3.9/site-packages/pandas/io/excel/_base.py</span> in <span class="ni">__init__</span><span class="nt">(self, path_or_buffer, engine, storage_options)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1189</span>                 <span class="n">ext</span> <span class="o">=</span> <span class="s2">&quot;xls&quot;</span>
+<span class="g g-Whitespace">   </span><span class="mi">1190</span>             <span class="k">else</span><span class="p">:</span>
+<span class="ne">-&gt; </span><span class="mi">1191</span>                 <span class="n">ext</span> <span class="o">=</span> <span class="n">inspect_excel_format</span><span class="p">(</span>
+<span class="g g-Whitespace">   </span><span class="mi">1192</span>                     <span class="n">content_or_path</span><span class="o">=</span><span class="n">path_or_buffer</span><span class="p">,</span> <span class="n">storage_options</span><span class="o">=</span><span class="n">storage_options</span>
+<span class="g g-Whitespace">   </span><span class="mi">1193</span>                 <span class="p">)</span>
+
+<span class="nn">~/miniconda3/envs/py39/lib/python3.9/site-packages/pandas/io/excel/_base.py</span> in <span class="ni">inspect_excel_format</span><span class="nt">(content_or_path, storage_options)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1068</span>         <span class="n">content_or_path</span> <span class="o">=</span> <span class="n">BytesIO</span><span class="p">(</span><span class="n">content_or_path</span><span class="p">)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1069</span> 
+<span class="ne">-&gt; </span><span class="mi">1070</span>     <span class="k">with</span> <span class="n">get_handle</span><span class="p">(</span>
+<span class="g g-Whitespace">   </span><span class="mi">1071</span>         <span class="n">content_or_path</span><span class="p">,</span> <span class="s2">&quot;rb&quot;</span><span class="p">,</span> <span class="n">storage_options</span><span class="o">=</span><span class="n">storage_options</span><span class="p">,</span> <span class="n">is_text</span><span class="o">=</span><span class="kc">False</span>
+<span class="g g-Whitespace">   </span><span class="mi">1072</span>     <span class="p">)</span> <span class="k">as</span> <span class="n">handle</span><span class="p">:</span>
+
+<span class="nn">~/miniconda3/envs/py39/lib/python3.9/site-packages/pandas/io/common.py</span> in <span class="ni">get_handle</span><span class="nt">(path_or_buf, mode, encoding, compression, memory_map, is_text, errors, storage_options)</span>
+<span class="g g-Whitespace">    </span><span class="mi">709</span>         <span class="k">else</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">710</span>             <span class="c1"># Binary mode</span>
+<span class="ne">--&gt; </span><span class="mi">711</span>             <span class="n">handle</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">handle</span><span class="p">,</span> <span class="n">ioargs</span><span class="o">.</span><span class="n">mode</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">712</span>         <span class="n">handles</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">handle</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">713</span> 
+
+<span class="ne">FileNotFoundError</span>: [Errno 2] No such file or directory: &#39;RyC_articles.xlsx&#39;
+</pre></div>
+</div>
+</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -693,43 +606,177 @@ title="Print to PDF"
 
 <span class="c1"># Retrieve the author&#39;s data, fill-in, and print</span>
 <span class="c1"># Get an iterator for the author results</span>
-<span class="n">search_query</span> <span class="o">=</span> <span class="n">scholarly</span><span class="o">.</span><span class="n">search_author</span><span class="p">(</span><span class="s1">&#39;Benjamin Mary, Padova&#39;</span><span class="p">)</span>
-<span class="c1"># Retrieve the first result from the iterator</span>
+<span class="n">search_query</span> <span class="o">=</span> <span class="n">scholarly</span><span class="o">.</span><span class="n">search_author</span><span class="p">(</span><span class="s1">&#39;Benjamin Mary&#39;</span><span class="p">)</span>
+<span class="c1">#search_query = scholarly.search_author(&#39;Benjamin Mary, Padova&#39;)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">IndexError</span><span class="g g-Whitespace">                                </span>Traceback (most recent call last)
+<span class="nn">~/miniconda3/envs/py39/lib/python3.9/site-packages/fake_useragent/utils.py</span> in <span class="ni">load</span><span class="nt">(use_cache_server, verify_ssl)</span>
+<span class="g g-Whitespace">    </span><span class="mi">153</span>     <span class="k">try</span><span class="p">:</span>
+<span class="ne">--&gt; </span><span class="mi">154</span>         <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">get_browsers</span><span class="p">(</span><span class="n">verify_ssl</span><span class="o">=</span><span class="n">verify_ssl</span><span class="p">):</span>
+<span class="g g-Whitespace">    </span><span class="mi">155</span>             <span class="n">browser</span><span class="p">,</span> <span class="n">percent</span> <span class="o">=</span> <span class="n">item</span>
+
+<span class="nn">~/miniconda3/envs/py39/lib/python3.9/site-packages/fake_useragent/utils.py</span> in <span class="ni">get_browsers</span><span class="nt">(verify_ssl)</span>
+<span class="g g-Whitespace">     </span><span class="mi">98</span>     <span class="n">html</span> <span class="o">=</span> <span class="n">html</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span>
+<span class="ne">---&gt; </span><span class="mi">99</span>     <span class="n">html</span> <span class="o">=</span> <span class="n">html</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;&lt;table class=&quot;w3-table-all notranslate&quot;&gt;&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span>
+<span class="g g-Whitespace">    </span><span class="mi">100</span>     <span class="n">html</span> <span class="o">=</span> <span class="n">html</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;&lt;/table&gt;&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+
+<span class="ne">IndexError</span>: list index out of range
+
+<span class="n">During</span> <span class="n">handling</span> <span class="n">of</span> <span class="n">the</span> <span class="n">above</span> <span class="n">exception</span><span class="p">,</span> <span class="n">another</span> <span class="n">exception</span> <span class="n">occurred</span><span class="p">:</span>
+
+<span class="ne">HTTPError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="nn">~/miniconda3/envs/py39/lib/python3.9/site-packages/fake_useragent/utils.py</span> in <span class="ni">get</span><span class="nt">(url, verify_ssl)</span>
+<span class="g g-Whitespace">     </span><span class="mi">63</span> 
+<span class="ne">---&gt; </span><span class="mi">64</span>                 <span class="k">with</span> <span class="n">contextlib</span><span class="o">.</span><span class="n">closing</span><span class="p">(</span><span class="n">urlopen</span><span class="p">(</span>
+<span class="g g-Whitespace">     </span><span class="mi">65</span>                     <span class="n">request</span><span class="p">,</span>
+
+<span class="nn">~/miniconda3/envs/py39/lib/python3.9/urllib/request.py</span> in <span class="ni">urlopen</span><span class="nt">(url, data, timeout, cafile, capath, cadefault, context)</span>
+<span class="g g-Whitespace">    </span><span class="mi">213</span>         <span class="n">opener</span> <span class="o">=</span> <span class="n">_opener</span>
+<span class="ne">--&gt; </span><span class="mi">214</span>     <span class="k">return</span> <span class="n">opener</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">timeout</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">215</span> 
+
+<span class="nn">~/miniconda3/envs/py39/lib/python3.9/urllib/request.py</span> in <span class="ni">open</span><span class="nt">(self, fullurl, data, timeout)</span>
+<span class="g g-Whitespace">    </span><span class="mi">522</span>             <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">processor</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="ne">--&gt; </span><span class="mi">523</span>             <span class="n">response</span> <span class="o">=</span> <span class="n">meth</span><span class="p">(</span><span class="n">req</span><span class="p">,</span> <span class="n">response</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">524</span> 
+
+<span class="nn">~/miniconda3/envs/py39/lib/python3.9/urllib/request.py</span> in <span class="ni">http_response</span><span class="nt">(self, request, response)</span>
+<span class="g g-Whitespace">    </span><span class="mi">631</span>         <span class="k">if</span> <span class="ow">not</span> <span class="p">(</span><span class="mi">200</span> <span class="o">&lt;=</span> <span class="n">code</span> <span class="o">&lt;</span> <span class="mi">300</span><span class="p">):</span>
+<span class="ne">--&gt; </span><span class="mi">632</span>             <span class="n">response</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">parent</span><span class="o">.</span><span class="n">error</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">633</span>                 <span class="s1">&#39;http&#39;</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="n">response</span><span class="p">,</span> <span class="n">code</span><span class="p">,</span> <span class="n">msg</span><span class="p">,</span> <span class="n">hdrs</span><span class="p">)</span>
+
+<span class="nn">~/miniconda3/envs/py39/lib/python3.9/urllib/request.py</span> in <span class="ni">error</span><span class="nt">(self, proto, *args)</span>
+<span class="g g-Whitespace">    </span><span class="mi">560</span>             <span class="n">args</span> <span class="o">=</span> <span class="p">(</span><span class="nb">dict</span><span class="p">,</span> <span class="s1">&#39;default&#39;</span><span class="p">,</span> <span class="s1">&#39;http_error_default&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="n">orig_args</span>
+<span class="ne">--&gt; </span><span class="mi">561</span>             <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_call_chain</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">562</span> 
+
+<span class="nn">~/miniconda3/envs/py39/lib/python3.9/urllib/request.py</span> in <span class="ni">_call_chain</span><span class="nt">(self, chain, kind, meth_name, *args)</span>
+<span class="g g-Whitespace">    </span><span class="mi">493</span>             <span class="n">func</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">handler</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="ne">--&gt; </span><span class="mi">494</span>             <span class="n">result</span> <span class="o">=</span> <span class="n">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">495</span>             <span class="k">if</span> <span class="n">result</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+
+<span class="nn">~/miniconda3/envs/py39/lib/python3.9/urllib/request.py</span> in <span class="ni">http_error_default</span><span class="nt">(self, req, fp, code, msg, hdrs)</span>
+<span class="g g-Whitespace">    </span><span class="mi">640</span>     <span class="k">def</span> <span class="nf">http_error_default</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">req</span><span class="p">,</span> <span class="n">fp</span><span class="p">,</span> <span class="n">code</span><span class="p">,</span> <span class="n">msg</span><span class="p">,</span> <span class="n">hdrs</span><span class="p">):</span>
+<span class="ne">--&gt; </span><span class="mi">641</span>         <span class="k">raise</span> <span class="n">HTTPError</span><span class="p">(</span><span class="n">req</span><span class="o">.</span><span class="n">full_url</span><span class="p">,</span> <span class="n">code</span><span class="p">,</span> <span class="n">msg</span><span class="p">,</span> <span class="n">hdrs</span><span class="p">,</span> <span class="n">fp</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">642</span> 
+
+<span class="ne">HTTPError</span>: HTTP Error 503: Service Unavailable
+
+<span class="n">During</span> <span class="n">handling</span> <span class="n">of</span> <span class="n">the</span> <span class="n">above</span> <span class="n">exception</span><span class="p">,</span> <span class="n">another</span> <span class="n">exception</span> <span class="n">occurred</span><span class="p">:</span>
+
+<span class="ne">FakeUserAgentError</span><span class="g g-Whitespace">                        </span>Traceback (most recent call last)
+<span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">ipykernel_56990</span><span class="o">/</span><span class="mf">2909953615.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="c1">#from rpy2.robjects.packages import importr</span>
+<span class="ne">----&gt; </span><span class="mi">2</span> <span class="kn">from</span> <span class="nn">scholarly</span> <span class="kn">import</span> <span class="n">scholarly</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> 
+<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="c1"># Retrieve the author&#39;s data, fill-in, and print</span>
+<span class="g g-Whitespace">      </span><span class="mi">5</span> <span class="c1"># Get an iterator for the author results</span>
+
+<span class="o">~/</span><span class="n">miniconda3</span><span class="o">/</span><span class="n">envs</span><span class="o">/</span><span class="n">py39</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">python3</span><span class="mf">.9</span><span class="o">/</span><span class="n">site</span><span class="o">-</span><span class="n">packages</span><span class="o">/</span><span class="n">scholarly</span><span class="o">/</span><span class="fm">__init__</span><span class="o">.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="kn">from</span> <span class="nn">.data_types</span> <span class="kn">import</span> <span class="n">Author</span><span class="p">,</span> <span class="n">Publication</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="kn">from</span> <span class="nn">._proxy_generator</span> <span class="kn">import</span> <span class="n">ProxyGenerator</span><span class="p">,</span> <span class="n">DOSException</span><span class="p">,</span> <span class="n">MaxTriesExceededException</span>
+<span class="ne">----&gt; </span><span class="mi">4</span> <span class="n">scholarly</span> <span class="o">=</span> <span class="n">_Scholarly</span><span class="p">()</span>
+
+<span class="nn">~/miniconda3/envs/py39/lib/python3.9/site-packages/scholarly/_scholarly.py</span> in <span class="ni">__init__</span><span class="nt">(self)</span>
+<span class="g g-Whitespace">     </span><span class="mi">26</span>         <span class="n">load_dotenv</span><span class="p">(</span><span class="n">find_dotenv</span><span class="p">())</span>
+<span class="g g-Whitespace">     </span><span class="mi">27</span>         <span class="bp">self</span><span class="o">.</span><span class="n">env</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+<span class="ne">---&gt; </span><span class="mi">28</span>         <span class="bp">self</span><span class="o">.</span><span class="n">__nav</span> <span class="o">=</span> <span class="n">Navigator</span><span class="p">()</span>
+<span class="g g-Whitespace">     </span><span class="mi">29</span>         <span class="bp">self</span><span class="o">.</span><span class="n">logger</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__nav</span><span class="o">.</span><span class="n">logger</span>
+<span class="g g-Whitespace">     </span><span class="mi">30</span> 
+
+<span class="nn">~/miniconda3/envs/py39/lib/python3.9/site-packages/scholarly/_navigator.py</span> in <span class="ni">__call__</span><span class="nt">(cls, *args, **kwargs)</span>
+<span class="g g-Whitespace">     </span><span class="mi">24</span>     <span class="k">def</span> <span class="fm">__call__</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+<span class="g g-Whitespace">     </span><span class="mi">25</span>         <span class="k">if</span> <span class="bp">cls</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">cls</span><span class="o">.</span><span class="n">_instances</span><span class="p">:</span>
+<span class="ne">---&gt; </span><span class="mi">26</span>             <span class="bp">cls</span><span class="o">.</span><span class="n">_instances</span><span class="p">[</span><span class="bp">cls</span><span class="p">]</span> <span class="o">=</span> <span class="nb">super</span><span class="p">(</span><span class="n">Singleton</span><span class="p">,</span> <span class="bp">cls</span><span class="p">)</span><span class="o">.</span><span class="fm">__call__</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span>
+<span class="g g-Whitespace">     </span><span class="mi">27</span>                                                                  <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+<span class="g g-Whitespace">     </span><span class="mi">28</span>         <span class="k">return</span> <span class="bp">cls</span><span class="o">.</span><span class="n">_instances</span><span class="p">[</span><span class="bp">cls</span><span class="p">]</span>
+
+<span class="nn">~/miniconda3/envs/py39/lib/python3.9/site-packages/scholarly/_navigator.py</span> in <span class="ni">__init__</span><span class="nt">(self)</span>
+<span class="g g-Whitespace">     </span><span class="mi">40</span>         <span class="c1"># `pm1` manages the primary, premium proxy.</span>
+<span class="g g-Whitespace">     </span><span class="mi">41</span>         <span class="c1"># `pm2` manages the secondary, inexpensive proxy.</span>
+<span class="ne">---&gt; </span><span class="mi">42</span>         <span class="bp">self</span><span class="o">.</span><span class="n">pm1</span> <span class="o">=</span> <span class="n">ProxyGenerator</span><span class="p">()</span>
+<span class="g g-Whitespace">     </span><span class="mi">43</span>         <span class="bp">self</span><span class="o">.</span><span class="n">pm2</span> <span class="o">=</span> <span class="n">ProxyGenerator</span><span class="p">()</span>
+<span class="g g-Whitespace">     </span><span class="mi">44</span>         <span class="bp">self</span><span class="o">.</span><span class="n">_session1</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">pm1</span><span class="o">.</span><span class="n">get_session</span><span class="p">()</span>
+
+<span class="nn">~/miniconda3/envs/py39/lib/python3.9/site-packages/scholarly/_proxy_generator.py</span> in <span class="ni">__init__</span><span class="nt">(self)</span>
+<span class="g g-Whitespace">     </span><span class="mi">51</span>         <span class="bp">self</span><span class="o">.</span><span class="n">_session</span> <span class="o">=</span> <span class="kc">None</span>
+<span class="g g-Whitespace">     </span><span class="mi">52</span>         <span class="bp">self</span><span class="o">.</span><span class="n">_TIMEOUT</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="ne">---&gt; </span><span class="mi">53</span>         <span class="bp">self</span><span class="o">.</span><span class="n">_new_session</span><span class="p">()</span>
+<span class="g g-Whitespace">     </span><span class="mi">54</span> 
+<span class="g g-Whitespace">     </span><span class="mi">55</span>     <span class="k">def</span> <span class="fm">__del__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+
+<span class="nn">~/miniconda3/envs/py39/lib/python3.9/site-packages/scholarly/_proxy_generator.py</span> in <span class="ni">_new_session</span><span class="nt">(self)</span>
+<span class="g g-Whitespace">    </span><span class="mi">440</span>                 <span class="s1">&#39;accept-language&#39;</span><span class="p">:</span> <span class="s1">&#39;en-US,en&#39;</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">441</span>                 <span class="s1">&#39;accept&#39;</span><span class="p">:</span> <span class="s1">&#39;text/html,application/xhtml+xml,application/xml&#39;</span><span class="p">,</span>
+<span class="ne">--&gt; </span><span class="mi">442</span>                 <span class="s1">&#39;User-Agent&#39;</span><span class="p">:</span> <span class="n">UserAgent</span><span class="p">()</span><span class="o">.</span><span class="n">random</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">443</span>             <span class="p">}</span>
+<span class="g g-Whitespace">    </span><span class="mi">444</span>         <span class="bp">self</span><span class="o">.</span><span class="n">_session</span><span class="o">.</span><span class="n">headers</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">_HEADERS</span><span class="p">)</span>
+
+<span class="nn">~/miniconda3/envs/py39/lib/python3.9/site-packages/fake_useragent/fake.py</span> in <span class="ni">__init__</span><span class="nt">(self, cache, use_cache_server, path, fallback, verify_ssl, safe_attrs)</span>
+<span class="g g-Whitespace">     </span><span class="mi">67</span>         <span class="bp">self</span><span class="o">.</span><span class="n">data_browsers</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="g g-Whitespace">     </span><span class="mi">68</span> 
+<span class="ne">---&gt; </span><span class="mi">69</span>         <span class="bp">self</span><span class="o">.</span><span class="n">load</span><span class="p">()</span>
+<span class="g g-Whitespace">     </span><span class="mi">70</span> 
+<span class="g g-Whitespace">     </span><span class="mi">71</span>     <span class="k">def</span> <span class="nf">load</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+
+<span class="nn">~/miniconda3/envs/py39/lib/python3.9/site-packages/fake_useragent/fake.py</span> in <span class="ni">load</span><span class="nt">(self)</span>
+<span class="g g-Whitespace">     </span><span class="mi">73</span>             <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">load</span><span class="o">.</span><span class="n">lock</span><span class="p">:</span>
+<span class="g g-Whitespace">     </span><span class="mi">74</span>                 <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">cache</span><span class="p">:</span>
+<span class="ne">---&gt; </span><span class="mi">75</span>                     <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="n">load_cached</span><span class="p">(</span>
+<span class="g g-Whitespace">     </span><span class="mi">76</span>                         <span class="bp">self</span><span class="o">.</span><span class="n">path</span><span class="p">,</span>
+<span class="g g-Whitespace">     </span><span class="mi">77</span>                         <span class="n">use_cache_server</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">use_cache_server</span><span class="p">,</span>
+
+<span class="nn">~/miniconda3/envs/py39/lib/python3.9/site-packages/fake_useragent/utils.py</span> in <span class="ni">load_cached</span><span class="nt">(path, use_cache_server, verify_ssl)</span>
+<span class="g g-Whitespace">    </span><span class="mi">248</span> <span class="k">def</span> <span class="nf">load_cached</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">use_cache_server</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">verify_ssl</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+<span class="g g-Whitespace">    </span><span class="mi">249</span>     <span class="k">if</span> <span class="ow">not</span> <span class="n">exist</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
+<span class="ne">--&gt; </span><span class="mi">250</span>         <span class="n">update</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">use_cache_server</span><span class="o">=</span><span class="n">use_cache_server</span><span class="p">,</span> <span class="n">verify_ssl</span><span class="o">=</span><span class="n">verify_ssl</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">251</span> 
+<span class="g g-Whitespace">    </span><span class="mi">252</span>     <span class="k">return</span> <span class="n">read</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+
+<span class="nn">~/miniconda3/envs/py39/lib/python3.9/site-packages/fake_useragent/utils.py</span> in <span class="ni">update</span><span class="nt">(path, use_cache_server, verify_ssl)</span>
+<span class="g g-Whitespace">    </span><span class="mi">243</span>     <span class="n">rm</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">244</span> 
+<span class="ne">--&gt; </span><span class="mi">245</span>     <span class="n">write</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">load</span><span class="p">(</span><span class="n">use_cache_server</span><span class="o">=</span><span class="n">use_cache_server</span><span class="p">,</span> <span class="n">verify_ssl</span><span class="o">=</span><span class="n">verify_ssl</span><span class="p">))</span>
+<span class="g g-Whitespace">    </span><span class="mi">246</span> 
+<span class="g g-Whitespace">    </span><span class="mi">247</span> 
+
+<span class="nn">~/miniconda3/envs/py39/lib/python3.9/site-packages/fake_useragent/utils.py</span> in <span class="ni">load</span><span class="nt">(use_cache_server, verify_ssl)</span>
+<span class="g g-Whitespace">    </span><span class="mi">185</span>         <span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">186</span>         <span class="k">try</span><span class="p">:</span>
+<span class="ne">--&gt; </span><span class="mi">187</span>             <span class="n">ret</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">get</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">188</span>                 <span class="n">settings</span><span class="o">.</span><span class="n">CACHE_SERVER</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">189</span>                 <span class="n">verify_ssl</span><span class="o">=</span><span class="n">verify_ssl</span><span class="p">,</span>
+
+<span class="nn">~/miniconda3/envs/py39/lib/python3.9/site-packages/fake_useragent/utils.py</span> in <span class="ni">get</span><span class="nt">(url, verify_ssl)</span>
+<span class="g g-Whitespace">     </span><span class="mi">82</span> 
+<span class="g g-Whitespace">     </span><span class="mi">83</span>             <span class="k">if</span> <span class="n">attempt</span> <span class="o">==</span> <span class="n">settings</span><span class="o">.</span><span class="n">HTTP_RETRIES</span><span class="p">:</span>
+<span class="ne">---&gt; </span><span class="mi">84</span>                 <span class="k">raise</span> <span class="n">FakeUserAgentError</span><span class="p">(</span><span class="s1">&#39;Maximum amount of retries reached&#39;</span><span class="p">)</span>
+<span class="g g-Whitespace">     </span><span class="mi">85</span>             <span class="k">else</span><span class="p">:</span>
+<span class="g g-Whitespace">     </span><span class="mi">86</span>                 <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span>
+
+<span class="ne">FakeUserAgentError</span>: Maximum amount of retries reached
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Retrieve the first result from the iterator</span>
 <span class="n">first_author_result</span> <span class="o">=</span> <span class="nb">next</span><span class="p">(</span><span class="n">search_query</span><span class="p">)</span>
 <span class="n">scholarly</span><span class="o">.</span><span class="n">pprint</span><span class="p">(</span><span class="n">first_author_result</span><span class="p">)</span>
 
 <span class="c1"># Retrieve all the details for the author</span>
-<span class="n">author</span> <span class="o">=</span> <span class="n">scholarly</span><span class="o">.</span><span class="n">fill</span><span class="p">(</span><span class="n">first_author_result</span> <span class="p">)</span>
+<span class="n">author</span> <span class="o">=</span> <span class="n">scholarly</span><span class="o">.</span><span class="n">fill</span><span class="p">(</span><span class="n">first_author_result</span><span class="p">)</span>
 <span class="c1">#scholarly.pprint(author)</span>
 
 
 <span class="n">first_author_result</span>
 
 <span class="n">citedby</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;affiliation&#39;: &#39;University of Padua, Department of Geosciences - Visiting &#39;
-                &#39;Scholar at Berkeley Lab&#39;,
- &#39;citedby&#39;: 159,
- &#39;email_domain&#39;: &#39;@unipd.it&#39;,
- &#39;filled&#39;: False,
- &#39;interests&#39;: [&#39;Applied geophysics&#39;],
- &#39;name&#39;: &#39;Benjamin Mary&#39;,
- &#39;scholar_id&#39;: &#39;3kDP4-AAAAAJ&#39;,
- &#39;source&#39;: &#39;SEARCH_AUTHOR_SNIPPETS&#39;,
- &#39;url_picture&#39;: &#39;https://scholar.google.com/citations?view_op=medium_photo&amp;user=3kDP4-AAAAAJ&#39;}
-</pre></div>
-</div>
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
-<span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">ipykernel_802510</span><span class="o">/</span><span class="mf">1450655407.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
-<span class="g g-Whitespace">     </span><span class="mi">16</span> <span class="n">first_author_result</span>
-<span class="g g-Whitespace">     </span><span class="mi">17</span> 
-<span class="ne">---&gt; </span><span class="mi">18</span> <span class="n">citedby</span>
-
-<span class="ne">NameError</span>: name &#39;citedby&#39; is not defined
 </pre></div>
 </div>
 </div>
@@ -744,6 +791,20 @@ title="Print to PDF"
 <span class="n">mpl</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s1">&#39;font.family&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;Avenir&#39;</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s1">&#39;font.size&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">18</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s1">&#39;axes.linewidth&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">ipykernel_56990</span><span class="o">/</span><span class="mf">1968364261.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="n">pd</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">plotting</span><span class="o">.</span><span class="n">backend</span> <span class="o">=</span> <span class="s2">&quot;matplotlib&quot;</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="n">mpl</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s1">&#39;font.family&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;Avenir&#39;</span>
+<span class="ne">----&gt; </span><span class="mi">4</span> <span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s1">&#39;font.size&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">18</span>
+<span class="g g-Whitespace">      </span><span class="mi">5</span> <span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s1">&#39;axes.linewidth&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="g g-Whitespace">      </span><span class="mi">6</span> <span class="n">mpl</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s1">&#39;font.family&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;Avenir&#39;</span>
+
+<span class="ne">NameError</span>: name &#39;plt&#39; is not defined
 </pre></div>
 </div>
 </div>
@@ -778,63 +839,18 @@ title="Print to PDF"
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_html"><div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">ipykernel_56990</span><span class="o">/</span><span class="mf">2320619166.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="ne">----&gt; </span><span class="mi">1</span> <span class="n">pd_citations</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">author</span><span class="p">[</span><span class="s1">&#39;cites_per_year&#39;</span><span class="p">],</span> <span class="n">index</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="n">pd_cit_t</span> <span class="o">=</span> <span class="n">pd_citations</span><span class="o">.</span><span class="n">transpose</span><span class="p">()</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> 
+<span class="g g-Whitespace">      </span><span class="mi">4</span> 
+<span class="g g-Whitespace">      </span><span class="mi">5</span> 
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>0</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>2015</th>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>2016</th>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>2017</th>
-      <td>13</td>
-    </tr>
-    <tr>
-      <th>2018</th>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>2019</th>
-      <td>24</td>
-    </tr>
-    <tr>
-      <th>2020</th>
-      <td>39</td>
-    </tr>
-    <tr>
-      <th>2021</th>
-      <td>55</td>
-    </tr>
-    <tr>
-      <th>2022</th>
-      <td>7</td>
-    </tr>
-  </tbody>
-</table>
-</div></div><img alt="../../_images/papers_graphs_5_1.png" src="../../_images/papers_graphs_5_1.png" />
+<span class="ne">NameError</span>: name &#39;author&#39; is not defined
+</pre></div>
+</div>
 </div>
 </div>
 <div class="cell docutils container">
@@ -854,64 +870,16 @@ title="Print to PDF"
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2018
-2019
-2016
-2015
-2017
-2020
-2020
-2015
-2015
-2021
-2019
-2021
-2021
-2021
-2021
-2020
-2019
-2019
-2019
-2018
-2018
-2018
-2017
-2017
-2015
-2014
-2013
-2013
-</pre></div>
-</div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[2018,
- 2019,
- 2016,
- 2015,
- 2017,
- 2020,
- 2020,
- 2015,
- 2015,
- 2021,
- 2019,
- 2021,
- 2021,
- 2021,
- 2021,
- 2020,
- 2019,
- 2019,
- 2019,
- 2018,
- 2018,
- 2018,
- 2017,
- 2017,
- 2015,
- 2014,
- 2013,
- 2013]
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">ipykernel_56990</span><span class="o">/</span><span class="mf">1660163251.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="ne">----&gt; </span><span class="mi">1</span> <span class="n">publications</span> <span class="o">=</span> <span class="n">author</span><span class="p">[</span><span class="s1">&#39;publications&#39;</span><span class="p">]</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> 
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="n">pub_year</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">publications</span><span class="p">:</span>
+<span class="g g-Whitespace">      </span><span class="mi">5</span>     <span class="k">try</span><span class="p">:</span>
+
+<span class="ne">NameError</span>: name &#39;author&#39; is not defined
 </pre></div>
 </div>
 </div>

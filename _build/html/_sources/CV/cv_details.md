@@ -33,7 +33,37 @@ _I'm a Marie-Curie fellow working with geophysics applied to agronomy between Pa
 
 
 
+🗓️ 2023
+
+<!--
+Electro-magnetic geophysical dynamics under conservation and conventional farming 3
+
+-->
+
+```{admonition} In preparation
+
+- M. Palladino, B. Sica, **B. Mary**, G. Cassiani, J. Boaga, S. Chiavarini, J. Rimauro, A. Salluzzo, G. Armiento, N. Romano*. A monitoring and modeling study to support an environmentally effective technique for reducing VOCs concentration from groundwater for irrigation purposes
+
+- **B. Mary**, V. Iván, F. Meggio, L. Peruzzo, G. Blanchy, Chou, C., Y. Wu, G. Cassiani: Imaging of the active root current pathway under partial root-zone drying stress: A laboratory study for Vitis vinifera.
+
+- Peruzzo et al. 2023 (in prep. for Science of the Total Environment). Fabricated ecosystem stations, beyond weather: setup and preliminary results.
+
+- B. Loiseau, S. Carrière, D. Jougnot, R. Guerin, N. Martin, N. Delpierre, **B. Mary**, K. Singha (2023 In prep. for Science of the Total Environment). The geophysical toolbox applied to forest ecosystems – a review
+
+```
+
+```{admonition} Submitted
+
+
+- H. Gua, I. Cseresnyes, J. R. Butnord, **B. Mary**, X. Zhanga, Y. Lua, X. Liua* (2023 submitted to ?) Soil electrical capacitance makes plant roots unhidden
+
+
+```
+
 🗓️ 2022
+
+- Carrera, A., Longo, M., Piccoli, I., **Mary, B.**, Cassiani, G., and Morari, F. (2022). Electro-Magnetic Geophysical Dynamics under Conservation and Conventional Farming. Remote Sensing 14, 6243. doi: 10.3390/rs14246243.[doi:10.3390/rs14246243](https://www.mdpi.com/2072-4292/14/24/6243)
+
 
 - **Mary, B.**, Peruzzo, L., Wu, Y., and Cassiani, G. (2022). Advanced Potential Field Analysis Applied to Mise‐à‐la‐Masse Surveys for Leakage Detection. JGR Solid Earth 127. [doi:10.1029/2022JB024747](https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2022JB024747)
 
@@ -60,21 +90,12 @@ _I'm a Marie-Curie fellow working with geophysics applied to agronomy between Pa
 
 - **Mary, B.**, Peruzzo, L., Iván, V., Facca, E., Manoli, G., Putti, M., et al. (2021). Combining Models of Root-Zone Hydrology and Geoelectrical Measurements: Recent Advances and Future Prospects. Front. Water 3, 767910. [doi:10.3389/frwa.2021.767910](https://www.frontiersin.org/articles/10.3389/frwa.2021.767910/full).
 
-	```{tabbed} Tab 1 title
-	My first tab
-	```
-
-	```{tabbed} Tab 2 title
-	My second tab with `some code`!
-	```
-		
 	```{admonition} Find out more
 	:class: dropdown
+	<div data-badge-type="donut" data-doi="10.3389/frwa.2021.767910" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>	
+	<span class="__dimensions_badge_embed__" data-doi="10.3389/frwa.2021.767910" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 	```
 
-<div data-badge-type="donut" data-doi="10.3389/frwa.2021.767910" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>	
-<span class="__dimensions_badge_embed__" data-doi="10.3389/frwa.2021.767910" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-	
 
 - Garré, S., Hyndman, D., **Mary, B.**, and Werban, U. _(2021)_. Geophysics conquering new territories: The rise of “agrogeophysics.” Vadose zone j. 20. [doi:10.1002/vzj2.20115](https://doi.org/110.1002/vzj2.20115).<br>
 
@@ -147,7 +168,22 @@ _I'm a Marie-Curie fellow working with geophysics applied to agronomy between Pa
     
 Participation every year to international (AGU and EGU) and national (GNGTS) conferences.
 
+
+
+
+<!--
+
+-->
+
+🗓️ 2023
+
+- **Mary, B.**, K. Kaffas, M. Censini, F. S. Manca di Villahermosa, A. Dani, M. Verdone, F. Preti, P. Trucchi, D. Penna, G. Cassiani. Supporting subsurface preferential flow in a small forested catchment from geophysical data and hydrological modelling
+
+- **Mary, B.** pyCATHY: a python wrapper for Data Assimilation in CATHY. CATchment HYdrology (CATHY) days. May 31st and June 1st, 2023 in San Vito di Cadore (IT).
+
+
 🗓️ 2022
+
 
 - Iván, V., **Mary, B.**, Schwartz, N., Ghinassi, M., and Cassiani, G.: Spectral Induced Polarization: Laboratory measurements on artificial soils with varying water saturation, salinity and clay content, EGU General Assembly 2022, Vienna, Austria, 23–27 May 2022, EGU22-5638, [doi:10.5194/egusphere-egu22-5638](https://doi.org/10.5194/egusphere-egu22-5638), 2022.
 
@@ -432,6 +468,7 @@ Peer Journal Reviewer for:
 - CATENA 
 - Vadose Zone Journal
 - Journal of Open Source Software (JOSS)
+- Journal of Open Source Education (JOSE)
 
 [Publon record](https://publons.com/researcher/1516310/benjamin-mary/)
 
