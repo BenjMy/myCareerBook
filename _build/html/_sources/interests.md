@@ -2,9 +2,9 @@
 
 _Last edited: August 24th, 2022_
 
-### Soil-plant-Atmosphere interactions 🌱🌳🌤️💧
+## Soil-plant-Atmosphere interactions 🌱🌳🌤️💧
 
-# Agronomy
+### Agronomy
 Since the end of my phd in 2015, my research interests mainly focus on improving our understanding of the role of the roots in regulating water in the {term}`SPAC` using experimental non-destructive approaches (see {numref}`rhizo_neons`).
 
 I contributed to 3 projects: 
@@ -25,13 +25,13 @@ Artistic picture of the vine plant growing under neons'lights during a lab exper
 ```
 
 
-## Earth Critical Zone Hydrology
+### Earth Critical Zone Hydrology
 
 - [ECZ-DRY](Projects/project_list_others.html#ECZ-DRY (🗓️ 2019 - Now)): New Technologies to monitor the earth critical zone in water-limited ecosystems
 - [WATSON](Projects/project_list_others.html#WATSON (🗓️ 09/2022 - 09/2024)) : WATer isotopeS in the critical zONe: from groundwater recharge to plant transpiration
 
 
-### Geohazards ⛰🌊🏜️
+## Geohazards ⛰🌊🏜️
 
 I also like to solve other typical geophysical problematic such as geohazard assessment (landslide monitoring, landfill leakage detection). 
 Field work is a great opportunity to make some sport and change its point of view (see {numref}`valfredda`)
@@ -52,7 +52,7 @@ I contributed to 2 main projects:
 - and [others](Projects/projects)  
 -->
 
-### FAIR and reproducible research 🚀🎉
+## FAIR and reproducible research 🚀🎉
 
 Finally, I'm really enthusiastic with all the splendid initiatives and tools towards a more . I'm trying to join the movement building reproducible research (see {numref}`logoCAGS`).
 
@@ -68,7 +68,7 @@ Logo of the CAGS (Catalog of Agrogeophysical Studies) promoting FAIR practicies 
 © B. Mary
 ```
 
-#### Glossary
+## Glossary
 
 ```{glossary}
 SPAC

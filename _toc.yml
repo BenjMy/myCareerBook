@@ -33,6 +33,7 @@ parts:
    chapters:
         #- file: Blog/list_blog
           #sections:
+     - file: Blog/blog2023
      - file: Blog/blog2022
      - file: Blog/blog2021
  - caption: references

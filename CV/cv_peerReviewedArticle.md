@@ -39,7 +39,7 @@ _I'm a Marie-Curie fellow working with geophysics applied to agronomy between Pa
 🗓️ 2023
 
 <!--
-Electro-magnetic geophysical dynamics under conservation and conventional farming 3
+Paper dike with Nicola Fabbian <nicola.fabbian@phd.unipd.it>
 
 -->
 
@@ -178,10 +178,11 @@ Participation every year to international (AGU and EGU) and national (GNGTS) con
 
 
 <!--
-
+Add GNGTS Carrera 2023
 -->
 
 🗓️ 2023
+
 
 - **Mary, B.**, K. Kaffas, M. Censini, F. S. Manca di Villahermosa, A. Dani, M. Verdone, F. Preti, P. Trucchi, D. Penna, G. Cassiani. Supporting subsurface preferential flow in a small forested catchment from geophysical data and hydrological modelling
 

@@ -39,19 +39,22 @@ _I'm a Marie-Curie fellow working with geophysics applied to agronomy between Pa
 🗓️ 2023
 
 <!--
-Electro-magnetic geophysical dynamics under conservation and conventional farming 3
+Paper dike with Nicola Fabbian <nicola.fabbian@phd.unipd.it>
 
 -->
 
 ```{admonition} In preparation
 
-- M. Palladino, B. Sica, **B. Mary**, G. Cassiani, J. Boaga, S. Chiavarini, J. Rimauro, A. Salluzzo, G. Armiento, N. Romano*. A monitoring and modeling study to support an environmentally effective technique for reducing VOCs concentration from groundwater for irrigation purposes
+1. **B. Mary**, J Boaga, G. Cassiani, R. Deiana. Non-invasive investigations of a closed landfill in a karstic area
 
-- **B. Mary**, V. Iván, F. Meggio, L. Peruzzo, G. Blanchy, Chou, C., Y. Wu, G. Cassiani: Imaging of the active root current pathway under partial root-zone drying stress: A laboratory study for Vitis vinifera.
 
-- Peruzzo et al. 2023 (in prep. for Science of the Total Environment). Fabricated ecosystem stations, beyond weather: setup and preliminary results.
+2. M. Palladino, B. Sica, **B. Mary**, G. Cassiani, J. Boaga, S. Chiavarini, J. Rimauro, A. Salluzzo, G. Armiento, N. Romano*. A monitoring and modeling study to support an environmentally effective technique for reducing VOCs concentration from groundwater for irrigation purposes
 
-- B. Loiseau, S. Carrière, D. Jougnot, R. Guerin, N. Martin, N. Delpierre, **B. Mary**, K. Singha (2023 In prep. for Science of the Total Environment). The geophysical toolbox applied to forest ecosystems – a review
+3. **B. Mary**, V. Iván, F. Meggio, L. Peruzzo, G. Blanchy, Chou, C., Y. Wu, G. Cassiani: Imaging of the active root current pathway under partial root-zone drying stress: A laboratory study for Vitis vinifera.
+
+4. Peruzzo et al. 2023 (in prep. for Science of the Total Environment). Fabricated ecosystem stations, beyond weather: setup and preliminary results.
+
+5. B. Loiseau, S. Carrière, D. Jougnot, R. Guerin, N. Martin, N. Delpierre, **B. Mary**, K. Singha (2023 In prep. for Science of the Total Environment). The geophysical toolbox applied to forest ecosystems – a review
 
 ```
 
@@ -175,10 +178,11 @@ Participation every year to international (AGU and EGU) and national (GNGTS) con
 
 
 <!--
-
+Add GNGTS Carrera 2023
 -->
 
 🗓️ 2023
+
 
 - **Mary, B.**, K. Kaffas, M. Censini, F. S. Manca di Villahermosa, A. Dani, M. Verdone, F. Preti, P. Trucchi, D. Penna, G. Cassiani. Supporting subsurface preferential flow in a small forested catchment from geophysical data and hydrological modelling
 
