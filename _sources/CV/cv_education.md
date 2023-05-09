@@ -20,7 +20,7 @@ _I'm a Marie-Curie fellow working with geophysics applied to agronomy between Pa
 
 
 **PhD candidate** Ph.D. in Applied Geophysics<br>
-	- [INRIA (former IRSTEA)](https://www.inria.fr/fr) and [CEREGE](https://www.cerege.fr/fr) - Aix en Provence, France _(2012 - 2015)_ <br>
+	- [INRIA (former IRSTEA)](https://www.inria.fr/fr) and [CEREGE](https://www.cerege.fr/fr) - Aix en Provence, France _(01 October 2012 - 30 October 2015)_ <br>
 	- Title: Développement de l'imagerie des systèmes racinaires dans les ouvrages hydrauliques en remblai par tomographie électrique et acoustique
 	- [Open-Archive](https://www.theses.fr/2015AIXM4386)
 	

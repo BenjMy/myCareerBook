@@ -65,7 +65,7 @@ width: 150px
 ---
 ```
 
-##  INRAE (former IRSTEA) & CEREGE (🗓️ 2012-2015)
+##  INRAE (former IRSTEA) & CEREGE (🗓️ 01/10/2012-30/09/2015)
 ### Phd Candidate 
 
 - **PIs**: L. Peyras & M. Vennetier, INRAE and G. Saracco CEREGE
