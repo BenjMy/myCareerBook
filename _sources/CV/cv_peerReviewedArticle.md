@@ -45,23 +45,22 @@ Paper dike with Nicola Fabbian <nicola.fabbian@phd.unipd.it>
 
 ```{admonition} In preparation
 
-1. **B. Mary**, J Boaga, G. Cassiani, R. Deiana. Non-invasive investigations of a closed landfill in a karstic area
 
 
-2. M. Palladino, B. Sica, **B. Mary**, G. Cassiani, J. Boaga, S. Chiavarini, J. Rimauro, A. Salluzzo, G. Armiento, N. Romano*. A monitoring and modeling study to support an environmentally effective technique for reducing VOCs concentration from groundwater for irrigation purposes
 
-3. **B. Mary**, V. Iván, F. Meggio, L. Peruzzo, G. Blanchy, Chou, C., Y. Wu, G. Cassiani: Imaging of the active root current pathway under partial root-zone drying stress: A laboratory study for Vitis vinifera.
+1. M. Palladino, B. Sica, **B. Mary**, G. Cassiani, J. Boaga, S. Chiavarini, J. Rimauro, A. Salluzzo, G. Armiento, N. Romano*. A monitoring and modeling study to support an environmentally effective technique for reducing VOCs concentration from groundwater for irrigation purposes
 
-4. Peruzzo et al. 2023 (in prep. for Science of the Total Environment). Fabricated ecosystem stations, beyond weather: setup and preliminary results.
+2. Peruzzo et al. 2023 (in prep. for Science of the Total Environment). Fabricated ecosystem stations, beyond weather: setup and preliminary results.
 
-5. B. Loiseau, S. Carrière, D. Jougnot, R. Guerin, N. Martin, N. Delpierre, **B. Mary**, K. Singha (2023 In prep. for Science of the Total Environment). The geophysical toolbox applied to forest ecosystems – a review
 
 ```
 
 ```{admonition} Submitted
 
-
-- H. Gua, I. Cseresnyes, J. R. Butnord, **B. Mary**, X. Zhanga, Y. Lua, X. Liua* (2023 submitted to ?) Soil electrical capacitance makes plant roots unhidden
+- 1. **B. Mary**, J Boaga, G. Cassiani, R. Deiana. Non-invasive investigations of a closed landfill in a karstic area
+- 2. H. Gua, I. Cseresnyes, J. R. Butnord, **B. Mary**, X. Zhanga, Y. Lua, X. Liua* (2023 submitted to ?) Soil electrical capacitance makes plant roots unhidden
+- 3. **B. Mary**, V. Iván, F. Meggio, L. Peruzzo, G. Blanchy, Chou, C., Y. Wu, G. Cassiani: Imaging of the active root current pathway under partial root-zone drying stress: A laboratory study for Vitis vinifera.
+- 4. B. Loiseau, S. Carrière, D. Jougnot, R. Guerin, N. Martin, N. Delpierre, **B. Mary**, K. Singha (2023 Subm. to Science of the Total Environment). The geophysical toolbox applied to forest ecosystems – a review
 
 
 ```
@@ -183,8 +182,11 @@ Add GNGTS Carrera 2023
 
 🗓️ 2023
 
+- **Mary, B.**, Kaffas, K., Censini, M., Manca di Villahermosa, F. S., Dani, A., Verdone, M., Preti, F., Trucchi, P., Penna, D., and Cassiani, G.: Improved extraction of hydrologic information from geophysical data during an artificial hillslope infiltration, A European vision for hydrological observations and experimentation, Naples, Italy, 12–15 Jun 2023, GC8-Hydro-56, https://doi.org/10.5194/egusphere-gc8-hydro-56, 2023.
 
-- **Mary, B.**, K. Kaffas, M. Censini, F. S. Manca di Villahermosa, A. Dani, M. Verdone, F. Preti, P. Trucchi, D. Penna, G. Cassiani. Supporting subsurface preferential flow in a small forested catchment from geophysical data and hydrological modelling
+
+- **Mary, B.**, Kaffas, K., Censini, M., Manca di Villahermosa, F. S., Dani, A., Verdone, M., Preti, F., Trucchi, P., Penna, D., and Cassiani, G.: Supporting subsurface preferential flow in a small forested catchment from geophysical data and hydrological modelling , EGU General Assembly 2023, Vienna, Austria, 24–28 Apr 2023, EGU23-5954, [doi:10.5194/egusphere-egu23-5954](https://doi.org/10.5194/egusphere-egu23-5954), 2023.
+
 
 - **Mary, B.** pyCATHY: a python wrapper for Data Assimilation in CATHY. CATchment HYdrology (CATHY) days. May 31st and June 1st, 2023 in San Vito di Cadore (IT).
 
