@@ -172,14 +172,17 @@ Participation every year to international (AGU and EGU) and national (GNGTS) con
 
 
 <!--
-
+13e Colloque GEOFCAN
 -->
 
 🗓️ 2023
 
-- **Mary, B.**, K. Kaffas, M. Censini, F. S. Manca di Villahermosa, A. Dani, M. Verdone, F. Preti, P. Trucchi, D. Penna, G. Cassiani. Supporting subsurface preferential flow in a small forested catchment from geophysical data and hydrological modelling
+
+- [Withdrawn] **Mary, B.**, K. Kaffas, M. Censini, F. S. Manca di Villahermosa, A. Dani, M. Verdone, F. Preti, P. Trucchi, D. Penna, G. Cassiani. Supporting subsurface preferential flow in a small forested catchment from geophysical data and hydrological modelling
 
 - **Mary, B.** pyCATHY: a python wrapper for Data Assimilation in CATHY. CATchment HYdrology (CATHY) days. May 31st and June 1st, 2023 in San Vito di Cadore (IT).
+
+- **Cassiani et al** The “true” meaning of Hydrogeophysics: integration of geophysical data with hydrological modeling. INTRUSION 2023. 3-5 juillet 2023. Campus Universitario Ernesto Quagliariello, Bari, Italy.
 
 
 🗓️ 2022
@@ -328,6 +331,8 @@ Find out more in the [cv map](cv_map.md)
 
 
 ### 🌱 Interaction soil-plant-atmosphere 
+
+<!-- add experience field Madrid -->
 
 - **Co-coordinator** of an experimental benchmarking on IP imaging methods applied to vine root systems in Bordeaux merging different teams. _2018, May (1week)_ <br>
     - Participants: University of Padova (UNIPD), Bonn (UBonn), Vienna (TU Wien), Bordeaux (ENSEGID) and Lund (LU)<br><br>
