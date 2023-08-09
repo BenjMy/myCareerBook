@@ -36,7 +36,7 @@ _I'm a Marie-Curie fellow working with geophysics applied to agronomy between Pa
 🗓️ 2023
 
 <!--
-Electro-magnetic geophysical dynamics under conservation and conventional farming 3
+paper landflill
 
 -->
 
@@ -44,21 +44,23 @@ Electro-magnetic geophysical dynamics under conservation and conventional farmin
 
 - M. Palladino, B. Sica, **B. Mary**, G. Cassiani, J. Boaga, S. Chiavarini, J. Rimauro, A. Salluzzo, G. Armiento, N. Romano*. A monitoring and modeling study to support an environmentally effective technique for reducing VOCs concentration from groundwater for irrigation purposes
 
-- **B. Mary**, V. Iván, F. Meggio, L. Peruzzo, G. Blanchy, Chou, C., Y. Wu, G. Cassiani: Imaging of the active root current pathway under partial root-zone drying stress: A laboratory study for Vitis vinifera.
-
 - Peruzzo et al. 2023 (in prep. for Science of the Total Environment). Fabricated ecosystem stations, beyond weather: setup and preliminary results.
 
-- B. Loiseau, S. Carrière, D. Jougnot, R. Guerin, N. Martin, N. Delpierre, **B. Mary**, K. Singha (2023 In prep. for Science of the Total Environment). The geophysical toolbox applied to forest ecosystems – a review
+```
+
+
+```{admonition} Preprint
+
+Mary, B., Iván, V., Meggio, F., Peruzzo, L., Blanchy, G., Chou, C., et al. (2023). Imaging of the active root current pathway under partial root-zone drying stress: A laboratory study for Vitis vinifera. Biogeophysics: Ecohydrology doi: 10.5194/bg-2023-58.
+
+
+- Gu, H., Cseresnyés, I., Butnor, J. R., Li, B., Mary, B., Sun, H., et al. (2023). High frequency soil polarization can phenotype crop roots noninvasively. doi: 10.1101/2023.01.12.523853.
 
 ```
 
-```{admonition} Submitted
 
+- Loiseau, B., Carrière, S. D., Jougnot, D., Singha, K., **Mary, B.**, Delpierre, N., et al. (2023). The geophysical toolbox applied to forest ecosystems – A review. Science of The Total Environment 899, 165503. doi: 10.1016/j.scitotenv.2023.165503.
 
-- H. Gua, I. Cseresnyes, J. R. Butnord, **B. Mary**, X. Zhanga, Y. Lua, X. Liua* (2023 submitted to ?) Soil electrical capacitance makes plant roots unhidden
-
-
-```
 
 🗓️ 2022
 
@@ -173,10 +175,13 @@ Participation every year to international (AGU and EGU) and national (GNGTS) con
 
 <!--
 13e Colloque GEOFCAN
+AGU23 Bertille: From characterizing water content to dynamics of forest ecosystems, geophysics has a lot to offer!
 -->
 
 🗓️ 2023
 
+
+- Loiseau, B., Carrière, S. D., Jougnot, D., Singha, K., **Mary, B.**, Delpierre, N., et al. (2023). Utilisation de la géophysique de proche-surface pour étudier les écosystemes forestiers. 13e Colloque GEOFCAN. 7 et 8 novembre 2023, Strasbourg
 
 - [Withdrawn] **Mary, B.**, K. Kaffas, M. Censini, F. S. Manca di Villahermosa, A. Dani, M. Verdone, F. Preti, P. Trucchi, D. Penna, G. Cassiani. Supporting subsurface preferential flow in a small forested catchment from geophysical data and hydrological modelling
 
@@ -240,6 +245,10 @@ Participation every year to international (AGU and EGU) and national (GNGTS) con
 Climate Resilient Viticulture](https://sites.google.com/lbl.gov/biogeophysics-viticulture/home?authuser=0), January 27, 2022.
 	
 - **Invited seminar** 
+
+	<!--
+	Switzerland Agrogeophy
+	-->
 	- Madrid UPM, November 2022: Mary, B., The geophysical toolbox applied to the root zone: Methods, Implications and Outlook. <a href='https://ceigram.upm.es/seminario/seminario-ceigram-geophysical-roots-observation-for-water-saving/'> Link </a>
 	
 	```{admonition} Find out more
