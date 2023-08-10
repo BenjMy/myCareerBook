@@ -43,27 +43,28 @@ Paper dike with Nicola Fabbian <nicola.fabbian@phd.unipd.it>
 
 -->
 
+
 ```{admonition} In preparation
 
+- M. Palladino, B. Sica, **B. Mary**, G. Cassiani, J. Boaga, S. Chiavarini, J. Rimauro, A. Salluzzo, G. Armiento, N. Romano*. A monitoring and modeling study to support an environmentally effective technique for reducing VOCs concentration from groundwater for irrigation purposes
 
-
-
-1. M. Palladino, B. Sica, **B. Mary**, G. Cassiani, J. Boaga, S. Chiavarini, J. Rimauro, A. Salluzzo, G. Armiento, N. Romano*. A monitoring and modeling study to support an environmentally effective technique for reducing VOCs concentration from groundwater for irrigation purposes
-
-2. Peruzzo et al. 2023 (in prep. for Science of the Total Environment). Fabricated ecosystem stations, beyond weather: setup and preliminary results.
-
+- Peruzzo et al. 2023 (in prep. for Science of the Total Environment). Fabricated ecosystem stations, beyond weather: setup and preliminary results.
 
 ```
 
-```{admonition} Submitted
 
-- 1. **B. Mary**, J Boaga, G. Cassiani, R. Deiana. Non-invasive investigations of a closed landfill in a karstic area
-- 2. H. Gua, I. Cseresnyes, J. R. Butnord, **B. Mary**, X. Zhanga, Y. Lua, X. Liua* (2023 submitted to ?) Soil electrical capacitance makes plant roots unhidden
-- 3. **B. Mary**, V. Iván, F. Meggio, L. Peruzzo, G. Blanchy, Chou, C., Y. Wu, G. Cassiani: Imaging of the active root current pathway under partial root-zone drying stress: A laboratory study for Vitis vinifera.
-- 4. B. Loiseau, S. Carrière, D. Jougnot, R. Guerin, N. Martin, N. Delpierre, **B. Mary**, K. Singha (2023 Subm. to Science of the Total Environment). The geophysical toolbox applied to forest ecosystems – a review
+```{admonition} Preprints
 
+Mary, B., Iván, V., Meggio, F., Peruzzo, L., Blanchy, G., Chou, C., et al. (2023). Imaging of the active root current pathway under partial root-zone drying stress: A laboratory study for Vitis vinifera. Biogeophysics: Ecohydrology doi: 10.5194/bg-2023-58.
+
+
+- Gu, H., Cseresnyés, I., Butnor, J. R., Li, B., Mary, B., Sun, H., et al. (2023). High frequency soil polarization can phenotype crop roots noninvasively. doi: 10.1101/2023.01.12.523853.
 
 ```
+
+
+- Loiseau, B., Carrière, S. D., Jougnot, D., Singha, K., **Mary, B.**, Delpierre, N., et al. (2023). The geophysical toolbox applied to forest ecosystems – A review. Science of The Total Environment 899, 165503. doi: 10.1016/j.scitotenv.2023.165503.
+
 
 🗓️ 2022
 
@@ -171,14 +172,25 @@ Paper dike with Nicola Fabbian <nicola.fabbian@phd.unipd.it>
 
 ## 🎤 Communications
     
-Participation every year to international (AGU and EGU) and national (GNGTS) conferences.
-
-
+Participation every year to international (AGU and EGU) and national conferences.
 
 
 <!--
-Add GNGTS Carrera 2023
+AGU23 Bertille: From characterizing water content to dynamics of forest ecosystems, geophysics has a lot to offer!
 -->
+
+🗓️ 2023
+
+- Loiseau, B., Carrière, S. D., Jougnot, D., Singha, K., **Mary, B.**, Delpierre, N., et al. (2023). Utilisation de la géophysique de proche-surface pour étudier les écosystemes forestiers. 13e Colloque GEOFCAN. 7 et 8 novembre 2023, Strasbourg
+
+- A. Carrera, M. Longo, I. Piccoli, **B. Mary**, G. Cassiani, F. Morari. On the use of ERT and EMI for the assessment of hydrological impacts of different agricultural practices. The 41st National Conference of the GNGTS. 7th - 9th of February 2023 in Bologna.
+
+- [Withdrawn] **Mary, B.**, K. Kaffas, M. Censini, F. S. Manca di Villahermosa, A. Dani, M. Verdone, F. Preti, P. Trucchi, D. Penna, G. Cassiani. Supporting subsurface preferential flow in a small forested catchment from geophysical data and hydrological modelling
+
+- **Cassiani et al** The “true” meaning of Hydrogeophysics: integration of geophysical data with hydrological modeling. INTRUSION 2023. 3-5 juillet 2023. Campus Universitario Ernesto Quagliariello, Bari, Italy.
+
+- **Mary, B.** pyCATHY: a python wrapper for Data Assimilation in CATHY. CATchment HYdrology (CATHY) days. May 31st and June 1st, 2023 in San Vito di Cadore (IT).
+
 
 🗓️ 2023
 
