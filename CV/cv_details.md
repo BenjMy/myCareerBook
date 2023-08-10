@@ -36,8 +36,7 @@ _I'm a Marie-Curie fellow working with geophysics applied to agronomy between Pa
 🗓️ 2023
 
 <!--
-paper landflill
-
+paper
 -->
 
 ```{admonition} In preparation
@@ -49,7 +48,7 @@ paper landflill
 ```
 
 
-```{admonition} Preprint
+```{admonition} Preprints
 
 Mary, B., Iván, V., Meggio, F., Peruzzo, L., Blanchy, G., Chou, C., et al. (2023). Imaging of the active root current pathway under partial root-zone drying stress: A laboratory study for Vitis vinifera. Biogeophysics: Ecohydrology doi: 10.5194/bg-2023-58.
 
