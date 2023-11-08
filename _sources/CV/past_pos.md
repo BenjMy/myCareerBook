@@ -44,7 +44,6 @@ width: 200px
 ---
 ```
 
-```
 ##  UNIPD (🗓️ 01/12/2018-30/11/2020)
 ### "Assegno di recerca" typo A 
 
