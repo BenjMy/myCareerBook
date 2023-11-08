@@ -1,4 +1,6 @@
  Id,Date,Location_name,Lat,Long,Coordinator,Contribution,Data,Purpose,Method,Ancillary measures,Project name,Abstract,,,Article
+1,2023, Majadas del Tiétar (Cáceres),39.95, -5.75,"M.P. Martín, H. Nieto, B. Mary","Acquisition, Processing",,Interaction soil-plant-atmosphere,ERT; EM,"SWC, Eddy Covariance, Weather, Plant physiology",E04WUE,,,,
+1,2023,Colmenar de Oreja,40.1098825,-3.390550,"H. Nieto, B. Mary","Acquisition, Processing",,Interaction soil-plant-atmosphere,ERT,"SWC, Eddy Covariance, Weather, Plant physiology",E04WUE,,,,
 1,2023,Legnaro,45.34565,11.963914,"F. morari, A. Carrera","Processing, Mentoring",,Interaction soil-plant-atmosphere,ERT; Seismic; FDEM,"SWC, Weather",SoCoRisk,,,,
 2,2023,Re-Della-Pietra,43.88,11.6,D. Penna,Processing,,Hydrology,ERT; GPR; Seismic; FDEM,"SWC, Weather, Stemflow, Discharge, Groundwater levels",WATZON,,,,
 3,2022,Noble,35.139236,-97.394753,Y. Wu,Processing,,Interaction soil-plant-atmosphere,ERT,"SWC, tensiometers, weather, ET",,,,,10.1007/s11104-020-04529-w

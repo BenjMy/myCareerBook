@@ -7,7 +7,7 @@
 
 --> 
 
-_Last edited: January 17th, 2023_
+_Last edited, November 8th, 2023_
 
 ```{admonition} Look right ➡️
 :class: tip
@@ -40,7 +40,18 @@ _I'm a Marie-Curie fellow working with geophysics applied to agronomy between Pa
 
 <!--
 Paper dike with Nicola Fabbian <nicola.fabbian@phd.unipd.it>
+Paper nick in VZJ: Improving evapotranspiration computation with electrical resistivity tomography in a maize field
 
+Paper Geophysics Veronika SIP
+
+Paper EM guillaume
+
+Paper landfill Giorgio
+
+-- very uncertain
+Paper Noble
+Paper WRR Feddes
+Paper Alento
 -->
 
 
@@ -62,6 +73,7 @@ Mary, B., Iván, V., Meggio, F., Peruzzo, L., Blanchy, G., Chou, C., et al. (202
 
 ```
 
+- **Mary, B.**, Sottani, A., Boaga, J., Camerin, I., Deiana, R., and Cassiani, G. (2023). Non-invasive investigations of closed landfills: An example in a karstic area. Science of The Total Environment 905, 167083. doi: 10.1016/j.scitotenv.2023.167083.
 
 - Loiseau, B., Carrière, S. D., Jougnot, D., Singha, K., **Mary, B.**, Delpierre, N., et al. (2023). The geophysical toolbox applied to forest ecosystems – A review. Science of The Total Environment 899, 165503. doi: 10.1016/j.scitotenv.2023.165503.
 
@@ -185,20 +197,11 @@ AGU23 Bertille: From characterizing water content to dynamics of forest ecosyste
 
 - A. Carrera, M. Longo, I. Piccoli, **B. Mary**, G. Cassiani, F. Morari. On the use of ERT and EMI for the assessment of hydrological impacts of different agricultural practices. The 41st National Conference of the GNGTS. 7th - 9th of February 2023 in Bologna.
 
-- [Withdrawn] **Mary, B.**, K. Kaffas, M. Censini, F. S. Manca di Villahermosa, A. Dani, M. Verdone, F. Preti, P. Trucchi, D. Penna, G. Cassiani. Supporting subsurface preferential flow in a small forested catchment from geophysical data and hydrological modelling
-
 - **Cassiani et al** The “true” meaning of Hydrogeophysics: integration of geophysical data with hydrological modeling. INTRUSION 2023. 3-5 juillet 2023. Campus Universitario Ernesto Quagliariello, Bari, Italy.
-
-- **Mary, B.** pyCATHY: a python wrapper for Data Assimilation in CATHY. CATchment HYdrology (CATHY) days. May 31st and June 1st, 2023 in San Vito di Cadore (IT).
-
-
-🗓️ 2023
 
 - **Mary, B.**, Kaffas, K., Censini, M., Manca di Villahermosa, F. S., Dani, A., Verdone, M., Preti, F., Trucchi, P., Penna, D., and Cassiani, G.: Improved extraction of hydrologic information from geophysical data during an artificial hillslope infiltration, A European vision for hydrological observations and experimentation, Naples, Italy, 12–15 Jun 2023, GC8-Hydro-56, https://doi.org/10.5194/egusphere-gc8-hydro-56, 2023.
 
-
-- **Mary, B.**, Kaffas, K., Censini, M., Manca di Villahermosa, F. S., Dani, A., Verdone, M., Preti, F., Trucchi, P., Penna, D., and Cassiani, G.: Supporting subsurface preferential flow in a small forested catchment from geophysical data and hydrological modelling , EGU General Assembly 2023, Vienna, Austria, 24–28 Apr 2023, EGU23-5954, [doi:10.5194/egusphere-egu23-5954](https://doi.org/10.5194/egusphere-egu23-5954), 2023.
-
+- (Withdrawn) **Mary, B.**, Kaffas, K., Censini, M., Manca di Villahermosa, F. S., Dani, A., Verdone, M., Preti, F., Trucchi, P., Penna, D., and Cassiani, G.: Supporting subsurface preferential flow in a small forested catchment from geophysical data and hydrological modelling , EGU General Assembly 2023, Vienna, Austria, 24–28 Apr 2023, EGU23-5954, [doi:10.5194/egusphere-egu23-5954](https://doi.org/10.5194/egusphere-egu23-5954), 2023.
 
 - **Mary, B.** pyCATHY: a python wrapper for Data Assimilation in CATHY. CATchment HYdrology (CATHY) days. May 31st and June 1st, 2023 in San Vito di Cadore (IT).
 
@@ -253,6 +256,8 @@ AGU23 Bertille: From characterizing water content to dynamics of forest ecosyste
 
 
 - **Invited seminar** 
+	- ETH Zürich, Switzerland* 1st and 2nd February 2024 (Agriculture and geophysics: Illuminating the subsurface!): Mary, B., TMonitoring and modelling root-zone processes with geoelectrical methods. <a href='https://agrogeophy.github.io/agrogeo24/index.html'> Link </a>
+	
 	- Madrid UPM, November 2022: Mary, B., The geophysical toolbox applied to the root zone: Methods, Implications and Outlook. <a href='https://ceigram.upm.es/seminario/seminario-ceigram-geophysical-roots-observation-for-water-saving/'> Link </a>
 	
 	```{admonition} Find out more

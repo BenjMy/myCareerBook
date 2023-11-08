@@ -14,6 +14,48 @@ PRIN project marco borga
 PRIN WATZON
 --> 
 
+_Last edited, November 8th, 2023_
+
+##  EO AFRICA EO-MAJI (🗓️ 2023-2024)
+
+
+[EOMAJI](https://eo4society.esa.int/projects/eo-maji/): Earth Observation system to Manage Africa’s food systems by Joint-
+knowledge of crop production and Irrigation digitization
+
+
+- **Action Chair**: Hector Nieto (for CSIC)
+- **Role**: Contributing researcher to modeling activities, article redaction. 
+- **WP**:
+	- WP1: Data collection and curation: EO and in situ
+	- WP3A: Prototype development - Phase A
+	- WP3B: Roadmap to Sentinel Candidate Missions - Phase A
+
+```{figure} /img/EOAFRICA-logo-.png
+---
+figclass: margin
+width: 200px
+---
+```
+
+
+##  EO4WUE (🗓️ 2023-2024)
+
+
+[WATSON](https://eo4wue.csic.es/): Earth observation tools for the evaluation and management of water efficiency and productivity in Mediterranean grasslands and cereal crops
+
+
+- **Action Chair**: Hector Nieto, Prof. María Pilar Martín
+- **Role**: Contributing researcher to modeling activities, article redaction. 
+- **WP**:
+	- WP1: Data Collection. In situ, EO data, EC data & yield
+	- WP3: ET maps and derived metrics TSEB/3SEB, stomata conductance & water stress metrics
+
+```{figure} /img/teleDetec_Speclab.jpeg
+---
+figclass: margin
+width: 200px
+---
+```
 
 
 ##  WATSON (🗓️ 09/2022 - 09/2024)
