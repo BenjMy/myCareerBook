@@ -1,6 +1,6 @@
 # Teaching & Outreach
 
-_Last edited: January 17th, 2023_
+_Last edited, November 8th, 2023_
 
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 
@@ -27,7 +27,7 @@ website creator and maintainor ERT database
 
 ## 🏫 Teaching Activity
 
-
+🗓️ <2018
 - **Lecturer** [UNIPD (IT) 2017 and 2018]
 	- (2x3h): MSc students in Environmental engineering – Introduction to electrical methods of prospection for agricultural purpose. Padova, 17th October 2017
 
@@ -48,10 +48,18 @@ Pythia Cookbooks
 
 ## Public outreach
 
+🗓️ 2023
+- **Semana de la ciencia**
+	- title: Drones y tecnología al servicio de una agricultura sostenible.  
+	- contributors: [Tec4agro](https://tec4agro.csic.es/)
+	- [Details](https://www.semanadelaciencia.csic.es/actividad/drones-y-tecnologia-al-servicio-de-una-agricultura-sostenible/)
+	
 - **French project foundation “CGenial”**
 	- The foundation's mission is to promote science, technology and related professions.  
 	- contributors: F. Mary and M. Devert, teachers at College G. Braque (Reims, France). 
 	- [Webapp](https://benjmy-cgenial-gbraque-cgenial-qeh603.streamlit.app/)
+	
+🗓️ <2023
 - **Fête de la science** [IRSTEA (FR), 2013, 2014 and 2015]
 	- Leading small classes during short events on seismic risk in the Mediterranean region (2013), on embankment dike (2014) and on underground water flow and cycle (2015). In Aix-en-Provence (FRANCE)
 	

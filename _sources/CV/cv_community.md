@@ -1,6 +1,6 @@
 # Community
 
-_Last edited: January 17th, 2023_
+_Last edited, November 8th, 2023_
 
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 
