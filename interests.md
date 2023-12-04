@@ -1,8 +1,17 @@
 ## Research interests
 
-_Last edited: August 24th, 2022_
+_Last edited: December 4th, 2023_
 
 ## Soil-plant-Atmosphere interactions 🌱🌳🌤️💧
+
+### Refining ET estimates and WUE
+In 2023, I became a part of the Tech4Agro team, where my role involves connecting geophysics with remote sensing (RS). I concentrate on root zone soil moisture, specifically delving into the possibilities of utilizing electrical conductivity to enhance evapotranspiration estimates. 
+
+I contributed to 2 projects: 
+- [EO4WUE](Projects/project_list_others.html#EO4WUE (🗓️ 2023-2024)): Earth observation tools for the evaluation and management of water efficiency and productivity in Mediterranean grasslands and cereal crops
+- [EOMAJI](Projects/project_list_others.html#EO AFRICA EO-MAJI (🗓️ 2023-2024)): Earth Observation system to Manage Africa’s food systems by Joint-knowledge of crop production and Irrigation digitization
+
+
 
 ### Agronomy
 Since the end of my phd in 2015, my research interests mainly focus on improving our understanding of the role of the roots in regulating water in the {term}`SPAC` using experimental non-destructive approaches (see {numref}`rhizo_neons`).
