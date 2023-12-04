@@ -9,8 +9,9 @@ In 2023, I became a part of the Tech4Agro team, where my role involves connectin
 
 I contributed to 2 projects: 
 - [EO4WUE](Projects/project_list_others.html#EO4WUE (🗓️ 2023-2024)): Earth observation tools for the evaluation and management of water efficiency and productivity in Mediterranean grasslands and cereal crops
-- [EOMAJI](Projects/project_list_others.html#EO AFRICA EO-MAJI (🗓️ 2023-2024)): Earth Observation system to Manage Africa’s food systems by Joint-knowledge of crop production and Irrigation digitization
-
+- [EOMAJI](): Earth Observation system to Manage Africa’s food systems by Joint-knowledge of crop production and Irrigation digitization
+<! - [EOMAJI](Projects/project_list_others.html#EO AFRICA EO-MAJI (🗓️ 2023-2024)): Earth Observation system to Manage Africa’s food systems by Joint-knowledge of crop production and Irrigation digitization
+-->
 
 
 ### Agronomy
