@@ -41,7 +41,7 @@ width: 200px
 ##  EO4WUE (🗓️ 2023-2024)
 
 
-[WATSON](https://eo4wue.csic.es/): Earth observation tools for the evaluation and management of water efficiency and productivity in Mediterranean grasslands and cereal crops
+[EO4WUE](https://eo4wue.csic.es/): Earth observation tools for the evaluation and management of water efficiency and productivity in Mediterranean grasslands and cereal crops
 
 
 - **Action Chair**: Hector Nieto, Prof. María Pilar Martín
