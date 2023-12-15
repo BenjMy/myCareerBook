@@ -7,7 +7,7 @@
 
 --> 
 
-_Last edited, November 8th, 2023_
+_Last edited, December 8th, 2023_
 
 ```{admonition} Look right ➡️
 :class: tip
@@ -40,11 +40,6 @@ _I'm a Marie-Curie fellow working with geophysics applied to agronomy between Pa
 
 <!--
 Paper dike with Nicola Fabbian <nicola.fabbian@phd.unipd.it>
-Paper nick in VZJ: Improving evapotranspiration computation with electrical resistivity tomography in a maize field
-
-Paper Geophysics Veronika SIP
-
-Paper EM guillaume
 
 Paper landfill Giorgio
 
@@ -63,19 +58,45 @@ Paper Alento
 
 ```
 
+```{admonition} Submitted
 
-```{admonition} Preprints
-
-Mary, B., Iván, V., Meggio, F., Peruzzo, L., Blanchy, G., Chou, C., et al. (2023). Imaging of the active root current pathway under partial root-zone drying stress: A laboratory study for Vitis vinifera. Biogeophysics: Ecohydrology doi: 10.5194/bg-2023-58.
-
-
-- Gu, H., Cseresnyés, I., Butnor, J. R., Li, B., Mary, B., Sun, H., et al. (2023). High frequency soil polarization can phenotype crop roots noninvasively. doi: 10.1101/2023.01.12.523853.
+- G. Blanchy, P. Mclachlan, **B. Mary**, M. Censini, J. Boaga and G. Cassiani (2023). Comparison of multi-coil and multi-frequency frequency domain electromagnetic induction instruments. 
+Frontiers in Soil Science
+- Iván, V.; **Mary, B.**; Schwartz, N.; Peruzzo, L.; Ghinassi, M.; Cassiani, G.. Distinguishing Water Salinity, Water Saturation And Clay Content Using Spectral Induced Polarization: A Strategy For Monitoring Arid Soil Conditions"  
 
 ```
 
-- **Mary, B.**, Sottani, A., Boaga, J., Camerin, I., Deiana, R., and Cassiani, G. (2023). Non-invasive investigations of closed landfills: An example in a karstic area. Science of The Total Environment 905, 167083. doi: 10.1016/j.scitotenv.2023.167083.
+```{admonition} Preprints
 
-- Loiseau, B., Carrière, S. D., Jougnot, D., Singha, K., **Mary, B.**, Delpierre, N., et al. (2023). The geophysical toolbox applied to forest ecosystems – A review. Science of The Total Environment 899, 165503. doi: 10.1016/j.scitotenv.2023.165503.
+- Gu, H., Cseresnyés, I., Butnor, J. R., Li, B., **Mary, B.**, Sun, H., et al. (2023). High frequency soil polarization can phenotype crop roots noninvasively. doi: 10.1101/2023.01.12.523853.
+
+```
+
+
+
+- Chou, C., Peruzzo, L., Falco, N., Hao, Z., **Mary, B.**, Wang, J., et al. (2023). Improving evapotranspiration computation with electrical resistivity tomography in a maize field. Vadose Zone Journal, e20290.[doi:10.1002/vzj2.20290](https://acsess.onlinelibrary.wiley.com/doi/10.1002/vzj2.20290).
+
+
+- **Mary, B.**, Iván, V., Meggio, F., Peruzzo, L., Blanchy, G., Chou, C., et al. (2023). Imaging of the electrical activity in the root zone under limited-water-availability stress: a laboratory study for Vitis vinifera. Biogeosciences 20, 4625–4650.[doi:10.5194/bg-20-4625-2023](https://bg.copernicus.org/articles/20/4625/2023/).
+
+	```{admonition} Find out more
+	:class: dropdown
+	
+	<div data-badge-type="2" data-doi="10.1029/2022JB024747" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
+	
+	[📊 Data repository](https://zenodo.org/records/10014924)	
+	
+	[🧮 Code repository](https://github.com/BenjMy/rhizotron_PRD)
+	
+
+	<div data-badge-type="2" data-doi="10.1029/2022JB024747" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
+	<span class="__dimensions_badge_embed__" data-doi="10.1029/2022JB024747" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+	
+	
+- **Mary, B.**, Sottani, A., Boaga, J., Camerin, I., Deiana, R., and Cassiani, G. (2023). Non-invasive investigations of closed landfills: An example in a karstic area. Science of The Total Environment 905, 167083. [doi:10.1016/j.scitotenv.2023.167083](https://www.sciencedirect.com/science/article/pii/S0048969723057108).
+
+- Loiseau, B., Carrière, S. D., Jougnot, D., Singha, K., **Mary, B.**, Delpierre, N., et al. (2023). The geophysical toolbox applied to forest ecosystems – A review. Science of The Total Environment 899, 165503.[doi:0.1016/j.scitotenv.2023.165503](https://www.sciencedirect.com/science/article/pii/S0048969723041268).
 
 
 🗓️ 2022
@@ -188,11 +209,15 @@ Participation every year to international (AGU and EGU) and national conferences
 
 
 <!--
-AGU23 Bertille: From characterizing water content to dynamics of forest ecosystems, geophysics has a lot to offer!
+EGU24 Peruzzo et al
 -->
 
 🗓️ 2023
 
+- Loiseau, B., Carriere, S. D., Jougnot, D., Singha, K., **Mary, B.**, Delpierre, N., & Martin-StPaul, N. K. (2023). From characterizing water content to dynamics of forest ecosystems, geophysics has a lot to offer!. AGU23.
+
+- Carrera A., Peruzzo L., **Mary B.**, Cassiani G., Morari F. Monitoring soil compaction during a controlled irrigation experiment using multiple hydrogeophysical data. Agriculture and geophysics: Illuminating the subsurface! ETH Zürich, Switzerland 1st and 2nd February 2024
+	
 - Loiseau, B., Carrière, S. D., Jougnot, D., Singha, K., **Mary, B.**, Delpierre, N., et al. (2023). Utilisation de la géophysique de proche-surface pour étudier les écosystemes forestiers. 13e Colloque GEOFCAN. 7 et 8 novembre 2023, Strasbourg
 
 - A. Carrera, M. Longo, I. Piccoli, **B. Mary**, G. Cassiani, F. Morari. On the use of ERT and EMI for the assessment of hydrological impacts of different agricultural practices. The 41st National Conference of the GNGTS. 7th - 9th of February 2023 in Bologna.
@@ -254,9 +279,13 @@ AGU23 Bertille: From characterizing water content to dynamics of forest ecosyste
 
 ### Invited
 
+- **Invited working group** 
+	- Mary, B. An Open Catalogue to promote and guide agrogeophysics. Oral Presentation (Online). [Biogeophysics for 
+Climate Resilient Viticulture](https://sites.google.com/lbl.gov/biogeophysics-viticulture/home?authuser=0), January 27, 2022.
+	
 
-- **Invited seminar** 
-	- ETH Zürich, Switzerland* 1st and 2nd February 2024 (Agriculture and geophysics: Illuminating the subsurface!): Mary, B., TMonitoring and modelling root-zone processes with geoelectrical methods. <a href='https://agrogeophy.github.io/agrogeo24/index.html'> Link </a>
+- **Invited seminars** 
+	- ETH Zürich, Switzerland 1st and 2nd February 2024 (Agriculture and geophysics: Illuminating the subsurface!): Mary, B., Monitoring and modelling root-zone processes with geoelectrical methods. <a href='https://agrogeophy.github.io/agrogeo24/index.html'> Link </a>
 	
 	- Madrid UPM, November 2022: Mary, B., The geophysical toolbox applied to the root zone: Methods, Implications and Outlook. <a href='https://ceigram.upm.es/seminario/seminario-ceigram-geophysical-roots-observation-for-water-saving/'> Link </a>
 	
@@ -276,10 +305,6 @@ AGU23 Bertille: From characterizing water content to dynamics of forest ecosyste
 	- The use of hydro-geophysical monitoring for the identification of root-water-uptake patterns: ERT and MALM experiments in a vineyard, In EGU General Assembly Conference Abstracts.
 
 
-- **Invited working group** 
-	- Mary, B. An Open Catalogue to promote and guide agrogeophysics. Oral Presentation (Online). [Biogeophysics for 
-Climate Resilient Viticulture](https://sites.google.com/lbl.gov/biogeophysics-viticulture/home?authuser=0), January 27, 2022.
-	
 
 
 
