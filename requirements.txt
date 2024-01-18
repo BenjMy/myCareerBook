@@ -1,4 +1,4 @@
-jupyter-book==0.13.1
+jupyter-book
 matplotlib==3.5.3
 numpy==1.21.6
 ipyleaflet==0.17.0
