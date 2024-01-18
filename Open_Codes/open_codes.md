@@ -49,6 +49,52 @@ Project logo
 Found a bug 🐛/ a typo ? [Email me](mailto:benjamin.mary@unipd.it)
 ```
 
+
+---
+## pyTSEB
+
+````{margin}
+{bdg-primary}`Evapotranspiration` 
+{bdg-primary}`Inversion`
+````
+
+Open-source python package aiming at inverting Land Surface Temperature data using the **energy balance** formulation by {cite:p}`norman2000surface`. 
+
+[![github](https://img.shields.io/badge/view-github-green?logo=github)](https://github.com/hectornieto/pyTSEB) 
+
+## Contributions
+- Fixing bugs
+- Code documentation
+
+### How to install
+
+Install using setup.py:
+
+    git clone https://github.com/hectornieto/pyTSEB
+    cd pyTSEB
+    python setup.py develop|install
+    import pyTSEB
+
+Or you can create a conda environment:
+
+    conda env create -f environment.yml
+
+### How to use
+
+See github documentation 
+
+### Notebook example
+
+<!--[🧮 Code repository](https://github.com/BenjMy/dEXP_imaging/tree/master/notebooks_JGR)-->
+	
+### How to cite
+
+
+```{warning}
+Found a bug 🐛/ a typo ? [Email me](mailto:benjamin.mary@ica.csic.es)
+```
+
+
 ---
 ## pyDEXP
 

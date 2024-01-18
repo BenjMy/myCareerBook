@@ -54,7 +54,9 @@ Paper Alento
 
 - M. Palladino, B. Sica, **B. Mary**, G. Cassiani, J. Boaga, S. Chiavarini, J. Rimauro, A. Salluzzo, G. Armiento, N. Romano*. A monitoring and modeling study to support an environmentally effective technique for reducing VOCs concentration from groundwater for irrigation purposes
 
-- Peruzzo et al. 2023 (in prep. for Science of the Total Environment). Fabricated ecosystem stations, beyond weather: setup and preliminary results.
+- Peruzzo et al. 2024 (in prep. for Science of the Total Environment). Fabricated ecosystem stations, beyond weather: setup and preliminary results.
+
+- V. Burchard-Levine1, H. Nieto1, W.P. Kustas2, J.G. Guerra1, I. Borra-Serrano1, J. Dorado1, G. Mesías-Ruiz1, M. Herrezuelo1, B. Mary1, L.M. McKee2, A.I. de Castro3, and J.M. Peña1. Evaluating the precise grapevine water stress detection using unmanned aerial vehicles and evapotranspiration-based metrics. 
 
 ```
 
@@ -211,6 +213,21 @@ Participation every year to international (AGU and EGU) and national conferences
 <!--
 EGU24 Peruzzo et al
 -->
+
+
+🗓️ 2024
+
+-  G. Cassiani, L. Peruzzo, M. Censini, **B. Mary**, and V. Iván (2024). Non-invasive monitoring of plant root activities in the framework of the Earth’s Critical Zone and soil-plant-atmosphere interactions.  EGU General Assembly 2024, Vienna, Austria.
+
+-  L. Peruzzo, **B. Mary**, V. Burchard Levine, J. Guerra, M. A. Herrezuelo Bermúdez, R. Lovera, A. Casas, G. Cassiani, H. Nieto,  J. M. Peña (2024). Identification of long-term irrigation effect on plant water use from geophysical and proximal sensing observations: example of a vineyard.  EGU General Assembly 2024, Vienna, Austria.
+
+- M. A. Herrezuelo Bermúdez, V. F. Burchard Levine, **B. Mary**, H. Nieto Solana (2024). Estimación del rendimiento en parcelas de cebada y trigo mediante imágenes de Sentinel-2. AET 2024 (Cadiz, Spain)
+
+- V. Burchard-Levine, H. Nieto, M. P. Martín, R. Gonzalez-Cascon,  **B. Mary**,  M. D. Raya-Sereno,  D. Riaño, M. Herrezuelo, D. Pfitzer, A. Carrara (2024). Evaluación de un modelo de balance energético de tres fuentes para estimar los flujos de agua y energía en ecosistemas de dehesa mediante imágenes de satélite Copernicus
+AET 2024 (Cadiz, Spain)
+
+- **B. Mary**, L. Delval, J. S. Bates, Miguel(1), M. A. Herrezuelo Bermúdez, V. F. Burchard Levine, H. Nieto Solana , M. Javaux (2024). Exploring water dynamics in a vineyard: a case study utilizing UAV thermal imaging for ET-metrics. AET 2024 (Cadiz, Spain)
+
 
 🗓️ 2023
 
