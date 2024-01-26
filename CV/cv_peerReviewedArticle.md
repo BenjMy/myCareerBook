@@ -221,6 +221,8 @@ EGU24 Peruzzo et al
 
 -  L. Peruzzo, **B. Mary**, V. Burchard Levine, J. Guerra, M. A. Herrezuelo Bermúdez, R. Lovera, A. Casas, G. Cassiani, H. Nieto,  J. M. Peña (2024). Identification of long-term irrigation effect on plant water use from geophysical and proximal sensing observations: example of a vineyard.  EGU General Assembly 2024, Vienna, Austria.
 
+- H. Nieto Solana, **B. Mary**, M. A. Herrezuelo Bermúdez, V. F. Burchard Levine (2024). Un esquema en Código Abierto para el seguimiento de la evapotranspiración real con datos Copernicus. AET 2024 (Cadiz, Spain)
+
 - M. A. Herrezuelo Bermúdez, V. F. Burchard Levine, **B. Mary**, H. Nieto Solana (2024). Estimación del rendimiento en parcelas de cebada y trigo mediante imágenes de Sentinel-2. AET 2024 (Cadiz, Spain)
 
 - V. Burchard-Levine, H. Nieto, M. P. Martín, R. Gonzalez-Cascon,  **B. Mary**,  M. D. Raya-Sereno,  D. Riaño, M. Herrezuelo, D. Pfitzer, A. Carrara (2024). Evaluación de un modelo de balance energético de tres fuentes para estimar los flujos de agua y energía en ecosistemas de dehesa mediante imágenes de satélite Copernicus

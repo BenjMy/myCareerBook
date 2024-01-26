@@ -1,4 +1,4 @@
-# Others
+# Others projects
 
 ```{warning}
 🚧 This page is still under construction 🚧
