@@ -18,6 +18,13 @@ _I'm a Marie-Curie fellow working with geophysics applied to agronomy between Pa
 
 ## Seminar/Conference/Workshop organization 
 
+🗓️ 2024
+- **Organizing committee**: JORNADAS ANUALES ICA 2024 _MARTES 7 Mayo, 2024 Madrid, Spain_ 
+<!--
+	- <a href="https://cathy-org.github.io/CATHY_days_2023/" target="_blank">Seminar website</a>
+	Seminar proceedings
+--> 
+
 🗓️ 2023
 - **Organizing committee**: CATHY days 2023 _May 31st and June 1st, 2023 San Vito, Italy_ 
 	- <a href="https://cathy-org.github.io/CATHY_days_2023/" target="_blank">Seminar website</a>
@@ -45,6 +52,7 @@ _I'm a Marie-Curie fellow working with geophysics applied to agronomy between Pa
 
 ## Expertise group
 
+<!-- Add Pti CSIC -->
 
 - **Agrogeophy** group of research: An ecosystem with interrelated projects and repositories promoting FAIR practicies for agrogeophysicists.
 	- [github](https://github.com/agrogeophy)
@@ -56,11 +64,12 @@ _I'm a Marie-Curie fellow working with geophysics applied to agronomy between Pa
 	
 ## Contribution to OS projects
 
-- GEMGIS
-- Fatiando a Terra
-
+- [GEMGIS](https://gemgis.readthedocs.io/en/latest/#): GemGIS is a Python-based, open-source geographic information processing library.
+- [Fatiando a Terra](https://www.fatiando.org/): An open toolbox for the Geosciences
 	
-## Interview 
+## Interviews 
+
+<!-- Add interview before seminar UNIPD -->
 
 - My itw to the International Research Office, [MSCA Fellow UNIPD](https://www.unipd.it/en/msca-mary)
 

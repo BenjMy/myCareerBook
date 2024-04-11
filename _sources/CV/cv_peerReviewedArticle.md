@@ -34,9 +34,7 @@ _I'm a Marie-Curie fellow working with geophysics applied to agronomy between Pa
 <!--- Frontiers in Earth Science style from https://zbib.org/ -->
 <!--- [doi:](https://doi.org/).<br>-->
 
-
-
-🗓️ 2023
+🗓️ 2024
 
 <!--
 Paper dike with Nicola Fabbian <nicola.fabbian@phd.unipd.it>
@@ -54,18 +52,20 @@ Paper Alento
 
 - M. Palladino, B. Sica, **B. Mary**, G. Cassiani, J. Boaga, S. Chiavarini, J. Rimauro, A. Salluzzo, G. Armiento, N. Romano*. A monitoring and modeling study to support an environmentally effective technique for reducing VOCs concentration from groundwater for irrigation purposes
 
-- Peruzzo et al. 2024 (in prep. for Science of the Total Environment). Fabricated ecosystem stations, beyond weather: setup and preliminary results.
-
 - V. Burchard-Levine1, H. Nieto1, W.P. Kustas2, J.G. Guerra1, I. Borra-Serrano1, J. Dorado1, G. Mesías-Ruiz1, M. Herrezuelo1, B. Mary1, L.M. McKee2, A.I. de Castro3, and J.M. Peña1. Evaluating the precise grapevine water stress detection using unmanned aerial vehicles and evapotranspiration-based metrics. 
 
 ```
 
 ```{admonition} Submitted
 
-- G. Blanchy, P. Mclachlan, **B. Mary**, M. Censini, J. Boaga and G. Cassiani (2023). Comparison of multi-coil and multi-frequency frequency domain electromagnetic induction instruments. 
-Frontiers in Soil Science
+- Peruzzo et al. 2024 (in prep. for Science of the Total Environment). Fabricated ecosystem stations, beyond weather: setup and preliminary results.
+
 - Iván, V.; **Mary, B.**; Schwartz, N.; Peruzzo, L.; Ghinassi, M.; Cassiani, G.. Distinguishing Water Salinity, Water Saturation And Clay Content Using Spectral Induced Polarization: A Strategy For Monitoring Arid Soil Conditions"  
 
+```
+
+```{admonition} Accepted
+Burchard et al. (2024), Evaluating the precise grapevine water stress detection using unmanned aerial vehicles and evapotranspiration-based metrics in Irrigation Sciences (accepted)
 ```
 
 ```{admonition} Preprints
@@ -74,6 +74,22 @@ Frontiers in Soil Science
 
 ```
 
+
+
+- Blanchy, G., McLachlan, P., **Mary, B.**, Censini, M., Boaga, J., and Cassiani, G. (2024). Comparison of multi-coil and multi-frequency frequency domain electromagnetic induction instruments. Front. Soil Sci. 4, 1239497. doi: 10.3389/fsoil.2024.1239497
+
+	```{admonition} Find out more
+	:class: dropdown
+	
+	<div data-badge-type="2" data-doi="10.3389/fsoil.2024.1239497" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
+	
+	[📊 Data repository](https://gitlab.com/hkex/fdem-mc-mf)	
+	
+	[🧮 Code repository](https://gitlab.com/hkex/fdem-mc-mf)
+	```
+
+
+🗓️ 2023
 
 
 - Chou, C., Peruzzo, L., Falco, N., Hao, Z., **Mary, B.**, Wang, J., et al. (2023). Improving evapotranspiration computation with electrical resistivity tomography in a maize field. Vadose Zone Journal, e20290.[doi:10.1002/vzj2.20290](https://acsess.onlinelibrary.wiley.com/doi/10.1002/vzj2.20290).
@@ -217,9 +233,24 @@ EGU24 Peruzzo et al
 
 🗓️ 2024
 
+<!--
+- **B. Mary**. A synthetic study for irrigation delimitation and accounting using. ESA ESRIN 2024. https://eo4agri2024.esa.int/
+
+- M. A. Herrezuelo Bermúdez, V. F. Burchard Levine, **B. Mary**, H. Nieto Solana (2024). Harvest estimation in barley and wheat plots using Sentinel-2 Imagery. ESA Roma 2024.
+-->
+
 -  G. Cassiani, L. Peruzzo, M. Censini, **B. Mary**, and V. Iván (2024). Non-invasive monitoring of plant root activities in the framework of the Earth’s Critical Zone and soil-plant-atmosphere interactions.  EGU General Assembly 2024, Vienna, Austria.
 
 -  L. Peruzzo, **B. Mary**, V. Burchard Levine, J. Guerra, M. A. Herrezuelo Bermúdez, R. Lovera, A. Casas, G. Cassiani, H. Nieto,  J. M. Peña (2024). Identification of long-term irrigation effect on plant water use from geophysical and proximal sensing observations: example of a vineyard.  EGU General Assembly 2024, Vienna, Austria.
+
+- M. A. Herrezuelo Bermúdez, V. F. Burchard Levine, **B. Mary**, H. Nieto Solana (2024). Estimación de la cosecha en parcelas de cebada y trigo mediante teledetección. ICA Jornadas 2024 (Madrid, Spain)
+
+- **B. Mary**, V. F. Burchard Levine (2024). . Seminarios ICA 2024 (Madrid, Spain)
+
+	```{admonition} Find out more
+	:class: dropdown
+	[🎥 Talk recording](https://saco.csic.es/index.php/s/LC8PnZ9yPotTQGw)
+	```
 
 - H. Nieto Solana, **B. Mary**, M. A. Herrezuelo Bermúdez, V. F. Burchard Levine (2024). Un esquema en Código Abierto para el seguimiento de la evapotranspiración real con datos Copernicus. AET 2024 (Cadiz, Spain)
 
@@ -304,7 +335,23 @@ Climate Resilient Viticulture](https://sites.google.com/lbl.gov/biogeophysics-vi
 	
 
 - **Invited seminars** 
+
+	- Padua University (Geosciences Department), Italy April 8th: Mary, B., From roots to landscape: integrating bio-geophysics with remote sensing to better understand vegetation water stress in agro-ecosystems. <a href='https://https://www.geoscienze.unipd.it/en/seminar-roots-landscape-integrating-bio-geophysics-remote-sensing-better-understand-vegetation-water'> Link </a>
+
 	- ETH Zürich, Switzerland 1st and 2nd February 2024 (Agriculture and geophysics: Illuminating the subsurface!): Mary, B., Monitoring and modelling root-zone processes with geoelectrical methods. <a href='https://agrogeophy.github.io/agrogeo24/index.html'> Link </a>
+
+
+	```{admonition} Find out more
+	:class: dropdown
+	
+	<div data-badge-type="2" data-doi="10.62329/UGJK2874" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
+	
+	[📊 Record](https://www.youtube.com/watch?v=zgsLcmLXHHs&list=PLW-AtRcuRh3qI6BjWOTZWqfdjtz9tFoQb&index=7&t=320s)	
+	
+	<div data-badge-type="2" data-doi="10.62329/UGJK2874" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
+	<span class="__dimensions_badge_embed__" data-doi="10.1029/2022JB024747" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+	```
+	
 	
 	- Madrid UPM, November 2022: Mary, B., The geophysical toolbox applied to the root zone: Methods, Implications and Outlook. <a href='https://ceigram.upm.es/seminario/seminario-ceigram-geophysical-roots-observation-for-water-saving/'> Link </a>
 	
