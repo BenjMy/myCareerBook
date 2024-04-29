@@ -66,14 +66,10 @@ Paper Alento
 
 ```{admonition} Accepted
 Burchard et al. (2024), Evaluating the precise grapevine water stress detection using unmanned aerial vehicles and evapotranspiration-based metrics in Irrigation Sciences (accepted)
-```
 
-```{admonition} Preprints
-
-- Gu, H., Cseresnyés, I., Butnor, J. R., Li, B., **Mary, B.**, Sun, H., et al. (2023). High frequency soil polarization can phenotype crop roots noninvasively. doi: 10.1101/2023.01.12.523853.
+Pavoni et al. (2024),  Characterization of a contaminated site using hydro-geophysical methods: from large-scale ERT surface investigations to detailed ERT and GPR cross-hole monitoring (accepted)
 
 ```
-
 
 
 - Blanchy, G., McLachlan, P., **Mary, B.**, Censini, M., Boaga, J., and Cassiani, G. (2024). Comparison of multi-coil and multi-frequency frequency domain electromagnetic induction instruments. Front. Soil Sci. 4, 1239497. doi: 10.3389/fsoil.2024.1239497
@@ -91,6 +87,11 @@ Burchard et al. (2024), Evaluating the precise grapevine water stress detection 
 
 🗓️ 2023
 
+```{admonition} Preprints
+
+- Gu, H., Cseresnyés, I., Butnor, J. R., Li, B., **Mary, B.**, Sun, H., et al. (2023). High frequency soil polarization can phenotype crop roots noninvasively. doi: 10.1101/2023.01.12.523853.
+
+```
 
 - Chou, C., Peruzzo, L., Falco, N., Hao, Z., **Mary, B.**, Wang, J., et al. (2023). Improving evapotranspiration computation with electrical resistivity tomography in a maize field. Vadose Zone Journal, e20290.[doi:10.1002/vzj2.20290](https://acsess.onlinelibrary.wiley.com/doi/10.1002/vzj2.20290).
 
