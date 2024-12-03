@@ -21,7 +21,7 @@ I consider an important step in my early career occured after moving towards **O
 :gutter: 3
 
 :::{grid-item-card}
-**[CV](CV/cv_details)**
+**[CV](CV/cv_peerReviewedArticle)**
 
 Give an overview of my contributions in terms of article, teaching and public outreach engagement. 
 :::

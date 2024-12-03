@@ -21,9 +21,7 @@ parts:
 #  - file: CV/article_details
  - caption: Projects
    chapters:
-     - file: Projects/Award_Grants/grant 
-     #- file: Projects/projects 
-     - file: Projects/project_list
+     - file: Projects/project_PI_coPI
      - file: Projects/project_list_others
  - caption: Open-Science
    chapters:

@@ -1,25 +1,28 @@
 # Current position
 
 
-_Last edited, June 14th, 2022_
+_Last edited, November 8th, 2023_
 
 
-I am a post-doctoral researcher at the **[Department of Geosciences of the University of Padova](https://www.unipd.it/en/geo)** and affiliated to **[Earth & Environmental Sciences Area at Lawrence Berkeley National Laboratory](https://eesa.lbl.gov/)** (LBL), where my research focuses on the application of geophysical methods to energy and environment related topics, including: 
-
-- hydro-and bio-geophysical modelling of subsurface hydrological processes;
-- the development of novel imaging approaches for plant root and root-soil interactions. 
-
-During my stay at LBL in the I have been working on Data Assimilation and processing of long term soil plant interaction monitoring. 
+I am a post-doctoral researcher at the Institute of Agricultural Science **[ICA-CSIC](https://www.ica.csic.es/)** , within the [tec4agro](https://tec4agro.csic.es/en/home-tec4agro/) "Tecnologías geoespaciales y de precisión para una agricultura sostenible" group, where my research focuses on the coupling between belowground and remote sensing observations in order to improve irrigation practices in semi-arid regions.
 
 
-```{figure} /img/unipd.jpg
+
+```{figure} /img/csic-logo.png
 ---
 figclass: margin
 width: 200px
 ---
 ```
 
-```{figure} /img/BerkeleyLablogo.png
+```{figure} /img/logo_ica_5cm_transparente.png
+---
+figclass: margin
+width: 200px
+---
+```
+
+```{figure} /img/TECH4Agro_cropped-Logo-transparente-30-cm.png
 ---
 figclass: margin
 width: 200px
@@ -27,18 +30,14 @@ width: 200px
 ```
 
 
-
-```{figure} ../img/20211127_160259.jpg
+```{figure} ../img/cover_pics_majadas.jpg
 ---
 scale: 10%
 align: center
 ---
-Visit of Napa Valley (CA) vineyards
-© AP. Garcia Nieto
+Field work at the  Majadas de Tiétar
+© B. Mary
 ```
 
-```{seealso}
-:class: dropdown
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">2020 was a year like no other, that changed our lives deeply. From online classes to empty offices, people at <a href="https://twitter.com/hashtag/GeoUnipd?src=hash&amp;ref_src=twsrc%5Etfw">#GeoUnipd</a> quickly faced it and made the best of it<br><br>📺 To sum up 2020, we collected some of our main highlights in a short video. Check it out: <a href="https://t.co/Ueq4nzuVvv">https://t.co/Ueq4nzuVvv</a> <a href="https://t.co/r8eYWoaU9N">pic.twitter.com/r8eYWoaU9N</a></p>&mdash; Dipartimento di Geoscienze - Unipd (@GeoUnipd) <a href="https://twitter.com/GeoUnipd/status/1351944065693188099?ref_src=twsrc%5Etfw">January 20, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-```
+

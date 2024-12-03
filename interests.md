@@ -7,21 +7,22 @@ _Last edited: December 4th, 2023_
 ### Refining ET estimates and WUE
 In 2023, I became a part of the Tech4Agro team, where my role involves connecting geophysics with remote sensing (RS). I concentrate on root zone soil moisture, specifically delving into the possibilities of utilizing electrical conductivity to enhance evapotranspiration estimates. 
 
-I contributed to 2 projects: 
+I contribute to 3 projects: 
+- [GRwater](Projects/project_PI_coPI.html#GRwater (🗓️ 2025-2027)): Multiscale earth critical zone monitoring for post-fire forest ecosystem management
 - [EO4WUE](Projects/project_list_others.html#EO4WUE (🗓️ 2023-2024)): Earth observation tools for the evaluation and management of water efficiency and productivity in Mediterranean grasslands and cereal crops
-- [EOMAJI](): Earth Observation system to Manage Africa’s food systems by Joint-knowledge of crop production and Irrigation digitization
-<! - [EOMAJI](Projects/project_list_others.html#EO AFRICA EO-MAJI (🗓️ 2023-2024)): Earth Observation system to Manage Africa’s food systems by Joint-knowledge of crop production and Irrigation digitization
--->
-
+- [EOMAJI](Projects/project_list_others.html#EO AFRICA EO-MAJI (🗓️ 2023-2024)): Earth Observation system to Manage Africa’s food systems by Joint-knowledge of crop production and Irrigation digitization
+- [MULTIWATER](Projects/project_list_others.html#MULTIWATER (🗓️ 2025-2028)): MULTI-sensor WATer resource management and Sentinel Expansion missions End-user Readiness
 
 ### Agronomy
 Since the end of my phd in 2015, my research interests mainly focus on improving our understanding of the role of the roots in regulating water in the {term}`SPAC` using experimental non-destructive approaches (see {numref}`rhizo_neons`).
 
-I contributed to 3 projects: 
+I contributed to 5 projects: 
+- [EOMAJI](Projects/project_list_others.html#EO AFRICA EO-MAJI (🗓️ 2023-2024)): Earth Observation system to Manage Africa’s food systems by Joint-knowledge of crop production and Irrigation digitization
+- [WWV](Projects/project_list_others.html#WWV (🗓️ 2024-2024)): Wallonia Water Vineyard
 - [GROWING](Projects/Award_Grants/grant): Geophysical Roots Obervations for Water SavING
-- [WASA](Projects/project_list.html#WASA (🗓️ 2016 - 2019)): Water Saving in Agriculture  (2016 - 2019)
-- [ROOTS](Projects/project_list_others.html#ROOTS (🗓️ 2021 - Now)):  Rhizosphere Observations Optimizing Terrestrial Sequestration
-- [SoCoRisk](Projects/project_list_others.html#SoCoRisk (🗓️ 01/03/2021 - 28/02/2024)) : Implementation of soil compaction risk assessment system – end-user’s evaluation of potentials and barriers
+- [WASA](Projects/project_PI_coPI.html#WASA (🗓️ 2016 - 2019)): Water Saving in Agriculture  (2016 - 2019)
+- [ROOTS](Projects/project_PI_coPI.html#ROOTS (🗓️ 2021 - Now)):  Rhizosphere Observations Optimizing Terrestrial Sequestration
+- [SoCoRisk](Projects/project_PI_coPI.html#SoCoRisk (🗓️ 01/03/2021 - 28/02/2024)) : Implementation of soil compaction risk assessment system – end-user’s evaluation of potentials and barriers
 
 ```{figure} /img/flickr_pics/51155416189_da46d5911c_o.jpg
 ---
@@ -34,6 +35,8 @@ Artistic picture of the vine plant growing under neons'lights during a lab exper
 © B. Mary
 ```
 
+### Forest management
+- [GRwater](Projects/project_PI_coPI.html#GRwater (🗓️ 2025-2027)): Multiscale earth critical zone monitoring for post-fire forest ecosystem management
 
 ### Earth Critical Zone Hydrology
 
