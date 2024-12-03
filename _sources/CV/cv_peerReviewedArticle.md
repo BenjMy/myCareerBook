@@ -49,28 +49,39 @@ Paper Alento
 
 
 ```{admonition} In preparation
-
 - M. Palladino, B. Sica, **B. Mary**, G. Cassiani, J. Boaga, S. Chiavarini, J. Rimauro, A. Salluzzo, G. Armiento, N. Romano*. A monitoring and modeling study to support an environmentally effective technique for reducing VOCs concentration from groundwater for irrigation purposes
-
-- V. Burchard-Levine1, H. Nieto1, W.P. Kustas2, J.G. Guerra1, I. Borra-Serrano1, J. Dorado1, G. Mesías-Ruiz1, M. Herrezuelo1, B. Mary1, L.M. McKee2, A.I. de Castro3, and J.M. Peña1. Evaluating the precise grapevine water stress detection using unmanned aerial vehicles and evapotranspiration-based metrics. 
-
 ```
 
 ```{admonition} Submitted
-
-- Peruzzo et al. 2024 (in prep. for Science of the Total Environment). Fabricated ecosystem stations, beyond weather: setup and preliminary results.
-
-- Iván, V.; **Mary, B.**; Schwartz, N.; Peruzzo, L.; Ghinassi, M.; Cassiani, G.. Distinguishing Water Salinity, Water Saturation And Clay Content Using Spectral Induced Polarization: A Strategy For Monitoring Arid Soil Conditions"  
-
 ```
 
 ```{admonition} Accepted
-Burchard et al. (2024), Evaluating the precise grapevine water stress detection using unmanned aerial vehicles and evapotranspiration-based metrics in Irrigation Sciences (accepted)
-
-Pavoni et al. (2024),  Characterization of a contaminated site using hydro-geophysical methods: from large-scale ERT surface investigations to detailed ERT and GPR cross-hole monitoring (accepted)
-
 ```
 
+- Peruzzo, L., Chou, C., Hubbard, S. S., Brodie, E., Uhlemann, S., Dafflon, B., **et al.** (2024). Outdoor mesoscale fabricated ecosystems: Rationale, design, and application to evapotranspiration. Science of The Total Environment 957, 177565. [doi: 10.1016/j.scitotenv.2024.177565](https://www.sciencedirect.com/science/article/pii/S0048969724077222)
+
+	```{admonition} Find out more
+	:class: dropdown
+	
+	<div data-badge-type="2" data-doi="10.3389/fsoil.2024.1239497" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
+	
+	[📊 Data repository](https://github.com/Peruz/load_lpp)	
+	
+	[🧮 Code repository](https://github.com/Peruz/ERTpm)
+	```
+
+- Burchard-Levine, V., Borra-Serrano, I., Peña, J. M., Kustas, W. P., Guerra, J. G., Dorado, J., **et al.** (2024). Evaluating the precise grapevine water stress detection using unmanned aerial vehicles and evapotranspiration-based metrics. Irrig Sci. [doi: 10.1007/s00271-024-00931-9](https://link.springer.com/article/10.1007/s00271-024-00931-9)
+
+	```{admonition} Find out more
+	:class: dropdown
+	
+	<div data-badge-type="2" data-doi="10.3389/fsoil.2024.1239497" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
+	
+	[📊 Data repository](http://hdl.handle.net/10261/354889)	
+	
+	[🧮 Code repository](https://github.com/hectornieto/pyTSEB)
+	```
+- Pavoni, M., Boaga, J., Peruzzo, L., Barone, I., **Mary, B.**, and Cassiani, G. (2024). Characterization of a contaminated site using hydro-geophysical methods: from large-scale ert surface investigations to detailed ert and gpr cross-hole monitoring. Water 16, 1280. [doi: 10.3390/w16091280](https://www.mdpi.com/2073-4441/16/9/1280)
 
 - Blanchy, G., McLachlan, P., **Mary, B.**, Censini, M., Boaga, J., and Cassiani, G. (2024). Comparison of multi-coil and multi-frequency frequency domain electromagnetic induction instruments. Front. Soil Sci. 4, 1239497. doi: 10.3389/fsoil.2024.1239497
 
@@ -228,17 +239,28 @@ Participation every year to international (AGU and EGU) and national conferences
 
 
 <!--
-EGU24 Peruzzo et al
+
 -->
 
+🗓️ 2025
+
+- M. Herrezuelo **et al**. Yield estimation in barley and wheat plots using Sentinel-2-derived biophysical traits and water availability metrics: Evapotranspiration and Soil Moisture products (2025). Living Planet Symposium 2025.
+
+- H. Nieto, V. Burchard, **B. Mary**. M. Herrezuelo, R. Guzinski. Evaluating Water and Energy Fluxes Using ECOSTRESS LST Imagery: Validation Against the ICOS’ Warm Winter 2020 Database (2025). Living Planet Symposium 2025.
+
+- V. Burchard-Levine, H. Nieto, M.Pilar Martín, **B. Mary**, M.Dolores Raya-Sereno, M. Herrezuelo, A. Carrara. Implementing the three-source energy balance model with Copernicus-based inputs for improved evapotranspiration modeling over savanna ecosystems (2025). Living Planet Symposium 2025.
+
+- R. Guzinski, H. Nieto, **B. Mary**, C. Kittel, M. Munk. Mapping of irrigation practices with current and future Sentinel satellites (2025). Living Planet Symposium 2025.
+
+- L. Peruzzo, **et al.**. 2D and 3D ERT infiltration tests reveal water preferential flow and successive capillary redistribution along a vegetated hillslope (2025). GELMON2025.
 
 🗓️ 2024
 
-<!--
-- **B. Mary**. A synthetic study for irrigation delimitation and accounting using. ESA ESRIN 2024. https://eo4agri2024.esa.int/
+- A. Soszynska, **et al.**. Earth Observation system to Manage Africa’s food systems by Joint-knowledge of crop production and Irrigation digitization (2024). ESA ESRIN 2024. https://eo4agri2024.esa.int/
+
+- **B. Mary** et al.. A synthetic study for irrigation delimitation and accounting using (2024). ESA ESRIN 2024. https://eo4agri2024.esa.int/
 
 - M. A. Herrezuelo Bermúdez, V. F. Burchard Levine, **B. Mary**, H. Nieto Solana (2024). Harvest estimation in barley and wheat plots using Sentinel-2 Imagery. ESA Roma 2024.
--->
 
 -  G. Cassiani, L. Peruzzo, M. Censini, **B. Mary**, and V. Iván (2024). Non-invasive monitoring of plant root activities in the framework of the Earth’s Critical Zone and soil-plant-atmosphere interactions.  EGU General Assembly 2024, Vienna, Austria.
 

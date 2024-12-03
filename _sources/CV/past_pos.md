@@ -8,6 +8,15 @@ figclass: margin
 width: 150px
 ---
 ```
+
+##  Université Catholique de Louvain-La-Neuve (🗓️ 01/06/2024-01/09/2024)
+### Visiting researcher
+
+- **PIs**: Benjamin Mary
+- **Role**: Researcher 
+- **Projects**: WWV
+---
+
 ##  Lawrence Berkeley National Laboratory (🗓️ 01/12/2021-01/05/2022)
 ### Visiting researcher
 

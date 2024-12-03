@@ -14,39 +14,42 @@
   
   <script data-cfasync="false">
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
-    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
   </script>
+  <!-- 
+    this give us a css class that will be invisible only if js is disabled 
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
-<link href="_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
-<link href="_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
-
-  
-  <link href="_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+  <link href="_static/styles/theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
 
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
-    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
-    <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
   
+  <!-- So that users can add custom icons -->
+  <script src="_static/scripts/fontawesome.js?digest=26a4bc78f4c0ddb94549"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
-<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
-  <script src="_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549" />
 
     <script src="_static/documentation_options.js?v=9eb32ce0"></script>
     <script src="_static/doctools.js?v=9a2dae69"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="_static/copybutton.js?v=f281be69"></script>
-    <script src="_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
@@ -64,6 +67,7 @@
     <link rel="prev" title="My career book in a nutshell" href="intro.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
   </head>
   
   
@@ -71,31 +75,16 @@
 
   
   
-  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
   
   <div id="pst-scroll-pixel-helper"></div>
   
   <button type="button" class="btn rounded-pill" id="pst-back-to-top">
-    <i class="fa-solid fa-arrow-up"></i>
-    Back to top
-  </button>
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
 
   
-  <input type="checkbox"
-          class="sidebar-toggle"
-          name="__primary"
-          id="__primary"/>
-  <label class="overlay overlay-primary" for="__primary"></label>
-  
-  <input type="checkbox"
-          class="sidebar-toggle"
-          name="__secondary"
-          id="__secondary"/>
-  <label class="overlay overlay-secondary" for="__secondary"></label>
-  
-  <div class="search-button__wrapper">
-    <div class="search-button__overlay"></div>
-    <div class="search-button__search-container">
+  <dialog id="pst-search-dialog">
+    
 <form class="bd-search d-flex align-items-center"
       action="search.html"
       method="get">
@@ -103,7 +92,6 @@
   <input type="search"
          class="form-control"
          name="q"
-         id="search-input"
          placeholder="Search this book..."
          aria-label="Search this book..."
          autocomplete="off"
@@ -111,10 +99,15 @@
          autocapitalize="off"
          spellcheck="false"/>
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
-</form></div>
-  </div>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
   
-    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
     </header>
   
 
@@ -123,7 +116,8 @@
       
       
       
-      <div class="bd-sidebar-primary bd-sidebar">
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
         
 
   
@@ -138,6 +132,8 @@
         <div class="sidebar-primary-item">
 
   
+    
+  
 
 <a class="navbar-brand logo" href="intro.html">
   
@@ -151,21 +147,17 @@
     
     
     <img src="_static/photoMe1.png" class="logo__image only-light" alt="Benjamin Mary Career Book - Home"/>
-    <script>document.write(`<img src="_static/photoMe1.png" class="logo__image only-dark" alt="Benjamin Mary Career Book - Home"/>`);</script>
+    <img src="_static/photoMe1.png" class="logo__image only-dark pst-js-only" alt="Benjamin Mary Career Book - Home"/>
   
   
 </a></div>
         <div class="sidebar-primary-item">
 
- <script>
- document.write(`
-   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
-    <span class="search-button__default-text">Search</span>
-    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
-   </button>
- `);
- </script></div>
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         
@@ -197,8 +189,7 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Projects</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="Projects/Award_Grants/grant.html">The MSCA GROWING</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Projects/project_list.html">Projects as PI or co-PI</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Projects/project_PI_coPI.html">Projects as PI or co-PI</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Projects/project_list_others.html">Others projects</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Open-Science</span></p>
@@ -230,7 +221,7 @@
 
       </div>
       
-      <main id="main-content" class="bd-main">
+      <main id="main-content" class="bd-main" role="main">
         
         
 
@@ -239,14 +230,14 @@
           <div class="bd-content">
             <div class="bd-article-container">
               
-              <div class="bd-header-article">
+              <div class="bd-header-article d-print-none">
 <div class="header-article-items header-article__inner">
   
     <div class="header-article-items__start">
       
-        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
   <span class="fa-solid fa-bars"></span>
-</label></div>
+</button></div>
       
     </div>
   
@@ -369,27 +360,19 @@
 
 
 
-<script>
-document.write(`
-  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
-    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
-    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
-  </button>
-`);
-</script>
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
 
 
-<script>
-document.write(`
-  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-  </button>
-`);
-</script>
-<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <span class="fa-solid fa-list"></span>
-</label>
+</button>
 </div></div>
       
     </div>
@@ -414,6 +397,7 @@ document.write(`
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#soil-plant-atmosphere-interactions">Soil-plant-Atmosphere interactions 🌱🌳🌤️💧</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#refining-et-estimates-and-wue">Refining ET estimates and WUE</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#agronomy">Agronomy</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#forest-management">Forest management</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#earth-critical-zone-hydrology">Earth Critical Zone Hydrology</a></li>
 </ul>
 </li>
@@ -441,23 +425,25 @@ document.write(`
 <section id="refining-et-estimates-and-wue">
 <h2>Refining ET estimates and WUE<a class="headerlink" href="#refining-et-estimates-and-wue" title="Link to this heading">#</a></h2>
 <p>In 2023, I became a part of the Tech4Agro team, where my role involves connecting geophysics with remote sensing (RS). I concentrate on root zone soil moisture, specifically delving into the possibilities of utilizing electrical conductivity to enhance evapotranspiration estimates.</p>
-<p>I contributed to 2 projects:</p>
+<p>I contribute to 3 projects:</p>
 <ul class="simple">
+<li><p><a class="reference internal" href="#Projects/project_PI_coPI.html#GRwater"><span class="xref myst">GRwater</span></a>: Multiscale earth critical zone monitoring for post-fire forest ecosystem management</p></li>
 <li><p><a class="reference internal" href="#Projects/project_list_others.html#EO4WUE"><span class="xref myst">EO4WUE</span></a>: Earth observation tools for the evaluation and management of water efficiency and productivity in Mediterranean grasslands and cereal crops</p></li>
-<li><p><a class="reference internal" href="#"><span class="xref myst">EOMAJI</span></a>: Earth Observation system to Manage Africa’s food systems by Joint-knowledge of crop production and Irrigation digitization
-&lt;! - [EOMAJI](Projects/project_list_others.html#EO AFRICA EO-MAJI (🗓️ 2023-2024)): Earth Observation system to Manage Africa’s food systems by Joint-knowledge of crop production and Irrigation digitization
-–&gt;</p></li>
+<li><p>[EOMAJI](Projects/project_list_others.html#EO AFRICA EO-MAJI (🗓️ 2023-2024)): Earth Observation system to Manage Africa’s food systems by Joint-knowledge of crop production and Irrigation digitization</p></li>
+<li><p><a class="reference internal" href="#Projects/project_list_others.html#MULTIWATER"><span class="xref myst">MULTIWATER</span></a>: MULTI-sensor WATer resource management and Sentinel Expansion missions End-user Readiness</p></li>
 </ul>
 </section>
 <section id="agronomy">
 <h2>Agronomy<a class="headerlink" href="#agronomy" title="Link to this heading">#</a></h2>
 <p>Since the end of my phd in 2015, my research interests mainly focus on improving our understanding of the role of the roots in regulating water in the <a class="reference internal" href="#term-SPAC"><span class="xref std std-term">SPAC</span></a> using experimental non-destructive approaches (see <a class="reference internal" href="#rhizo-neons"><span class="std std-numref">Fig. 1</span></a>).</p>
-<p>I contributed to 3 projects:</p>
+<p>I contributed to 5 projects:</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="Projects/Award_Grants/grant.html"><span class="doc std std-doc">GROWING</span></a>: Geophysical Roots Obervations for Water SavING</p></li>
-<li><p><a class="reference internal" href="#Projects/project_list.html#WASA"><span class="xref myst">WASA</span></a>: Water Saving in Agriculture  (2016 - 2019)</p></li>
-<li><p><a class="reference internal" href="#Projects/project_list_others.html#ROOTS"><span class="xref myst">ROOTS</span></a>:  Rhizosphere Observations Optimizing Terrestrial Sequestration</p></li>
-<li><p><a class="reference internal" href="#Projects/project_list_others.html#SoCoRisk"><span class="xref myst">SoCoRisk</span></a> : Implementation of soil compaction risk assessment system – end-user’s evaluation of potentials and barriers</p></li>
+<li><p>[EOMAJI](Projects/project_list_others.html#EO AFRICA EO-MAJI (🗓️ 2023-2024)): Earth Observation system to Manage Africa’s food systems by Joint-knowledge of crop production and Irrigation digitization</p></li>
+<li><p><a class="reference internal" href="#Projects/project_list_others.html#WWV"><span class="xref myst">WWV</span></a>: Wallonia Water Vineyard</p></li>
+<li><p><a class="reference internal" href="#Projects/Award_Grants/grant"><span class="xref myst">GROWING</span></a>: Geophysical Roots Obervations for Water SavING</p></li>
+<li><p><a class="reference internal" href="#Projects/project_PI_coPI.html#WASA"><span class="xref myst">WASA</span></a>: Water Saving in Agriculture  (2016 - 2019)</p></li>
+<li><p><a class="reference internal" href="#Projects/project_PI_coPI.html#ROOTS"><span class="xref myst">ROOTS</span></a>:  Rhizosphere Observations Optimizing Terrestrial Sequestration</p></li>
+<li><p><a class="reference internal" href="#Projects/project_PI_coPI.html#SoCoRisk"><span class="xref myst">SoCoRisk</span></a> : Implementation of soil compaction risk assessment system – end-user’s evaluation of potentials and barriers</p></li>
 </ul>
 <figure class="margin align-center" id="rhizo-neons">
 <a class="reference internal image-reference" href="_images/51155416189_da46d5911c_o.jpg"><img alt="_images/51155416189_da46d5911c_o.jpg" src="_images/51155416189_da46d5911c_o.jpg" style="width: 412.8px; height: 309.6px;" /></a>
@@ -466,6 +452,12 @@ document.write(`
 © B. Mary</span><a class="headerlink" href="#rhizo-neons" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
+</section>
+<section id="forest-management">
+<h2>Forest management<a class="headerlink" href="#forest-management" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="#Projects/project_PI_coPI.html#GRwater"><span class="xref myst">GRwater</span></a>: Multiscale earth critical zone monitoring for post-fire forest ecosystem management</p></li>
+</ul>
 </section>
 <section id="earth-critical-zone-hydrology">
 <h2>Earth Critical Zone Hydrology<a class="headerlink" href="#earth-critical-zone-hydrology" title="Link to this heading">#</a></h2>
@@ -538,7 +530,7 @@ I contributed to 2 main projects:
               
               
               
-                <footer class="prev-next-footer">
+                <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
     <a class="left-prev"
@@ -566,7 +558,8 @@ I contributed to 2 main projects:
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
 
 
   <div class="sidebar-secondary-item">
@@ -579,6 +572,7 @@ I contributed to 2 main projects:
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#soil-plant-atmosphere-interactions">Soil-plant-Atmosphere interactions 🌱🌳🌤️💧</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#refining-et-estimates-and-wue">Refining ET estimates and WUE</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#agronomy">Agronomy</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#forest-management">Forest management</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#earth-critical-zone-hydrology">Earth Critical Zone Hydrology</a></li>
 </ul>
 </li>
@@ -634,8 +628,8 @@ By Benjamin Mary
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
-<script src="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+  <script defer src="_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549"></script>
 
   <footer class="bd-footer">
   </footer>
