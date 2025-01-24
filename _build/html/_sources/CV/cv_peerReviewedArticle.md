@@ -7,7 +7,7 @@
 
 --> 
 
-_Last edited: January 17th, 2023_
+_Last edited, December 8th, 2023_
 
 ```{admonition} Look right ➡️
 :class: tip
@@ -34,37 +34,100 @@ _I'm a Marie-Curie fellow working with geophysics applied to agronomy between Pa
 <!--- Frontiers in Earth Science style from https://zbib.org/ -->
 <!--- [doi:](https://doi.org/).<br>-->
 
-
-
-🗓️ 2023
+🗓️ 2024
 
 <!--
 Paper dike with Nicola Fabbian <nicola.fabbian@phd.unipd.it>
 
+Paper landfill Giorgio
+
+-- very uncertain
+Paper Noble
+Paper WRR Feddes
+Paper Alento
 -->
 
+
 ```{admonition} In preparation
-
-1. **B. Mary**, J Boaga, G. Cassiani, R. Deiana. Non-invasive investigations of a closed landfill in a karstic area
-
-
-2. M. Palladino, B. Sica, **B. Mary**, G. Cassiani, J. Boaga, S. Chiavarini, J. Rimauro, A. Salluzzo, G. Armiento, N. Romano*. A monitoring and modeling study to support an environmentally effective technique for reducing VOCs concentration from groundwater for irrigation purposes
-
-3. **B. Mary**, V. Iván, F. Meggio, L. Peruzzo, G. Blanchy, Chou, C., Y. Wu, G. Cassiani: Imaging of the active root current pathway under partial root-zone drying stress: A laboratory study for Vitis vinifera.
-
-4. Peruzzo et al. 2023 (in prep. for Science of the Total Environment). Fabricated ecosystem stations, beyond weather: setup and preliminary results.
-
-5. B. Loiseau, S. Carrière, D. Jougnot, R. Guerin, N. Martin, N. Delpierre, **B. Mary**, K. Singha (2023 In prep. for Science of the Total Environment). The geophysical toolbox applied to forest ecosystems – a review
-
+- M. Palladino, B. Sica, **B. Mary**, G. Cassiani, J. Boaga, S. Chiavarini, J. Rimauro, A. Salluzzo, G. Armiento, N. Romano*. A monitoring and modeling study to support an environmentally effective technique for reducing VOCs concentration from groundwater for irrigation purposes
 ```
 
 ```{admonition} Submitted
+```
+
+```{admonition} Accepted
+```
+
+- Peruzzo, L., Chou, C., Hubbard, S. S., Brodie, E., Uhlemann, S., Dafflon, B., **et al.** (2024). Outdoor mesoscale fabricated ecosystems: Rationale, design, and application to evapotranspiration. Science of The Total Environment 957, 177565. [doi: 10.1016/j.scitotenv.2024.177565](https://www.sciencedirect.com/science/article/pii/S0048969724077222)
+
+	```{admonition} Find out more
+	:class: dropdown
+	
+	<div data-badge-type="2" data-doi="10.3389/fsoil.2024.1239497" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
+	
+	[📊 Data repository](https://github.com/Peruz/load_lpp)	
+	
+	[🧮 Code repository](https://github.com/Peruz/ERTpm)
+	```
+
+- Burchard-Levine, V., Borra-Serrano, I., Peña, J. M., Kustas, W. P., Guerra, J. G., Dorado, J., **et al.** (2024). Evaluating the precise grapevine water stress detection using unmanned aerial vehicles and evapotranspiration-based metrics. Irrig Sci. [doi: 10.1007/s00271-024-00931-9](https://link.springer.com/article/10.1007/s00271-024-00931-9)
+
+	```{admonition} Find out more
+	:class: dropdown
+	
+	<div data-badge-type="2" data-doi="10.3389/fsoil.2024.1239497" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
+	
+	[📊 Data repository](http://hdl.handle.net/10261/354889)	
+	
+	[🧮 Code repository](https://github.com/hectornieto/pyTSEB)
+	```
+- Pavoni, M., Boaga, J., Peruzzo, L., Barone, I., **Mary, B.**, and Cassiani, G. (2024). Characterization of a contaminated site using hydro-geophysical methods: from large-scale ert surface investigations to detailed ert and gpr cross-hole monitoring. Water 16, 1280. [doi: 10.3390/w16091280](https://www.mdpi.com/2073-4441/16/9/1280)
+
+- Blanchy, G., McLachlan, P., **Mary, B.**, Censini, M., Boaga, J., and Cassiani, G. (2024). Comparison of multi-coil and multi-frequency frequency domain electromagnetic induction instruments. Front. Soil Sci. 4, 1239497. doi: 10.3389/fsoil.2024.1239497
+
+	```{admonition} Find out more
+	:class: dropdown
+	
+	<div data-badge-type="2" data-doi="10.3389/fsoil.2024.1239497" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
+	
+	[📊 Data repository](https://gitlab.com/hkex/fdem-mc-mf)	
+	
+	[🧮 Code repository](https://gitlab.com/hkex/fdem-mc-mf)
+	```
 
 
-- H. Gua, I. Cseresnyes, J. R. Butnord, **B. Mary**, X. Zhanga, Y. Lua, X. Liua* (2023 submitted to ?) Soil electrical capacitance makes plant roots unhidden
+🗓️ 2023
 
+```{admonition} Preprints
+
+- Gu, H., Cseresnyés, I., Butnor, J. R., Li, B., **Mary, B.**, Sun, H., et al. (2023). High frequency soil polarization can phenotype crop roots noninvasively. doi: 10.1101/2023.01.12.523853.
 
 ```
+
+- Chou, C., Peruzzo, L., Falco, N., Hao, Z., **Mary, B.**, Wang, J., et al. (2023). Improving evapotranspiration computation with electrical resistivity tomography in a maize field. Vadose Zone Journal, e20290.[doi:10.1002/vzj2.20290](https://acsess.onlinelibrary.wiley.com/doi/10.1002/vzj2.20290).
+
+
+- **Mary, B.**, Iván, V., Meggio, F., Peruzzo, L., Blanchy, G., Chou, C., et al. (2023). Imaging of the electrical activity in the root zone under limited-water-availability stress: a laboratory study for Vitis vinifera. Biogeosciences 20, 4625–4650.[doi:10.5194/bg-20-4625-2023](https://bg.copernicus.org/articles/20/4625/2023/).
+
+	```{admonition} Find out more
+	:class: dropdown
+	
+	<div data-badge-type="2" data-doi="10.1029/2022JB024747" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
+	
+	[📊 Data repository](https://zenodo.org/records/10014924)	
+	
+	[🧮 Code repository](https://github.com/BenjMy/rhizotron_PRD)
+	
+
+	<div data-badge-type="2" data-doi="10.1029/2022JB024747" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
+	<span class="__dimensions_badge_embed__" data-doi="10.1029/2022JB024747" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+	
+	
+- **Mary, B.**, Sottani, A., Boaga, J., Camerin, I., Deiana, R., and Cassiani, G. (2023). Non-invasive investigations of closed landfills: An example in a karstic area. Science of The Total Environment 905, 167083. [doi:10.1016/j.scitotenv.2023.167083](https://www.sciencedirect.com/science/article/pii/S0048969723057108).
+
+- Loiseau, B., Carrière, S. D., Jougnot, D., Singha, K., **Mary, B.**, Delpierre, N., et al. (2023). The geophysical toolbox applied to forest ecosystems – A review. Science of The Total Environment 899, 165503.[doi:0.1016/j.scitotenv.2023.165503](https://www.sciencedirect.com/science/article/pii/S0048969723041268).
+
 
 🗓️ 2022
 
@@ -172,19 +235,71 @@ Paper dike with Nicola Fabbian <nicola.fabbian@phd.unipd.it>
 
 ## 🎤 Communications
     
-Participation every year to international (AGU and EGU) and national (GNGTS) conferences.
-
-
+Participation every year to international (AGU and EGU) and national conferences.
 
 
 <!--
-Add GNGTS Carrera 2023
+
 -->
+
+🗓️ 2025
+
+- M. Herrezuelo **et al**. Yield estimation in barley and wheat plots using Sentinel-2-derived biophysical traits and water availability metrics: Evapotranspiration and Soil Moisture products (2025). Living Planet Symposium 2025.
+
+- H. Nieto, V. Burchard, **B. Mary**. M. Herrezuelo, R. Guzinski. Evaluating Water and Energy Fluxes Using ECOSTRESS LST Imagery: Validation Against the ICOS’ Warm Winter 2020 Database (2025). Living Planet Symposium 2025.
+
+- V. Burchard-Levine, H. Nieto, M.Pilar Martín, **B. Mary**, M.Dolores Raya-Sereno, M. Herrezuelo, A. Carrara. Implementing the three-source energy balance model with Copernicus-based inputs for improved evapotranspiration modeling over savanna ecosystems (2025). Living Planet Symposium 2025.
+
+- R. Guzinski, H. Nieto, **B. Mary**, C. Kittel, M. Munk. Mapping of irrigation practices with current and future Sentinel satellites (2025). Living Planet Symposium 2025.
+
+- L. Peruzzo, **et al.**. 2D and 3D ERT infiltration tests reveal water preferential flow and successive capillary redistribution along a vegetated hillslope (2025). GELMON2025.
+
+🗓️ 2024
+
+- A. Soszynska, **et al.**. Earth Observation system to Manage Africa’s food systems by Joint-knowledge of crop production and Irrigation digitization (2024). ESA ESRIN 2024. https://eo4agri2024.esa.int/
+
+- **B. Mary** et al.. A synthetic study for irrigation delimitation and accounting using (2024). ESA ESRIN 2024. https://eo4agri2024.esa.int/
+
+- M. A. Herrezuelo Bermúdez, V. F. Burchard Levine, **B. Mary**, H. Nieto Solana (2024). Harvest estimation in barley and wheat plots using Sentinel-2 Imagery. ESA Roma 2024.
+
+-  G. Cassiani, L. Peruzzo, M. Censini, **B. Mary**, and V. Iván (2024). Non-invasive monitoring of plant root activities in the framework of the Earth’s Critical Zone and soil-plant-atmosphere interactions.  EGU General Assembly 2024, Vienna, Austria.
+
+-  L. Peruzzo, **B. Mary**, V. Burchard Levine, J. Guerra, M. A. Herrezuelo Bermúdez, R. Lovera, A. Casas, G. Cassiani, H. Nieto,  J. M. Peña (2024). Identification of long-term irrigation effect on plant water use from geophysical and proximal sensing observations: example of a vineyard.  EGU General Assembly 2024, Vienna, Austria.
+
+- M. A. Herrezuelo Bermúdez, V. F. Burchard Levine, **B. Mary**, H. Nieto Solana (2024). Estimación de la cosecha en parcelas de cebada y trigo mediante teledetección. ICA Jornadas 2024 (Madrid, Spain)
+
+- **B. Mary**, V. F. Burchard Levine (2024). . Seminarios ICA 2024 (Madrid, Spain)
+
+	```{admonition} Find out more
+	:class: dropdown
+	[🎥 Talk recording](https://saco.csic.es/index.php/s/LC8PnZ9yPotTQGw)
+	```
+
+- H. Nieto Solana, **B. Mary**, M. A. Herrezuelo Bermúdez, V. F. Burchard Levine (2024). Un esquema en Código Abierto para el seguimiento de la evapotranspiración real con datos Copernicus. AET 2024 (Cadiz, Spain)
+
+- M. A. Herrezuelo Bermúdez, V. F. Burchard Levine, **B. Mary**, H. Nieto Solana (2024). Estimación del rendimiento en parcelas de cebada y trigo mediante imágenes de Sentinel-2. AET 2024 (Cadiz, Spain)
+
+- V. Burchard-Levine, H. Nieto, M. P. Martín, R. Gonzalez-Cascon,  **B. Mary**,  M. D. Raya-Sereno,  D. Riaño, M. Herrezuelo, D. Pfitzer, A. Carrara (2024). Evaluación de un modelo de balance energético de tres fuentes para estimar los flujos de agua y energía en ecosistemas de dehesa mediante imágenes de satélite Copernicus
+AET 2024 (Cadiz, Spain)
+
+- **B. Mary**, L. Delval, J. S. Bates, Miguel(1), M. A. Herrezuelo Bermúdez, V. F. Burchard Levine, H. Nieto Solana , M. Javaux (2024). Exploring water dynamics in a vineyard: a case study utilizing UAV thermal imaging for ET-metrics. AET 2024 (Cadiz, Spain)
+
 
 🗓️ 2023
 
+- Loiseau, B., Carriere, S. D., Jougnot, D., Singha, K., **Mary, B.**, Delpierre, N., & Martin-StPaul, N. K. (2023). From characterizing water content to dynamics of forest ecosystems, geophysics has a lot to offer!. AGU23.
 
-- **Mary, B.**, K. Kaffas, M. Censini, F. S. Manca di Villahermosa, A. Dani, M. Verdone, F. Preti, P. Trucchi, D. Penna, G. Cassiani. Supporting subsurface preferential flow in a small forested catchment from geophysical data and hydrological modelling
+- Carrera A., Peruzzo L., **Mary B.**, Cassiani G., Morari F. Monitoring soil compaction during a controlled irrigation experiment using multiple hydrogeophysical data. Agriculture and geophysics: Illuminating the subsurface! ETH Zürich, Switzerland 1st and 2nd February 2024
+	
+- Loiseau, B., Carrière, S. D., Jougnot, D., Singha, K., **Mary, B.**, Delpierre, N., et al. (2023). Utilisation de la géophysique de proche-surface pour étudier les écosystemes forestiers. 13e Colloque GEOFCAN. 7 et 8 novembre 2023, Strasbourg
+
+- A. Carrera, M. Longo, I. Piccoli, **B. Mary**, G. Cassiani, F. Morari. On the use of ERT and EMI for the assessment of hydrological impacts of different agricultural practices. The 41st National Conference of the GNGTS. 7th - 9th of February 2023 in Bologna.
+
+- **Cassiani et al** The “true” meaning of Hydrogeophysics: integration of geophysical data with hydrological modeling. INTRUSION 2023. 3-5 juillet 2023. Campus Universitario Ernesto Quagliariello, Bari, Italy.
+
+- **Mary, B.**, Kaffas, K., Censini, M., Manca di Villahermosa, F. S., Dani, A., Verdone, M., Preti, F., Trucchi, P., Penna, D., and Cassiani, G.: Improved extraction of hydrologic information from geophysical data during an artificial hillslope infiltration, A European vision for hydrological observations and experimentation, Naples, Italy, 12–15 Jun 2023, GC8-Hydro-56, https://doi.org/10.5194/egusphere-gc8-hydro-56, 2023.
+
+- (Withdrawn) **Mary, B.**, Kaffas, K., Censini, M., Manca di Villahermosa, F. S., Dani, A., Verdone, M., Preti, F., Trucchi, P., Penna, D., and Cassiani, G.: Supporting subsurface preferential flow in a small forested catchment from geophysical data and hydrological modelling , EGU General Assembly 2023, Vienna, Austria, 24–28 Apr 2023, EGU23-5954, [doi:10.5194/egusphere-egu23-5954](https://doi.org/10.5194/egusphere-egu23-5954), 2023.
 
 - **Mary, B.** pyCATHY: a python wrapper for Data Assimilation in CATHY. CATchment HYdrology (CATHY) days. May 31st and June 1st, 2023 in San Vito di Cadore (IT).
 
@@ -237,8 +352,30 @@ Add GNGTS Carrera 2023
 
 ### Invited
 
+- **Invited working group** 
+	- Mary, B. An Open Catalogue to promote and guide agrogeophysics. Oral Presentation (Online). [Biogeophysics for 
+Climate Resilient Viticulture](https://sites.google.com/lbl.gov/biogeophysics-viticulture/home?authuser=0), January 27, 2022.
+	
 
-- **Invited seminar** 
+- **Invited seminars** 
+
+	- Padua University (Geosciences Department), Italy April 8th: Mary, B., From roots to landscape: integrating bio-geophysics with remote sensing to better understand vegetation water stress in agro-ecosystems. <a href='https://https://www.geoscienze.unipd.it/en/seminar-roots-landscape-integrating-bio-geophysics-remote-sensing-better-understand-vegetation-water'> Link </a>
+
+	- ETH Zürich, Switzerland 1st and 2nd February 2024 (Agriculture and geophysics: Illuminating the subsurface!): Mary, B., Monitoring and modelling root-zone processes with geoelectrical methods. <a href='https://agrogeophy.github.io/agrogeo24/index.html'> Link </a>
+
+
+	```{admonition} Find out more
+	:class: dropdown
+	
+	<div data-badge-type="2" data-doi="10.62329/UGJK2874" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
+	
+	[📊 Record](https://www.youtube.com/watch?v=zgsLcmLXHHs&list=PLW-AtRcuRh3qI6BjWOTZWqfdjtz9tFoQb&index=7&t=320s)	
+	
+	<div data-badge-type="2" data-doi="10.62329/UGJK2874" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
+	<span class="__dimensions_badge_embed__" data-doi="10.1029/2022JB024747" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+	```
+	
+	
 	- Madrid UPM, November 2022: Mary, B., The geophysical toolbox applied to the root zone: Methods, Implications and Outlook. <a href='https://ceigram.upm.es/seminario/seminario-ceigram-geophysical-roots-observation-for-water-saving/'> Link </a>
 	
 	```{admonition} Find out more
@@ -257,10 +394,6 @@ Add GNGTS Carrera 2023
 	- The use of hydro-geophysical monitoring for the identification of root-water-uptake patterns: ERT and MALM experiments in a vineyard, In EGU General Assembly Conference Abstracts.
 
 
-- **Invited working group** 
-	- Mary, B. An Open Catalogue to promote and guide agrogeophysics. Oral Presentation (Online). [Biogeophysics for 
-Climate Resilient Viticulture](https://sites.google.com/lbl.gov/biogeophysics-viticulture/home?authuser=0), January 27, 2022.
-	
 
 
 

@@ -1,0 +1,90 @@
+Traceback (most recent call last):
+  File "/home/z0272571a@CAMPUS.CSIC.ES/miniconda3/lib/python3.11/site-packages/jupyter_cache/executors/utils.py", line 58, in single_nb_execution
+    executenb(
+  File "/home/z0272571a@CAMPUS.CSIC.ES/miniconda3/lib/python3.11/site-packages/nbclient/client.py", line 1305, in execute
+    return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/z0272571a@CAMPUS.CSIC.ES/miniconda3/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 173, in wrapped
+    return loop.run_until_complete(inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/z0272571a@CAMPUS.CSIC.ES/miniconda3/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/z0272571a@CAMPUS.CSIC.ES/miniconda3/lib/python3.11/site-packages/nbclient/client.py", line 705, in async_execute
+    await self.async_execute_cell(
+  File "/home/z0272571a@CAMPUS.CSIC.ES/miniconda3/lib/python3.11/site-packages/nbclient/client.py", line 1058, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "/home/z0272571a@CAMPUS.CSIC.ES/miniconda3/lib/python3.11/site-packages/nbclient/client.py", line 914, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+center = (43.500000, 15.090278)
+m = Map(basemap=basemaps.Esri.WorldTopoMap, center=center, zoom=4, zoom_control=False, 
+        close_popup_on_click=False)
+
+# define icon for different field activities: archeology, risk assessement, hydrology, ECZ plant soil interaction
+
+icon_archeo = AwesomeIcon(
+            name='hammer',
+            marker_color='beige',
+            icon_color='black',
+            spin=False
+        )
+
+icon_risk = AwesomeIcon(
+            name='exclamation-circle',
+            marker_color='red',
+        )
+
+icon_hydro = AwesomeIcon(
+            name='hand-holding-water',
+            marker_color='blue',
+        )
+
+icon_vegetation = AwesomeIcon(
+            name='seedling',
+            marker_color='green',
+        )
+
+icon_type = {
+            'Archeology': icon_archeo,
+            'Geohazard': icon_risk,
+            'Hydrology': icon_hydro,
+            'Interaction soil-plant-atmosphere': icon_vegetation,
+            }
+
+
+field_sites = []
+for i, coords in enumerate(zip(field_activity['Lat'],field_activity['Long'])):
+    lt, lg = coords
+    field_sites.append((lt, lg))
+      
+    marker = Marker(location=(lt, lg), icon= icon_type[field_activity['Purpose'].to_numpy()[i]])
+    message = HTML()
+    message.value = field_activity['Location_name'].to_numpy()[i]
+    message.description = field_activity['Purpose'].to_numpy()[i]
+    marker.popup = message
+    #marker.dragging.disable()
+    
+
+    m.add_layer(marker)
+    
+legend = LegendControl({"Interactions Soil-Plant-Atmosphere":"green", "Geohazards":"red", "Hydrology":"blue",  "Archeology":"beige"}, 
+                       name="Field network", 
+                       position="topright")
+m.add_control(legend)
+
+------------------
+
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mKeyError[0m                                  Traceback (most recent call last)
+Cell [0;32mIn[2], line 42[0m
+[1;32m     39[0m lt, lg [38;5;241m=[39m coords
+[1;32m     40[0m field_sites[38;5;241m.[39mappend((lt, lg))
+[0;32m---> 42[0m marker [38;5;241m=[39m Marker(location[38;5;241m=[39m(lt, lg), icon[38;5;241m=[39m [43micon_type[49m[43m[[49m[43mfield_activity[49m[43m[[49m[38;5;124;43m'[39;49m[38;5;124;43mPurpose[39;49m[38;5;124;43m'[39;49m[43m][49m[38;5;241;43m.[39;49m[43mto_numpy[49m[43m([49m[43m)[49m[43m[[49m[43mi[49m[43m][49m[43m][49m)
+[1;32m     43[0m message [38;5;241m=[39m HTML()
+[1;32m     44[0m message[38;5;241m.[39mvalue [38;5;241m=[39m field_activity[[38;5;124m'[39m[38;5;124mLocation_name[39m[38;5;124m'[39m][38;5;241m.[39mto_numpy()[i]
+
+[0;31mKeyError[0m: nan
+

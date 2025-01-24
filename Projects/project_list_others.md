@@ -16,8 +16,7 @@ PRIN WATZON
 
 _Last edited, November 8th, 2023_
 
-##  EO AFRICA EO-MAJI (🗓️ 2023-2024)
-
+## EO AFRICA EO-MAJI (🗓️ 2023-2024)
 
 [EOMAJI](https://eo4society.esa.int/projects/eo-maji/): Earth Observation system to Manage Africa’s food systems by Joint-
 knowledge of crop production and Irrigation digitization
@@ -38,7 +37,7 @@ width: 200px
 ```
 
 
-##  EO4WUE (🗓️ 2023-2024)
+## EO4WUE (🗓️ 2023-2024)
 
 
 [EO4WUE](https://eo4wue.csic.es/): Earth observation tools for the evaluation and management of water efficiency and productivity in Mediterranean grasslands and cereal crops
@@ -58,7 +57,7 @@ width: 200px
 ```
 
 
-##  WATSON (🗓️ 09/2022 - 09/2024)
+## WATSON (🗓️ 09/2022 - 09/2024)
 
 
 [WATSON](https://watson-cost.eu/): WATer isotopeS in the critical zONe: from groundwater recharge to plant transpiration
@@ -80,7 +79,7 @@ width: 200px
 ```
 
 
-##  ROOTS (🗓️ 2021 - Now)
+## ROOTS (🗓️ 2021 - Now)
 
 
 [ROOTS](): Rhizosphere Observations Optimizing Terrestrial Sequestration
@@ -116,7 +115,7 @@ Two Berkeley Lab projects to “see” into the soil.
 
 ---
 
-##  SoCoRisk (🗓️ 01/03/2021 - 28/02/2024)
+## SoCoRisk (🗓️ 01/03/2021 - 28/02/2024)
 
 [SoCoRisk](https://ictagrifood.eu/node/44657): Implementation of soil compaction risk assessment system – end-user’s evaluation of potentials and barriers
 
@@ -133,7 +132,7 @@ width: 200px
 
 ---
 
-##  ECZ-DRY (🗓️ 2019 - Now)
+## ECZ-DRY (🗓️ 2019 - 2021)
 
 [ECZ-Dry](): New Technologies to monitor the earth critical zone in water-limited ecosystems
 
