@@ -71,6 +71,7 @@ Pavoni et al. (2024),  Characterization of a contaminated site using hydro-geoph
 
 ```
 
+- Pavoni, M., Boaga, J., Peruzzo, L., Barone, I., **Mary, B.**, and Cassiani, G. (2024). Characterization of a contaminated site using hydro-geophysical methods: from large-scale ert surface investigations to detailed ert and gpr cross-hole monitoring. Water 16, 1280. [doi: 10.3390/w16091280](https://www.mdpi.com/2073-4441/16/9/1280)
 
 - Blanchy, G., McLachlan, P., **Mary, B.**, Censini, M., Boaga, J., and Cassiani, G. (2024). Comparison of multi-coil and multi-frequency frequency domain electromagnetic induction instruments. Front. Soil Sci. 4, 1239497. doi: 10.3389/fsoil.2024.1239497
 
