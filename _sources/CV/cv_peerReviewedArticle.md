@@ -5,13 +5,13 @@
 🚧 This page is still under construction 🚧
 ```
 
---> 
+-->
 
 _Last edited, December 8th, 2023_
 
 ```{admonition} Look right ➡️
 :class: tip
-Use the right panel menu to navigate the CV 
+Use the right panel menu to navigate the CV
 ```
 
 
@@ -24,7 +24,7 @@ Benjamin Mary
 
 _I'm a Marie-Curie fellow working with geophysics applied to agronomy between Padua (IT) and Berkeley (USA)_ <br>
 
---> 
+-->
 
 [Email](mailto:benjamin.mary@unipd.it) / [Website](JupyterBook) / [GitHub](https://github.com/benjmy/) / [Scholar](https://scholar.google.com/citations?user=3kDP4-AAAAAJ&hl=en) / <a href="https://orcid.org/0000-0001-7199-2885"> Orcid </a> / <a href="https://www.researchgate.net/profile/Benjamin-Mary-2"> Researchgate </a>
 
@@ -58,40 +58,17 @@ Paper Alento
 ```{admonition} Accepted
 ```
 
-- Peruzzo, L., Chou, C., Hubbard, S. S., Brodie, E., Uhlemann, S., Dafflon, B., **et al.** (2024). Outdoor mesoscale fabricated ecosystems: Rationale, design, and application to evapotranspiration. Science of The Total Environment 957, 177565. [doi: 10.1016/j.scitotenv.2024.177565](https://www.sciencedirect.com/science/article/pii/S0048969724077222)
-
-	```{admonition} Find out more
-	:class: dropdown
-	
-	<div data-badge-type="2" data-doi="10.3389/fsoil.2024.1239497" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
-	
-	[📊 Data repository](https://github.com/Peruz/load_lpp)	
-	
-	[🧮 Code repository](https://github.com/Peruz/ERTpm)
-	```
-
-- Burchard-Levine, V., Borra-Serrano, I., Peña, J. M., Kustas, W. P., Guerra, J. G., Dorado, J., **et al.** (2024). Evaluating the precise grapevine water stress detection using unmanned aerial vehicles and evapotranspiration-based metrics. Irrig Sci. [doi: 10.1007/s00271-024-00931-9](https://link.springer.com/article/10.1007/s00271-024-00931-9)
-
-	```{admonition} Find out more
-	:class: dropdown
-	
-	<div data-badge-type="2" data-doi="10.3389/fsoil.2024.1239497" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
-	
-	[📊 Data repository](http://hdl.handle.net/10261/354889)	
-	
-	[🧮 Code repository](https://github.com/hectornieto/pyTSEB)
-	```
 - Pavoni, M., Boaga, J., Peruzzo, L., Barone, I., **Mary, B.**, and Cassiani, G. (2024). Characterization of a contaminated site using hydro-geophysical methods: from large-scale ert surface investigations to detailed ert and gpr cross-hole monitoring. Water 16, 1280. [doi: 10.3390/w16091280](https://www.mdpi.com/2073-4441/16/9/1280)
 
 - Blanchy, G., McLachlan, P., **Mary, B.**, Censini, M., Boaga, J., and Cassiani, G. (2024). Comparison of multi-coil and multi-frequency frequency domain electromagnetic induction instruments. Front. Soil Sci. 4, 1239497. doi: 10.3389/fsoil.2024.1239497
 
 	```{admonition} Find out more
 	:class: dropdown
-	
+
 	<div data-badge-type="2" data-doi="10.3389/fsoil.2024.1239497" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
-	
-	[📊 Data repository](https://gitlab.com/hkex/fdem-mc-mf)	
-	
+
+	[📊 Data repository](https://gitlab.com/hkex/fdem-mc-mf)
+
 	[🧮 Code repository](https://gitlab.com/hkex/fdem-mc-mf)
 	```
 
@@ -111,19 +88,19 @@ Paper Alento
 
 	```{admonition} Find out more
 	:class: dropdown
-	
+
 	<div data-badge-type="2" data-doi="10.1029/2022JB024747" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
-	
-	[📊 Data repository](https://zenodo.org/records/10014924)	
-	
+
+	[📊 Data repository](https://zenodo.org/records/10014924)
+
 	[🧮 Code repository](https://github.com/BenjMy/rhizotron_PRD)
-	
+
 
 	<div data-badge-type="2" data-doi="10.1029/2022JB024747" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
 	<span class="__dimensions_badge_embed__" data-doi="10.1029/2022JB024747" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
-	
-	
+
+
 - **Mary, B.**, Sottani, A., Boaga, J., Camerin, I., Deiana, R., and Cassiani, G. (2023). Non-invasive investigations of closed landfills: An example in a karstic area. Science of The Total Environment 905, 167083. [doi:10.1016/j.scitotenv.2023.167083](https://www.sciencedirect.com/science/article/pii/S0048969723057108).
 
 - Loiseau, B., Carrière, S. D., Jougnot, D., Singha, K., **Mary, B.**, Delpierre, N., et al. (2023). The geophysical toolbox applied to forest ecosystems – A review. Science of The Total Environment 899, 165503.[doi:0.1016/j.scitotenv.2023.165503](https://www.sciencedirect.com/science/article/pii/S0048969723041268).
@@ -138,20 +115,20 @@ Paper Alento
 
 	```{admonition} Find out more
 	:class: dropdown
-	
+
 	<div data-badge-type="2" data-doi="10.1029/2022JB024747" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
-	
-	[📊 Data repository](https://doi.org/10.5281/zenodo.6538070)	
-	
+
+	[📊 Data repository](https://doi.org/10.5281/zenodo.6538070)
+
 	[🧮 Code repository](https://github.com/BenjMy/dEXP_imaging/tree/master/notebooks_JGR)
-	
+
 
 	<div data-badge-type="2" data-doi="10.1029/2022JB024747" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
 	<span class="__dimensions_badge_embed__" data-doi="10.1029/2022JB024747" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
-	
+
 	```
-	
+
 - Dimech, A., Cheng, L., Chouteau, M., Chambers, J., Uhlemann, S., Wilkinson, P., **et al**. (2022). A Review on Applications of Time-Lapse Electrical Resistivity Tomography Over the Last 30 Years : Perspectives for Mining Waste Monitoring. Surv Geophys. [doi:10.1007/s10712-022-09731-2](https://link.springer.com/article/10.1007/s10712-022-09731-2)
 
 
@@ -161,7 +138,7 @@ Paper Alento
 
 	```{admonition} Find out more
 	:class: dropdown
-	<div data-badge-type="donut" data-doi="10.3389/frwa.2021.767910" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>	
+	<div data-badge-type="donut" data-doi="10.3389/frwa.2021.767910" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
 	<span class="__dimensions_badge_embed__" data-doi="10.3389/frwa.2021.767910" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 	```
 
@@ -209,7 +186,7 @@ Paper Alento
 	:class: dropdown
 	[📊 Data repository](http://researchdata.cab.unipd.it/136/)
 	```
-	
+
 - **Mary, B.**, Peruzzo, L., Boaga, J., Schmutz, M., Wu, Y., Hubbard, S. S., et al. (2018). Small-scale characterization of vine plant root water uptake via 3-D electrical resistivity tomography and mise-à-la-masse method. Hydrol. Earth Syst. Sci. 22, 5427–5444.[doi:10.5194/hess-22-5427-2018](https://doi.org/10.5194/hess-22-5427-2018).<br>
 
 - **Mary, B.**, Abdulsamad, F., Saracco, G., Peyras, L., Vennetier, M., Mériaux, P., et al. _(2017)_. Improvement of coarse root detection using time and frequency induced polarization: from laboratory to field experiments. Plant Soil 417, 243–259. [doi:10.1007/s11104-017-3255-4](https://doi.org/10.1007/s11104-017-3255-4).<br>
@@ -234,7 +211,7 @@ Paper Alento
 
 
 ## 🎤 Communications
-    
+
 Participation every year to international (AGU and EGU) and national conferences.
 
 
@@ -290,7 +267,7 @@ AET 2024 (Cadiz, Spain)
 - Loiseau, B., Carriere, S. D., Jougnot, D., Singha, K., **Mary, B.**, Delpierre, N., & Martin-StPaul, N. K. (2023). From characterizing water content to dynamics of forest ecosystems, geophysics has a lot to offer!. AGU23.
 
 - Carrera A., Peruzzo L., **Mary B.**, Cassiani G., Morari F. Monitoring soil compaction during a controlled irrigation experiment using multiple hydrogeophysical data. Agriculture and geophysics: Illuminating the subsurface! ETH Zürich, Switzerland 1st and 2nd February 2024
-	
+
 - Loiseau, B., Carrière, S. D., Jougnot, D., Singha, K., **Mary, B.**, Delpierre, N., et al. (2023). Utilisation de la géophysique de proche-surface pour étudier les écosystemes forestiers. 13e Colloque GEOFCAN. 7 et 8 novembre 2023, Strasbourg
 
 - A. Carrera, M. Longo, I. Piccoli, **B. Mary**, G. Cassiani, F. Morari. On the use of ERT and EMI for the assessment of hydrological impacts of different agricultural practices. The 41st National Conference of the GNGTS. 7th - 9th of February 2023 in Bologna.
@@ -327,7 +304,7 @@ AET 2024 (Cadiz, Spain)
 
 - **B. Mary**: The GROWING project, Gembloux seminar ‘Geophysics & Agriculture: the perfect match?’ on _January 31st, 2020_. http://www.soilbelgium.be/?p=3596
 
-- **B. Mary**, F. Meggio, G. Blanchy, N. Cainelli, L. Peruzzo, J. Boaga, Y. Wu, S. Hubbard, B. Ruperti, A. Binley, G. Cassiani: Highlighting Grapevine Root Activity During a Partial Root Zone Drying in Rhizotron Using Geo-electrical Methods. AGU General Assembly (NS31A-0764) _December 2019_. https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/585475. Bibcode: 2019AGUFMNS31A0764M 
+- **B. Mary**, F. Meggio, G. Blanchy, N. Cainelli, L. Peruzzo, J. Boaga, Y. Wu, S. Hubbard, B. Ruperti, A. Binley, G. Cassiani: Highlighting Grapevine Root Activity During a Partial Root Zone Drying in Rhizotron Using Geo-electrical Methods. AGU General Assembly (NS31A-0764) _December 2019_. https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/585475. Bibcode: 2019AGUFMNS31A0764M
 
 - **B. Mary**, J. Boaga, G. Cassiani, R. Deiana, Non-invasive investigation below an exhausted landfill located in karstic area, 38° convegno nazionale del GNGTS si terrà, Roma, Italy – _November 2019_ [conference proceedings pdf - p. ](http://www3.inogs.it/gngts/files/2019/GNGTS_3.2.pdf)<br>
 
@@ -352,12 +329,12 @@ AET 2024 (Cadiz, Spain)
 
 ### Invited
 
-- **Invited working group** 
-	- Mary, B. An Open Catalogue to promote and guide agrogeophysics. Oral Presentation (Online). [Biogeophysics for 
+- **Invited working group**
+	- Mary, B. An Open Catalogue to promote and guide agrogeophysics. Oral Presentation (Online). [Biogeophysics for
 Climate Resilient Viticulture](https://sites.google.com/lbl.gov/biogeophysics-viticulture/home?authuser=0), January 27, 2022.
-	
 
-- **Invited seminars** 
+
+- **Invited seminars**
 
 	- Padua University (Geosciences Department), Italy April 8th: Mary, B., From roots to landscape: integrating bio-geophysics with remote sensing to better understand vegetation water stress in agro-ecosystems. <a href='https://https://www.geoscienze.unipd.it/en/seminar-roots-landscape-integrating-bio-geophysics-remote-sensing-better-understand-vegetation-water'> Link </a>
 
@@ -366,23 +343,23 @@ Climate Resilient Viticulture](https://sites.google.com/lbl.gov/biogeophysics-vi
 
 	```{admonition} Find out more
 	:class: dropdown
-	
+
 	<div data-badge-type="2" data-doi="10.62329/UGJK2874" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
-	
-	[📊 Record](https://www.youtube.com/watch?v=zgsLcmLXHHs&list=PLW-AtRcuRh3qI6BjWOTZWqfdjtz9tFoQb&index=7&t=320s)	
-	
+
+	[📊 Record](https://www.youtube.com/watch?v=zgsLcmLXHHs&list=PLW-AtRcuRh3qI6BjWOTZWqfdjtz9tFoQb&index=7&t=320s)
+
 	<div data-badge-type="2" data-doi="10.62329/UGJK2874" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
 	<span class="__dimensions_badge_embed__" data-doi="10.1029/2022JB024747" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 	```
-	
-	
+
+
 	- Madrid UPM, November 2022: Mary, B., The geophysical toolbox applied to the root zone: Methods, Implications and Outlook. <a href='https://ceigram.upm.es/seminario/seminario-ceigram-geophysical-roots-observation-for-water-saving/'> Link </a>
-	
+
 	```{admonition} Find out more
 	:class: dropdown
-		
+
 	[📊 Slides repository](https://figshare.com/articles/presentation/The_geophysical_toolbox_applied_to_the_root_zone/21594255) - 10.6084/m9.figshare.21594255.v1
-		
+
 
 	```
 	- Paris UPMC, November 2021: Mary, B., Geophysical Imaging of the Root Zone: challenging but still worth a try! In UMR METIS conference.
@@ -400,6 +377,3 @@ Climate Resilient Viticulture](https://sites.google.com/lbl.gov/biogeophysics-vi
 ```{warning}
 Found a bug 🐛/ a typo ? [Email me](mailto:benjamin.mary@unipd.it)
 ```
-
-
-
