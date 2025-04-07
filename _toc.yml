@@ -30,6 +30,7 @@ parts:
    chapters:
         #- file: Blog/list_blog
           #sections:
+     - file: Blog/blog2025     
      - file: Blog/blog2024
      - file: Blog/blog2023
      - file: Blog/blog2022
