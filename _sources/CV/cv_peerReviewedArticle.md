@@ -233,9 +233,11 @@ Participation every year to international (AGU and EGU) and national conferences
 
 🗓️ 2024
 
+- Peruzzo, L., Carrera, A., **Mary, B.**, Cassiani, G., & Morari, F. (2024, October). ERT and EMI characterization of the spatiotemporal variability of agricultural and forest soils: some common methodological issues. In 2024 IEEE International Workshop on Metrology for Agriculture and Forestry (MetroAgriFor) (pp. 259-264). IEEE.
+
 - A. Soszynska, **et al.**. Earth Observation system to Manage Africa’s food systems by Joint-knowledge of crop production and Irrigation digitization (2024). ESA ESRIN 2024. https://eo4agri2024.esa.int/
 
-- **B. Mary** et al.. A synthetic study for irrigation delimitation and accounting using (2024). ESA ESRIN 2024. https://eo4agri2024.esa.int/
+- **B. Mary**, M. Herrezuelo, V. Burchard-Levine, H. Nieto: Multi-scales evapotranspiration for blue and green water footprint delineation and accounting: a synthetic study. ESA ESRIN EO4Africa Conference 2024
 
 - M. A. Herrezuelo Bermúdez, V. F. Burchard Levine, **B. Mary**, H. Nieto Solana (2024). Harvest estimation in barley and wheat plots using Sentinel-2 Imagery. ESA Roma 2024.
 
