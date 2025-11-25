@@ -5,6 +5,14 @@ This section is intended to list the project I contributed to as a [PI or co-PI]
 :class: tip
 Use the right panel menu to navigate the projects 
 ```
+## TWISTT (🗓️ 2025-2028)
+
+
+- **PI**: Benjamin Mary/ Hector Nieto
+- **Goal**: TWISTT aims to develop an innovative multi-scale Earth Observation (EO) and modeling system to enhance water accounting in the Mediterranean. Leveraging data from the Copernicus EO program and Sentinel Missions, the project will produce multi-scale maps to estimate soil evaporation and plant transpiration.
+- **Consortium**: Instituto de Ciencias Agrarias (ES), Politecnico Milano – Department of Civil and Environmental Engineering (IT), Chouaib Doukkali University (MO), FPN-Mohammed Premier University (MO), National Institute of Agricultural Research of Tunisia (TU)
+- **Website**: [link]()
+
 
 ## GRWater (🗓️ 2025-2027)
 
@@ -30,7 +38,7 @@ footprint close to each treatment size.
 ```
 
 
-### Abstract
+### Sum-up
 
 The **GRwater project** (_GRwater path starts here: multi-scale monitoring the Earth Critical Zone a key, missing parameter for assessing the forest post-fire management in the face of global
 warming_) tackles the growing interest in understanding the fate of water in forest and post-fire management in the Spanish region.
@@ -92,7 +100,7 @@ Figure illustrating the 3D position of sensors around the plant and simulation s
 ```
 
 
-### Abstract
+### Sum-up
 
 Water scarcity is the biggest threat to world food production. A third of water use in Europe goes to the agricultural sector but many regions, especially in the south, are still going thirsty. The EU-funded project GROWING is working with farmers, academics and stakeholders in the private sector to develop practical new tools and services for arboriculture, viticulture and agronomy. Its solution is based on an advanced plant root phenotyping technology, above- and below-ground monitoring system and a data assimilation scheme to construct a model of water distribution.
 
@@ -141,7 +149,7 @@ width: 200px
 ```
 
 
-##### Abstract
+##### Sum-up
 
 The project aims to develop, test and consolidate an operational protocol aimed at reducing water consumption for the irrigation of high value-added crops, typical of the Mediterranean region, with important socio-economic consequences for current and future scenarios of possible scarcity of water resources. The protocol is defined through a combination of scientific, technical and training activities conducted by nine partners distributed in the Mediterranean basin.
 

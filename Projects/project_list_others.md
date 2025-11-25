@@ -96,7 +96,7 @@ width: 200px
 ---
 ```
 
-##### Abstract
+##### Sum-up
 
 As advanced as agriculture has become, there remains a pressing need for nondestructive ways to ”see” into the soil. Now the U.S. Department of Energy’s Advanced Research Projects Agency-Energy (ARPA-E) has awarded $4.6 million to Lawrence Berkeley National Laboratory (Berkeley Lab) for two innovative projects to address this gap, giving farmers important information to increase crop yields while also promoting the storage of carbon in soil.
 

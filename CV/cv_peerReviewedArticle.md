@@ -31,32 +31,40 @@ _I'm a Marie-Curie fellow working with geophysics applied to agronomy between Pa
 
 ## 🗞 Peer-reviewed articles
 
-<!--- Frontiers in Earth Science style from https://zbib.org/ -->
-<!--- [doi:](https://doi.org/).<br>-->
-
-🗓️ 2024
-
 <!--
-Paper dike with Nicola Fabbian <nicola.fabbian@phd.unipd.it>
-
 Paper landfill Giorgio
-
 -- very uncertain
 Paper Noble
 Paper WRR Feddes
 Paper Alento
 -->
 
-
-```{admonition} In preparation
+```{admonition} Submitted
 - M. Palladino, B. Sica, **B. Mary**, G. Cassiani, J. Boaga, S. Chiavarini, J. Rimauro, A. Salluzzo, G. Armiento, N. Romano*. A monitoring and modeling study to support an environmentally effective technique for reducing VOCs concentration from groundwater for irrigation purposes
 ```
-
-```{admonition} Submitted
-```
-
+<!--
 ```{admonition} Accepted
+None
 ```
+-->
+
+<!--- Frontiers in Earth Science style from https://zbib.org/ -->
+<!--- [doi:](https://doi.org/).<br>-->
+### 🗓️ 2025
+
+- Peruzzo, L., Werban, U., Pohle, M., Pavoni, M., **Mary, B.**, Cassiani, G., Consoli, S., and Vanella, D.: High-resolution frequency-domain electromagnetic mapping for the hydrological modeling of an orange orchard, SOIL, 11, 811–831, https://doi.org/10.5194/soil-11-811-2025, 2025.
+
+- Burchard-Levine, V., Borra-Serrano, I., Peña, J. M., Kustas, W. P., Guerra, J. G., Dorado, J., **et al**. (2025). Evaluating the precise grapevine water stress detection using unmanned aerial vehicles and evapotranspiration-based metrics. Irrig Sci 43, 65–85. doi: 10.1007/s00271-024-00931-9
+
+- Fabbian, N., Cassiani, G., **Mary, B.**, Schenato, L., Brezzi, L., and Cola, S. (2025). Characterization of Subsurface Heterogeneities in River Embankments Using Geophysical and Fiber Optic Techniques coupled with Saline Injection Testing. Can. Geotech. J., cgj-2025-0198. doi: 10.1139/cgj-2025-0198
+
+
+### 🗓️ 2024
+
+
+- Burchard-Levine, V., Guerra, J. G., Borra-Serrano, I., Nieto, H., Mesías-Ruiz, G., Dorado, J., **et al**. (2024). Evaluating the utility of combining high resolution thermal, multispectral and 3D imagery from unmanned aerial vehicles to monitor water stress in vineyards. Precision Agric 25, 2447–2476. doi: 10.1007/s11119-024-10179-0
+
+- Peruzzo, L., Chou, C., Hubbard, S. S., Brodie, E., Uhlemann, S., Dafflon, B., **et al**. (2024). Outdoor mesoscale fabricated ecosystems: Rationale, design, and application to evapotranspiration. Science of The Total Environment 957, 177565. doi: 10.1016/j.scitotenv.2024.177565
 
 - Pavoni, M., Boaga, J., Peruzzo, L., Barone, I., **Mary, B.**, and Cassiani, G. (2024). Characterization of a contaminated site using hydro-geophysical methods: from large-scale ert surface investigations to detailed ert and gpr cross-hole monitoring. Water 16, 1280. [doi: 10.3390/w16091280](https://www.mdpi.com/2073-4441/16/9/1280)
 
@@ -73,7 +81,7 @@ Paper Alento
 	```
 
 
-🗓️ 2023
+### 🗓️ 2023
 
 ```{admonition} Preprints
 
@@ -106,7 +114,7 @@ Paper Alento
 - Loiseau, B., Carrière, S. D., Jougnot, D., Singha, K., **Mary, B.**, Delpierre, N., et al. (2023). The geophysical toolbox applied to forest ecosystems – A review. Science of The Total Environment 899, 165503.[doi:0.1016/j.scitotenv.2023.165503](https://www.sciencedirect.com/science/article/pii/S0048969723041268).
 
 
-🗓️ 2022
+### 🗓️ 2022
 
 - Carrera, A., Longo, M., Piccoli, I., **Mary, B.**, Cassiani, G., and Morari, F. (2022). Electro-Magnetic Geophysical Dynamics under Conservation and Conventional Farming. Remote Sensing 14, 6243. doi: 10.3390/rs14246243.[doi:10.3390/rs14246243](https://www.mdpi.com/2072-4292/14/24/6243)
 
@@ -132,7 +140,7 @@ Paper Alento
 - Dimech, A., Cheng, L., Chouteau, M., Chambers, J., Uhlemann, S., Wilkinson, P., **et al**. (2022). A Review on Applications of Time-Lapse Electrical Resistivity Tomography Over the Last 30 Years : Perspectives for Mining Waste Monitoring. Surv Geophys. [doi:10.1007/s10712-022-09731-2](https://link.springer.com/article/10.1007/s10712-022-09731-2)
 
 
-🗓️ 2021
+### 🗓️ 2021
 
 - **Mary, B.**, Peruzzo, L., Iván, V., Facca, E., Manoli, G., Putti, M., et al. (2021). Combining Models of Root-Zone Hydrology and Geoelectrical Measurements: Recent Advances and Future Prospects. Front. Water 3, 767910. [doi:10.3389/frwa.2021.767910](https://www.frontiersin.org/articles/10.3389/frwa.2021.767910/full).
 
@@ -162,7 +170,7 @@ Paper Alento
 
 
 
-🗓️ 2020
+### 🗓️ 2020
 
 - Peruzzo, L., Chou, C., Wu, Y., Schmutz, M., **Mary, B.**, Wagner, F. M., et al. _(2020)_. Imaging of plant current pathways for non-invasive root Phenotyping using a newly developed electrical current source density approach. Plant Soil 450, 567–584. [doi:10.1007/s11104-020-04529-w](https://doi.org/10.1007/s11104-020-04529-w).<br>
 
@@ -178,7 +186,7 @@ Paper Alento
 
 
 
-🗓️ <= 2019
+### 🗓️ <= 2019
 
 - **Mary, B.**, Vanella, D., Consoli, S., and Cassiani, G. (2019). Assessing the extent of citrus trees root apparatus under deficit irrigation via multi-method geo-electrical imaging. Sci Rep 9, 9913. [doi:10.1038/s41598-019-46107-w](https://doi.org/10.1038/s41598-019-46107-w)
 
@@ -214,24 +222,39 @@ Paper Alento
 
 Participation every year to international (AGU and EGU) and national conferences.
 
-
 <!--
 
 -->
 
-🗓️ 2025
+### 🗓️ 2025
 
-- M. Herrezuelo **et al**. Yield estimation in barley and wheat plots using Sentinel-2-derived biophysical traits and water availability metrics: Evapotranspiration and Soil Moisture products (2025). Living Planet Symposium 2025.
+- Peña J.M, Dorado J, de Castro A.I, Mary B, Fernández-Quintanilla C, Ortega R.A. Exploring gamma radiation technology for detailed mapping: a case study in Spain. ECPA Barcelona 2025. **15 th European Conference on Precision Agriculture**
 
-- H. Nieto, V. Burchard, **B. Mary**. M. Herrezuelo, R. Guzinski. Evaluating Water and Energy Fluxes Using ECOSTRESS LST Imagery: Validation Against the ICOS’ Warm Winter 2020 Database (2025). Living Planet Symposium 2025.
+- M. Burguet, H. Nieto, M.E. Lucas-Borja, P. A. Plaza-Álvarez, J.M. Peña, G.A. Mesías, D. Campos, V. Burchard-Levine, M. Herrezuelo, B. Mary
+(PDF) GRwater: multiscale Earth Critical Zone monitoring for post-fire forest ecosystem management. Available from: researchgate.  **3rd OZCAR TERENO international conference 2025**
 
-- V. Burchard-Levine, H. Nieto, M.Pilar Martín, **B. Mary**, M.Dolores Raya-Sereno, M. Herrezuelo, A. Carrara. Implementing the three-source energy balance model with Copernicus-based inputs for improved evapotranspiration modeling over savanna ecosystems (2025). Living Planet Symposium 2025.
+- H. Nieto, B. Mary, M. Burguet, V. Burchard-Levine, M. Herrezuelo, W. P. Kustas. From plant to landscape: using proximal and remote sensing observations to model water and energy fluxes in complex semi-arid ecosystems. **3rd OZCAR TERENO international conference 2025**
 
-- R. Guzinski, H. Nieto, **B. Mary**, C. Kittel, M. Munk. Mapping of irrigation practices with current and future Sentinel satellites (2025). Living Planet Symposium 2025.
+- V. Burchard-Levine, H. Nieto, J. Pacheco-Labrador R. González-Cascón, D. Riaño, **B. Mary** , M.D. Raya-Sereno, M. Herrezuelo2 , A. Carrara and M.P. Martín. Exploring the relationship between functional diversity and water use
+efficiency in a semi-arid grassland using a multi-scale approach. **Biospace 2025** (https://biospace25.esa.int/agenda/)
 
-- L. Peruzzo, **et al.**. 2D and 3D ERT infiltration tests reveal water preferential flow and successive capillary redistribution along a vegetated hillslope (2025). GELMON2025.
+- M. Herrezuelo **et al**. Yield estimation in barley and wheat plots using Sentinel-2-derived biophysical traits and water availability metrics: Evapotranspiration and Soil Moisture products (2025). **Living Planet Symposium 2025**.
 
-🗓️ 2024
+- H. Nieto, V. Burchard, **B. Mary**. M. Herrezuelo, R. Guzinski. Evaluating Water and Energy Fluxes Using ECOSTRESS LST Imagery: Validation Against the ICOS’ Warm Winter 2020 Database (2025). **Living Planet Symposium 2025**.
+
+- V. Burchard-Levine, H. Nieto, M.Pilar Martín, **B. Mary**, M.Dolores Raya-Sereno, M. Herrezuelo, A. Carrara. Implementing the three-source energy balance model with Copernicus-based inputs for improved evapotranspiration modeling over savanna ecosystems (2025). **Living Planet Symposium 2025**.
+
+- R. Guzinski, H. Nieto, **B. Mary**, C. Kittel, M. Munk. Mapping of irrigation practices with current and future Sentinel satellites (2025). **Living Planet Symposium 2025**.
+
+- L. Peruzzo, **et al.**. 2D and 3D ERT infiltration tests reveal water preferential flow and successive capillary redistribution along a vegetated hillslope (2025). **GELMON2025**.
+
+- Peruzzo, L., Werban, U., Pohle, M., Pavoni, M., **Mary, B.**, Cassiani, G., Consoli, S., and Vanella, D.: High-resolution near-surface electromagnetic mapping for the hydrological modeling of an orange orchard, **EGU General Assembly 2025**, Vienna, Austria, 27 Apr–2 May 2025, https://doi.org/10.5194/egusphere-2025-2117.
+
+- Mary, B., Burchard-Levine, V., Herrezuelo, M. Á., Nieto, H., Lucas Borja, M. E., and García, M.:  Modeling and geophysical monitoring to uncover surface and subsurface water flows in post-fire management, **EGU General Assembly 2025**, Vienna, Austria, 27 Apr–2 May 2025, EGU25-3785, https://doi.org/10.5194/egusphere-egu25-3785, 2025.
+
+
+### 🗓️ 2024
+- Peruzzo, L., Carrera, A., **Mary, B.**, Cassiani, G., and Morari, F. (2024). ERT and EMI Characterization of the Spatiotemporal Variability of Agricultural and Forest Soils: Some Common Methodological Issues., in 2024 **IEEE International Workshop on Metrology for Agriculture and Forestry** (MetroAgriFor), 259–264. doi: 10.1109/MetroAgriFor63043.2024.10948814
 
 - Peruzzo, L., Carrera, A., **Mary, B.**, Cassiani, G., & Morari, F. (2024, October). ERT and EMI characterization of the spatiotemporal variability of agricultural and forest soils: some common methodological issues. In 2024 IEEE International Workshop on Metrology for Agriculture and Forestry (MetroAgriFor) (pp. 259-264). IEEE.
 
@@ -264,7 +287,7 @@ AET 2024 (Cadiz, Spain)
 - **B. Mary**, L. Delval, J. S. Bates, Miguel(1), M. A. Herrezuelo Bermúdez, V. F. Burchard Levine, H. Nieto Solana , M. Javaux (2024). Exploring water dynamics in a vineyard: a case study utilizing UAV thermal imaging for ET-metrics. AET 2024 (Cadiz, Spain)
 
 
-🗓️ 2023
+### 🗓️ 2023
 
 - Loiseau, B., Carriere, S. D., Jougnot, D., Singha, K., **Mary, B.**, Delpierre, N., & Martin-StPaul, N. K. (2023). From characterizing water content to dynamics of forest ecosystems, geophysics has a lot to offer!. AGU23.
 
@@ -283,7 +306,7 @@ AET 2024 (Cadiz, Spain)
 - **Mary, B.** pyCATHY: a python wrapper for Data Assimilation in CATHY. CATchment HYdrology (CATHY) days. May 31st and June 1st, 2023 in San Vito di Cadore (IT).
 
 
-🗓️ 2022
+### 🗓️ 2022
 
 
 - Iván, V., **Mary, B.**, Schwartz, N., Ghinassi, M., and Cassiani, G.: Spectral Induced Polarization: Laboratory measurements on artificial soils with varying water saturation, salinity and clay content, EGU General Assembly 2022, Vienna, Austria, 23–27 May 2022, EGU22-5638, [doi:10.5194/egusphere-egu22-5638](https://doi.org/10.5194/egusphere-egu22-5638), 2022.
@@ -291,7 +314,7 @@ AET 2024 (Cadiz, Spain)
 - **Mary, B.**, Botto, A., Iván, V., Peruzzo, L., Chou, C., Wu, Y., Cassiani, G., and Camporese, M.: Assimilation of ERT data to improve Feddes parameters in a hydrological model during a root water uptake experiment, EGU General Assembly 2022, Vienna, Austria, 23–27 May 2022, EGU22-6648, [doi:10.5194/egusphere-egu22-6648](https://doi.org/10.5194/egusphere-egu22-6648), 2022.
 
 
-🗓️ 2021
+### 🗓️ 2021
 
 - Cassiani, G., **Mary, B.**, Boaga, J., Barone, I., and Ivan, V. _(2021)_. Geophysical Imaging of the Root Zone: Methods, Implications and Outlook. in NSG2021 27th European Meeting of Environmental and Engineering Geophysics (Hybrid, France: European Association of Geoscientists & Engineers), 1–5. [doi:10.3997/2214-4609.202120198](https://doi.org/10.3997/2214-4609.202120198).<br>
 
@@ -302,7 +325,7 @@ AET 2024 (Cadiz, Spain)
 
 
 
-🗓️ <= 2020
+### 🗓️ <= 2020
 
 - **B. Mary**: The GROWING project, Gembloux seminar ‘Geophysics & Agriculture: the perfect match?’ on _January 31st, 2020_. http://www.soilbelgium.be/?p=3596
 
@@ -329,7 +352,7 @@ AET 2024 (Cadiz, Spain)
 - **Mary, B.**, Preliminary use of induced polarization  measurement  to  study  tree  roots  growing in earth dikes, 3rd International Workshop on Induced Polarization.
 
 
-### Invited
+## Invited
 
 - **Invited working group**
 	- Mary, B. An Open Catalogue to promote and guide agrogeophysics. Oral Presentation (Online). [Biogeophysics for

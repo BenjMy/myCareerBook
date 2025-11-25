@@ -18,6 +18,14 @@ _I'm a Marie-Curie fellow working with geophysics applied to agronomy between Pa
 
 ## Seminar/Conference/Workshop organization 
 
+🗓️ 2026
+
+- **EGU session chair**: Exploring soil physics and geophysics across scales: from pores to ecosystems; Convener: Benjamin Mary | Co-conveners: Remi Clement, Daniela Vanella. https://meetingorganizer.copernicus.org/EGU26/session/57273
+- **Technical committee Agrogeoph26**: 4th Agrogeophysics seminar _oUniversidade de Lisboa, Lisbon 5th and 6th February 2026_ 
+	- <a href="https://agrogeophy.github.io/agrogeo26/" target="_blank">Seminar website</a>
+
+
+
 🗓️ 2024
 - **Organizing committee**: JORNADAS ANUALES ICA 2024 _MARTES 7 Mayo, 2024 Madrid, Spain_ 
 <!--
@@ -80,25 +88,25 @@ _I'm a Marie-Curie fellow working with geophysics applied to agronomy between Pa
 
 ## Review activity
 
-Peer Journal Reviewer for: 
+- Comité Seguimiento y Calidad MOMENTUM (Irene Borra Serrano)
 
-- NSG
-- Water
-- Hydrogeology Journal
-- Plant Methods
-- Plant and Soil journal
-- Irrigation Science
-- CATENA 
-- Vadose Zone Journal
-- Journal of Open Source Software (JOSS)
-- Journal of Open Source Education (JOSE)
 
-[Publon record](https://publons.com/researcher/1516310/benjamin-mary/)
+- Peer Journal Reviewer [Publon record](https://publons.com/researcher/1516310/benjamin-mary/) for:
+  - NSG
+  - Water
+  - Hydrogeology Journal
+  - Plant Methods
+  - Plant and Soil journal
+  - Irrigation Science
+  - CATENA 
+  - Vadose Zone Journal
+  - Journal of Open Source Software (JOSS)
+  - Journal of Open Source Education (JOSE)
 
-Peer Project Reviewer for: 
 
-- [BARD Proposal](https://www.bard-isus.com/) US-5528-22
-- [abc-j-research-award](http://www.geoverbund-abcj.de/geoverbund/EN/Home/research/young-academics-award/young-academics-award_node.html)
+- Peer Project Reviewer for:
+  - [BARD Proposal](https://www.bard-isus.com/) US-5528-22
+  - [abc-j-research-award](http://www.geoverbund-abcj.de/geoverbund/EN/Home/research/young-academics-award/young-academics-award_node.html)
 
 
 ```{warning}

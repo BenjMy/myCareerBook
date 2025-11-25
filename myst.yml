@@ -1,0 +1,67 @@
+version: 1
+project:
+  title: Benjamin Mary Career Book
+  authors:
+    - name: Benjamin Mary
+  github: BenjMy/myCareerBook
+  bibliography:
+    - references.bib
+  exports:
+    - format: pdf
+      template: plain_latex_book
+      output: exports/book.pdf
+  toc:
+    - file: intro.md
+    - title: Research
+      children:
+        - file: interests.md
+        - file: CV/current_pos.md
+        - file: CV/past_pos.md
+    - title: CV
+      children:
+        - file: CV/cv_peerReviewedArticle.md
+        - file: CV/cv_awards.md
+        - file: CV/cv_community.md
+        - file: CV/cv_teaching.md
+        - file: CV/cv_education.md
+        #- file: CV/cv_map.md
+        #- file: CV/notebooks/map.ipynb
+    - title: Projects
+      children:
+        - file: Projects/project_PI_coPI.md
+        - file: Projects/project_list_others.md
+    - title: Open-Science
+      children:
+        - file: Open_Codes/open_codes.md
+    - title: Blog
+      children:
+        - file: Blog/blog2025.md
+        - file: Blog/blog2024.md
+        - file: Blog/blog2023.md
+        - file: Blog/blog2022.md
+        - file: Blog/blog2021.md
+    - title: references
+      children:
+        - file: references.md
+site:
+  options:
+    logo: ./img/photoMe1.png
+    folders: true
+  template: book-theme
+
+html:
+  static_files:
+    - path: "_static"
+
+parse:
+  myst_enable_extensions:
+    - html_admonition
+    - html_image
+    - dollarmath
+    - colon_fence
+    - linkify
+
+execution:
+  enabled: true
+  timeout: 300
+  execute_notebooks: auto

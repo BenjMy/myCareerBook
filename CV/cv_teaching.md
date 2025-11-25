@@ -18,7 +18,6 @@ _I'm a Marie-Curie fellow working with geophysics applied to agronomy between Pa
 
 <!-- 
 #### Other contributions
-
 website creator and maintainor ERT database 
 -->
 
@@ -26,6 +25,19 @@ website creator and maintainor ERT database
 
 
 ## 🏫 Teaching Activity
+
+<!-- 
+
+🗓️ 2026
+- Microcredential CSIC
+-->
+
+
+
+
+🗓️ 2025
+
+- **Lecturer** [Aplicación de la teledetección en la monitorización de viñedos - Universidad de Salamanca (ES) - 30/04/25]: Aplicación de la teledetección en la monitorización de viñedos: análisis de datos de estudios sobre la optimización del riego con énfasis en métodos geofísicos.
 
 
 🗓️ <2024
@@ -54,6 +66,13 @@ Pythia Cookbooks
 -->
 
 ## Public outreach
+
+
+🗓️ 2024
+- **Semana de la ciencia**
+	- title: Drones y tecnología al servicio de una agricultura sostenible.  
+	- contributors: [Tec4agro](https://tec4agro.csic.es/)
+	- [Details](https://www.semanadelaciencia.csic.es/actividad/drones-y-tecnologia-al-servicio-de-una-agricultura-sostenible/)
 
 🗓️ 2023
 - **Semana de la ciencia**

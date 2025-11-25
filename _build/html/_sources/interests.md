@@ -85,7 +85,7 @@ Logo of the CAGS (Catalog of Agrogeophysical Studies) promoting FAIR practicies 
 
 ```{glossary}
 SPAC
-  The soil-plant-atmosphere continuum (SPAC) is the pathway for water moving from soil through plants to the atmosphere. (source wikipedia)
+: The soil-plant-atmosphere continuum (SPAC) is the pathway for water moving from soil through plants to the atmosphere. (source wikipedia)
 ```
 
 

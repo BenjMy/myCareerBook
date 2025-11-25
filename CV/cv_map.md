@@ -4,48 +4,97 @@
 🚧 This page is still under construction 🚧
 ```
 
+```{code-cell} ipython3
+# map_folium.py
+import pandas as pd
+import folium
+from IPython.display import display, HTML, Markdown
 
+# -------------------------------
+# Read CSV file
+# -------------------------------
+field_activity = pd.read_csv('../field.csv')
+field_activity.dropna(subset=['Lat', 'Long'], inplace=True)
+field_activity = field_activity.sort_values(by='Date', ascending=False)
 
-```python
-from ipywidgets import HTML
+# -------------------------------
+# Display summary
+# -------------------------------
+Purposes = field_activity['Purpose'].unique()
+total_field = len(field_activity)
+display(Markdown(f"**Total Number of field activities:** {total_field}"))
 
-from ipyleaflet import Map, Marker, Popup
+for p in Purposes:
+    count = sum(field_activity['Purpose'] == p)
+    display(Markdown(f"* {count} in {p}"))
 
-center = (52.204793, 360.121558)
+# -------------------------------
+# Create Folium map
+# -------------------------------
+center = [43.500000, 15.090278]
+m = folium.Map(location=center, zoom_start=4, tiles="Stamen Terrain")
 
-m = Map(center=center, zoom=9, close_popup_on_click=False)
+# -------------------------------
+# Define icon colors for field activity types
+# -------------------------------
+icon_colors = {
+    'Archeology': 'beige',
+    'Geohazard': 'red',
+    'Hydrology': 'blue',
+    'Interaction soil-plant-atmosphere': 'green'
+}
 
-marker = Marker(location=(52.1, 359.9))
-m.add_layer(marker)
+# Optionally, use FontAwesome icons similar to AwesomeIcon
+fa_icons = {
+    'Archeology': 'hammer',
+    'Geohazard': 'exclamation-circle',
+    'Hydrology': 'tint',  # hand-holding-water substitute
+    'Interaction soil-plant-atmosphere': 'seedling'
+}
 
-message1 = HTML()
-message2 = HTML()
-message1.value = "Try clicking the marker!"
-message2.value = "Hello <b>World</b>"
-message2.placeholder = "Some HTML"
-message2.description = "Some HTML"
+# -------------------------------
+# Add markers to map
+# -------------------------------
+for idx, row in field_activity.iterrows():
+    lat, lon = row['Lat'], row['Long']
+    purpose = row['Purpose']
+    location_name = row['Location_name']
+    
+    popup_html = f"<b>{location_name}</b><br>{purpose}"
+    
+    folium.Marker(
+        location=[lat, lon],
+        popup=folium.Popup(popup_html, max_width=250),
+        icon=folium.Icon(color=icon_colors.get(purpose, 'gray'),
+                         icon=fa_icons.get(purpose, 'info-sign'),
+                         prefix='fa')
+    ).add_to(m)
 
-# Popup with a given location on the map:
-popup = Popup(
-    location=center,
-    child=message1,
-    close_button=False,
-    auto_close=False,
-    close_on_escape_key=False
-)
-m.add_layer(popup)
+# -------------------------------
+# Add legend using HTML overlay
+# -------------------------------
+legend_html = """
+<div style="
+position: fixed; 
+bottom: 50px; left: 50px; width: 220px; height: 140px; 
+background-color: white; z-index:9999; font-size:14px;
+border:2px solid grey; border-radius:5px; padding: 10px;">
+<b>Field Network Legend</b><br>
+&mdash; Archeology: beige<br>
+&mdash; Geohazards: red<br>
+&mdash; Hydrology: blue<br>
+&mdash; Interaction soil-plant-atmosphere: green
+</div>
+"""
+m.get_root().html.add_child(folium.Element(legend_html))
 
-# Popup associated to a layer
-marker.popup = message2
-
-m
+# -------------------------------
+# Display map and table
+# -------------------------------
+# Save map to an HTML file in the _static folder
+m.save("_static/field_map.html")
+display(field_activity)
 ```
-
-```python
-
+```{raw} html
+<iframe src="_static/field_map.html" width="100%" height="600px" style="border:none;"></iframe>
 ```
-
-```{warning}
-🚧 This page is still under construction 🚧
-```
-
