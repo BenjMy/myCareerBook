@@ -8,32 +8,35 @@ msgstr ""
 "Language: sr\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "By the"
-msgstr "Од"
+msgid "Download source file"
+msgstr "Преузми изворну датотеку"
 
-msgid "By"
-msgstr "Од стране"
+msgid "suggest edit"
+msgstr "предложи уређивање"
 
-msgid "Contents"
-msgstr "Садржај"
+msgid "Toggle navigation"
+msgstr "Укључи / искључи навигацију"
 
-msgid "Copyright"
-msgstr "Ауторско право"
+msgid "open issue"
+msgstr "отворено издање"
 
 msgid "Download notebook file"
 msgstr "Преузмите датотеку бележнице"
 
-msgid "Download source file"
-msgstr "Преузми изворну датотеку"
+msgid "repository"
+msgstr "спремиште"
+
+msgid "Theme by the"
+msgstr "Тхеме би"
+
+msgid "Print to PDF"
+msgstr "Испис у ПДФ"
 
 msgid "Download this page"
 msgstr "Преузмите ову страницу"
 
-msgid "Edit this page"
-msgstr "Уредите ову страницу"
-
-msgid "Fullscreen mode"
-msgstr "Режим целог екрана"
+msgid "Copyright"
+msgstr "Ауторско право"
 
 msgid "Last updated on"
 msgstr "Последње ажурирање"
@@ -44,32 +47,29 @@ msgstr "Лансирање"
 msgid "Open an issue"
 msgstr "Отворите издање"
 
-msgid "Print to PDF"
-msgstr "Испис у ПДФ"
-
-msgid "Source repository"
-msgstr "Изворно спремиште"
+msgid "Fullscreen mode"
+msgstr "Режим целог екрана"
 
 msgid "Sphinx Book Theme"
 msgstr "Тема књиге Спхинк"
 
-msgid "Theme by the"
-msgstr "Тхеме би"
+msgid "Contents"
+msgstr "Садржај"
 
-msgid "Toggle navigation"
-msgstr "Укључи / искључи навигацију"
+msgid "Edit this page"
+msgstr "Уредите ову страницу"
 
 msgid "next page"
 msgstr "Следећа страна"
 
-msgid "open issue"
-msgstr "отворено издање"
+msgid "Source repository"
+msgstr "Изворно спремиште"
+
+msgid "By"
+msgstr "Од стране"
+
+msgid "By the"
+msgstr "Од"
 
 msgid "previous page"
 msgstr "Претходна страница"
-
-msgid "repository"
-msgstr "спремиште"
-
-msgid "suggest edit"
-msgstr "предложи уређивање"

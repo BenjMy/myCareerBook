@@ -14,39 +14,39 @@
   
   <script data-cfasync="false">
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
-    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
 
   
-  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+  <link href="../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
-    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=384b581d" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
-  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
 
     <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
-    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="../_static/copybutton.js?v=f281be69"></script>
-    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
@@ -71,23 +71,27 @@
 
   
   
-  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
   
   <div id="pst-scroll-pixel-helper"></div>
   
   <button type="button" class="btn rounded-pill" id="pst-back-to-top">
-    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
 
   
   <input type="checkbox"
           class="sidebar-toggle"
-          id="pst-primary-sidebar-checkbox"/>
-  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
   
   <input type="checkbox"
           class="sidebar-toggle"
-          id="pst-secondary-sidebar-checkbox"/>
-  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
   
   <div class="search-button__wrapper">
     <div class="search-button__overlay"></div>
@@ -109,13 +113,8 @@
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
 </form></div>
   </div>
-
-  <div class="pst-async-banner-revealer d-none">
-  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
-</div>
-
   
-    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
     </header>
   
 
@@ -139,8 +138,6 @@
         <div class="sidebar-primary-item">
 
   
-    
-  
 
 <a class="navbar-brand logo" href="../intro.html">
   
@@ -162,7 +159,7 @@
 
  <script>
  document.write(`
-   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass"></i>
     <span class="search-button__default-text">Search</span>
     <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
@@ -209,7 +206,6 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Blog</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../Blog/blog2025.html">Blog 2025</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Blog/blog2024.html">Blog 2024</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Blog/blog2023.html">Blog 2023</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Blog/blog2022.html">Blog 2022</a></li>
@@ -233,7 +229,7 @@
 
       </div>
       
-      <main id="main-content" class="bd-main" role="main">
+      <main id="main-content" class="bd-main">
         
         
 
@@ -242,14 +238,14 @@
           <div class="bd-content">
             <div class="bd-article-container">
               
-              <div class="bd-header-article d-print-none">
+              <div class="bd-header-article">
 <div class="header-article-items header-article__inner">
   
     <div class="header-article-items__start">
       
-        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
   <span class="fa-solid fa-bars"></span>
-</button></div>
+</label></div>
       
     </div>
   
@@ -374,10 +370,10 @@
 
 <script>
 document.write(`
-  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
-    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
-    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
   </button>
 `);
 </script>
@@ -385,14 +381,14 @@ document.write(`
 
 <script>
 document.write(`
-  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
 `);
 </script>
-<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <span class="fa-solid fa-list"></span>
-</button>
+</label>
 </div></div>
       
     </div>
@@ -436,7 +432,7 @@ document.write(`
 🚧 This page is still under construction 🚧
 ```
 
--->
+--> 
 <p><em>Last edited, December 8th, 2023</em></p>
 <div class="tip admonition">
 <p class="admonition-title">Look right ➡️</p>
@@ -449,7 +445,7 @@ Benjamin Mary
 
 _I'm a Marie-Curie fellow working with geophysics applied to agronomy between Padua (IT) and Berkeley (USA)_ <br>
 
--->
+--> 
 <p><a class="reference external" href="mailto:benjamin&#46;mary&#37;&#52;&#48;unipd&#46;it">Email</a> / <a class="reference internal" href="#JupyterBook"><span class="xref myst">Website</span></a> / <a class="reference external" href="https://github.com/benjmy/">GitHub</a> / <a class="reference external" href="https://scholar.google.com/citations?user=3kDP4-AAAAAJ&amp;amp;hl=en">Scholar</a> / <a href="https://orcid.org/0000-0001-7199-2885"> Orcid </a> / <a href="https://www.researchgate.net/profile/Benjamin-Mary-2"> Researchgate </a></p>
 <section id="peer-reviewed-articles">
 <h2>🗞 Peer-reviewed articles<a class="headerlink" href="#peer-reviewed-articles" title="Link to this heading">#</a></h2>
@@ -473,6 +469,22 @@ Paper Alento
 </ul>
 </div>
 <ul>
+<li><p>Peruzzo, L., Chou, C., Hubbard, S. S., Brodie, E., Uhlemann, S., Dafflon, B., <strong>et al.</strong> (2024). Outdoor mesoscale fabricated ecosystems: Rationale, design, and application to evapotranspiration. Science of The Total Environment 957, 177565. <a class="reference external" href="https://www.sciencedirect.com/science/article/pii/S0048969724077222">doi: 10.1016/j.scitotenv.2024.177565</a></p>
+<div class="dropdown admonition">
+<p class="admonition-title">Find out more</p>
+<div data-badge-type="2" data-doi="10.3389/fsoil.2024.1239497" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
+<p><a class="reference external" href="https://github.com/Peruz/load_lpp">📊 Data repository</a></p>
+<p><a class="reference external" href="https://github.com/Peruz/ERTpm">🧮 Code repository</a></p>
+</div>
+</li>
+<li><p>Burchard-Levine, V., Borra-Serrano, I., Peña, J. M., Kustas, W. P., Guerra, J. G., Dorado, J., <strong>et al.</strong> (2024). Evaluating the precise grapevine water stress detection using unmanned aerial vehicles and evapotranspiration-based metrics. Irrig Sci. <a class="reference external" href="https://link.springer.com/article/10.1007/s00271-024-00931-9">doi: 10.1007/s00271-024-00931-9</a></p>
+<div class="dropdown admonition">
+<p class="admonition-title">Find out more</p>
+<div data-badge-type="2" data-doi="10.3389/fsoil.2024.1239497" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
+<p><a class="reference external" href="http://hdl.handle.net/10261/354889">📊 Data repository</a></p>
+<p><a class="reference external" href="https://github.com/hectornieto/pyTSEB">🧮 Code repository</a></p>
+</div>
+</li>
 <li><p>Pavoni, M., Boaga, J., Peruzzo, L., Barone, I., <strong>Mary, B.</strong>, and Cassiani, G. (2024). Characterization of a contaminated site using hydro-geophysical methods: from large-scale ert surface investigations to detailed ert and gpr cross-hole monitoring. Water 16, 1280. <a class="reference external" href="https://www.mdpi.com/2073-4441/16/9/1280">doi: 10.3390/w16091280</a></p></li>
 <li><p>Blanchy, G., McLachlan, P., <strong>Mary, B.</strong>, Censini, M., Boaga, J., and Cassiani, G. (2024). Comparison of multi-coil and multi-frequency frequency domain electromagnetic induction instruments. Front. Soil Sci. 4, 1239497. doi: 10.3389/fsoil.2024.1239497</p>
 <div class="dropdown admonition">
@@ -525,7 +537,7 @@ Paper Alento
 <li><p><strong>Mary, B.</strong>, Peruzzo, L., Iván, V., Facca, E., Manoli, G., Putti, M., et al. (2021). Combining Models of Root-Zone Hydrology and Geoelectrical Measurements: Recent Advances and Future Prospects. Front. Water 3, 767910. <a class="reference external" href="https://www.frontiersin.org/articles/10.3389/frwa.2021.767910/full">doi:10.3389/frwa.2021.767910</a>.</p>
 <div class="dropdown admonition">
 <p class="admonition-title">Find out more</p>
-<div data-badge-type="donut" data-doi="10.3389/frwa.2021.767910" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
+<div data-badge-type="donut" data-doi="10.3389/frwa.2021.767910" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>	
 <span class="__dimensions_badge_embed__" data-doi="10.3389/frwa.2021.767910" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 </div>
 </li>
@@ -591,9 +603,8 @@ Paper Alento
 </ul>
 <p>🗓️ 2024</p>
 <ul>
-<li><p>Peruzzo, L., Carrera, A., <strong>Mary, B.</strong>, Cassiani, G., &amp; Morari, F. (2024, October). ERT and EMI characterization of the spatiotemporal variability of agricultural and forest soils: some common methodological issues. In 2024 IEEE International Workshop on Metrology for Agriculture and Forestry (MetroAgriFor) (pp. 259-264). IEEE.</p></li>
 <li><p>A. Soszynska, <strong>et al.</strong>. Earth Observation system to Manage Africa’s food systems by Joint-knowledge of crop production and Irrigation digitization (2024). ESA ESRIN 2024. <a class="reference external" href="https://eo4agri2024.esa.int/">https://eo4agri2024.esa.int/</a></p></li>
-<li><p><strong>B. Mary</strong>, M. Herrezuelo, V. Burchard-Levine, H. Nieto: Multi-scales evapotranspiration for blue and green water footprint delineation and accounting: a synthetic study. ESA ESRIN EO4Africa Conference 2024</p></li>
+<li><p><strong>B. Mary</strong> et al.. A synthetic study for irrigation delimitation and accounting using (2024). ESA ESRIN 2024. <a class="reference external" href="https://eo4agri2024.esa.int/">https://eo4agri2024.esa.int/</a></p></li>
 <li><p>M. A. Herrezuelo Bermúdez, V. F. Burchard Levine, <strong>B. Mary</strong>, H. Nieto Solana (2024). Harvest estimation in barley and wheat plots using Sentinel-2 Imagery. ESA Roma 2024.</p></li>
 <li><p>G. Cassiani, L. Peruzzo, M. Censini, <strong>B. Mary</strong>, and V. Iván (2024). Non-invasive monitoring of plant root activities in the framework of the Earth’s Critical Zone and soil-plant-atmosphere interactions.  EGU General Assembly 2024, Vienna, Austria.</p></li>
 <li><p>L. Peruzzo, <strong>B. Mary</strong>, V. Burchard Levine, J. Guerra, M. A. Herrezuelo Bermúdez, R. Lovera, A. Casas, G. Cassiani, H. Nieto,  J. M. Peña (2024). Identification of long-term irrigation effect on plant water use from geophysical and proximal sensing observations: example of a vineyard.  EGU General Assembly 2024, Vienna, Austria.</p></li>
@@ -721,7 +732,7 @@ Climate Resilient Viticulture</a>, January 27, 2022.</p></li>
               
               
               
-                <footer class="prev-next-footer d-print-none">
+                <footer class="prev-next-footer">
                   
 <div class="prev-next-area">
     <a class="left-prev"
@@ -811,8 +822,8 @@ By Benjamin Mary
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
-<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
 
   <footer class="bd-footer">
   </footer>

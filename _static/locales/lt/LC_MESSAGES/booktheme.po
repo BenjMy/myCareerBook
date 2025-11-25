@@ -8,32 +8,35 @@ msgstr ""
 "Language: lt\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "By the"
-msgstr "Prie"
+msgid "Download source file"
+msgstr "Atsisiųsti šaltinio failą"
 
-msgid "By"
-msgstr "Iki"
+msgid "suggest edit"
+msgstr "pasiūlyti redaguoti"
 
-msgid "Contents"
-msgstr "Turinys"
+msgid "Toggle navigation"
+msgstr "Perjungti naršymą"
 
-msgid "Copyright"
-msgstr "Autorių teisės"
+msgid "open issue"
+msgstr "atviras klausimas"
 
 msgid "Download notebook file"
 msgstr "Atsisiųsti nešiojamojo kompiuterio failą"
 
-msgid "Download source file"
-msgstr "Atsisiųsti šaltinio failą"
+msgid "repository"
+msgstr "saugykla"
+
+msgid "Theme by the"
+msgstr "Tema"
+
+msgid "Print to PDF"
+msgstr "Spausdinti į PDF"
 
 msgid "Download this page"
 msgstr "Atsisiųskite šį puslapį"
 
-msgid "Edit this page"
-msgstr "Redaguoti šį puslapį"
-
-msgid "Fullscreen mode"
-msgstr "Pilno ekrano režimas"
+msgid "Copyright"
+msgstr "Autorių teisės"
 
 msgid "Last updated on"
 msgstr "Paskutinį kartą atnaujinta"
@@ -44,32 +47,29 @@ msgstr "Paleiskite"
 msgid "Open an issue"
 msgstr "Atidarykite problemą"
 
-msgid "Print to PDF"
-msgstr "Spausdinti į PDF"
-
-msgid "Source repository"
-msgstr "Šaltinio saugykla"
+msgid "Fullscreen mode"
+msgstr "Pilno ekrano režimas"
 
 msgid "Sphinx Book Theme"
 msgstr "Sfinkso knygos tema"
 
-msgid "Theme by the"
-msgstr "Tema"
+msgid "Contents"
+msgstr "Turinys"
 
-msgid "Toggle navigation"
-msgstr "Perjungti naršymą"
+msgid "Edit this page"
+msgstr "Redaguoti šį puslapį"
 
 msgid "next page"
 msgstr "Kitas puslapis"
 
-msgid "open issue"
-msgstr "atviras klausimas"
+msgid "Source repository"
+msgstr "Šaltinio saugykla"
+
+msgid "By"
+msgstr "Iki"
+
+msgid "By the"
+msgstr "Prie"
 
 msgid "previous page"
 msgstr "Ankstesnis puslapis"
-
-msgid "repository"
-msgstr "saugykla"
-
-msgid "suggest edit"
-msgstr "pasiūlyti redaguoti"

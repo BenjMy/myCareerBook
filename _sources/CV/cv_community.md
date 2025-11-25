@@ -54,9 +54,6 @@ _I'm a Marie-Curie fellow working with geophysics applied to agronomy between Pa
 
 <!-- Add Pti CSIC -->
 
-- **Irrigation management** group of research: Irrigation Quantification & Management & its Effect on the Water Cycle: Lead by Chiara Corbari.
-	- [iahs-info](https://iahs.info/Initiatives/Scientific-Decades/helping-working-groups/irrigation-quantification--management--its-effect-on-water-cycle/)
-
 - **Agrogeophy** group of research: An ecosystem with interrelated projects and repositories promoting FAIR practicies for agrogeophysicists.
 	- [github](https://github.com/agrogeophy)
 

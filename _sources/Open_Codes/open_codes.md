@@ -227,7 +227,7 @@ Found a bug 🐛/ a typo ? [Email me](mailto:benjamin.mary@unipd.it)
 
 ```{glossary}
 FAIR
-  FAIR data are data which meet principles of findability, accessibility, interoperability, and reusability.[1] 
+: FAIR data are data which meet principles of findability, accessibility, interoperability, and reusability.[1]
 ```
 
 

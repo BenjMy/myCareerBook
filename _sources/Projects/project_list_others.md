@@ -132,7 +132,7 @@ width: 200px
 
 ---
 
-## ECZ-DRY (🗓️ 2019 - 2021)
+## ECZ-DRY (🗓️ 2019 - Now)
 
 [ECZ-Dry](): New Technologies to monitor the earth critical zone in water-limited ecosystems
 

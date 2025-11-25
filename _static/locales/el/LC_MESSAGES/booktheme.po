@@ -8,32 +8,35 @@ msgstr ""
 "Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "By the"
-msgstr "Από το"
+msgid "Download source file"
+msgstr "Λήψη αρχείου προέλευσης"
 
-msgid "By"
-msgstr "Με"
+msgid "suggest edit"
+msgstr "προτείνω επεξεργασία"
 
-msgid "Contents"
-msgstr "Περιεχόμενα"
+msgid "Toggle navigation"
+msgstr "Εναλλαγή πλοήγησης"
 
-msgid "Copyright"
-msgstr "Πνευματική ιδιοκτησία"
+msgid "open issue"
+msgstr "ανοιχτό ζήτημα"
 
 msgid "Download notebook file"
 msgstr "Λήψη αρχείου σημειωματάριου"
 
-msgid "Download source file"
-msgstr "Λήψη αρχείου προέλευσης"
+msgid "repository"
+msgstr "αποθήκη"
+
+msgid "Theme by the"
+msgstr "Θέμα από το"
+
+msgid "Print to PDF"
+msgstr "Εκτύπωση σε PDF"
 
 msgid "Download this page"
 msgstr "Λήψη αυτής της σελίδας"
 
-msgid "Edit this page"
-msgstr "Επεξεργαστείτε αυτήν τη σελίδα"
-
-msgid "Fullscreen mode"
-msgstr "ΛΕΙΤΟΥΡΓΙΑ ΠΛΗΡΟΥΣ ΟΘΟΝΗΣ"
+msgid "Copyright"
+msgstr "Πνευματική ιδιοκτησία"
 
 msgid "Last updated on"
 msgstr "Τελευταία ενημέρωση στις"
@@ -44,32 +47,29 @@ msgstr "Εκτόξευση"
 msgid "Open an issue"
 msgstr "Ανοίξτε ένα ζήτημα"
 
-msgid "Print to PDF"
-msgstr "Εκτύπωση σε PDF"
-
-msgid "Source repository"
-msgstr "Αποθήκη πηγής"
+msgid "Fullscreen mode"
+msgstr "ΛΕΙΤΟΥΡΓΙΑ ΠΛΗΡΟΥΣ ΟΘΟΝΗΣ"
 
 msgid "Sphinx Book Theme"
 msgstr "Θέμα βιβλίου Sphinx"
 
-msgid "Theme by the"
-msgstr "Θέμα από το"
+msgid "Contents"
+msgstr "Περιεχόμενα"
 
-msgid "Toggle navigation"
-msgstr "Εναλλαγή πλοήγησης"
+msgid "Edit this page"
+msgstr "Επεξεργαστείτε αυτήν τη σελίδα"
 
 msgid "next page"
 msgstr "επόμενη σελίδα"
 
-msgid "open issue"
-msgstr "ανοιχτό ζήτημα"
+msgid "Source repository"
+msgstr "Αποθήκη πηγής"
+
+msgid "By"
+msgstr "Με"
+
+msgid "By the"
+msgstr "Από το"
 
 msgid "previous page"
 msgstr "προηγούμενη σελίδα"
-
-msgid "repository"
-msgstr "αποθήκη"
-
-msgid "suggest edit"
-msgstr "προτείνω επεξεργασία"
