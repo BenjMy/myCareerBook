@@ -40,6 +40,7 @@ Paper Alento
 -->
 
 ```{admonition} Submitted
+
 - M. Palladino, B. Sica, **B. Mary**, G. Cassiani, J. Boaga, S. Chiavarini, J. Rimauro, A. Salluzzo, G. Armiento, N. Romano*. A monitoring and modeling study to support an environmentally effective technique for reducing VOCs concentration from groundwater for irrigation purposes
 ```
 <!--
